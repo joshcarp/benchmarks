@@ -1,3 +1,3 @@
-module github.com/joshcarp/map-vs-switch
+module github.com/joshcarp/benchmarks
 
 go 1.16

@@ -1,4 +1,4 @@
-package main
+package map_vs_switch
 
 import "testing"
 

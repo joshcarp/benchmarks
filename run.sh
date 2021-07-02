@@ -1,10 +1,13 @@
 #!/bin/bash
 
-for dir in */
-do
-  echo "$dir"
-  find $dir  -type f -exec grep "func Benchmark" {} \; | sed 's/func //' | sed 's/(b \*testing\.B) {//' | while read test; do
-    echo "Processing file '$dir $test'"
-    go test ./$dir -bench=. -run BenchmarkOptionMap
-  done
+for dir in */; do
+  dir=${dir%?};
+  echo "# $dir" > $dir/README.md
+  go test ./$dir -bench=. -cpuprofile $dir/cpu.prof -memprofile $dir/mem.prof >> $dir/README.md
+  go tool pprof -svg -output=$dir/cpu.svg $dir/cpu.prof && rm $dir/cpu.prof
+  go tool pprof -svg -output=$dir/mem.svg $dir/mem.prof && rm $dir/mem.prof
+  echo "## Memory profile" >> $dir/README.md
+  echo "![](mem.svg)" >> $dir/README.md
+  echo "## CPU profile" >> $dir/README.md
+  echo "![](cpu.svg)" >> $dir/README.md
 done

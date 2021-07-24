@@ -3,7 +3,7 @@
 files=(*/)
 if [ $1 != "" ];
 then
-  files=( "$1" )
+  files=( "$1/" )
   echo ${files[@]}
 fi
 

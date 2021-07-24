@@ -4,7 +4,7 @@ import (
 	"context"
 	"crypto/x509"
 	"fmt"
-	"github.com/joshcarp/benchmarks/pointer-vs-value-grpc/example"
+	"github.com/joshcarp/go-benchmarks/pointer-vs-value-grpc/example"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"

@@ -295,1390 +295,1397 @@ function handleMouseUp(evt) {
 }
 ]]></script><g id="viewport" transform="scale(0.5,0.5) translate(0,0)"><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1497)">
 <title>unnamed</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-1497 1235.5,-1497 1235.5,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-1497 1349.5,-1497 1349.5,4 -4,4"/>
 <g id="clust1" class="cluster">
 <title>cluster_L</title>
-<polygon fill="none" stroke="black" points="8,-1334 8,-1485 438,-1485 438,-1334 8,-1334"/>
+<polygon fill="none" stroke="black" points="35.5,-1334 35.5,-1485 463.5,-1485 463.5,-1334 35.5,-1334"/>
 </g>
 <!-- Type: cpu -->
 <g id="node1" class="node">
 <title>Type: cpu</title>
-<polygon fill="#f8f8f8" stroke="black" points="429.5,-1477 16.5,-1477 16.5,-1342 429.5,-1342 429.5,-1477"/>
-<text text-anchor="start" x="24.5" y="-1460.2" font-family="Times,serif" font-size="16.00">Type: cpu</text>
-<text text-anchor="start" x="24.5" y="-1442.2" font-family="Times,serif" font-size="16.00">Time: Jul 24, 2021 at 3:00pm (AEST)</text>
-<text text-anchor="start" x="24.5" y="-1424.2" font-family="Times,serif" font-size="16.00">Duration: 20.33s, Total samples = 16.22s (79.79%)</text>
-<text text-anchor="start" x="24.5" y="-1406.2" font-family="Times,serif" font-size="16.00">Showing nodes accounting for 15.54s, 95.81% of 16.22s total</text>
-<text text-anchor="start" x="24.5" y="-1388.2" font-family="Times,serif" font-size="16.00">Dropped 106 nodes (cum &lt;= 0.08s)</text>
-<text text-anchor="start" x="24.5" y="-1351.2" font-family="Times,serif" font-size="16.00">See https://git.io/JfYMW for how to read the graph</text>
+<polygon fill="#f8f8f8" stroke="black" points="455,-1477 44,-1477 44,-1342 455,-1342 455,-1477"/>
+<text text-anchor="start" x="52" y="-1460.2" font-family="Times,serif" font-size="16.00">Type: cpu</text>
+<text text-anchor="start" x="52" y="-1442.2" font-family="Times,serif" font-size="16.00">Time: Jul 24, 2021 at 3:22pm (AEST)</text>
+<text text-anchor="start" x="52" y="-1424.2" font-family="Times,serif" font-size="16.00">Duration: 20.10s, Total samples = 16.87s (83.93%)</text>
+<text text-anchor="start" x="52" y="-1406.2" font-family="Times,serif" font-size="16.00">Showing nodes accounting for 16.11s, 95.49% of 16.87s total</text>
+<text text-anchor="start" x="52" y="-1388.2" font-family="Times,serif" font-size="16.00">Dropped 125 nodes (cum &lt;= 0.08s)</text>
+<text text-anchor="start" x="52" y="-1351.2" font-family="Times,serif" font-size="16.00">See https://git.io/JfYMW for how to read the graph</text>
 </g>
 <!-- N1 -->
 <g id="node1" class="node">
 <title>N1</title>
-<g id="a_node1"><a xlink:title="github.com/joshcarp/benchmarks/decimal.runtests (15.66s)">
-<polygon fill="#edd5d5" stroke="#b20100" points="544,-1077 436,-1077 436,-1017 544,-1017 544,-1077"/>
-<text text-anchor="middle" x="490" y="-1063.4" font-family="Times,serif" font-size="12.00">decimal</text>
-<text text-anchor="middle" x="490" y="-1050.4" font-family="Times,serif" font-size="12.00">runtests</text>
-<text text-anchor="middle" x="490" y="-1037.4" font-family="Times,serif" font-size="12.00">0.22s (1.36%)</text>
-<text text-anchor="middle" x="490" y="-1024.4" font-family="Times,serif" font-size="12.00">of 15.66s (96.55%)</text>
-</a>
-</g>
-</g>
-<!-- N3 -->
-<g id="node3" class="node">
-<title>N3</title>
-<g id="a_node3"><a xlink:title="github.com/joshcarp/benchmarks/decimal.execOpFloat (4.98s)">
-<polygon fill="#eddcd5" stroke="#b23500" points="405,-951 241,-951 241,-865 405,-865 405,-951"/>
-<text text-anchor="middle" x="323" y="-927.8" font-family="Times,serif" font-size="24.00">decimal</text>
-<text text-anchor="middle" x="323" y="-901.8" font-family="Times,serif" font-size="24.00">execOpFloat</text>
-<text text-anchor="middle" x="323" y="-875.8" font-family="Times,serif" font-size="24.00">4.98s (30.70%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N3 -->
-<g id="edge5" class="edge">
-<title>N1&#45;&gt;N3</title>
-<g id="a_edge5"><a xlink:title="github.com/joshcarp/benchmarks/decimal.runtests &#45;&gt; github.com/joshcarp/benchmarks/decimal.execOpFloat (4.98s)">
-<path fill="none" stroke="#b23500" stroke-width="2" d="M454.58,-1016.95C433.5,-999.65 406.22,-977.27 381.97,-957.37"/>
-<polygon fill="#b23500" stroke="#b23500" stroke-width="2" points="384.16,-954.65 374.21,-951.01 379.72,-960.06 384.16,-954.65"/>
-</a>
-</g>
-<g id="a_edge5&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/decimal.runtests &#45;&gt; github.com/joshcarp/benchmarks/decimal.execOpFloat (4.98s)">
-<text text-anchor="middle" x="454" y="-987.8" font-family="Times,serif" font-size="14.00"> 4.98s</text>
-<text text-anchor="middle" x="454" y="-972.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
-</a>
-</g>
-</g>
-<!-- N5 -->
-<g id="node5" class="node">
-<title>N5</title>
-<g id="a_node5"><a xlink:title="github.com/joshcarp/benchmarks/decimal.execOpBig (4.74s)">
-<polygon fill="#eddcd5" stroke="#b23700" points="556.5,-948 423.5,-948 423.5,-868 556.5,-868 556.5,-948"/>
-<text text-anchor="middle" x="490" y="-931.2" font-family="Times,serif" font-size="16.00">decimal</text>
-<text text-anchor="middle" x="490" y="-913.2" font-family="Times,serif" font-size="16.00">execOpBig</text>
-<text text-anchor="middle" x="490" y="-895.2" font-family="Times,serif" font-size="16.00">1.24s (7.64%)</text>
-<text text-anchor="middle" x="490" y="-877.2" font-family="Times,serif" font-size="16.00">of 4.74s (29.22%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N5 -->
-<g id="edge6" class="edge">
-<title>N1&#45;&gt;N5</title>
-<g id="a_edge6"><a xlink:title="github.com/joshcarp/benchmarks/decimal.runtests &#45;&gt; github.com/joshcarp/benchmarks/decimal.execOpBig (4.74s)">
-<path fill="none" stroke="#b23700" stroke-width="2" d="M490,-1016.95C490,-999.89 490,-977.88 490,-958.2"/>
-<polygon fill="#b23700" stroke="#b23700" stroke-width="2" points="493.5,-958.15 490,-948.15 486.5,-958.15 493.5,-958.15"/>
-</a>
-</g>
-<g id="a_edge6&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/decimal.runtests &#45;&gt; github.com/joshcarp/benchmarks/decimal.execOpBig (4.74s)">
-<text text-anchor="middle" x="507" y="-980.3" font-family="Times,serif" font-size="14.00"> 4.74s</text>
-</a>
-</g>
-</g>
-<!-- N6 -->
-<g id="node6" class="node">
-<title>N6</title>
-<g id="a_node6"><a xlink:title="github.com/joshcarp/benchmarks/decimal.execOp (5.47s)">
-<polygon fill="#eddcd5" stroke="#b23100" points="663.5,-934 574.5,-934 574.5,-882 663.5,-882 663.5,-934"/>
-<text text-anchor="middle" x="619" y="-922" font-family="Times,serif" font-size="10.00">decimal</text>
-<text text-anchor="middle" x="619" y="-911" font-family="Times,serif" font-size="10.00">execOp</text>
-<text text-anchor="middle" x="619" y="-900" font-family="Times,serif" font-size="10.00">0.05s (0.31%)</text>
-<text text-anchor="middle" x="619" y="-889" font-family="Times,serif" font-size="10.00">of 5.47s (33.72%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N6 -->
-<g id="edge4" class="edge">
-<title>N1&#45;&gt;N6</title>
-<g id="a_edge4"><a xlink:title="github.com/joshcarp/benchmarks/decimal.runtests &#45;&gt; github.com/joshcarp/benchmarks/decimal.execOp (5.47s)">
-<path fill="none" stroke="#b23100" stroke-width="2" d="M517.36,-1016.95C538.09,-994.93 566.59,-964.66 588.13,-941.78"/>
-<polygon fill="#b23100" stroke="#b23100" stroke-width="2" points="590.84,-944.01 595.15,-934.33 585.75,-939.21 590.84,-944.01"/>
-</a>
-</g>
-<g id="a_edge4&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/decimal.runtests &#45;&gt; github.com/joshcarp/benchmarks/decimal.execOp (5.47s)">
-<text text-anchor="middle" x="580" y="-980.3" font-family="Times,serif" font-size="14.00"> 5.47s</text>
-</a>
-</g>
-</g>
-<!-- N36 -->
-<g id="node36" class="node">
-<title>N36</title>
-<g id="a_node36"><a xlink:title="github.com/joshcarp/benchmarks/decimal.runtests.func1 (0.25s)">
-<polygon fill="#edeceb" stroke="#b2aea4" points="869.5,-939.5 786.5,-939.5 786.5,-876.5 869.5,-876.5 869.5,-939.5"/>
-<text text-anchor="middle" x="828" y="-927.5" font-family="Times,serif" font-size="10.00">decimal</text>
-<text text-anchor="middle" x="828" y="-916.5" font-family="Times,serif" font-size="10.00">runtests</text>
-<text text-anchor="middle" x="828" y="-905.5" font-family="Times,serif" font-size="10.00">func1</text>
-<text text-anchor="middle" x="828" y="-894.5" font-family="Times,serif" font-size="10.00">0.03s (0.18%)</text>
-<text text-anchor="middle" x="828" y="-883.5" font-family="Times,serif" font-size="10.00">of 0.25s (1.54%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N36 -->
-<g id="edge24" class="edge">
-<title>N1&#45;&gt;N36</title>
-<g id="a_edge24"><a xlink:title="github.com/joshcarp/benchmarks/decimal.runtests &#45;&gt; github.com/joshcarp/benchmarks/decimal.runtests.func1 (0.25s)">
-<path fill="none" stroke="#b2aea4" d="M544.31,-1023.99C608.47,-997.98 714.4,-955.04 777.06,-929.65"/>
-<polygon fill="#b2aea4" stroke="#b2aea4" points="778.41,-932.88 786.36,-925.88 775.78,-926.39 778.41,-932.88"/>
-</a>
-</g>
-<g id="a_edge24&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/decimal.runtests &#45;&gt; github.com/joshcarp/benchmarks/decimal.runtests.func1 (0.25s)">
-<text text-anchor="middle" x="696" y="-980.3" font-family="Times,serif" font-size="14.00"> 0.25s</text>
-</a>
-</g>
-</g>
-<!-- N2 -->
-<g id="node2" class="node">
-<title>N2</title>
-<g id="a_node2"><a xlink:title="testing.(*B).launch (14.69s)">
-<polygon fill="#edd6d5" stroke="#b20500" points="532,-1431.5 448,-1431.5 448,-1387.5 532,-1387.5 532,-1431.5"/>
-<text text-anchor="middle" x="490" y="-1421.1" font-family="Times,serif" font-size="8.00">testing</text>
-<text text-anchor="middle" x="490" y="-1412.1" font-family="Times,serif" font-size="8.00">(*B)</text>
-<text text-anchor="middle" x="490" y="-1403.1" font-family="Times,serif" font-size="8.00">launch</text>
-<text text-anchor="middle" x="490" y="-1394.1" font-family="Times,serif" font-size="8.00">0 of 14.69s (90.57%)</text>
-</a>
-</g>
-</g>
-<!-- N7 -->
-<g id="node7" class="node">
-<title>N7</title>
-<g id="a_node7"><a xlink:title="testing.(*B).runN (15.88s)">
-<polygon fill="#edd5d5" stroke="#b20100" points="532,-1291 448,-1291 448,-1247 532,-1247 532,-1291"/>
-<text text-anchor="middle" x="490" y="-1280.6" font-family="Times,serif" font-size="8.00">testing</text>
-<text text-anchor="middle" x="490" y="-1271.6" font-family="Times,serif" font-size="8.00">(*B)</text>
-<text text-anchor="middle" x="490" y="-1262.6" font-family="Times,serif" font-size="8.00">runN</text>
-<text text-anchor="middle" x="490" y="-1253.6" font-family="Times,serif" font-size="8.00">0 of 15.88s (97.90%)</text>
-</a>
-</g>
-</g>
-<!-- N2&#45;&gt;N7 -->
-<g id="edge3" class="edge">
-<title>N2&#45;&gt;N7</title>
-<g id="a_edge3"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (14.69s)">
-<path fill="none" stroke="#b20500" stroke-width="5" d="M490,-1387.46C490,-1364.59 490,-1327.77 490,-1301.45"/>
-<polygon fill="#b20500" stroke="#b20500" stroke-width="5" points="494.38,-1301.23 490,-1291.23 485.63,-1301.23 494.38,-1301.23"/>
-</a>
-</g>
-<g id="a_edge3&#45;label"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (14.69s)">
-<text text-anchor="middle" x="510" y="-1312.8" font-family="Times,serif" font-size="14.00"> 14.69s</text>
+<g id="a_node1"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.runtests (16.17s)">
+<polygon fill="#edd5d5" stroke="#b20200" points="569.5,-1077 461.5,-1077 461.5,-1017 569.5,-1017 569.5,-1077"/>
+<text text-anchor="middle" x="515.5" y="-1063.4" font-family="Times,serif" font-size="12.00">decimal</text>
+<text text-anchor="middle" x="515.5" y="-1050.4" font-family="Times,serif" font-size="12.00">runtests</text>
+<text text-anchor="middle" x="515.5" y="-1037.4" font-family="Times,serif" font-size="12.00">0.18s (1.07%)</text>
+<text text-anchor="middle" x="515.5" y="-1024.4" font-family="Times,serif" font-size="12.00">of 16.17s (95.85%)</text>
 </a>
 </g>
 </g>
 <!-- N4 -->
 <g id="node4" class="node">
 <title>N4</title>
-<g id="a_node4"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add (3.39s)">
-<polygon fill="#edded5" stroke="#b24200" points="858,-607.5 746,-607.5 746,-529.5 858,-529.5 858,-607.5"/>
-<text text-anchor="middle" x="802" y="-593.1" font-family="Times,serif" font-size="13.00">decimal</text>
-<text text-anchor="middle" x="802" y="-579.1" font-family="Times,serif" font-size="13.00">Context64</text>
-<text text-anchor="middle" x="802" y="-565.1" font-family="Times,serif" font-size="13.00">Add</text>
-<text text-anchor="middle" x="802" y="-551.1" font-family="Times,serif" font-size="13.00">0.46s (2.84%)</text>
-<text text-anchor="middle" x="802" y="-537.1" font-family="Times,serif" font-size="13.00">of 3.39s (20.90%)</text>
+<g id="a_node4"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.execOpFloat (5.04s)">
+<polygon fill="#eddcd5" stroke="#b23600" points="427.5,-951 263.5,-951 263.5,-865 427.5,-865 427.5,-951"/>
+<text text-anchor="middle" x="345.5" y="-927.8" font-family="Times,serif" font-size="24.00">decimal</text>
+<text text-anchor="middle" x="345.5" y="-901.8" font-family="Times,serif" font-size="24.00">execOpFloat</text>
+<text text-anchor="middle" x="345.5" y="-875.8" font-family="Times,serif" font-size="24.00">5.04s (29.88%)</text>
 </a>
 </g>
 </g>
-<!-- N12 -->
-<g id="node12" class="node">
-<title>N12</title>
-<g id="a_node12"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).removeZeros (0.95s)">
-<polygon fill="#edeae6" stroke="#b29c7e" points="1227,-471 1117,-471 1117,-388 1227,-388 1227,-471"/>
-<text text-anchor="middle" x="1172" y="-455.8" font-family="Times,serif" font-size="14.00">decimal</text>
-<text text-anchor="middle" x="1172" y="-440.8" font-family="Times,serif" font-size="14.00">(*decParts)</text>
-<text text-anchor="middle" x="1172" y="-425.8" font-family="Times,serif" font-size="14.00">removeZeros</text>
-<text text-anchor="middle" x="1172" y="-410.8" font-family="Times,serif" font-size="14.00">0.61s (3.76%)</text>
-<text text-anchor="middle" x="1172" y="-395.8" font-family="Times,serif" font-size="14.00">of 0.95s (5.86%)</text>
+<!-- N1&#45;&gt;N4 -->
+<g id="edge6" class="edge">
+<title>N1&#45;&gt;N4</title>
+<g id="a_edge6"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.runtests &#45;&gt; github.com/joshcarp/go-benchmarks/decimal.execOpFloat (5.04s)">
+<path fill="none" stroke="#b23600" stroke-width="2" d="M479.45,-1016.95C457.99,-999.65 430.22,-977.27 405.53,-957.37"/>
+<polygon fill="#b23600" stroke="#b23600" stroke-width="2" points="407.61,-954.56 397.63,-951.01 403.22,-960.01 407.61,-954.56"/>
+</a>
+</g>
+<g id="a_edge6&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.runtests &#45;&gt; github.com/joshcarp/go-benchmarks/decimal.execOpFloat (5.04s)">
+<text text-anchor="middle" x="478.5" y="-987.8" font-family="Times,serif" font-size="14.00"> 5.04s</text>
+<text text-anchor="middle" x="478.5" y="-972.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
 </a>
 </g>
 </g>
-<!-- N4&#45;&gt;N12 -->
-<g id="edge13" class="edge">
-<title>N4&#45;&gt;N12</title>
-<g id="a_edge13"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).removeZeros (0.95s)">
-<path fill="none" stroke="#b29c7e" d="M858.27,-561.98C916,-554.65 1007.26,-538.4 1079,-504 1093.6,-497 1108.01,-487.36 1120.97,-477.37"/>
-<polygon fill="#b29c7e" stroke="#b29c7e" points="1123.18,-480.08 1128.83,-471.12 1118.83,-474.6 1123.18,-480.08"/>
-</a>
-</g>
-<g id="a_edge13&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).removeZeros (0.95s)">
-<text text-anchor="middle" x="1121" y="-492.8" font-family="Times,serif" font-size="14.00"> 0.95s</text>
-</a>
-</g>
-</g>
-<!-- N15 -->
-<g id="node15" class="node">
-<title>N15</title>
-<g id="a_node15"><a xlink:title="github.com/anz&#45;bank/decimal.renormalize (0.34s)">
-<polygon fill="#edecea" stroke="#b2ac9f" points="447,-459.5 351,-459.5 351,-399.5 447,-399.5 447,-459.5"/>
-<text text-anchor="middle" x="399" y="-445.9" font-family="Times,serif" font-size="12.00">decimal</text>
-<text text-anchor="middle" x="399" y="-432.9" font-family="Times,serif" font-size="12.00">renormalize</text>
-<text text-anchor="middle" x="399" y="-419.9" font-family="Times,serif" font-size="12.00">0.26s (1.60%)</text>
-<text text-anchor="middle" x="399" y="-406.9" font-family="Times,serif" font-size="12.00">of 0.34s (2.10%)</text>
+<!-- N5 -->
+<g id="node5" class="node">
+<title>N5</title>
+<g id="a_node5"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.execOpBig (5.15s)">
+<polygon fill="#eddcd5" stroke="#b23500" points="585.5,-950 445.5,-950 445.5,-866 585.5,-866 585.5,-950"/>
+<text text-anchor="middle" x="515.5" y="-932.4" font-family="Times,serif" font-size="17.00">decimal</text>
+<text text-anchor="middle" x="515.5" y="-913.4" font-family="Times,serif" font-size="17.00">execOpBig</text>
+<text text-anchor="middle" x="515.5" y="-894.4" font-family="Times,serif" font-size="17.00">1.33s (7.88%)</text>
+<text text-anchor="middle" x="515.5" y="-875.4" font-family="Times,serif" font-size="17.00">of 5.15s (30.53%)</text>
 </a>
 </g>
 </g>
-<!-- N4&#45;&gt;N15 -->
-<g id="edge25" class="edge">
-<title>N4&#45;&gt;N15</title>
-<g id="a_edge25"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.renormalize (0.22s)">
-<path fill="none" stroke="#b2afa6" d="M750.28,-529.44C745.88,-526.77 741.42,-524.25 737,-522 715.22,-510.88 708.01,-512.29 685,-504 667.14,-497.56 663.49,-493.29 645,-489 564.96,-470.42 538.52,-498.25 461,-471 456.12,-469.28 451.25,-467.11 446.49,-464.66"/>
-<polygon fill="#b2afa6" stroke="#b2afa6" points="447.97,-461.48 437.53,-459.66 444.56,-467.59 447.97,-461.48"/>
+<!-- N1&#45;&gt;N5 -->
+<g id="edge5" class="edge">
+<title>N1&#45;&gt;N5</title>
+<g id="a_edge5"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.runtests &#45;&gt; github.com/joshcarp/go-benchmarks/decimal.execOpBig (5.15s)">
+<path fill="none" stroke="#b23500" stroke-width="2" d="M515.5,-1016.95C515.5,-1000.5 515.5,-979.45 515.5,-960.32"/>
+<polygon fill="#b23500" stroke="#b23500" stroke-width="2" points="519,-960.23 515.5,-950.23 512,-960.23 519,-960.23"/>
 </a>
 </g>
-<g id="a_edge25&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.renormalize (0.22s)">
-<text text-anchor="middle" x="702" y="-492.8" font-family="Times,serif" font-size="14.00"> 0.22s</text>
-</a>
-</g>
-</g>
-<!-- N17 -->
-<g id="node17" class="node">
-<title>N17</title>
-<g id="a_node17"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).add128 (0.46s)">
-<polygon fill="#edebe9" stroke="#b2a999" points="812.5,-468.5 707.5,-468.5 707.5,-390.5 812.5,-390.5 812.5,-468.5"/>
-<text text-anchor="middle" x="760" y="-454.1" font-family="Times,serif" font-size="13.00">decimal</text>
-<text text-anchor="middle" x="760" y="-440.1" font-family="Times,serif" font-size="13.00">(*decParts)</text>
-<text text-anchor="middle" x="760" y="-426.1" font-family="Times,serif" font-size="13.00">add128</text>
-<text text-anchor="middle" x="760" y="-412.1" font-family="Times,serif" font-size="13.00">0.38s (2.34%)</text>
-<text text-anchor="middle" x="760" y="-398.1" font-family="Times,serif" font-size="13.00">of 0.46s (2.84%)</text>
+<g id="a_edge5&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.runtests &#45;&gt; github.com/joshcarp/go-benchmarks/decimal.execOpBig (5.15s)">
+<text text-anchor="middle" x="532.5" y="-980.3" font-family="Times,serif" font-size="14.00"> 5.15s</text>
 </a>
 </g>
 </g>
-<!-- N4&#45;&gt;N17 -->
-<g id="edge17" class="edge">
-<title>N4&#45;&gt;N17</title>
-<g id="a_edge17"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).add128 (0.46s)">
-<path fill="none" stroke="#b2a999" d="M791.8,-529.44C788.22,-516.56 784.07,-502.11 780,-489 778.92,-485.52 777.77,-481.92 776.59,-478.32"/>
-<polygon fill="#b2a999" stroke="#b2a999" points="779.9,-477.18 773.43,-468.79 773.26,-479.38 779.9,-477.18"/>
-</a>
-</g>
-<g id="a_edge17&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).add128 (0.46s)">
-<text text-anchor="middle" x="801" y="-492.8" font-family="Times,serif" font-size="14.00"> 0.46s</text>
-</a>
-</g>
-</g>
-<!-- N19 -->
-<g id="node19" class="node">
-<title>N19</title>
-<g id="a_node19"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).unpack (0.20s)">
-<polygon fill="#edeceb" stroke="#b2afa7" points="618.5,-459.5 535.5,-459.5 535.5,-399.5 618.5,-399.5 618.5,-459.5"/>
-<text text-anchor="middle" x="577" y="-445.9" font-family="Times,serif" font-size="12.00">decimal</text>
-<text text-anchor="middle" x="577" y="-432.9" font-family="Times,serif" font-size="12.00">(*decParts)</text>
-<text text-anchor="middle" x="577" y="-419.9" font-family="Times,serif" font-size="12.00">unpack</text>
-<text text-anchor="middle" x="577" y="-406.9" font-family="Times,serif" font-size="12.00">0.20s (1.23%)</text>
+<!-- N7 -->
+<g id="node7" class="node">
+<title>N7</title>
+<g id="a_node7"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.execOp (5.52s)">
+<polygon fill="#eddcd5" stroke="#b23200" points="693,-934 604,-934 604,-882 693,-882 693,-934"/>
+<text text-anchor="middle" x="648.5" y="-922" font-family="Times,serif" font-size="10.00">decimal</text>
+<text text-anchor="middle" x="648.5" y="-911" font-family="Times,serif" font-size="10.00">execOp</text>
+<text text-anchor="middle" x="648.5" y="-900" font-family="Times,serif" font-size="10.00">0.04s (0.24%)</text>
+<text text-anchor="middle" x="648.5" y="-889" font-family="Times,serif" font-size="10.00">of 5.52s (32.72%)</text>
 </a>
 </g>
 </g>
-<!-- N4&#45;&gt;N19 -->
-<g id="edge34" class="edge">
-<title>N4&#45;&gt;N19</title>
-<g id="a_edge34"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).unpack (0.13s)">
-<path fill="none" stroke="#b2b0ab" d="M765.3,-529.1C747.29,-510.63 728.33,-491.84 723,-489 687,-469.81 670.38,-487.33 633,-471 629.1,-469.3 625.21,-467.29 621.4,-465.1"/>
-<polygon fill="#b2b0ab" stroke="#b2b0ab" points="623.03,-461.99 612.68,-459.69 619.34,-467.94 623.03,-461.99"/>
+<!-- N1&#45;&gt;N7 -->
+<g id="edge4" class="edge">
+<title>N1&#45;&gt;N7</title>
+<g id="a_edge4"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.runtests &#45;&gt; github.com/joshcarp/go-benchmarks/decimal.execOp (5.52s)">
+<path fill="none" stroke="#b23200" stroke-width="2" d="M543.71,-1016.95C565.08,-994.93 594.46,-964.66 616.68,-941.78"/>
+<polygon fill="#b23200" stroke="#b23200" stroke-width="2" points="619.46,-943.94 623.91,-934.33 614.44,-939.06 619.46,-943.94"/>
 </a>
 </g>
-<g id="a_edge34&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).unpack (0.13s)">
-<text text-anchor="middle" x="756" y="-492.8" font-family="Times,serif" font-size="14.00"> 0.13s</text>
-</a>
-</g>
-</g>
-<!-- N20 -->
-<g id="node20" class="node">
-<title>N20</title>
-<g id="a_node20"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).separation (0.51s)">
-<polygon fill="#edebe9" stroke="#b2a896" points="921,-463.5 831,-463.5 831,-395.5 921,-395.5 921,-463.5"/>
-<text text-anchor="middle" x="876" y="-450.7" font-family="Times,serif" font-size="11.00">decimal</text>
-<text text-anchor="middle" x="876" y="-438.7" font-family="Times,serif" font-size="11.00">(*decParts)</text>
-<text text-anchor="middle" x="876" y="-426.7" font-family="Times,serif" font-size="11.00">separation</text>
-<text text-anchor="middle" x="876" y="-414.7" font-family="Times,serif" font-size="11.00">0.13s (0.8%)</text>
-<text text-anchor="middle" x="876" y="-402.7" font-family="Times,serif" font-size="11.00">of 0.51s (3.14%)</text>
+<g id="a_edge4&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.runtests &#45;&gt; github.com/joshcarp/go-benchmarks/decimal.execOp (5.52s)">
+<text text-anchor="middle" x="607.5" y="-980.3" font-family="Times,serif" font-size="14.00"> 5.52s</text>
 </a>
 </g>
 </g>
-<!-- N4&#45;&gt;N20 -->
-<g id="edge15" class="edge">
-<title>N4&#45;&gt;N20</title>
-<g id="a_edge15"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).separation (0.51s)">
-<path fill="none" stroke="#b2a896" d="M822.61,-529.34C832.08,-511.81 843.34,-490.96 853.08,-472.93"/>
-<polygon fill="#b2a896" stroke="#b2a896" points="856.34,-474.26 858.01,-463.8 850.18,-470.94 856.34,-474.26"/>
-</a>
-</g>
-<g id="a_edge15&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).separation (0.51s)">
-<text text-anchor="middle" x="860" y="-492.8" font-family="Times,serif" font-size="14.00"> 0.51s</text>
-</a>
-</g>
-</g>
-<!-- N23 -->
-<g id="node23" class="node">
-<title>N23</title>
-<g id="a_node23"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).matchScales128 (0.16s)">
-<polygon fill="#edeceb" stroke="#b2b0a9" points="1023.5,-308.5 934.5,-308.5 934.5,-252.5 1023.5,-252.5 1023.5,-308.5"/>
-<text text-anchor="middle" x="979" y="-295.7" font-family="Times,serif" font-size="11.00">decimal</text>
-<text text-anchor="middle" x="979" y="-283.7" font-family="Times,serif" font-size="11.00">(*decParts)</text>
-<text text-anchor="middle" x="979" y="-271.7" font-family="Times,serif" font-size="11.00">matchScales128</text>
-<text text-anchor="middle" x="979" y="-259.7" font-family="Times,serif" font-size="11.00">0.16s (0.99%)</text>
+<!-- N36 -->
+<g id="node36" class="node">
+<title>N36</title>
+<g id="a_node36"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.runtests.func1 (0.28s)">
+<polygon fill="#edeceb" stroke="#b2aea3" points="887,-939.5 804,-939.5 804,-876.5 887,-876.5 887,-939.5"/>
+<text text-anchor="middle" x="845.5" y="-927.5" font-family="Times,serif" font-size="10.00">decimal</text>
+<text text-anchor="middle" x="845.5" y="-916.5" font-family="Times,serif" font-size="10.00">runtests</text>
+<text text-anchor="middle" x="845.5" y="-905.5" font-family="Times,serif" font-size="10.00">func1</text>
+<text text-anchor="middle" x="845.5" y="-894.5" font-family="Times,serif" font-size="10.00">0.03s (0.18%)</text>
+<text text-anchor="middle" x="845.5" y="-883.5" font-family="Times,serif" font-size="10.00">of 0.28s (1.66%)</text>
 </a>
 </g>
 </g>
-<!-- N4&#45;&gt;N23 -->
-<g id="edge42" class="edge">
-<title>N4&#45;&gt;N23</title>
-<g id="a_edge42"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).matchScales128 (0.10s)">
-<path fill="none" stroke="#b2b1ac" d="M858.18,-562.06C914.4,-553.29 998.09,-530.44 1038,-471 1070.1,-423.19 1035.15,-357.05 1007.01,-316.88"/>
-<polygon fill="#b2b1ac" stroke="#b2b1ac" points="1009.82,-314.79 1001.13,-308.72 1004.14,-318.88 1009.82,-314.79"/>
+<!-- N1&#45;&gt;N36 -->
+<g id="edge21" class="edge">
+<title>N1&#45;&gt;N36</title>
+<g id="a_edge21"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.runtests &#45;&gt; github.com/joshcarp/go-benchmarks/decimal.runtests.func1 (0.28s)">
+<path fill="none" stroke="#b2aea3" d="M569.62,-1023.53C631.93,-997.66 733.51,-955.49 794.48,-930.18"/>
+<polygon fill="#b2aea3" stroke="#b2aea3" points="796.01,-933.34 803.9,-926.27 793.33,-926.87 796.01,-933.34"/>
 </a>
 </g>
-<g id="a_edge42&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).matchScales128 (0.10s)">
-<text text-anchor="middle" x="1067" y="-425.8" font-family="Times,serif" font-size="14.00"> 0.10s</text>
-</a>
-</g>
-</g>
-<!-- N24 -->
-<g id="node24" class="node">
-<title>N24</title>
-<g id="a_node24"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).roundToLo (0.47s)">
-<polygon fill="#edebe9" stroke="#b2a998" points="1029,-463.5 939,-463.5 939,-395.5 1029,-395.5 1029,-463.5"/>
-<text text-anchor="middle" x="984" y="-450.7" font-family="Times,serif" font-size="11.00">decimal</text>
-<text text-anchor="middle" x="984" y="-438.7" font-family="Times,serif" font-size="11.00">(*decParts)</text>
-<text text-anchor="middle" x="984" y="-426.7" font-family="Times,serif" font-size="11.00">roundToLo</text>
-<text text-anchor="middle" x="984" y="-414.7" font-family="Times,serif" font-size="11.00">0.09s (0.55%)</text>
-<text text-anchor="middle" x="984" y="-402.7" font-family="Times,serif" font-size="11.00">of 0.47s (2.90%)</text>
+<g id="a_edge21&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.runtests &#45;&gt; github.com/joshcarp/go-benchmarks/decimal.runtests.func1 (0.28s)">
+<text text-anchor="middle" x="716.5" y="-980.3" font-family="Times,serif" font-size="14.00"> 0.28s</text>
 </a>
 </g>
 </g>
-<!-- N4&#45;&gt;N24 -->
-<g id="edge16" class="edge">
-<title>N4&#45;&gt;N24</title>
-<g id="a_edge16"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).roundToLo (0.47s)">
-<path fill="none" stroke="#b2a998" d="M852.7,-529.34C877.36,-510.77 906.97,-488.48 931.83,-469.77"/>
-<polygon fill="#b2a998" stroke="#b2a998" points="934.18,-472.38 940.06,-463.57 929.97,-466.79 934.18,-472.38"/>
-</a>
-</g>
-<g id="a_edge16&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).roundToLo (0.47s)">
-<text text-anchor="middle" x="920" y="-492.8" font-family="Times,serif" font-size="14.00"> 0.47s</text>
-</a>
-</g>
-</g>
-<!-- N9 -->
-<g id="node9" class="node">
-<title>N9</title>
-<g id="a_node9"><a xlink:title="math/big.(*Float).Add (2.64s)">
-<polygon fill="#ede1d9" stroke="#b25e21" points="421,-799 261,-799 261,-681 421,-681 421,-799"/>
-<text text-anchor="middle" x="341" y="-779" font-family="Times,serif" font-size="20.00">big</text>
-<text text-anchor="middle" x="341" y="-757" font-family="Times,serif" font-size="20.00">(*Float)</text>
-<text text-anchor="middle" x="341" y="-735" font-family="Times,serif" font-size="20.00">Add</text>
-<text text-anchor="middle" x="341" y="-713" font-family="Times,serif" font-size="20.00">2.41s (14.86%)</text>
-<text text-anchor="middle" x="341" y="-691" font-family="Times,serif" font-size="20.00">of 2.64s (16.28%)</text>
+<!-- N2 -->
+<g id="node2" class="node">
+<title>N2</title>
+<g id="a_node2"><a xlink:title="testing.(*B).launch (15.15s)">
+<polygon fill="#edd6d5" stroke="#b20500" points="557.5,-1431.5 473.5,-1431.5 473.5,-1387.5 557.5,-1387.5 557.5,-1431.5"/>
+<text text-anchor="middle" x="515.5" y="-1421.1" font-family="Times,serif" font-size="8.00">testing</text>
+<text text-anchor="middle" x="515.5" y="-1412.1" font-family="Times,serif" font-size="8.00">(*B)</text>
+<text text-anchor="middle" x="515.5" y="-1403.1" font-family="Times,serif" font-size="8.00">launch</text>
+<text text-anchor="middle" x="515.5" y="-1394.1" font-family="Times,serif" font-size="8.00">0 of 15.15s (89.80%)</text>
 </a>
 </g>
 </g>
-<!-- N5&#45;&gt;N9 -->
-<g id="edge9" class="edge">
-<title>N5&#45;&gt;N9</title>
-<g id="a_edge9"><a xlink:title="github.com/joshcarp/benchmarks/decimal.execOpBig &#45;&gt; math/big.(*Float).Add (2.64s)">
-<path fill="none" stroke="#b25e21" d="M454.69,-867.66C438.36,-849.47 418.53,-827.37 400.03,-806.76"/>
-<polygon fill="#b25e21" stroke="#b25e21" points="402.56,-804.35 393.28,-799.24 397.35,-809.02 402.56,-804.35"/>
+<!-- N6 -->
+<g id="node6" class="node">
+<title>N6</title>
+<g id="a_node6"><a xlink:title="testing.(*B).runN (16.40s)">
+<polygon fill="#edd5d5" stroke="#b20100" points="557.5,-1291 473.5,-1291 473.5,-1247 557.5,-1247 557.5,-1291"/>
+<text text-anchor="middle" x="515.5" y="-1280.6" font-family="Times,serif" font-size="8.00">testing</text>
+<text text-anchor="middle" x="515.5" y="-1271.6" font-family="Times,serif" font-size="8.00">(*B)</text>
+<text text-anchor="middle" x="515.5" y="-1262.6" font-family="Times,serif" font-size="8.00">runN</text>
+<text text-anchor="middle" x="515.5" y="-1253.6" font-family="Times,serif" font-size="8.00">0 of 16.40s (97.21%)</text>
 </a>
 </g>
-<g id="a_edge9&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/decimal.execOpBig &#45;&gt; math/big.(*Float).Add (2.64s)">
-<text text-anchor="middle" x="451" y="-828.3" font-family="Times,serif" font-size="14.00"> 2.64s</text>
+</g>
+<!-- N2&#45;&gt;N6 -->
+<g id="edge3" class="edge">
+<title>N2&#45;&gt;N6</title>
+<g id="a_edge3"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (15.15s)">
+<path fill="none" stroke="#b20500" stroke-width="5" d="M515.5,-1387.46C515.5,-1364.59 515.5,-1327.77 515.5,-1301.45"/>
+<polygon fill="#b20500" stroke="#b20500" stroke-width="5" points="519.88,-1301.23 515.5,-1291.23 511.13,-1301.23 519.88,-1301.23"/>
+</a>
+</g>
+<g id="a_edge3&#45;label"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (15.15s)">
+<text text-anchor="middle" x="535.5" y="-1312.8" font-family="Times,serif" font-size="14.00"> 15.15s</text>
+</a>
+</g>
+</g>
+<!-- N3 -->
+<g id="node3" class="node">
+<title>N3</title>
+<g id="a_node3"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add (3.46s)">
+<polygon fill="#edded5" stroke="#b24300" points="704.5,-607.5 592.5,-607.5 592.5,-529.5 704.5,-529.5 704.5,-607.5"/>
+<text text-anchor="middle" x="648.5" y="-593.1" font-family="Times,serif" font-size="13.00">decimal</text>
+<text text-anchor="middle" x="648.5" y="-579.1" font-family="Times,serif" font-size="13.00">Context64</text>
+<text text-anchor="middle" x="648.5" y="-565.1" font-family="Times,serif" font-size="13.00">Add</text>
+<text text-anchor="middle" x="648.5" y="-551.1" font-family="Times,serif" font-size="13.00">0.45s (2.67%)</text>
+<text text-anchor="middle" x="648.5" y="-537.1" font-family="Times,serif" font-size="13.00">of 3.46s (20.51%)</text>
 </a>
 </g>
 </g>
 <!-- N11 -->
 <g id="node11" class="node">
 <title>N11</title>
-<g id="a_node11"><a xlink:title="math/big.(*Float).Mul (0.76s)">
-<polygon fill="#edeae7" stroke="#b2a188" points="541,-778 439,-778 439,-702 541,-702 541,-778"/>
-<text text-anchor="middle" x="490" y="-762" font-family="Times,serif" font-size="15.00">big</text>
-<text text-anchor="middle" x="490" y="-745" font-family="Times,serif" font-size="15.00">(*Float)</text>
-<text text-anchor="middle" x="490" y="-728" font-family="Times,serif" font-size="15.00">Mul</text>
-<text text-anchor="middle" x="490" y="-711" font-family="Times,serif" font-size="15.00">0.76s (4.69%)</text>
+<g id="a_node11"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).removeZeros (0.89s)">
+<polygon fill="#edeae6" stroke="#b29f83" points="634.5,-456 524.5,-456 524.5,-373 634.5,-373 634.5,-456"/>
+<text text-anchor="middle" x="579.5" y="-440.8" font-family="Times,serif" font-size="14.00">decimal</text>
+<text text-anchor="middle" x="579.5" y="-425.8" font-family="Times,serif" font-size="14.00">(*decParts)</text>
+<text text-anchor="middle" x="579.5" y="-410.8" font-family="Times,serif" font-size="14.00">removeZeros</text>
+<text text-anchor="middle" x="579.5" y="-395.8" font-family="Times,serif" font-size="14.00">0.70s (4.15%)</text>
+<text text-anchor="middle" x="579.5" y="-380.8" font-family="Times,serif" font-size="14.00">of 0.89s (5.28%)</text>
 </a>
 </g>
 </g>
-<!-- N5&#45;&gt;N11 -->
-<g id="edge14" class="edge">
-<title>N5&#45;&gt;N11</title>
-<g id="a_edge14"><a xlink:title="github.com/joshcarp/benchmarks/decimal.execOpBig &#45;&gt; math/big.(*Float).Mul (0.76s)">
-<path fill="none" stroke="#b2a188" d="M490,-867.66C490,-843.81 490,-813.24 490,-788.11"/>
-<polygon fill="#b2a188" stroke="#b2a188" points="493.5,-788.06 490,-778.06 486.5,-788.06 493.5,-788.06"/>
+<!-- N3&#45;&gt;N11 -->
+<g id="edge13" class="edge">
+<title>N3&#45;&gt;N11</title>
+<g id="a_edge13"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).removeZeros (0.89s)">
+<path fill="none" stroke="#b29f83" d="M619.14,-529.44C613.75,-521.33 608.56,-512.61 604.5,-504 598.91,-492.15 594.34,-478.8 590.7,-466.14"/>
+<polygon fill="#b29f83" stroke="#b29f83" points="593.99,-464.89 587.98,-456.17 587.24,-466.73 593.99,-464.89"/>
 </a>
 </g>
-<g id="a_edge14&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/decimal.execOpBig &#45;&gt; math/big.(*Float).Mul (0.76s)">
-<text text-anchor="middle" x="507" y="-828.3" font-family="Times,serif" font-size="14.00"> 0.76s</text>
-</a>
-</g>
-</g>
-<!-- N41 -->
-<g id="node41" class="node">
-<title>N41</title>
-<g id="a_node41"><a xlink:title="math/big.(*Float).Abs (0.09s)">
-<polygon fill="#ededec" stroke="#b2b1ad" points="242.5,-771.5 159.5,-771.5 159.5,-708.5 242.5,-708.5 242.5,-771.5"/>
-<text text-anchor="middle" x="201" y="-759.5" font-family="Times,serif" font-size="10.00">big</text>
-<text text-anchor="middle" x="201" y="-748.5" font-family="Times,serif" font-size="10.00">(*Float)</text>
-<text text-anchor="middle" x="201" y="-737.5" font-family="Times,serif" font-size="10.00">Abs</text>
-<text text-anchor="middle" x="201" y="-726.5" font-family="Times,serif" font-size="10.00">0.02s (0.12%)</text>
-<text text-anchor="middle" x="201" y="-715.5" font-family="Times,serif" font-size="10.00">of 0.09s (0.55%)</text>
-</a>
-</g>
-</g>
-<!-- N5&#45;&gt;N41 -->
-<g id="edge46" class="edge">
-<title>N5&#45;&gt;N41</title>
-<g id="a_edge46"><a xlink:title="github.com/joshcarp/benchmarks/decimal.execOpBig &#45;&gt; math/big.(*Float).Abs (0.09s)">
-<path fill="none" stroke="#b2b1ad" d="M423.09,-869.46C420.03,-867.92 416.99,-866.43 414,-865 343.85,-831.47 315.36,-844.06 252,-799 244.22,-793.46 236.82,-786.52 230.19,-779.38"/>
-<polygon fill="#b2b1ad" stroke="#b2b1ad" points="232.56,-776.78 223.32,-771.61 227.32,-781.42 232.56,-776.78"/>
-</a>
-</g>
-<g id="a_edge46&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/decimal.execOpBig &#45;&gt; math/big.(*Float).Abs (0.09s)">
-<text text-anchor="middle" x="384" y="-828.3" font-family="Times,serif" font-size="14.00"> 0.09s</text>
-</a>
-</g>
-</g>
-<!-- N35 -->
-<g id="node35" class="node">
-<title>N35</title>
-<g id="a_node35"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Quo (1.63s)">
-<polygon fill="#ede7e1" stroke="#b28558" points="648.5,-771.5 559.5,-771.5 559.5,-708.5 648.5,-708.5 648.5,-771.5"/>
-<text text-anchor="middle" x="604" y="-759.5" font-family="Times,serif" font-size="10.00">decimal</text>
-<text text-anchor="middle" x="604" y="-748.5" font-family="Times,serif" font-size="10.00">Decimal64</text>
-<text text-anchor="middle" x="604" y="-737.5" font-family="Times,serif" font-size="10.00">Quo</text>
-<text text-anchor="middle" x="604" y="-726.5" font-family="Times,serif" font-size="10.00">0.02s (0.12%)</text>
-<text text-anchor="middle" x="604" y="-715.5" font-family="Times,serif" font-size="10.00">of 1.63s (10.05%)</text>
-</a>
-</g>
-</g>
-<!-- N6&#45;&gt;N35 -->
-<g id="edge10" class="edge">
-<title>N6&#45;&gt;N35</title>
-<g id="a_edge10"><a xlink:title="github.com/joshcarp/benchmarks/decimal.execOp &#45;&gt; github.com/anz&#45;bank/decimal.Decimal64.Quo (1.63s)">
-<path fill="none" stroke="#b28558" d="M616.72,-881.79C614.32,-855.22 610.5,-812.98 607.68,-781.69"/>
-<polygon fill="#b28558" stroke="#b28558" points="611.14,-781.18 606.76,-771.53 604.17,-781.81 611.14,-781.18"/>
-</a>
-</g>
-<g id="a_edge10&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/decimal.execOp &#45;&gt; github.com/anz&#45;bank/decimal.Decimal64.Quo (1.63s)">
-<text text-anchor="middle" x="636" y="-835.8" font-family="Times,serif" font-size="14.00"> 1.63s</text>
-<text text-anchor="middle" x="636" y="-820.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
-</a>
-</g>
-</g>
-<!-- N44 -->
-<g id="node44" class="node">
-<title>N44</title>
-<g id="a_node44"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Add (3.39s)">
-<polygon fill="#edded5" stroke="#b24200" points="842,-762 762,-762 762,-718 842,-718 842,-762"/>
-<text text-anchor="middle" x="802" y="-751.6" font-family="Times,serif" font-size="8.00">decimal</text>
-<text text-anchor="middle" x="802" y="-742.6" font-family="Times,serif" font-size="8.00">Decimal64</text>
-<text text-anchor="middle" x="802" y="-733.6" font-family="Times,serif" font-size="8.00">Add</text>
-<text text-anchor="middle" x="802" y="-724.6" font-family="Times,serif" font-size="8.00">0 of 3.39s (20.90%)</text>
-</a>
-</g>
-</g>
-<!-- N6&#45;&gt;N44 -->
-<g id="edge8" class="edge">
-<title>N6&#45;&gt;N44</title>
-<g id="a_edge8"><a xlink:title="github.com/joshcarp/benchmarks/decimal.execOp &#45;&gt; github.com/anz&#45;bank/decimal.Decimal64.Add (3.39s)">
-<path fill="none" stroke="#b24200" stroke-width="2" d="M663.62,-886.4C683.07,-876.18 705.4,-862.65 723,-847 747.98,-824.79 770.11,-793.53 784.55,-770.72"/>
-<polygon fill="#b24200" stroke="#b24200" stroke-width="2" points="787.58,-772.46 789.88,-762.12 781.63,-768.78 787.58,-772.46"/>
-</a>
-</g>
-<g id="a_edge8&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/decimal.execOp &#45;&gt; github.com/anz&#45;bank/decimal.Decimal64.Add (3.39s)">
-<text text-anchor="middle" x="772" y="-835.8" font-family="Times,serif" font-size="14.00"> 3.39s</text>
-<text text-anchor="middle" x="772" y="-820.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
-</a>
-</g>
-</g>
-<!-- N45 -->
-<g id="node45" class="node">
-<title>N45</title>
-<g id="a_node45"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Mul (0.39s)">
-<polygon fill="#edecea" stroke="#b2ab9d" points="743.5,-762 666.5,-762 666.5,-718 743.5,-718 743.5,-762"/>
-<text text-anchor="middle" x="705" y="-751.6" font-family="Times,serif" font-size="8.00">decimal</text>
-<text text-anchor="middle" x="705" y="-742.6" font-family="Times,serif" font-size="8.00">Decimal64</text>
-<text text-anchor="middle" x="705" y="-733.6" font-family="Times,serif" font-size="8.00">Mul</text>
-<text text-anchor="middle" x="705" y="-724.6" font-family="Times,serif" font-size="8.00">0 of 0.39s (2.40%)</text>
-</a>
-</g>
-</g>
-<!-- N6&#45;&gt;N45 -->
-<g id="edge19" class="edge">
-<title>N6&#45;&gt;N45</title>
-<g id="a_edge19"><a xlink:title="github.com/joshcarp/benchmarks/decimal.execOp &#45;&gt; github.com/anz&#45;bank/decimal.Decimal64.Mul (0.39s)">
-<path fill="none" stroke="#b2ab9d" d="M639.02,-881.89C646.78,-871.46 655.38,-859.01 662,-847 675.32,-822.82 686.85,-793.65 694.61,-772.04"/>
-<polygon fill="#b2ab9d" stroke="#b2ab9d" points="697.99,-772.98 698,-762.39 691.39,-770.66 697.99,-772.98"/>
-</a>
-</g>
-<g id="a_edge19&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/decimal.execOp &#45;&gt; github.com/anz&#45;bank/decimal.Decimal64.Mul (0.39s)">
-<text text-anchor="middle" x="697" y="-835.8" font-family="Times,serif" font-size="14.00"> 0.39s</text>
-<text text-anchor="middle" x="697" y="-820.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
+<g id="a_edge13&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).removeZeros (0.89s)">
+<text text-anchor="middle" x="621.5" y="-485.3" font-family="Times,serif" font-size="14.00"> 0.89s</text>
 </a>
 </g>
 </g>
 <!-- N14 -->
 <g id="node14" class="node">
 <title>N14</title>
-<g id="a_node14"><a xlink:title="github.com/joshcarp/benchmarks/decimal.BenchmarkDecimal.func1 (15.77s)">
-<polygon fill="#edd5d5" stroke="#b20100" points="543,-1196 437,-1196 437,-1128 543,-1128 543,-1196"/>
-<text text-anchor="middle" x="490" y="-1183.2" font-family="Times,serif" font-size="11.00">decimal</text>
-<text text-anchor="middle" x="490" y="-1171.2" font-family="Times,serif" font-size="11.00">BenchmarkDecimal</text>
-<text text-anchor="middle" x="490" y="-1159.2" font-family="Times,serif" font-size="11.00">func1</text>
-<text text-anchor="middle" x="490" y="-1147.2" font-family="Times,serif" font-size="11.00">0.11s (0.68%)</text>
-<text text-anchor="middle" x="490" y="-1135.2" font-family="Times,serif" font-size="11.00">of 15.77s (97.23%)</text>
+<g id="a_node14"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).unpack (0.31s)">
+<polygon fill="#edecea" stroke="#b2ada2" points="1060,-444.5 977,-444.5 977,-384.5 1060,-384.5 1060,-444.5"/>
+<text text-anchor="middle" x="1018.5" y="-430.9" font-family="Times,serif" font-size="12.00">decimal</text>
+<text text-anchor="middle" x="1018.5" y="-417.9" font-family="Times,serif" font-size="12.00">(*decParts)</text>
+<text text-anchor="middle" x="1018.5" y="-404.9" font-family="Times,serif" font-size="12.00">unpack</text>
+<text text-anchor="middle" x="1018.5" y="-391.9" font-family="Times,serif" font-size="12.00">0.31s (1.84%)</text>
 </a>
 </g>
 </g>
-<!-- N7&#45;&gt;N14 -->
-<g id="edge1" class="edge">
-<title>N7&#45;&gt;N14</title>
-<g id="a_edge1"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/decimal.BenchmarkDecimal.func1 (15.77s)">
-<path fill="none" stroke="#b20100" stroke-width="5" d="M490,-1246.75C490,-1235.2 490,-1220.46 490,-1206.59"/>
-<polygon fill="#b20100" stroke="#b20100" stroke-width="5" points="494.38,-1206.21 490,-1196.21 485.63,-1206.21 494.38,-1206.21"/>
-</a>
-</g>
-<g id="a_edge1&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/decimal.BenchmarkDecimal.func1 (15.77s)">
-<text text-anchor="middle" x="510" y="-1217.8" font-family="Times,serif" font-size="14.00"> 15.77s</text>
-</a>
-</g>
-</g>
-<!-- N40 -->
-<g id="node40" class="node">
-<title>N40</title>
-<g id="a_node40"><a xlink:title="github.com/joshcarp/benchmarks/decimal.BenchmarkDecimal (0.11s)">
-<polygon fill="#edecec" stroke="#b2b1ac" points="642.5,-1180 561.5,-1180 561.5,-1144 642.5,-1144 642.5,-1180"/>
-<text text-anchor="middle" x="602" y="-1169.1" font-family="Times,serif" font-size="8.00">decimal</text>
-<text text-anchor="middle" x="602" y="-1160.1" font-family="Times,serif" font-size="8.00">BenchmarkDecimal</text>
-<text text-anchor="middle" x="602" y="-1151.1" font-family="Times,serif" font-size="8.00">0 of 0.11s (0.68%)</text>
-</a>
-</g>
-</g>
-<!-- N7&#45;&gt;N40 -->
-<g id="edge41" class="edge">
-<title>N7&#45;&gt;N40</title>
-<g id="a_edge41"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/decimal.BenchmarkDecimal (0.11s)">
-<path fill="none" stroke="#b2b1ac" d="M514.38,-1246.74C520.82,-1241.03 527.71,-1234.83 534,-1229 548.72,-1215.34 564.86,-1199.71 577.72,-1187.08"/>
-<polygon fill="#b2b1ac" stroke="#b2b1ac" points="580.21,-1189.55 584.88,-1180.04 575.3,-1184.56 580.21,-1189.55"/>
-</a>
-</g>
-<g id="a_edge41&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/decimal.BenchmarkDecimal (0.11s)">
-<text text-anchor="middle" x="567" y="-1217.8" font-family="Times,serif" font-size="14.00"> 0.11s</text>
-</a>
-</g>
-</g>
-<!-- N8 -->
-<g id="node8" class="node">
-<title>N8</title>
-<g id="a_node8"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo (1.61s)">
-<polygon fill="#ede7e1" stroke="#b28659" points="613.5,-615 494.5,-615 494.5,-522 613.5,-522 613.5,-615"/>
-<text text-anchor="middle" x="554" y="-599" font-family="Times,serif" font-size="15.00">decimal</text>
-<text text-anchor="middle" x="554" y="-582" font-family="Times,serif" font-size="15.00">Context64</text>
-<text text-anchor="middle" x="554" y="-565" font-family="Times,serif" font-size="15.00">Quo</text>
-<text text-anchor="middle" x="554" y="-548" font-family="Times,serif" font-size="15.00">0.74s (4.56%)</text>
-<text text-anchor="middle" x="554" y="-531" font-family="Times,serif" font-size="15.00">of 1.61s (9.93%)</text>
-</a>
-</g>
-</g>
-<!-- N10 -->
-<g id="node10" class="node">
-<title>N10</title>
-<g id="a_node10"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits (0.90s)">
-<polygon fill="#edeae6" stroke="#b29d80" points="869.5,-322 748.5,-322 748.5,-239 869.5,-239 869.5,-322"/>
-<text text-anchor="middle" x="809" y="-306.8" font-family="Times,serif" font-size="14.00">decimal</text>
-<text text-anchor="middle" x="809" y="-291.8" font-family="Times,serif" font-size="14.00">uint128T</text>
-<text text-anchor="middle" x="809" y="-276.8" font-family="Times,serif" font-size="14.00">numDecimalDigits</text>
-<text text-anchor="middle" x="809" y="-261.8" font-family="Times,serif" font-size="14.00">0.53s (3.27%)</text>
-<text text-anchor="middle" x="809" y="-246.8" font-family="Times,serif" font-size="14.00">of 0.90s (5.55%)</text>
-</a>
-</g>
-</g>
-<!-- N8&#45;&gt;N10 -->
-<g id="edge30" class="edge">
-<title>N8&#45;&gt;N10</title>
-<g id="a_edge30"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo ... github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits (0.18s)">
-<path fill="none" stroke="#b2afa8" stroke-dasharray="1,5" d="M516.23,-521.63C489.39,-483.13 462.84,-428.15 492,-388 547.76,-311.24 605.18,-352.55 695,-322 709.27,-317.15 724.5,-311.83 739.03,-306.69"/>
-<polygon fill="#b2afa8" stroke="#b2afa8" points="740.21,-309.99 748.46,-303.35 737.87,-303.39 740.21,-309.99"/>
-</a>
-</g>
-<g id="a_edge30&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo ... github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits (0.18s)">
-<text text-anchor="middle" x="509" y="-425.8" font-family="Times,serif" font-size="14.00"> 0.18s</text>
-</a>
-</g>
-</g>
-<!-- N8&#45;&gt;N15 -->
-<g id="edge55" class="edge">
-<title>N8&#45;&gt;N15</title>
-<g id="a_edge55"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.renormalize (0.03s)">
-<path fill="none" stroke="#b2b2b0" d="M494.44,-563.13C454.32,-556.72 404.14,-541.22 378,-504 370.78,-493.72 371.77,-480.99 375.89,-469.02"/>
-<polygon fill="#b2b2b0" stroke="#b2b2b0" points="379.18,-470.23 379.77,-459.66 372.71,-467.56 379.18,-470.23"/>
-</a>
-</g>
-<g id="a_edge55&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.renormalize (0.03s)">
-<text text-anchor="middle" x="395" y="-492.8" font-family="Times,serif" font-size="14.00"> 0.03s</text>
-</a>
-</g>
-</g>
-<!-- N8&#45;&gt;N19 -->
-<g id="edge58" class="edge">
-<title>N8&#45;&gt;N19</title>
-<g id="a_edge58"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).unpack (0.02s)">
-<path fill="none" stroke="#b2b2b1" d="M547.59,-521.91C547.18,-511.04 547.69,-499.53 550,-489 551.47,-482.32 553.77,-475.49 556.43,-468.97"/>
-<polygon fill="#b2b2b1" stroke="#b2b2b1" points="559.7,-470.25 560.53,-459.69 553.29,-467.43 559.7,-470.25"/>
-</a>
-</g>
-<g id="a_edge58&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).unpack (0.02s)">
-<text text-anchor="middle" x="567" y="-492.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
-</a>
-</g>
-</g>
-<!-- N27 -->
-<g id="node27" class="node">
-<title>N27</title>
-<g id="a_node27"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.sub (0.32s)">
-<polygon fill="#edecea" stroke="#b2ada0" points="236.5,-461 153.5,-461 153.5,-398 236.5,-398 236.5,-461"/>
-<text text-anchor="middle" x="195" y="-449" font-family="Times,serif" font-size="10.00">decimal</text>
-<text text-anchor="middle" x="195" y="-438" font-family="Times,serif" font-size="10.00">uint128T</text>
-<text text-anchor="middle" x="195" y="-427" font-family="Times,serif" font-size="10.00">sub</text>
-<text text-anchor="middle" x="195" y="-416" font-family="Times,serif" font-size="10.00">0.02s (0.12%)</text>
-<text text-anchor="middle" x="195" y="-405" font-family="Times,serif" font-size="10.00">of 0.32s (1.97%)</text>
-</a>
-</g>
-</g>
-<!-- N8&#45;&gt;N27 -->
-<g id="edge23" class="edge">
-<title>N8&#45;&gt;N27</title>
-<g id="a_edge23"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.sub (0.32s)">
-<path fill="none" stroke="#b2ada0" d="M494.39,-549.21C463.7,-540.21 425.56,-529.68 391,-522 343.5,-511.44 327.22,-524.31 283,-504 264.05,-495.3 245.88,-481.41 231.02,-468.04"/>
-<polygon fill="#b2ada0" stroke="#b2ada0" points="233.27,-465.36 223.56,-461.13 228.51,-470.49 233.27,-465.36"/>
-</a>
-</g>
-<g id="a_edge23&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.sub (0.32s)">
-<text text-anchor="middle" x="300" y="-492.8" font-family="Times,serif" font-size="14.00"> 0.32s</text>
-</a>
-</g>
-</g>
-<!-- N32 -->
-<g id="node32" class="node">
-<title>N32</title>
-<g id="a_node32"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.mulBy10 (0.15s)">
-<polygon fill="#edecec" stroke="#b2b0aa" points="135.5,-461 52.5,-461 52.5,-398 135.5,-398 135.5,-461"/>
-<text text-anchor="middle" x="94" y="-449" font-family="Times,serif" font-size="10.00">decimal</text>
-<text text-anchor="middle" x="94" y="-438" font-family="Times,serif" font-size="10.00">uint128T</text>
-<text text-anchor="middle" x="94" y="-427" font-family="Times,serif" font-size="10.00">mulBy10</text>
-<text text-anchor="middle" x="94" y="-416" font-family="Times,serif" font-size="10.00">0.03s (0.18%)</text>
-<text text-anchor="middle" x="94" y="-405" font-family="Times,serif" font-size="10.00">of 0.15s (0.92%)</text>
-</a>
-</g>
-</g>
-<!-- N8&#45;&gt;N32 -->
-<g id="edge31" class="edge">
-<title>N8&#45;&gt;N32</title>
-<g id="a_edge31"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.mulBy10 (0.15s)">
-<path fill="none" stroke="#b2b0aa" d="M494.19,-548.22C463.61,-539.03 425.63,-528.62 391,-522 316.37,-507.74 294.52,-523.18 221,-504 184.97,-494.6 175.88,-490.23 144,-471 142.02,-469.8 140.03,-468.54 138.05,-467.22"/>
-<polygon fill="#b2b0aa" stroke="#b2b0aa" points="139.64,-464.06 129.45,-461.16 135.61,-469.78 139.64,-464.06"/>
-</a>
-</g>
-<g id="a_edge31&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.mulBy10 (0.15s)">
-<text text-anchor="middle" x="238" y="-492.8" font-family="Times,serif" font-size="14.00"> 0.15s</text>
-</a>
-</g>
-</g>
-<!-- N39 -->
-<g id="node39" class="node">
-<title>N39</title>
-<g id="a_node39"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.gt (0.13s)">
-<polygon fill="#edecec" stroke="#b2b0ab" points="333,-461 255,-461 255,-398 333,-398 333,-461"/>
-<text text-anchor="middle" x="294" y="-449" font-family="Times,serif" font-size="10.00">decimal</text>
-<text text-anchor="middle" x="294" y="-438" font-family="Times,serif" font-size="10.00">uint128T</text>
-<text text-anchor="middle" x="294" y="-427" font-family="Times,serif" font-size="10.00">gt</text>
-<text text-anchor="middle" x="294" y="-416" font-family="Times,serif" font-size="10.00">0.03s (0.18%)</text>
-<text text-anchor="middle" x="294" y="-405" font-family="Times,serif" font-size="10.00">of 0.13s (0.8%)</text>
-</a>
-</g>
-</g>
-<!-- N8&#45;&gt;N39 -->
-<g id="edge35" class="edge">
-<title>N8&#45;&gt;N39</title>
-<g id="a_edge35"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.gt (0.13s)">
-<path fill="none" stroke="#b2b0ab" d="M494.45,-550.83C430.72,-532.89 338.24,-506.58 335,-504 323.98,-495.23 315.44,-482.64 309.08,-470.35"/>
-<polygon fill="#b2b0ab" stroke="#b2b0ab" points="312.12,-468.58 304.64,-461.08 305.8,-471.61 312.12,-468.58"/>
-</a>
-</g>
-<g id="a_edge35&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.gt (0.13s)">
-<text text-anchor="middle" x="352" y="-492.8" font-family="Times,serif" font-size="14.00"> 0.13s</text>
-</a>
-</g>
-</g>
-<!-- N25 -->
-<g id="node25" class="node">
-<title>N25</title>
-<g id="a_node25"><a xlink:title="math/big.umax32 (0.22s)">
-<polygon fill="#edeceb" stroke="#b2afa6" points="382.5,-592 299.5,-592 299.5,-545 382.5,-545 382.5,-592"/>
-<text text-anchor="middle" x="341" y="-578.4" font-family="Times,serif" font-size="12.00">big</text>
-<text text-anchor="middle" x="341" y="-565.4" font-family="Times,serif" font-size="12.00">umax32</text>
-<text text-anchor="middle" x="341" y="-552.4" font-family="Times,serif" font-size="12.00">0.22s (1.36%)</text>
-</a>
-</g>
-</g>
-<!-- N9&#45;&gt;N25 -->
-<g id="edge27" class="edge">
-<title>N9&#45;&gt;N25</title>
-<g id="a_edge27"><a xlink:title="math/big.(*Float).Add &#45;&gt; math/big.umax32 (0.22s)">
-<path fill="none" stroke="#b2afa6" d="M341,-680.67C341,-654.5 341,-624.59 341,-602.4"/>
-<polygon fill="#b2afa6" stroke="#b2afa6" points="344.5,-602.17 341,-592.17 337.5,-602.17 344.5,-602.17"/>
-</a>
-</g>
-<g id="a_edge27&#45;label"><a xlink:title="math/big.(*Float).Add &#45;&gt; math/big.umax32 (0.22s)">
-<text text-anchor="middle" x="363" y="-651.8" font-family="Times,serif" font-size="14.00"> 0.22s</text>
-<text text-anchor="middle" x="363" y="-636.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
-</a>
-</g>
-</g>
-<!-- N28 -->
-<g id="node28" class="node">
-<title>N28</title>
-<g id="a_node28"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.lt (0.14s)">
-<polygon fill="#edecec" stroke="#b2b0aa" points="580,-169.5 502,-169.5 502,-113.5 580,-113.5 580,-169.5"/>
-<text text-anchor="middle" x="541" y="-156.7" font-family="Times,serif" font-size="11.00">decimal</text>
-<text text-anchor="middle" x="541" y="-144.7" font-family="Times,serif" font-size="11.00">uint128T</text>
-<text text-anchor="middle" x="541" y="-132.7" font-family="Times,serif" font-size="11.00">lt</text>
-<text text-anchor="middle" x="541" y="-120.7" font-family="Times,serif" font-size="11.00">0.14s (0.86%)</text>
-</a>
-</g>
-</g>
-<!-- N10&#45;&gt;N28 -->
-<g id="edge54" class="edge">
-<title>N10&#45;&gt;N28</title>
-<g id="a_edge54"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.lt (0.04s)">
-<path fill="none" stroke="#b2b2b0" d="M748.24,-249.69C729.81,-240.57 709.54,-230.45 691,-221 656.85,-203.6 618.58,-183.56 589.24,-168.09"/>
-<polygon fill="#b2b2b0" stroke="#b2b2b0" points="590.52,-164.8 580.04,-163.23 587.25,-170.99 590.52,-164.8"/>
-</a>
-</g>
-<g id="a_edge54&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.lt (0.04s)">
-<text text-anchor="middle" x="708" y="-202.3" font-family="Times,serif" font-size="14.00"> 0.04s</text>
-</a>
-</g>
-</g>
-<!-- N29 -->
-<g id="node29" class="node">
-<title>N29</title>
-<g id="a_node29"><a xlink:title="github.com/anz&#45;bank/decimal.powerOfTen128 (0.19s)">
-<polygon fill="#edeceb" stroke="#b2afa8" points="856.5,-165 761.5,-165 761.5,-118 856.5,-118 856.5,-165"/>
-<text text-anchor="middle" x="809" y="-151.4" font-family="Times,serif" font-size="12.00">decimal</text>
-<text text-anchor="middle" x="809" y="-138.4" font-family="Times,serif" font-size="12.00">powerOfTen128</text>
-<text text-anchor="middle" x="809" y="-125.4" font-family="Times,serif" font-size="12.00">0.19s (1.17%)</text>
-</a>
-</g>
-</g>
-<!-- N10&#45;&gt;N29 -->
+<!-- N3&#45;&gt;N14 -->
 <g id="edge28" class="edge">
-<title>N10&#45;&gt;N29</title>
-<g id="a_edge28"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits &#45;&gt; github.com/anz&#45;bank/decimal.powerOfTen128 (0.19s)">
-<path fill="none" stroke="#b2afa8" d="M809,-238.77C809,-218.63 809,-194.64 809,-175.64"/>
-<polygon fill="#b2afa8" stroke="#b2afa8" points="812.5,-175.38 809,-165.38 805.5,-175.38 812.5,-175.38"/>
+<title>N3&#45;&gt;N14</title>
+<g id="a_edge28"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).unpack (0.19s)">
+<path fill="none" stroke="#b2afa8" d="M697.89,-529.44C702.98,-526.59 708.23,-524.04 713.5,-522 772.43,-499.22 801.2,-537.91 854.5,-504 867.82,-495.53 860.45,-482.88 873.5,-474 908.66,-450.06 928.84,-473.74 967.5,-456 971.1,-454.35 974.66,-452.39 978.14,-450.25"/>
+<polygon fill="#b2afa8" stroke="#b2afa8" points="980.22,-453.06 986.57,-444.58 976.32,-447.26 980.22,-453.06"/>
 </a>
 </g>
-<g id="a_edge28&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits &#45;&gt; github.com/anz&#45;bank/decimal.powerOfTen128 (0.19s)">
-<text text-anchor="middle" x="826" y="-202.3" font-family="Times,serif" font-size="14.00"> 0.19s</text>
-</a>
-</g>
-</g>
-<!-- N33 -->
-<g id="node33" class="node">
-<title>N33</title>
-<g id="a_node33"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.leadingZeros (0.14s)">
-<polygon fill="#edecec" stroke="#b2b0aa" points="722.5,-173 639.5,-173 639.5,-110 722.5,-110 722.5,-173"/>
-<text text-anchor="middle" x="681" y="-161" font-family="Times,serif" font-size="10.00">decimal</text>
-<text text-anchor="middle" x="681" y="-150" font-family="Times,serif" font-size="10.00">uint128T</text>
-<text text-anchor="middle" x="681" y="-139" font-family="Times,serif" font-size="10.00">leadingZeros</text>
-<text text-anchor="middle" x="681" y="-128" font-family="Times,serif" font-size="10.00">0.05s (0.31%)</text>
-<text text-anchor="middle" x="681" y="-117" font-family="Times,serif" font-size="10.00">of 0.14s (0.86%)</text>
-</a>
-</g>
-</g>
-<!-- N10&#45;&gt;N33 -->
-<g id="edge33" class="edge">
-<title>N10&#45;&gt;N33</title>
-<g id="a_edge33"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.leadingZeros (0.14s)">
-<path fill="none" stroke="#b2b0aa" d="M770.94,-238.77C753.79,-220.41 733.65,-198.85 716.77,-180.79"/>
-<polygon fill="#b2b0aa" stroke="#b2b0aa" points="719.15,-178.2 709.76,-173.28 714.03,-182.98 719.15,-178.2"/>
-</a>
-</g>
-<g id="a_edge33&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.leadingZeros (0.14s)">
-<text text-anchor="middle" x="774" y="-209.8" font-family="Times,serif" font-size="14.00"> 0.14s</text>
-<text text-anchor="middle" x="774" y="-194.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
-</a>
-</g>
-</g>
-<!-- N18 -->
-<g id="node18" class="node">
-<title>N18</title>
-<g id="a_node18"><a xlink:title="github.com/anz&#45;bank/decimal.countTrailingZeros (0.34s)">
-<polygon fill="#edecea" stroke="#b2ac9f" points="1231.5,-305.5 1112.5,-305.5 1112.5,-255.5 1231.5,-255.5 1231.5,-305.5"/>
-<text text-anchor="middle" x="1172" y="-291.1" font-family="Times,serif" font-size="13.00">decimal</text>
-<text text-anchor="middle" x="1172" y="-277.1" font-family="Times,serif" font-size="13.00">countTrailingZeros</text>
-<text text-anchor="middle" x="1172" y="-263.1" font-family="Times,serif" font-size="13.00">0.34s (2.10%)</text>
-</a>
-</g>
-</g>
-<!-- N12&#45;&gt;N18 -->
-<g id="edge21" class="edge">
-<title>N12&#45;&gt;N18</title>
-<g id="a_edge21"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).removeZeros &#45;&gt; github.com/anz&#45;bank/decimal.countTrailingZeros (0.34s)">
-<path fill="none" stroke="#b2ac9f" d="M1172,-387.94C1172,-365.3 1172,-337.4 1172,-315.85"/>
-<polygon fill="#b2ac9f" stroke="#b2ac9f" points="1175.5,-315.83 1172,-305.83 1168.5,-315.83 1175.5,-315.83"/>
-</a>
-</g>
-<g id="a_edge21&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).removeZeros &#45;&gt; github.com/anz&#45;bank/decimal.countTrailingZeros (0.34s)">
-<text text-anchor="middle" x="1189" y="-351.3" font-family="Times,serif" font-size="14.00"> 0.34s</text>
-</a>
-</g>
-</g>
-<!-- N13 -->
-<g id="node13" class="node">
-<title>N13</title>
-<g id="a_node13"><a xlink:title="testing.(*B).run1.func1 (1.19s)">
-<polygon fill="#ede9e4" stroke="#b29471" points="627.5,-1436 550.5,-1436 550.5,-1383 627.5,-1383 627.5,-1436"/>
-<text text-anchor="middle" x="589" y="-1425.6" font-family="Times,serif" font-size="8.00">testing</text>
-<text text-anchor="middle" x="589" y="-1416.6" font-family="Times,serif" font-size="8.00">(*B)</text>
-<text text-anchor="middle" x="589" y="-1407.6" font-family="Times,serif" font-size="8.00">run1</text>
-<text text-anchor="middle" x="589" y="-1398.6" font-family="Times,serif" font-size="8.00">func1</text>
-<text text-anchor="middle" x="589" y="-1389.6" font-family="Times,serif" font-size="8.00">0 of 1.19s (7.34%)</text>
-</a>
-</g>
-</g>
-<!-- N13&#45;&gt;N7 -->
-<g id="edge12" class="edge">
-<title>N13&#45;&gt;N7</title>
-<g id="a_edge12"><a xlink:title="testing.(*B).run1.func1 &#45;&gt; testing.(*B).runN (1.19s)">
-<path fill="none" stroke="#b29471" d="M577.84,-1382.91C568,-1361.9 552.38,-1331.96 534,-1309 531.12,-1305.41 527.89,-1301.87 524.53,-1298.48"/>
-<polygon fill="#b29471" stroke="#b29471" points="526.67,-1295.69 517.02,-1291.33 521.85,-1300.76 526.67,-1295.69"/>
-</a>
-</g>
-<g id="a_edge12&#45;label"><a xlink:title="testing.(*B).run1.func1 &#45;&gt; testing.(*B).runN (1.19s)">
-<text text-anchor="middle" x="562" y="-1312.8" font-family="Times,serif" font-size="14.00"> 1.19s</text>
-</a>
-</g>
-</g>
-<!-- N14&#45;&gt;N1 -->
-<g id="edge2" class="edge">
-<title>N14&#45;&gt;N1</title>
-<g id="a_edge2"><a xlink:title="github.com/joshcarp/benchmarks/decimal.BenchmarkDecimal.func1 &#45;&gt; github.com/joshcarp/benchmarks/decimal.runtests (15.66s)">
-<path fill="none" stroke="#b20100" stroke-width="5" d="M490,-1127.71C490,-1115.07 490,-1100.56 490,-1087.41"/>
-<polygon fill="#b20100" stroke="#b20100" stroke-width="5" points="494.38,-1087.22 490,-1077.22 485.63,-1087.22 494.38,-1087.22"/>
-</a>
-</g>
-<g id="a_edge2&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/decimal.BenchmarkDecimal.func1 &#45;&gt; github.com/joshcarp/benchmarks/decimal.runtests (15.66s)">
-<text text-anchor="middle" x="510" y="-1098.8" font-family="Times,serif" font-size="14.00"> 15.66s</text>
-</a>
-</g>
-</g>
-<!-- N22 -->
-<g id="node22" class="node">
-<title>N22</title>
-<g id="a_node22"><a xlink:title="math/bits.LeadingZeros64 (0.16s)">
-<polygon fill="#edeceb" stroke="#b2b0a9" points="451.5,-44 362.5,-44 362.5,0 451.5,0 451.5,-44"/>
-<text text-anchor="middle" x="407" y="-31.2" font-family="Times,serif" font-size="11.00">bits</text>
-<text text-anchor="middle" x="407" y="-19.2" font-family="Times,serif" font-size="11.00">LeadingZeros64</text>
-<text text-anchor="middle" x="407" y="-7.2" font-family="Times,serif" font-size="11.00">0.16s (0.99%)</text>
-</a>
-</g>
-</g>
-<!-- N15&#45;&gt;N22 -->
-<g id="edge51" class="edge">
-<title>N15&#45;&gt;N22</title>
-<g id="a_edge51"><a xlink:title="github.com/anz&#45;bank/decimal.renormalize &#45;&gt; math/bits.LeadingZeros64 (0.07s)">
-<path fill="none" stroke="#b2b1ae" d="M399.58,-399.34C401.03,-325.43 404.86,-131.23 406.38,-54.67"/>
-<polygon fill="#b2b1ae" stroke="#b2b1ae" points="409.88,-54.33 406.58,-44.26 402.88,-54.19 409.88,-54.33"/>
-</a>
-</g>
-<g id="a_edge51&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.renormalize &#45;&gt; math/bits.LeadingZeros64 (0.07s)">
-<text text-anchor="middle" x="426" y="-209.8" font-family="Times,serif" font-size="14.00"> 0.07s</text>
-<text text-anchor="middle" x="426" y="-194.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
+<g id="a_edge28&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).unpack (0.19s)">
+<text text-anchor="middle" x="890.5" y="-485.3" font-family="Times,serif" font-size="14.00"> 0.19s</text>
 </a>
 </g>
 </g>
 <!-- N16 -->
 <g id="node16" class="node">
 <title>N16</title>
-<g id="a_node16"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Mul (0.39s)">
-<polygon fill="#edecea" stroke="#b2ab9d" points="728,-605 632,-605 632,-532 728,-532 728,-605"/>
-<text text-anchor="middle" x="680" y="-591.4" font-family="Times,serif" font-size="12.00">decimal</text>
-<text text-anchor="middle" x="680" y="-578.4" font-family="Times,serif" font-size="12.00">Context64</text>
-<text text-anchor="middle" x="680" y="-565.4" font-family="Times,serif" font-size="12.00">Mul</text>
-<text text-anchor="middle" x="680" y="-552.4" font-family="Times,serif" font-size="12.00">0.20s (1.23%)</text>
-<text text-anchor="middle" x="680" y="-539.4" font-family="Times,serif" font-size="12.00">of 0.39s (2.40%)</text>
+<g id="a_node16"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).roundToLo (0.51s)">
+<polygon fill="#edebe9" stroke="#b2a997" points="742.5,-448.5 652.5,-448.5 652.5,-380.5 742.5,-380.5 742.5,-448.5"/>
+<text text-anchor="middle" x="697.5" y="-435.7" font-family="Times,serif" font-size="11.00">decimal</text>
+<text text-anchor="middle" x="697.5" y="-423.7" font-family="Times,serif" font-size="11.00">(*decParts)</text>
+<text text-anchor="middle" x="697.5" y="-411.7" font-family="Times,serif" font-size="11.00">roundToLo</text>
+<text text-anchor="middle" x="697.5" y="-399.7" font-family="Times,serif" font-size="11.00">0.12s (0.71%)</text>
+<text text-anchor="middle" x="697.5" y="-387.7" font-family="Times,serif" font-size="11.00">of 0.51s (3.02%)</text>
 </a>
 </g>
 </g>
-<!-- N16&#45;&gt;N10 -->
-<g id="edge57" class="edge">
-<title>N16&#45;&gt;N10</title>
-<g id="a_edge57"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Mul ... github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits (0.02s)">
-<path fill="none" stroke="#b2b2b1" stroke-dasharray="1,5" d="M670.56,-531.93C662.35,-495.36 653.43,-437 665,-388 670.48,-364.79 672.05,-356.78 689,-340 703.1,-326.04 721.18,-314.88 739.01,-306.2"/>
-<polygon fill="#b2b2b1" stroke="#b2b2b1" points="740.69,-309.28 748.28,-301.89 737.74,-302.93 740.69,-309.28"/>
+<!-- N3&#45;&gt;N16 -->
+<g id="edge16" class="edge">
+<title>N3&#45;&gt;N16</title>
+<g id="a_edge16"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).roundToLo (0.51s)">
+<path fill="none" stroke="#b2a997" d="M643.24,-529.16C642.28,-511.83 643.17,-491.39 649.5,-474 651.65,-468.09 654.68,-462.34 658.18,-456.9"/>
+<polygon fill="#b2a997" stroke="#b2a997" points="661.11,-458.82 664.01,-448.63 655.39,-454.78 661.11,-458.82"/>
 </a>
 </g>
-<g id="a_edge57&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Mul ... github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits (0.02s)">
-<text text-anchor="middle" x="682" y="-425.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
-</a>
-</g>
-</g>
-<!-- N16&#45;&gt;N15 -->
-<g id="edge44" class="edge">
-<title>N16&#45;&gt;N15</title>
-<g id="a_edge44"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Mul &#45;&gt; github.com/anz&#45;bank/decimal.renormalize (0.09s)">
-<path fill="none" stroke="#b2b1ad" d="M639.82,-531.95C634.11,-528.13 628.1,-524.67 622,-522 575.81,-501.8 556.97,-522.33 510,-504 486.07,-494.66 462,-479.58 442.42,-465.5"/>
-<polygon fill="#b2b1ad" stroke="#b2b1ad" points="444.45,-462.65 434.32,-459.55 440.31,-468.29 444.45,-462.65"/>
-</a>
-</g>
-<g id="a_edge44&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Mul &#45;&gt; github.com/anz&#45;bank/decimal.renormalize (0.09s)">
-<text text-anchor="middle" x="527" y="-492.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
+<g id="a_edge16&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).roundToLo (0.51s)">
+<text text-anchor="middle" x="666.5" y="-485.3" font-family="Times,serif" font-size="14.00"> 0.51s</text>
 </a>
 </g>
 </g>
-<!-- N16&#45;&gt;N19 -->
-<g id="edge53" class="edge">
-<title>N16&#45;&gt;N19</title>
-<g id="a_edge53"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Mul &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).unpack (0.05s)">
-<path fill="none" stroke="#b2b2af" d="M632.36,-531.83C623.14,-523.42 614.14,-513.97 607,-504 599.54,-493.58 593.54,-481.04 588.93,-469.28"/>
-<polygon fill="#b2b2af" stroke="#b2b2af" points="592.13,-467.83 585.38,-459.66 585.56,-470.25 592.13,-467.83"/>
+<!-- N17 -->
+<g id="node17" class="node">
+<title>N17</title>
+<g id="a_node17"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).add128 (0.57s)">
+<polygon fill="#edebe9" stroke="#b2a794" points="410,-453.5 305,-453.5 305,-375.5 410,-375.5 410,-453.5"/>
+<text text-anchor="middle" x="357.5" y="-439.1" font-family="Times,serif" font-size="13.00">decimal</text>
+<text text-anchor="middle" x="357.5" y="-425.1" font-family="Times,serif" font-size="13.00">(*decParts)</text>
+<text text-anchor="middle" x="357.5" y="-411.1" font-family="Times,serif" font-size="13.00">add128</text>
+<text text-anchor="middle" x="357.5" y="-397.1" font-family="Times,serif" font-size="13.00">0.45s (2.67%)</text>
+<text text-anchor="middle" x="357.5" y="-383.1" font-family="Times,serif" font-size="13.00">of 0.57s (3.38%)</text>
 </a>
 </g>
-<g id="a_edge53&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Mul &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).unpack (0.05s)">
-<text text-anchor="middle" x="624" y="-492.8" font-family="Times,serif" font-size="14.00"> 0.05s</text>
+</g>
+<!-- N3&#45;&gt;N17 -->
+<g id="edge15" class="edge">
+<title>N3&#45;&gt;N17</title>
+<g id="a_edge15"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).add128 (0.57s)">
+<path fill="none" stroke="#b2a794" d="M592.47,-550.88C558.49,-539.76 514.83,-523.59 478.5,-504 455.35,-491.52 431.61,-475.09 411.37,-459.79"/>
+<polygon fill="#b2a794" stroke="#b2a794" points="413.28,-456.84 403.21,-453.54 409.02,-462.4 413.28,-456.84"/>
+</a>
+</g>
+<g id="a_edge15&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).add128 (0.57s)">
+<text text-anchor="middle" x="495.5" y="-485.3" font-family="Times,serif" font-size="14.00"> 0.57s</text>
+</a>
+</g>
+</g>
+<!-- N20 -->
+<g id="node20" class="node">
+<title>N20</title>
+<g id="a_node20"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).matchScales128 (0.23s)">
+<polygon fill="#edeceb" stroke="#b2afa6" points="332,-298 239,-298 239,-238 332,-238 332,-298"/>
+<text text-anchor="middle" x="285.5" y="-284.4" font-family="Times,serif" font-size="12.00">decimal</text>
+<text text-anchor="middle" x="285.5" y="-271.4" font-family="Times,serif" font-size="12.00">(*decParts)</text>
+<text text-anchor="middle" x="285.5" y="-258.4" font-family="Times,serif" font-size="12.00">matchScales128</text>
+<text text-anchor="middle" x="285.5" y="-245.4" font-family="Times,serif" font-size="12.00">0.23s (1.36%)</text>
+</a>
+</g>
+</g>
+<!-- N3&#45;&gt;N20 -->
+<g id="edge47" class="edge">
+<title>N3&#45;&gt;N20</title>
+<g id="a_edge47"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).matchScales128 (0.11s)">
+<path fill="none" stroke="#b2b1ac" d="M592.22,-555.2C489.82,-532.26 281.71,-482.85 261.5,-456 229.25,-413.14 248.12,-348.54 265.88,-307.58"/>
+<polygon fill="#b2b1ac" stroke="#b2b1ac" points="269.18,-308.76 270.1,-298.21 262.8,-305.89 269.18,-308.76"/>
+</a>
+</g>
+<g id="a_edge47&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).matchScales128 (0.11s)">
+<text text-anchor="middle" x="278.5" y="-410.8" font-family="Times,serif" font-size="14.00"> 0.11s</text>
 </a>
 </g>
 </g>
 <!-- N21 -->
 <g id="node21" class="node">
 <title>N21</title>
-<g id="a_node21"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.add (0.15s)">
-<polygon fill="#edecec" stroke="#b2b0aa" points="686,-308.5 608,-308.5 608,-252.5 686,-252.5 686,-308.5"/>
-<text text-anchor="middle" x="647" y="-295.7" font-family="Times,serif" font-size="11.00">decimal</text>
-<text text-anchor="middle" x="647" y="-283.7" font-family="Times,serif" font-size="11.00">uint128T</text>
-<text text-anchor="middle" x="647" y="-271.7" font-family="Times,serif" font-size="11.00">add</text>
-<text text-anchor="middle" x="647" y="-259.7" font-family="Times,serif" font-size="11.00">0.15s (0.92%)</text>
+<g id="a_node21"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).separation (0.47s)">
+<polygon fill="#edece9" stroke="#b2aa99" points="850.5,-448.5 760.5,-448.5 760.5,-380.5 850.5,-380.5 850.5,-448.5"/>
+<text text-anchor="middle" x="805.5" y="-435.7" font-family="Times,serif" font-size="11.00">decimal</text>
+<text text-anchor="middle" x="805.5" y="-423.7" font-family="Times,serif" font-size="11.00">(*decParts)</text>
+<text text-anchor="middle" x="805.5" y="-411.7" font-family="Times,serif" font-size="11.00">separation</text>
+<text text-anchor="middle" x="805.5" y="-399.7" font-family="Times,serif" font-size="11.00">0.15s (0.89%)</text>
+<text text-anchor="middle" x="805.5" y="-387.7" font-family="Times,serif" font-size="11.00">of 0.47s (2.79%)</text>
 </a>
 </g>
 </g>
-<!-- N17&#45;&gt;N21 -->
-<g id="edge56" class="edge">
-<title>N17&#45;&gt;N21</title>
-<g id="a_edge56"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).add128 &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.add (0.02s)">
-<path fill="none" stroke="#b2b2b1" d="M730.61,-390.26C713.21,-367.63 691.32,-339.16 674.3,-317.02"/>
-<polygon fill="#b2b2b1" stroke="#b2b2b1" points="676.91,-314.67 668.04,-308.87 671.36,-318.93 676.91,-314.67"/>
+<!-- N3&#45;&gt;N21 -->
+<g id="edge17" class="edge">
+<title>N3&#45;&gt;N21</title>
+<g id="a_edge17"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).separation (0.47s)">
+<path fill="none" stroke="#b2aa99" d="M669.06,-529.14C681.49,-507.08 696.77,-482.16 706.5,-474 723,-460.16 732.72,-466.55 751.5,-456 752.62,-455.37 753.74,-454.72 754.87,-454.05"/>
+<polygon fill="#b2aa99" stroke="#b2aa99" points="756.87,-456.93 763.47,-448.64 753.14,-451.01 756.87,-456.93"/>
 </a>
 </g>
-<g id="a_edge56&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).add128 &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.add (0.02s)">
-<text text-anchor="middle" x="735" y="-358.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
-<text text-anchor="middle" x="735" y="-343.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
-</a>
-</g>
-</g>
-<!-- N17&#45;&gt;N23 -->
-<g id="edge52" class="edge">
-<title>N17&#45;&gt;N23</title>
-<g id="a_edge52"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).add128 &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).matchScales128 (0.06s)">
-<path fill="none" stroke="#b2b1af" d="M812.85,-392.53C815.9,-390.91 818.96,-389.39 822,-388 848.49,-375.9 861.1,-386.64 885,-370 898.57,-360.55 895.6,-351.98 907,-340 915.24,-331.34 924.75,-322.79 934.11,-315"/>
-<polygon fill="#b2b1af" stroke="#b2b1af" points="936.36,-317.69 941.9,-308.66 931.94,-312.26 936.36,-317.69"/>
-</a>
-</g>
-<g id="a_edge52&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).add128 &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).matchScales128 (0.06s)">
-<text text-anchor="middle" x="924" y="-351.3" font-family="Times,serif" font-size="14.00"> 0.06s</text>
+<g id="a_edge17&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).separation (0.47s)">
+<text text-anchor="middle" x="723.5" y="-485.3" font-family="Times,serif" font-size="14.00"> 0.47s</text>
 </a>
 </g>
 </g>
-<!-- N20&#45;&gt;N10 -->
-<g id="edge20" class="edge">
-<title>N20&#45;&gt;N10</title>
-<g id="a_edge20"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).separation &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits (0.38s)">
-<path fill="none" stroke="#b2ab9d" d="M860.8,-395.14C852.19,-376.25 841.25,-352.26 831.65,-331.19"/>
-<polygon fill="#b2ab9d" stroke="#b2ab9d" points="834.82,-329.71 827.49,-322.06 828.45,-332.61 834.82,-329.71"/>
-</a>
-</g>
-<g id="a_edge20&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).separation &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits (0.38s)">
-<text text-anchor="middle" x="865" y="-351.3" font-family="Times,serif" font-size="14.00"> 0.38s</text>
-</a>
-</g>
-</g>
-<!-- N24&#45;&gt;N10 -->
-<g id="edge22" class="edge">
-<title>N24&#45;&gt;N10</title>
-<g id="a_edge22"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).roundToLo &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits (0.32s)">
-<path fill="none" stroke="#b2ada0" d="M975.81,-395.17C969.86,-376.91 960.14,-355.01 945,-340 926.87,-322.03 902.34,-309.2 879.1,-300.22"/>
-<polygon fill="#b2ada0" stroke="#b2ada0" points="880.18,-296.89 869.59,-296.73 877.77,-303.46 880.18,-296.89"/>
-</a>
-</g>
-<g id="a_edge22&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).roundToLo &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits (0.32s)">
-<text text-anchor="middle" x="981" y="-351.3" font-family="Times,serif" font-size="14.00"> 0.32s</text>
+<!-- N22 -->
+<g id="node22" class="node">
+<title>N22</title>
+<g id="a_node22"><a xlink:title="github.com/anz&#45;bank/decimal.renormalize (0.17s)">
+<polygon fill="#edeceb" stroke="#b2b0a9" points="958.5,-442.5 868.5,-442.5 868.5,-386.5 958.5,-386.5 958.5,-442.5"/>
+<text text-anchor="middle" x="913.5" y="-429.7" font-family="Times,serif" font-size="11.00">decimal</text>
+<text text-anchor="middle" x="913.5" y="-417.7" font-family="Times,serif" font-size="11.00">renormalize</text>
+<text text-anchor="middle" x="913.5" y="-405.7" font-family="Times,serif" font-size="11.00">0.15s (0.89%)</text>
+<text text-anchor="middle" x="913.5" y="-393.7" font-family="Times,serif" font-size="11.00">of 0.17s (1.01%)</text>
 </a>
 </g>
 </g>
-<!-- N26 -->
-<g id="node26" class="node">
-<title>N26</title>
-<g id="a_node26"><a xlink:title="runtime.gorecover (0.22s)">
-<polygon fill="#edeceb" stroke="#b2afa6" points="943.5,-763.5 860.5,-763.5 860.5,-716.5 943.5,-716.5 943.5,-763.5"/>
-<text text-anchor="middle" x="902" y="-749.9" font-family="Times,serif" font-size="12.00">runtime</text>
-<text text-anchor="middle" x="902" y="-736.9" font-family="Times,serif" font-size="12.00">gorecover</text>
-<text text-anchor="middle" x="902" y="-723.9" font-family="Times,serif" font-size="12.00">0.22s (1.36%)</text>
+<!-- N3&#45;&gt;N22 -->
+<g id="edge50" class="edge">
+<title>N3&#45;&gt;N22</title>
+<g id="a_edge50"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.renormalize (0.09s)">
+<path fill="none" stroke="#b2b1ad" d="M702.7,-529.42C706.35,-526.9 709.97,-524.41 713.5,-522 725.41,-513.86 730.08,-513.97 740.5,-504 752.45,-492.57 748.5,-482.79 762.5,-474 799.63,-450.68 819.35,-473.62 859.5,-456 864.46,-453.82 869.4,-451.11 874.15,-448.13"/>
+<polygon fill="#b2b1ad" stroke="#b2b1ad" points="876.13,-451.01 882.47,-442.52 872.22,-445.2 876.13,-451.01"/>
+</a>
+</g>
+<g id="a_edge50&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.renormalize (0.09s)">
+<text text-anchor="middle" x="779.5" y="-485.3" font-family="Times,serif" font-size="14.00"> 0.09s</text>
 </a>
 </g>
 </g>
-<!-- N27&#45;&gt;N21 -->
-<g id="edge37" class="edge">
-<title>N27&#45;&gt;N21</title>
-<g id="a_edge37"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.sub &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.add (0.11s)">
-<path fill="none" stroke="#b2b1ac" d="M229.68,-397.98C234.92,-394.26 240.45,-390.8 246,-388 364.37,-328.38 519.72,-299.45 597.76,-287.89"/>
-<polygon fill="#b2b1ac" stroke="#b2b1ac" points="598.4,-291.33 607.79,-286.44 597.39,-284.4 598.4,-291.33"/>
-</a>
-</g>
-<g id="a_edge37&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.sub &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.add (0.11s)">
-<text text-anchor="middle" x="384" y="-358.8" font-family="Times,serif" font-size="14.00"> 0.11s</text>
-<text text-anchor="middle" x="384" y="-343.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
+<!-- N28 -->
+<g id="node28" class="node">
+<title>N28</title>
+<g id="a_node28"><a xlink:title="github.com/anz&#45;bank/decimal.checkNan (0.13s)">
+<polygon fill="#edecec" stroke="#b2b0ab" points="506.5,-436.5 428.5,-436.5 428.5,-392.5 506.5,-392.5 506.5,-436.5"/>
+<text text-anchor="middle" x="467.5" y="-423.7" font-family="Times,serif" font-size="11.00">decimal</text>
+<text text-anchor="middle" x="467.5" y="-411.7" font-family="Times,serif" font-size="11.00">checkNan</text>
+<text text-anchor="middle" x="467.5" y="-399.7" font-family="Times,serif" font-size="11.00">0.13s (0.77%)</text>
 </a>
 </g>
 </g>
-<!-- N30 -->
-<g id="node30" class="node">
-<title>N30</title>
-<g id="a_node30"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.neg (0.19s)">
-<polygon fill="#edeceb" stroke="#b2afa8" points="236.5,-310.5 153.5,-310.5 153.5,-250.5 236.5,-250.5 236.5,-310.5"/>
-<text text-anchor="middle" x="195" y="-296.9" font-family="Times,serif" font-size="12.00">decimal</text>
-<text text-anchor="middle" x="195" y="-283.9" font-family="Times,serif" font-size="12.00">uint128T</text>
-<text text-anchor="middle" x="195" y="-270.9" font-family="Times,serif" font-size="12.00">neg</text>
-<text text-anchor="middle" x="195" y="-257.9" font-family="Times,serif" font-size="12.00">0.19s (1.17%)</text>
+<!-- N3&#45;&gt;N28 -->
+<g id="edge43" class="edge">
+<title>N3&#45;&gt;N28</title>
+<g id="a_edge43"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.checkNan (0.12s)">
+<path fill="none" stroke="#b2b1ac" d="M592.25,-536.46C576.8,-526.89 560.47,-515.75 546.5,-504 525.45,-486.29 504.87,-462.98 489.99,-444.72"/>
+<polygon fill="#b2b1ac" stroke="#b2b1ac" points="492.56,-442.34 483.57,-436.73 487.1,-446.72 492.56,-442.34"/>
+</a>
+</g>
+<g id="a_edge43&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Add &#45;&gt; github.com/anz&#45;bank/decimal.checkNan (0.12s)">
+<text text-anchor="middle" x="568.5" y="-492.8" font-family="Times,serif" font-size="14.00"> 0.12s</text>
+<text text-anchor="middle" x="568.5" y="-477.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
 </a>
 </g>
 </g>
-<!-- N27&#45;&gt;N30 -->
-<g id="edge29" class="edge">
-<title>N27&#45;&gt;N30</title>
-<g id="a_edge29"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.sub &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.neg (0.19s)">
-<path fill="none" stroke="#b2afa8" d="M195,-397.68C195,-375.39 195,-345.08 195,-321"/>
-<polygon fill="#b2afa8" stroke="#b2afa8" points="198.5,-320.77 195,-310.77 191.5,-320.77 198.5,-320.77"/>
-</a>
-</g>
-<g id="a_edge29&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.sub &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.neg (0.19s)">
-<text text-anchor="middle" x="217" y="-358.8" font-family="Times,serif" font-size="14.00"> 0.19s</text>
-<text text-anchor="middle" x="217" y="-343.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
-</a>
-</g>
-</g>
-<!-- N31 -->
-<g id="node31" class="node">
-<title>N31</title>
-<g id="a_node31"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.shl (0.11s)">
-<polygon fill="#edecec" stroke="#b2b1ac" points="133,-308.5 55,-308.5 55,-252.5 133,-252.5 133,-308.5"/>
-<text text-anchor="middle" x="94" y="-295.7" font-family="Times,serif" font-size="11.00">decimal</text>
-<text text-anchor="middle" x="94" y="-283.7" font-family="Times,serif" font-size="11.00">uint128T</text>
-<text text-anchor="middle" x="94" y="-271.7" font-family="Times,serif" font-size="11.00">shl</text>
-<text text-anchor="middle" x="94" y="-259.7" font-family="Times,serif" font-size="11.00">0.11s (0.68%)</text>
+<!-- N8 -->
+<g id="node8" class="node">
+<title>N8</title>
+<g id="a_node8"><a xlink:title="math/big.(*Float).Add (2.98s)">
+<polygon fill="#ede0d8" stroke="#b25414" points="451.5,-799 291.5,-799 291.5,-681 451.5,-681 451.5,-799"/>
+<text text-anchor="middle" x="371.5" y="-779" font-family="Times,serif" font-size="20.00">big</text>
+<text text-anchor="middle" x="371.5" y="-757" font-family="Times,serif" font-size="20.00">(*Float)</text>
+<text text-anchor="middle" x="371.5" y="-735" font-family="Times,serif" font-size="20.00">Add</text>
+<text text-anchor="middle" x="371.5" y="-713" font-family="Times,serif" font-size="20.00">2.76s (16.36%)</text>
+<text text-anchor="middle" x="371.5" y="-691" font-family="Times,serif" font-size="20.00">of 2.98s (17.66%)</text>
 </a>
 </g>
 </g>
-<!-- N32&#45;&gt;N31 -->
-<g id="edge36" class="edge">
-<title>N32&#45;&gt;N31</title>
-<g id="a_edge36"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.mulBy10 &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.shl (0.11s)">
-<path fill="none" stroke="#b2b1ac" d="M94,-397.68C94,-374.8 94,-343.48 94,-319.12"/>
-<polygon fill="#b2b1ac" stroke="#b2b1ac" points="97.5,-318.81 94,-308.81 90.5,-318.81 97.5,-318.81"/>
+<!-- N5&#45;&gt;N8 -->
+<g id="edge9" class="edge">
+<title>N5&#45;&gt;N8</title>
+<g id="a_edge9"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.execOpBig &#45;&gt; math/big.(*Float).Add (2.98s)">
+<path fill="none" stroke="#b25414" d="M479.9,-865.97C464.4,-848.09 445.83,-826.68 428.48,-806.68"/>
+<polygon fill="#b25414" stroke="#b25414" points="431.1,-804.36 421.9,-799.1 425.81,-808.95 431.1,-804.36"/>
 </a>
 </g>
-<g id="a_edge36&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.mulBy10 &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.shl (0.11s)">
-<text text-anchor="middle" x="116" y="-358.8" font-family="Times,serif" font-size="14.00"> 0.11s</text>
-<text text-anchor="middle" x="116" y="-343.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
-</a>
-</g>
-</g>
-<!-- N33&#45;&gt;N22 -->
-<g id="edge45" class="edge">
-<title>N33&#45;&gt;N22</title>
-<g id="a_edge45"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.leadingZeros &#45;&gt; math/bits.LeadingZeros64 (0.09s)">
-<path fill="none" stroke="#b2b1ad" d="M639.39,-122.65C591.75,-102.23 513.57,-68.7 461.21,-46.25"/>
-<polygon fill="#b2b1ad" stroke="#b2b1ad" points="462.31,-42.91 451.74,-42.19 459.55,-49.35 462.31,-42.91"/>
-</a>
-</g>
-<g id="a_edge45&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.leadingZeros &#45;&gt; math/bits.LeadingZeros64 (0.09s)">
-<text text-anchor="middle" x="583" y="-80.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
-<text text-anchor="middle" x="583" y="-65.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
+<g id="a_edge9&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.execOpBig &#45;&gt; math/big.(*Float).Add (2.98s)">
+<text text-anchor="middle" x="478.5" y="-828.3" font-family="Times,serif" font-size="14.00"> 2.98s</text>
 </a>
 </g>
 </g>
-<!-- N34 -->
-<g id="node34" class="node">
-<title>N34</title>
-<g id="a_node34"><a xlink:title="runtime.madvise (0.09s)">
-<polygon fill="#ededec" stroke="#b2b1ad" points="1040,-762 962,-762 962,-718 1040,-718 1040,-762"/>
-<text text-anchor="middle" x="1001" y="-749.2" font-family="Times,serif" font-size="11.00">runtime</text>
-<text text-anchor="middle" x="1001" y="-737.2" font-family="Times,serif" font-size="11.00">madvise</text>
-<text text-anchor="middle" x="1001" y="-725.2" font-family="Times,serif" font-size="11.00">0.09s (0.55%)</text>
+<!-- N19 -->
+<g id="node19" class="node">
+<title>N19</title>
+<g id="a_node19"><a xlink:title="math/big.(*Float).Mul (0.73s)">
+<polygon fill="#edebe8" stroke="#b2a38b" points="589,-786.5 470,-786.5 470,-693.5 589,-693.5 589,-786.5"/>
+<text text-anchor="middle" x="529.5" y="-770.5" font-family="Times,serif" font-size="15.00">big</text>
+<text text-anchor="middle" x="529.5" y="-753.5" font-family="Times,serif" font-size="15.00">(*Float)</text>
+<text text-anchor="middle" x="529.5" y="-736.5" font-family="Times,serif" font-size="15.00">Mul</text>
+<text text-anchor="middle" x="529.5" y="-719.5" font-family="Times,serif" font-size="15.00">0.72s (4.27%)</text>
+<text text-anchor="middle" x="529.5" y="-702.5" font-family="Times,serif" font-size="15.00">of 0.73s (4.33%)</text>
 </a>
 </g>
 </g>
-<!-- N35&#45;&gt;N8 -->
-<g id="edge11" class="edge">
-<title>N35&#45;&gt;N8</title>
-<g id="a_edge11"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.Context64.Quo (1.61s)">
-<path fill="none" stroke="#b28659" d="M594.95,-708.3C588.13,-685.19 578.6,-652.88 570.44,-625.24"/>
-<polygon fill="#b28659" stroke="#b28659" points="573.7,-623.9 567.51,-615.3 566.98,-625.88 573.7,-623.9"/>
+<!-- N5&#45;&gt;N19 -->
+<g id="edge14" class="edge">
+<title>N5&#45;&gt;N19</title>
+<g id="a_edge14"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.execOpBig &#45;&gt; math/big.(*Float).Mul (0.73s)">
+<path fill="none" stroke="#b2a38b" d="M518.96,-865.97C520.72,-845.07 522.89,-819.35 524.8,-796.69"/>
+<polygon fill="#b2a38b" stroke="#b2a38b" points="528.31,-796.79 525.66,-786.53 521.33,-796.2 528.31,-796.79"/>
 </a>
 </g>
-<g id="a_edge11&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.Context64.Quo (1.61s)">
-<text text-anchor="middle" x="598" y="-644.3" font-family="Times,serif" font-size="14.00"> 1.61s</text>
-</a>
-</g>
-</g>
-<!-- N36&#45;&gt;N26 -->
-<g id="edge26" class="edge">
-<title>N36&#45;&gt;N26</title>
-<g id="a_edge26"><a xlink:title="github.com/joshcarp/benchmarks/decimal.runtests.func1 &#45;&gt; runtime.gorecover (0.22s)">
-<path fill="none" stroke="#b2afa6" d="M841.75,-876.17C854.81,-846.85 874.39,-802.93 887.65,-773.18"/>
-<polygon fill="#b2afa6" stroke="#b2afa6" points="891.02,-774.24 891.89,-763.68 884.62,-771.39 891.02,-774.24"/>
-</a>
-</g>
-<g id="a_edge26&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/decimal.runtests.func1 &#45;&gt; runtime.gorecover (0.22s)">
-<text text-anchor="middle" x="884" y="-828.3" font-family="Times,serif" font-size="14.00"> 0.22s</text>
+<g id="a_edge14&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.execOpBig &#45;&gt; math/big.(*Float).Mul (0.73s)">
+<text text-anchor="middle" x="540.5" y="-828.3" font-family="Times,serif" font-size="14.00"> 0.73s</text>
 </a>
 </g>
 </g>
 <!-- N37 -->
 <g id="node37" class="node">
 <title>N37</title>
-<g id="a_node37"><a xlink:title="runtime.mstart (0.15s)">
-<polygon fill="#edecec" stroke="#b2b0aa" points="1039.5,-1427.5 962.5,-1427.5 962.5,-1391.5 1039.5,-1391.5 1039.5,-1427.5"/>
-<text text-anchor="middle" x="1001" y="-1416.6" font-family="Times,serif" font-size="8.00">runtime</text>
-<text text-anchor="middle" x="1001" y="-1407.6" font-family="Times,serif" font-size="8.00">mstart</text>
-<text text-anchor="middle" x="1001" y="-1398.6" font-family="Times,serif" font-size="8.00">0 of 0.15s (0.92%)</text>
+<g id="a_node37"><a xlink:title="runtime.gopanic (0.09s)">
+<polygon fill="#ededec" stroke="#b2b1ad" points="178,-766 95,-766 95,-714 178,-714 178,-766"/>
+<text text-anchor="middle" x="136.5" y="-754" font-family="Times,serif" font-size="10.00">runtime</text>
+<text text-anchor="middle" x="136.5" y="-743" font-family="Times,serif" font-size="10.00">gopanic</text>
+<text text-anchor="middle" x="136.5" y="-732" font-family="Times,serif" font-size="10.00">0.03s (0.18%)</text>
+<text text-anchor="middle" x="136.5" y="-721" font-family="Times,serif" font-size="10.00">of 0.09s (0.53%)</text>
 </a>
 </g>
 </g>
-<!-- N38 -->
-<g id="node38" class="node">
-<title>N38</title>
-<g id="a_node38"><a xlink:title="runtime.systemstack (0.23s)">
-<polygon fill="#edeceb" stroke="#b2aea5" points="1039.5,-1287 962.5,-1287 962.5,-1251 1039.5,-1251 1039.5,-1287"/>
-<text text-anchor="middle" x="1001" y="-1276.1" font-family="Times,serif" font-size="8.00">runtime</text>
-<text text-anchor="middle" x="1001" y="-1267.1" font-family="Times,serif" font-size="8.00">systemstack</text>
-<text text-anchor="middle" x="1001" y="-1258.1" font-family="Times,serif" font-size="8.00">0 of 0.23s (1.42%)</text>
+<!-- N5&#45;&gt;N37 -->
+<g id="edge52" class="edge">
+<title>N5&#45;&gt;N37</title>
+<g id="a_edge52"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.execOpBig ... runtime.gopanic (0.08s)">
+<path fill="none" stroke="#b2b1ae" stroke-dasharray="1,5" d="M445.25,-868.62C442.32,-867.35 439.39,-866.13 436.5,-865 329.5,-823.08 283.94,-859.92 186.5,-799 176.21,-792.57 166.9,-783.35 159.19,-774.15"/>
+<polygon fill="#b2b1ae" stroke="#b2b1ae" points="161.79,-771.8 152.83,-766.14 156.3,-776.15 161.79,-771.8"/>
+</a>
+</g>
+<g id="a_edge52&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.execOpBig ... runtime.gopanic (0.08s)">
+<text text-anchor="middle" x="391.5" y="-828.3" font-family="Times,serif" font-size="14.00"> 0.08s</text>
 </a>
 </g>
 </g>
-<!-- N37&#45;&gt;N38 -->
-<g id="edge32" class="edge">
-<title>N37&#45;&gt;N38</title>
-<g id="a_edge32"><a xlink:title="runtime.mstart &#45;&gt; runtime.systemstack (0.15s)">
-<path fill="none" stroke="#b2b0aa" d="M1001,-1391.24C1001,-1367.68 1001,-1325.21 1001,-1297.31"/>
-<polygon fill="#b2b0aa" stroke="#b2b0aa" points="1004.5,-1297.04 1001,-1287.04 997.5,-1297.04 1004.5,-1297.04"/>
-</a>
-</g>
-<g id="a_edge32&#45;label"><a xlink:title="runtime.mstart &#45;&gt; runtime.systemstack (0.15s)">
-<text text-anchor="middle" x="1018" y="-1312.8" font-family="Times,serif" font-size="14.00"> 0.15s</text>
-</a>
-</g>
-</g>
-<!-- N46 -->
-<g id="node46" class="node">
-<title>N46</title>
-<g id="a_node46"><a xlink:title="runtime.(*mheap).alloc.func1 (0.09s)">
-<polygon fill="#ededec" stroke="#b2b1ad" points="1039.5,-1188.5 962.5,-1188.5 962.5,-1135.5 1039.5,-1135.5 1039.5,-1188.5"/>
-<text text-anchor="middle" x="1001" y="-1178.1" font-family="Times,serif" font-size="8.00">runtime</text>
-<text text-anchor="middle" x="1001" y="-1169.1" font-family="Times,serif" font-size="8.00">(*mheap)</text>
-<text text-anchor="middle" x="1001" y="-1160.1" font-family="Times,serif" font-size="8.00">alloc</text>
-<text text-anchor="middle" x="1001" y="-1151.1" font-family="Times,serif" font-size="8.00">func1</text>
-<text text-anchor="middle" x="1001" y="-1142.1" font-family="Times,serif" font-size="8.00">0 of 0.09s (0.55%)</text>
+<!-- N13 -->
+<g id="node13" class="node">
+<title>N13</title>
+<g id="a_node13"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.BenchmarkDecimal.func1 (16.30s)">
+<polygon fill="#edd5d5" stroke="#b20100" points="568.5,-1196 462.5,-1196 462.5,-1128 568.5,-1128 568.5,-1196"/>
+<text text-anchor="middle" x="515.5" y="-1183.2" font-family="Times,serif" font-size="11.00">decimal</text>
+<text text-anchor="middle" x="515.5" y="-1171.2" font-family="Times,serif" font-size="11.00">BenchmarkDecimal</text>
+<text text-anchor="middle" x="515.5" y="-1159.2" font-family="Times,serif" font-size="11.00">func1</text>
+<text text-anchor="middle" x="515.5" y="-1147.2" font-family="Times,serif" font-size="11.00">0.13s (0.77%)</text>
+<text text-anchor="middle" x="515.5" y="-1135.2" font-family="Times,serif" font-size="11.00">of 16.30s (96.62%)</text>
 </a>
 </g>
 </g>
-<!-- N38&#45;&gt;N46 -->
-<g id="edge50" class="edge">
-<title>N38&#45;&gt;N46</title>
-<g id="a_edge50"><a xlink:title="runtime.systemstack &#45;&gt; runtime.(*mheap).alloc.func1 (0.09s)">
-<path fill="none" stroke="#b2b1ad" d="M1001,-1250.66C1001,-1236.67 1001,-1216.52 1001,-1199.06"/>
-<polygon fill="#b2b1ad" stroke="#b2b1ad" points="1004.5,-1198.62 1001,-1188.62 997.5,-1198.62 1004.5,-1198.62"/>
+<!-- N6&#45;&gt;N13 -->
+<g id="edge1" class="edge">
+<title>N6&#45;&gt;N13</title>
+<g id="a_edge1"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/decimal.BenchmarkDecimal.func1 (16.30s)">
+<path fill="none" stroke="#b20100" stroke-width="5" d="M515.5,-1246.75C515.5,-1235.2 515.5,-1220.46 515.5,-1206.59"/>
+<polygon fill="#b20100" stroke="#b20100" stroke-width="5" points="519.88,-1206.21 515.5,-1196.21 511.13,-1206.21 519.88,-1206.21"/>
 </a>
 </g>
-<g id="a_edge50&#45;label"><a xlink:title="runtime.systemstack &#45;&gt; runtime.(*mheap).alloc.func1 (0.09s)">
-<text text-anchor="middle" x="1018" y="-1217.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
-</a>
-</g>
-</g>
-<!-- N39&#45;&gt;N28 -->
-<g id="edge43" class="edge">
-<title>N39&#45;&gt;N28</title>
-<g id="a_edge43"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.gt &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.lt (0.10s)">
-<path fill="none" stroke="#b2b1ac" d="M294.78,-397.9C297.76,-347.53 311.1,-247.13 369,-191 401.68,-159.32 453.39,-148.02 491.59,-144.15"/>
-<polygon fill="#b2b1ac" stroke="#b2b1ac" points="492.32,-147.6 501.98,-143.24 491.71,-140.62 492.32,-147.6"/>
-</a>
-</g>
-<g id="a_edge43&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.gt &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.lt (0.10s)">
-<text text-anchor="middle" x="350" y="-276.8" font-family="Times,serif" font-size="14.00"> 0.10s</text>
+<g id="a_edge1&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/decimal.BenchmarkDecimal.func1 (16.30s)">
+<text text-anchor="middle" x="535.5" y="-1217.8" font-family="Times,serif" font-size="14.00"> 16.30s</text>
 </a>
 </g>
 </g>
 <!-- N42 -->
 <g id="node42" class="node">
 <title>N42</title>
-<g id="a_node42"><a xlink:title="runtime.findrunnable (0.11s)">
-<polygon fill="#edecec" stroke="#b2b1ac" points="1134.5,-1065 1057.5,-1065 1057.5,-1029 1134.5,-1029 1134.5,-1065"/>
-<text text-anchor="middle" x="1096" y="-1054.1" font-family="Times,serif" font-size="8.00">runtime</text>
-<text text-anchor="middle" x="1096" y="-1045.1" font-family="Times,serif" font-size="8.00">findrunnable</text>
-<text text-anchor="middle" x="1096" y="-1036.1" font-family="Times,serif" font-size="8.00">0 of 0.11s (0.68%)</text>
+<g id="a_node42"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.BenchmarkDecimal (0.10s)">
+<polygon fill="#edecec" stroke="#b2b1ad" points="668,-1180 587,-1180 587,-1144 668,-1144 668,-1180"/>
+<text text-anchor="middle" x="627.5" y="-1169.1" font-family="Times,serif" font-size="8.00">decimal</text>
+<text text-anchor="middle" x="627.5" y="-1160.1" font-family="Times,serif" font-size="8.00">BenchmarkDecimal</text>
+<text text-anchor="middle" x="627.5" y="-1151.1" font-family="Times,serif" font-size="8.00">0 of 0.10s (0.59%)</text>
 </a>
 </g>
 </g>
-<!-- N43 -->
-<g id="node43" class="node">
-<title>N43</title>
-<g id="a_node43"><a xlink:title="runtime.mcall (0.11s)">
-<polygon fill="#edecec" stroke="#b2b1ac" points="1134.5,-1427.5 1057.5,-1427.5 1057.5,-1391.5 1134.5,-1391.5 1134.5,-1427.5"/>
-<text text-anchor="middle" x="1096" y="-1416.6" font-family="Times,serif" font-size="8.00">runtime</text>
-<text text-anchor="middle" x="1096" y="-1407.6" font-family="Times,serif" font-size="8.00">mcall</text>
-<text text-anchor="middle" x="1096" y="-1398.6" font-family="Times,serif" font-size="8.00">0 of 0.11s (0.68%)</text>
+<!-- N6&#45;&gt;N42 -->
+<g id="edge49" class="edge">
+<title>N6&#45;&gt;N42</title>
+<g id="a_edge49"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/decimal.BenchmarkDecimal (0.10s)">
+<path fill="none" stroke="#b2b1ad" d="M539.88,-1246.74C546.32,-1241.03 553.21,-1234.83 559.5,-1229 574.22,-1215.34 590.36,-1199.71 603.22,-1187.08"/>
+<polygon fill="#b2b1ad" stroke="#b2b1ad" points="605.71,-1189.55 610.38,-1180.04 600.8,-1184.56 605.71,-1189.55"/>
+</a>
+</g>
+<g id="a_edge49&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/decimal.BenchmarkDecimal (0.10s)">
+<text text-anchor="middle" x="592.5" y="-1217.8" font-family="Times,serif" font-size="14.00"> 0.10s</text>
 </a>
 </g>
 </g>
-<!-- N48 -->
-<g id="node48" class="node">
-<title>N48</title>
-<g id="a_node48"><a xlink:title="runtime.park_m (0.11s)">
-<polygon fill="#edecec" stroke="#b2b1ac" points="1134.5,-1287 1057.5,-1287 1057.5,-1251 1134.5,-1251 1134.5,-1287"/>
-<text text-anchor="middle" x="1096" y="-1276.1" font-family="Times,serif" font-size="8.00">runtime</text>
-<text text-anchor="middle" x="1096" y="-1267.1" font-family="Times,serif" font-size="8.00">park_m</text>
-<text text-anchor="middle" x="1096" y="-1258.1" font-family="Times,serif" font-size="8.00">0 of 0.11s (0.68%)</text>
+<!-- N41 -->
+<g id="node41" class="node">
+<title>N41</title>
+<g id="a_node41"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Add (3.47s)">
+<polygon fill="#edded5" stroke="#b24300" points="689.5,-769 607.5,-769 607.5,-711 689.5,-711 689.5,-769"/>
+<text text-anchor="middle" x="648.5" y="-757.8" font-family="Times,serif" font-size="9.00">decimal</text>
+<text text-anchor="middle" x="648.5" y="-747.8" font-family="Times,serif" font-size="9.00">Decimal64</text>
+<text text-anchor="middle" x="648.5" y="-737.8" font-family="Times,serif" font-size="9.00">Add</text>
+<text text-anchor="middle" x="648.5" y="-727.8" font-family="Times,serif" font-size="9.00">0.01s (0.059%)</text>
+<text text-anchor="middle" x="648.5" y="-717.8" font-family="Times,serif" font-size="9.00">of 3.47s (20.57%)</text>
 </a>
 </g>
 </g>
-<!-- N43&#45;&gt;N48 -->
-<g id="edge38" class="edge">
-<title>N43&#45;&gt;N48</title>
-<g id="a_edge38"><a xlink:title="runtime.mcall &#45;&gt; runtime.park_m (0.11s)">
-<path fill="none" stroke="#b2b1ac" d="M1096,-1391.24C1096,-1367.68 1096,-1325.21 1096,-1297.31"/>
-<polygon fill="#b2b1ac" stroke="#b2b1ac" points="1099.5,-1297.04 1096,-1287.04 1092.5,-1297.04 1099.5,-1297.04"/>
-</a>
-</g>
-<g id="a_edge38&#45;label"><a xlink:title="runtime.mcall &#45;&gt; runtime.park_m (0.11s)">
-<text text-anchor="middle" x="1113" y="-1312.8" font-family="Times,serif" font-size="14.00"> 0.11s</text>
-</a>
-</g>
-</g>
-<!-- N44&#45;&gt;N4 -->
+<!-- N7&#45;&gt;N41 -->
 <g id="edge7" class="edge">
-<title>N44&#45;&gt;N4</title>
-<g id="a_edge7"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Add &#45;&gt; github.com/anz&#45;bank/decimal.Context64.Add (3.39s)">
-<path fill="none" stroke="#b24200" stroke-width="2" d="M802,-717.88C802,-693.05 802,-651.06 802,-618.08"/>
-<polygon fill="#b24200" stroke="#b24200" stroke-width="2" points="805.5,-617.72 802,-607.72 798.5,-617.72 805.5,-617.72"/>
+<title>N7&#45;&gt;N41</title>
+<g id="a_edge7"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.execOp &#45;&gt; github.com/anz&#45;bank/decimal.Decimal64.Add (3.47s)">
+<path fill="none" stroke="#b24300" stroke-width="2" d="M648.5,-881.79C648.5,-854.57 648.5,-810.9 648.5,-779.4"/>
+<polygon fill="#b24300" stroke="#b24300" stroke-width="2" points="652,-779.23 648.5,-769.23 645,-779.23 652,-779.23"/>
 </a>
 </g>
-<g id="a_edge7&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Add &#45;&gt; github.com/anz&#45;bank/decimal.Context64.Add (3.39s)">
-<text text-anchor="middle" x="819" y="-644.3" font-family="Times,serif" font-size="14.00"> 3.39s</text>
+<g id="a_edge7&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.execOp &#45;&gt; github.com/anz&#45;bank/decimal.Decimal64.Add (3.47s)">
+<text text-anchor="middle" x="670.5" y="-835.8" font-family="Times,serif" font-size="14.00"> 3.47s</text>
+<text text-anchor="middle" x="670.5" y="-820.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
 </a>
 </g>
 </g>
-<!-- N45&#45;&gt;N16 -->
+<!-- N44 -->
+<g id="node44" class="node">
+<title>N44</title>
+<g id="a_node44"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Mul (0.47s)">
+<polygon fill="#edece9" stroke="#b2aa99" points="785,-769 708,-769 708,-711 785,-711 785,-769"/>
+<text text-anchor="middle" x="746.5" y="-757.8" font-family="Times,serif" font-size="9.00">decimal</text>
+<text text-anchor="middle" x="746.5" y="-747.8" font-family="Times,serif" font-size="9.00">Decimal64</text>
+<text text-anchor="middle" x="746.5" y="-737.8" font-family="Times,serif" font-size="9.00">Mul</text>
+<text text-anchor="middle" x="746.5" y="-727.8" font-family="Times,serif" font-size="9.00">0.01s (0.059%)</text>
+<text text-anchor="middle" x="746.5" y="-717.8" font-family="Times,serif" font-size="9.00">of 0.47s (2.79%)</text>
+</a>
+</g>
+</g>
+<!-- N7&#45;&gt;N44 -->
 <g id="edge18" class="edge">
-<title>N45&#45;&gt;N16</title>
-<g id="a_edge18"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Mul &#45;&gt; github.com/anz&#45;bank/decimal.Context64.Mul (0.39s)">
-<path fill="none" stroke="#b2ab9d" d="M701.88,-717.88C698.11,-692.3 691.65,-648.51 686.73,-615.11"/>
-<polygon fill="#b2ab9d" stroke="#b2ab9d" points="690.17,-614.49 685.25,-605.11 683.25,-615.51 690.17,-614.49"/>
+<title>N7&#45;&gt;N44</title>
+<g id="a_edge18"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.execOp &#45;&gt; github.com/anz&#45;bank/decimal.Decimal64.Mul (0.47s)">
+<path fill="none" stroke="#b2aa99" d="M670.68,-881.99C679.32,-871.58 688.95,-859.11 696.5,-847 709.98,-825.39 722.23,-799.57 731.23,-778.82"/>
+<polygon fill="#b2aa99" stroke="#b2aa99" points="734.56,-779.96 735.26,-769.38 728.12,-777.21 734.56,-779.96"/>
 </a>
 </g>
-<g id="a_edge18&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Mul &#45;&gt; github.com/anz&#45;bank/decimal.Context64.Mul (0.39s)">
-<text text-anchor="middle" x="710" y="-644.3" font-family="Times,serif" font-size="14.00"> 0.39s</text>
+<g id="a_edge18&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.execOp &#45;&gt; github.com/anz&#45;bank/decimal.Decimal64.Mul (0.47s)">
+<text text-anchor="middle" x="733.5" y="-835.8" font-family="Times,serif" font-size="14.00"> 0.47s</text>
+<text text-anchor="middle" x="733.5" y="-820.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
+</a>
+</g>
+</g>
+<!-- N45 -->
+<g id="node45" class="node">
+<title>N45</title>
+<g id="a_node45"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Quo (1.54s)">
+<polygon fill="#ede7e2" stroke="#b28a61" points="880,-762 803,-762 803,-718 880,-718 880,-762"/>
+<text text-anchor="middle" x="841.5" y="-751.6" font-family="Times,serif" font-size="8.00">decimal</text>
+<text text-anchor="middle" x="841.5" y="-742.6" font-family="Times,serif" font-size="8.00">Decimal64</text>
+<text text-anchor="middle" x="841.5" y="-733.6" font-family="Times,serif" font-size="8.00">Quo</text>
+<text text-anchor="middle" x="841.5" y="-724.6" font-family="Times,serif" font-size="8.00">0 of 1.54s (9.13%)</text>
+</a>
+</g>
+</g>
+<!-- N7&#45;&gt;N45 -->
+<g id="edge11" class="edge">
+<title>N7&#45;&gt;N45</title>
+<g id="a_edge11"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.execOp &#45;&gt; github.com/anz&#45;bank/decimal.Decimal64.Quo (1.54s)">
+<path fill="none" stroke="#b28a61" d="M693.04,-888.21C714.46,-877.9 739.71,-863.8 759.5,-847 785.33,-825.06 808.32,-793.77 823.33,-770.87"/>
+<polygon fill="#b28a61" stroke="#b28a61" points="826.42,-772.55 828.88,-762.24 820.53,-768.76 826.42,-772.55"/>
+</a>
+</g>
+<g id="a_edge11&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.execOp &#45;&gt; github.com/anz&#45;bank/decimal.Decimal64.Quo (1.54s)">
+<text text-anchor="middle" x="809.5" y="-835.8" font-family="Times,serif" font-size="14.00"> 1.54s</text>
+<text text-anchor="middle" x="809.5" y="-820.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
+</a>
+</g>
+</g>
+<!-- N23 -->
+<g id="node23" class="node">
+<title>N23</title>
+<g id="a_node23"><a xlink:title="math/big.umax32 (0.23s)">
+<polygon fill="#edeceb" stroke="#b2afa6" points="413,-592 330,-592 330,-545 413,-545 413,-592"/>
+<text text-anchor="middle" x="371.5" y="-578.4" font-family="Times,serif" font-size="12.00">big</text>
+<text text-anchor="middle" x="371.5" y="-565.4" font-family="Times,serif" font-size="12.00">umax32</text>
+<text text-anchor="middle" x="371.5" y="-552.4" font-family="Times,serif" font-size="12.00">0.23s (1.36%)</text>
+</a>
+</g>
+</g>
+<!-- N8&#45;&gt;N23 -->
+<g id="edge24" class="edge">
+<title>N8&#45;&gt;N23</title>
+<g id="a_edge24"><a xlink:title="math/big.(*Float).Add &#45;&gt; math/big.umax32 (0.22s)">
+<path fill="none" stroke="#b2afa6" d="M371.5,-680.67C371.5,-654.5 371.5,-624.59 371.5,-602.4"/>
+<polygon fill="#b2afa6" stroke="#b2afa6" points="375,-602.17 371.5,-592.17 368,-602.17 375,-602.17"/>
+</a>
+</g>
+<g id="a_edge24&#45;label"><a xlink:title="math/big.(*Float).Add &#45;&gt; math/big.umax32 (0.22s)">
+<text text-anchor="middle" x="393.5" y="-651.8" font-family="Times,serif" font-size="14.00"> 0.22s</text>
+<text text-anchor="middle" x="393.5" y="-636.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
+</a>
+</g>
+</g>
+<!-- N9 -->
+<g id="node9" class="node">
+<title>N9</title>
+<g id="a_node9"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo (1.54s)">
+<polygon fill="#ede7e2" stroke="#b28a61" points="956,-615 837,-615 837,-522 956,-522 956,-615"/>
+<text text-anchor="middle" x="896.5" y="-599" font-family="Times,serif" font-size="15.00">decimal</text>
+<text text-anchor="middle" x="896.5" y="-582" font-family="Times,serif" font-size="15.00">Context64</text>
+<text text-anchor="middle" x="896.5" y="-565" font-family="Times,serif" font-size="15.00">Quo</text>
+<text text-anchor="middle" x="896.5" y="-548" font-family="Times,serif" font-size="15.00">0.80s (4.74%)</text>
+<text text-anchor="middle" x="896.5" y="-531" font-family="Times,serif" font-size="15.00">of 1.54s (9.13%)</text>
+</a>
+</g>
+</g>
+<!-- N10 -->
+<g id="node10" class="node">
+<title>N10</title>
+<g id="a_node10"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits (0.77s)">
+<polygon fill="#edebe7" stroke="#b2a289" points="873.5,-307 755.5,-307 755.5,-229 873.5,-229 873.5,-307"/>
+<text text-anchor="middle" x="814.5" y="-292.6" font-family="Times,serif" font-size="13.00">decimal</text>
+<text text-anchor="middle" x="814.5" y="-278.6" font-family="Times,serif" font-size="13.00">uint128T</text>
+<text text-anchor="middle" x="814.5" y="-264.6" font-family="Times,serif" font-size="13.00">numDecimalDigits</text>
+<text text-anchor="middle" x="814.5" y="-250.6" font-family="Times,serif" font-size="13.00">0.41s (2.43%)</text>
+<text text-anchor="middle" x="814.5" y="-236.6" font-family="Times,serif" font-size="13.00">of 0.77s (4.56%)</text>
+</a>
+</g>
+</g>
+<!-- N9&#45;&gt;N10 -->
+<g id="edge23" class="edge">
+<title>N9&#45;&gt;N10</title>
+<g id="a_edge23"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo ... github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits (0.24s)">
+<path fill="none" stroke="#b2aea5" stroke-dasharray="1,5" d="M956.39,-557.83C990.63,-549.28 1031.74,-533.37 1057.5,-504 1096.05,-460.05 1102.11,-421.52 1069.5,-373 1028.34,-311.76 944.14,-286.56 883.75,-276.21"/>
+<polygon fill="#b2aea5" stroke="#b2aea5" points="883.95,-272.69 873.52,-274.55 882.83,-279.6 883.95,-272.69"/>
+</a>
+</g>
+<g id="a_edge23&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo ... github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits (0.24s)">
+<text text-anchor="middle" x="1107.5" y="-410.8" font-family="Times,serif" font-size="14.00"> 0.24s</text>
+</a>
+</g>
+</g>
+<!-- N9&#45;&gt;N14 -->
+<g id="edge57" class="edge">
+<title>N9&#45;&gt;N14</title>
+<g id="a_edge57"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).unpack (0.02s)">
+<path fill="none" stroke="#b2b2b1" d="M956.02,-547.2C976.22,-537.32 996.86,-523.29 1009.5,-504 1018.8,-489.8 1021.78,-471.48 1022.14,-455.19"/>
+<polygon fill="#b2b2b1" stroke="#b2b2b1" points="1025.64,-454.81 1022.04,-444.85 1018.64,-454.88 1025.64,-454.81"/>
+</a>
+</g>
+<g id="a_edge57&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).unpack (0.02s)">
+<text text-anchor="middle" x="1036.5" y="-485.3" font-family="Times,serif" font-size="14.00"> 0.02s</text>
+</a>
+</g>
+</g>
+<!-- N9&#45;&gt;N22 -->
+<g id="edge56" class="edge">
+<title>N9&#45;&gt;N22</title>
+<g id="a_edge56"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.renormalize (0.04s)">
+<path fill="none" stroke="#b2b2b0" d="M956.32,-523.13C961.19,-517.23 965.41,-510.84 968.5,-504 976.88,-485.44 967.25,-466.09 953.84,-450.23"/>
+<polygon fill="#b2b2b0" stroke="#b2b2b0" points="956.33,-447.77 947.01,-442.75 951.16,-452.49 956.33,-447.77"/>
+</a>
+</g>
+<g id="a_edge56&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.renormalize (0.04s)">
+<text text-anchor="middle" x="988.5" y="-485.3" font-family="Times,serif" font-size="14.00"> 0.04s</text>
+</a>
+</g>
+</g>
+<!-- N35 -->
+<g id="node35" class="node">
+<title>N35</title>
+<g id="a_node35"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.sub (0.21s)">
+<polygon fill="#edeceb" stroke="#b2afa7" points="1226,-436.5 1149,-436.5 1149,-392.5 1226,-392.5 1226,-436.5"/>
+<text text-anchor="middle" x="1187.5" y="-426.1" font-family="Times,serif" font-size="8.00">decimal</text>
+<text text-anchor="middle" x="1187.5" y="-417.1" font-family="Times,serif" font-size="8.00">uint128T</text>
+<text text-anchor="middle" x="1187.5" y="-408.1" font-family="Times,serif" font-size="8.00">sub</text>
+<text text-anchor="middle" x="1187.5" y="-399.1" font-family="Times,serif" font-size="8.00">0 of 0.21s (1.24%)</text>
+</a>
+</g>
+</g>
+<!-- N9&#45;&gt;N35 -->
+<g id="edge26" class="edge">
+<title>N9&#45;&gt;N35</title>
+<g id="a_edge26"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.sub (0.21s)">
+<path fill="none" stroke="#b2afa7" d="M956.12,-559.1C1001.29,-550.62 1063.4,-534.3 1110.5,-504 1134.07,-488.84 1154.56,-464.4 1168.46,-445.04"/>
+<polygon fill="#b2afa7" stroke="#b2afa7" points="1171.34,-447.03 1174.19,-436.82 1165.59,-443.03 1171.34,-447.03"/>
+</a>
+</g>
+<g id="a_edge26&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.sub (0.21s)">
+<text text-anchor="middle" x="1160.5" y="-485.3" font-family="Times,serif" font-size="14.00"> 0.21s</text>
+</a>
+</g>
+</g>
+<!-- N46 -->
+<g id="node46" class="node">
+<title>N46</title>
+<g id="a_node46"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.gt (0.15s)">
+<polygon fill="#edecec" stroke="#b2b0aa" points="1333,-436.5 1256,-436.5 1256,-392.5 1333,-392.5 1333,-436.5"/>
+<text text-anchor="middle" x="1294.5" y="-426.1" font-family="Times,serif" font-size="8.00">decimal</text>
+<text text-anchor="middle" x="1294.5" y="-417.1" font-family="Times,serif" font-size="8.00">uint128T</text>
+<text text-anchor="middle" x="1294.5" y="-408.1" font-family="Times,serif" font-size="8.00">gt</text>
+<text text-anchor="middle" x="1294.5" y="-399.1" font-family="Times,serif" font-size="8.00">0 of 0.15s (0.89%)</text>
+</a>
+</g>
+</g>
+<!-- N9&#45;&gt;N46 -->
+<g id="edge32" class="edge">
+<title>N9&#45;&gt;N46</title>
+<g id="a_edge32"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.gt (0.15s)">
+<path fill="none" stroke="#b2b0aa" d="M956.02,-562C1015.47,-554.76 1108.29,-538.63 1181.5,-504 1213.4,-488.91 1244.58,-463.44 1266.08,-443.68"/>
+<polygon fill="#b2b0aa" stroke="#b2b0aa" points="1268.64,-446.08 1273.55,-436.69 1263.86,-440.97 1268.64,-446.08"/>
+</a>
+</g>
+<g id="a_edge32&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.gt (0.15s)">
+<text text-anchor="middle" x="1244.5" y="-485.3" font-family="Times,serif" font-size="14.00"> 0.15s</text>
+</a>
+</g>
+</g>
+<!-- N27 -->
+<g id="node27" class="node">
+<title>N27</title>
+<g id="a_node27"><a xlink:title="github.com/anz&#45;bank/decimal.powerOfTen128 (0.18s)">
+<polygon fill="#edeceb" stroke="#b2b0a8" points="806,-152.5 711,-152.5 711,-105.5 806,-105.5 806,-152.5"/>
+<text text-anchor="middle" x="758.5" y="-138.9" font-family="Times,serif" font-size="12.00">decimal</text>
+<text text-anchor="middle" x="758.5" y="-125.9" font-family="Times,serif" font-size="12.00">powerOfTen128</text>
+<text text-anchor="middle" x="758.5" y="-112.9" font-family="Times,serif" font-size="12.00">0.18s (1.07%)</text>
+</a>
+</g>
+</g>
+<!-- N10&#45;&gt;N27 -->
+<g id="edge30" class="edge">
+<title>N10&#45;&gt;N27</title>
+<g id="a_edge30"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits &#45;&gt; github.com/anz&#45;bank/decimal.powerOfTen128 (0.18s)">
+<path fill="none" stroke="#b2b0a8" d="M798.9,-228.84C790.28,-207.75 779.69,-181.84 771.52,-161.85"/>
+<polygon fill="#b2b0a8" stroke="#b2b0a8" points="774.74,-160.49 767.72,-152.55 768.26,-163.13 774.74,-160.49"/>
+</a>
+</g>
+<g id="a_edge30&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits &#45;&gt; github.com/anz&#45;bank/decimal.powerOfTen128 (0.18s)">
+<text text-anchor="middle" x="808.5" y="-192.3" font-family="Times,serif" font-size="14.00"> 0.18s</text>
+</a>
+</g>
+</g>
+<!-- N30 -->
+<g id="node30" class="node">
+<title>N30</title>
+<g id="a_node30"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.leadingZeros (0.17s)">
+<polygon fill="#edeceb" stroke="#b2b0a9" points="914.5,-163 824.5,-163 824.5,-95 914.5,-95 914.5,-163"/>
+<text text-anchor="middle" x="869.5" y="-150.2" font-family="Times,serif" font-size="11.00">decimal</text>
+<text text-anchor="middle" x="869.5" y="-138.2" font-family="Times,serif" font-size="11.00">uint128T</text>
+<text text-anchor="middle" x="869.5" y="-126.2" font-family="Times,serif" font-size="11.00">leadingZeros</text>
+<text text-anchor="middle" x="869.5" y="-114.2" font-family="Times,serif" font-size="11.00">0.12s (0.71%)</text>
+<text text-anchor="middle" x="869.5" y="-102.2" font-family="Times,serif" font-size="11.00">of 0.17s (1.01%)</text>
+</a>
+</g>
+</g>
+<!-- N10&#45;&gt;N30 -->
+<g id="edge31" class="edge">
+<title>N10&#45;&gt;N30</title>
+<g id="a_edge31"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.leadingZeros (0.17s)">
+<path fill="none" stroke="#b2b0a9" d="M829.82,-228.84C836.79,-211.47 845.08,-190.84 852.26,-172.93"/>
+<polygon fill="#b2b0a9" stroke="#b2b0a9" points="855.65,-173.88 856.13,-163.3 849.16,-171.28 855.65,-173.88"/>
+</a>
+</g>
+<g id="a_edge31&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.leadingZeros (0.17s)">
+<text text-anchor="middle" x="870.5" y="-199.8" font-family="Times,serif" font-size="14.00"> 0.17s</text>
+<text text-anchor="middle" x="870.5" y="-184.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
+</a>
+</g>
+</g>
+<!-- N25 -->
+<g id="node25" class="node">
+<title>N25</title>
+<g id="a_node25"><a xlink:title="github.com/anz&#45;bank/decimal.countTrailingZeros (0.19s)">
+<polygon fill="#edeceb" stroke="#b2afa8" points="633,-291.5 526,-291.5 526,-244.5 633,-244.5 633,-291.5"/>
+<text text-anchor="middle" x="579.5" y="-277.9" font-family="Times,serif" font-size="12.00">decimal</text>
+<text text-anchor="middle" x="579.5" y="-264.9" font-family="Times,serif" font-size="12.00">countTrailingZeros</text>
+<text text-anchor="middle" x="579.5" y="-251.9" font-family="Times,serif" font-size="12.00">0.19s (1.13%)</text>
+</a>
+</g>
+</g>
+<!-- N11&#45;&gt;N25 -->
+<g id="edge27" class="edge">
+<title>N11&#45;&gt;N25</title>
+<g id="a_edge27"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).removeZeros &#45;&gt; github.com/anz&#45;bank/decimal.countTrailingZeros (0.19s)">
+<path fill="none" stroke="#b2afa8" d="M579.5,-372.86C579.5,-350.44 579.5,-322.96 579.5,-301.9"/>
+<polygon fill="#b2afa8" stroke="#b2afa8" points="583,-301.83 579.5,-291.83 576,-301.83 583,-301.83"/>
+</a>
+</g>
+<g id="a_edge27&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).removeZeros &#45;&gt; github.com/anz&#45;bank/decimal.countTrailingZeros (0.19s)">
+<text text-anchor="middle" x="596.5" y="-336.3" font-family="Times,serif" font-size="14.00"> 0.19s</text>
+</a>
+</g>
+</g>
+<!-- N12 -->
+<g id="node12" class="node">
+<title>N12</title>
+<g id="a_node12"><a xlink:title="testing.(*B).run1.func1 (1.25s)">
+<polygon fill="#ede9e4" stroke="#b29470" points="653,-1436 576,-1436 576,-1383 653,-1383 653,-1436"/>
+<text text-anchor="middle" x="614.5" y="-1425.6" font-family="Times,serif" font-size="8.00">testing</text>
+<text text-anchor="middle" x="614.5" y="-1416.6" font-family="Times,serif" font-size="8.00">(*B)</text>
+<text text-anchor="middle" x="614.5" y="-1407.6" font-family="Times,serif" font-size="8.00">run1</text>
+<text text-anchor="middle" x="614.5" y="-1398.6" font-family="Times,serif" font-size="8.00">func1</text>
+<text text-anchor="middle" x="614.5" y="-1389.6" font-family="Times,serif" font-size="8.00">0 of 1.25s (7.41%)</text>
+</a>
+</g>
+</g>
+<!-- N12&#45;&gt;N6 -->
+<g id="edge12" class="edge">
+<title>N12&#45;&gt;N6</title>
+<g id="a_edge12"><a xlink:title="testing.(*B).run1.func1 &#45;&gt; testing.(*B).runN (1.25s)">
+<path fill="none" stroke="#b29470" d="M603.34,-1382.91C593.5,-1361.9 577.88,-1331.96 559.5,-1309 556.62,-1305.41 553.39,-1301.87 550.03,-1298.48"/>
+<polygon fill="#b29470" stroke="#b29470" points="552.17,-1295.69 542.52,-1291.33 547.35,-1300.76 552.17,-1295.69"/>
+</a>
+</g>
+<g id="a_edge12&#45;label"><a xlink:title="testing.(*B).run1.func1 &#45;&gt; testing.(*B).runN (1.25s)">
+<text text-anchor="middle" x="587.5" y="-1312.8" font-family="Times,serif" font-size="14.00"> 1.25s</text>
+</a>
+</g>
+</g>
+<!-- N13&#45;&gt;N1 -->
+<g id="edge2" class="edge">
+<title>N13&#45;&gt;N1</title>
+<g id="a_edge2"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.BenchmarkDecimal.func1 &#45;&gt; github.com/joshcarp/go-benchmarks/decimal.runtests (16.17s)">
+<path fill="none" stroke="#b20200" stroke-width="5" d="M515.5,-1127.71C515.5,-1115.07 515.5,-1100.56 515.5,-1087.41"/>
+<polygon fill="#b20200" stroke="#b20200" stroke-width="5" points="519.88,-1087.22 515.5,-1077.22 511.13,-1087.22 519.88,-1087.22"/>
+</a>
+</g>
+<g id="a_edge2&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.BenchmarkDecimal.func1 &#45;&gt; github.com/joshcarp/go-benchmarks/decimal.runtests (16.17s)">
+<text text-anchor="middle" x="535.5" y="-1098.8" font-family="Times,serif" font-size="14.00"> 16.17s</text>
+</a>
+</g>
+</g>
+<!-- N15 -->
+<g id="node15" class="node">
+<title>N15</title>
+<g id="a_node15"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Mul (0.46s)">
+<polygon fill="#edece9" stroke="#b2aa9a" points="818.5,-605 722.5,-605 722.5,-532 818.5,-532 818.5,-605"/>
+<text text-anchor="middle" x="770.5" y="-591.4" font-family="Times,serif" font-size="12.00">decimal</text>
+<text text-anchor="middle" x="770.5" y="-578.4" font-family="Times,serif" font-size="12.00">Context64</text>
+<text text-anchor="middle" x="770.5" y="-565.4" font-family="Times,serif" font-size="12.00">Mul</text>
+<text text-anchor="middle" x="770.5" y="-552.4" font-family="Times,serif" font-size="12.00">0.29s (1.72%)</text>
+<text text-anchor="middle" x="770.5" y="-539.4" font-family="Times,serif" font-size="12.00">of 0.46s (2.73%)</text>
+</a>
+</g>
+</g>
+<!-- N15&#45;&gt;N14 -->
+<g id="edge48" class="edge">
+<title>N15&#45;&gt;N14</title>
+<g id="a_edge48"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Mul &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).unpack (0.10s)">
+<path fill="none" stroke="#b2b1ad" d="M811.48,-531.82C816.97,-528.12 822.71,-524.72 828.5,-522 862.66,-505.94 880.56,-525.62 911.5,-504 924.44,-494.96 918.73,-484.52 930.5,-474 944.13,-461.81 952.03,-465.74 967.5,-456 970.23,-454.28 972.98,-452.45 975.72,-450.54"/>
+<polygon fill="#b2b1ad" stroke="#b2b1ad" points="977.8,-453.35 983.85,-444.65 973.69,-447.68 977.8,-453.35"/>
+</a>
+</g>
+<g id="a_edge48&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Mul &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).unpack (0.10s)">
+<text text-anchor="middle" x="947.5" y="-485.3" font-family="Times,serif" font-size="14.00"> 0.10s</text>
+</a>
+</g>
+</g>
+<!-- N15&#45;&gt;N22 -->
+<g id="edge55" class="edge">
+<title>N15&#45;&gt;N22</title>
+<g id="a_edge55"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Mul &#45;&gt; github.com/anz&#45;bank/decimal.renormalize (0.04s)">
+<path fill="none" stroke="#b2b2b0" d="M786.69,-531.77C797.45,-509.2 811.26,-482.71 820.5,-474 834.39,-460.9 843.11,-465.78 859.5,-456 863.4,-453.67 867.35,-451.13 871.26,-448.47"/>
+<polygon fill="#b2b2b0" stroke="#b2b2b0" points="873.52,-451.16 879.69,-442.55 869.49,-445.44 873.52,-451.16"/>
+</a>
+</g>
+<g id="a_edge55&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Context64.Mul &#45;&gt; github.com/anz&#45;bank/decimal.renormalize (0.04s)">
+<text text-anchor="middle" x="837.5" y="-485.3" font-family="Times,serif" font-size="14.00"> 0.04s</text>
+</a>
+</g>
+</g>
+<!-- N16&#45;&gt;N10 -->
+<g id="edge25" class="edge">
+<title>N16&#45;&gt;N10</title>
+<g id="a_edge25"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).roundToLo &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits (0.21s)">
+<path fill="none" stroke="#b2afa7" d="M724.34,-380.35C740.02,-360.99 760.03,-336.28 777.21,-315.05"/>
+<polygon fill="#b2afa7" stroke="#b2afa7" points="780.08,-317.08 783.65,-307.1 774.64,-312.67 780.08,-317.08"/>
+</a>
+</g>
+<g id="a_edge25&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).roundToLo &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits (0.21s)">
+<text text-anchor="middle" x="782.5" y="-336.3" font-family="Times,serif" font-size="14.00"> 0.21s</text>
+</a>
+</g>
+</g>
+<!-- N33 -->
+<g id="node33" class="node">
+<title>N33</title>
+<g id="a_node33"><a xlink:title="github.com/anz&#45;bank/decimal.roundStatus (0.11s)">
+<polygon fill="#edecec" stroke="#b2b1ac" points="729.5,-290 651.5,-290 651.5,-246 729.5,-246 729.5,-290"/>
+<text text-anchor="middle" x="690.5" y="-277.2" font-family="Times,serif" font-size="11.00">decimal</text>
+<text text-anchor="middle" x="690.5" y="-265.2" font-family="Times,serif" font-size="11.00">roundStatus</text>
+<text text-anchor="middle" x="690.5" y="-253.2" font-family="Times,serif" font-size="11.00">0.11s (0.65%)</text>
+</a>
+</g>
+</g>
+<!-- N16&#45;&gt;N33 -->
+<g id="edge46" class="edge">
+<title>N16&#45;&gt;N33</title>
+<g id="a_edge46"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).roundToLo &#45;&gt; github.com/anz&#45;bank/decimal.roundStatus (0.11s)">
+<path fill="none" stroke="#b2b1ac" d="M693.58,-380.44C692.74,-372.14 691.97,-363.26 691.5,-355 690.47,-336.9 690.19,-316.63 690.18,-300.31"/>
+<polygon fill="#b2b1ac" stroke="#b2b1ac" points="693.68,-300.23 690.21,-290.22 686.68,-300.21 693.68,-300.23"/>
+</a>
+</g>
+<g id="a_edge46&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).roundToLo &#45;&gt; github.com/anz&#45;bank/decimal.roundStatus (0.11s)">
+<text text-anchor="middle" x="713.5" y="-343.8" font-family="Times,serif" font-size="14.00"> 0.11s</text>
+<text text-anchor="middle" x="713.5" y="-328.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
+</a>
+</g>
+</g>
+<!-- N17&#45;&gt;N20 -->
+<g id="edge42" class="edge">
+<title>N17&#45;&gt;N20</title>
+<g id="a_edge42"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).add128 &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).matchScales128 (0.12s)">
+<path fill="none" stroke="#b2b1ac" d="M338.39,-375.16C327.94,-354.18 315.03,-328.27 304.59,-307.3"/>
+<polygon fill="#b2b1ac" stroke="#b2b1ac" points="307.72,-305.74 300.12,-298.35 301.45,-308.86 307.72,-305.74"/>
+</a>
+</g>
+<g id="a_edge42&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).add128 &#45;&gt; github.com/anz&#45;bank/decimal.(*decParts).matchScales128 (0.12s)">
+<text text-anchor="middle" x="345.5" y="-336.3" font-family="Times,serif" font-size="14.00"> 0.12s</text>
+</a>
+</g>
+</g>
+<!-- N18 -->
+<g id="node18" class="node">
+<title>N18</title>
+<g id="a_node18"><a xlink:title="runtime.systemstack (0.34s)">
+<polygon fill="#edecea" stroke="#b2aca0" points="130,-586.5 53,-586.5 53,-550.5 130,-550.5 130,-586.5"/>
+<text text-anchor="middle" x="91.5" y="-575.6" font-family="Times,serif" font-size="8.00">runtime</text>
+<text text-anchor="middle" x="91.5" y="-566.6" font-family="Times,serif" font-size="8.00">systemstack</text>
+<text text-anchor="middle" x="91.5" y="-557.6" font-family="Times,serif" font-size="8.00">0 of 0.34s (2.02%)</text>
 </a>
 </g>
 </g>
 <!-- N47 -->
 <g id="node47" class="node">
 <title>N47</title>
-<g id="a_node47"><a xlink:title="runtime.(*mheap).allocSpan (0.09s)">
-<polygon fill="#ededec" stroke="#b2b1ad" points="1039.5,-1069 962.5,-1069 962.5,-1025 1039.5,-1025 1039.5,-1069"/>
-<text text-anchor="middle" x="1001" y="-1058.6" font-family="Times,serif" font-size="8.00">runtime</text>
-<text text-anchor="middle" x="1001" y="-1049.6" font-family="Times,serif" font-size="8.00">(*mheap)</text>
-<text text-anchor="middle" x="1001" y="-1040.6" font-family="Times,serif" font-size="8.00">allocSpan</text>
-<text text-anchor="middle" x="1001" y="-1031.6" font-family="Times,serif" font-size="8.00">0 of 0.09s (0.55%)</text>
+<g id="a_node47"><a xlink:title="runtime.(*mheap).alloc.func1 (0.13s)">
+<polygon fill="#edecec" stroke="#b2b0ab" points="120,-441 43,-441 43,-388 120,-388 120,-441"/>
+<text text-anchor="middle" x="81.5" y="-430.6" font-family="Times,serif" font-size="8.00">runtime</text>
+<text text-anchor="middle" x="81.5" y="-421.6" font-family="Times,serif" font-size="8.00">(*mheap)</text>
+<text text-anchor="middle" x="81.5" y="-412.6" font-family="Times,serif" font-size="8.00">alloc</text>
+<text text-anchor="middle" x="81.5" y="-403.6" font-family="Times,serif" font-size="8.00">func1</text>
+<text text-anchor="middle" x="81.5" y="-394.6" font-family="Times,serif" font-size="8.00">0 of 0.13s (0.77%)</text>
 </a>
 </g>
 </g>
-<!-- N46&#45;&gt;N47 -->
-<g id="edge47" class="edge">
-<title>N46&#45;&gt;N47</title>
-<g id="a_edge47"><a xlink:title="runtime.(*mheap).alloc.func1 &#45;&gt; runtime.(*mheap).allocSpan (0.09s)">
-<path fill="none" stroke="#b2b1ad" d="M1001,-1135.36C1001,-1118.75 1001,-1097.01 1001,-1079.37"/>
-<polygon fill="#b2b1ad" stroke="#b2b1ad" points="1004.5,-1079 1001,-1069 997.5,-1079 1004.5,-1079"/>
+<!-- N18&#45;&gt;N47 -->
+<g id="edge41" class="edge">
+<title>N18&#45;&gt;N47</title>
+<g id="a_edge41"><a xlink:title="runtime.systemstack &#45;&gt; runtime.(*mheap).alloc.func1 (0.13s)">
+<path fill="none" stroke="#b2b0ab" d="M90.37,-550.36C88.8,-526.43 85.9,-482.45 83.85,-451.23"/>
+<polygon fill="#b2b0ab" stroke="#b2b0ab" points="87.34,-450.92 83.19,-441.18 80.35,-451.38 87.34,-450.92"/>
 </a>
 </g>
-<g id="a_edge47&#45;label"><a xlink:title="runtime.(*mheap).alloc.func1 &#45;&gt; runtime.(*mheap).allocSpan (0.09s)">
-<text text-anchor="middle" x="1018" y="-1098.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
-</a>
-</g>
-</g>
-<!-- N50 -->
-<g id="node50" class="node">
-<title>N50</title>
-<g id="a_node50"><a xlink:title="runtime.sysUsed (0.09s)">
-<polygon fill="#ededec" stroke="#b2b1ad" points="1039.5,-926 962.5,-926 962.5,-890 1039.5,-890 1039.5,-926"/>
-<text text-anchor="middle" x="1001" y="-915.1" font-family="Times,serif" font-size="8.00">runtime</text>
-<text text-anchor="middle" x="1001" y="-906.1" font-family="Times,serif" font-size="8.00">sysUsed</text>
-<text text-anchor="middle" x="1001" y="-897.1" font-family="Times,serif" font-size="8.00">0 of 0.09s (0.55%)</text>
-</a>
-</g>
-</g>
-<!-- N47&#45;&gt;N50 -->
-<g id="edge48" class="edge">
-<title>N47&#45;&gt;N50</title>
-<g id="a_edge48"><a xlink:title="runtime.(*mheap).allocSpan &#45;&gt; runtime.sysUsed (0.09s)">
-<path fill="none" stroke="#b2b1ad" d="M1001,-1024.89C1001,-1001.12 1001,-962.41 1001,-936.34"/>
-<polygon fill="#b2b1ad" stroke="#b2b1ad" points="1004.5,-936.02 1001,-926.02 997.5,-936.02 1004.5,-936.02"/>
-</a>
-</g>
-<g id="a_edge48&#45;label"><a xlink:title="runtime.(*mheap).allocSpan &#45;&gt; runtime.sysUsed (0.09s)">
-<text text-anchor="middle" x="1023" y="-987.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
-<text text-anchor="middle" x="1023" y="-972.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
+<g id="a_edge41&#45;label"><a xlink:title="runtime.systemstack &#45;&gt; runtime.(*mheap).alloc.func1 (0.13s)">
+<text text-anchor="middle" x="104.5" y="-485.3" font-family="Times,serif" font-size="14.00"> 0.13s</text>
 </a>
 </g>
 </g>
 <!-- N49 -->
 <g id="node49" class="node">
 <title>N49</title>
-<g id="a_node49"><a xlink:title="runtime.schedule (0.11s)">
-<polygon fill="#edecec" stroke="#b2b1ac" points="1134.5,-1180 1057.5,-1180 1057.5,-1144 1134.5,-1144 1134.5,-1180"/>
-<text text-anchor="middle" x="1096" y="-1169.1" font-family="Times,serif" font-size="8.00">runtime</text>
-<text text-anchor="middle" x="1096" y="-1160.1" font-family="Times,serif" font-size="8.00">schedule</text>
-<text text-anchor="middle" x="1096" y="-1151.1" font-family="Times,serif" font-size="8.00">0 of 0.11s (0.68%)</text>
+<g id="a_node49"><a xlink:title="runtime.gcBgMarkWorker.func2 (0.12s)">
+<polygon fill="#edecec" stroke="#b2b1ac" points="216,-436.5 139,-436.5 139,-392.5 216,-392.5 216,-436.5"/>
+<text text-anchor="middle" x="177.5" y="-426.1" font-family="Times,serif" font-size="8.00">runtime</text>
+<text text-anchor="middle" x="177.5" y="-417.1" font-family="Times,serif" font-size="8.00">gcBgMarkWorker</text>
+<text text-anchor="middle" x="177.5" y="-408.1" font-family="Times,serif" font-size="8.00">func2</text>
+<text text-anchor="middle" x="177.5" y="-399.1" font-family="Times,serif" font-size="8.00">0 of 0.12s (0.71%)</text>
 </a>
 </g>
 </g>
-<!-- N48&#45;&gt;N49 -->
+<!-- N18&#45;&gt;N49 -->
+<g id="edge45" class="edge">
+<title>N18&#45;&gt;N49</title>
+<g id="a_edge45"><a xlink:title="runtime.systemstack &#45;&gt; runtime.gcBgMarkWorker.func2 (0.12s)">
+<path fill="none" stroke="#b2b1ac" d="M101.2,-550.36C115.59,-524.92 142.81,-476.81 160.55,-445.46"/>
+<polygon fill="#b2b1ac" stroke="#b2b1ac" points="163.62,-447.14 165.5,-436.71 157.53,-443.69 163.62,-447.14"/>
+</a>
+</g>
+<g id="a_edge45&#45;label"><a xlink:title="runtime.systemstack &#45;&gt; runtime.gcBgMarkWorker.func2 (0.12s)">
+<text text-anchor="middle" x="159.5" y="-485.3" font-family="Times,serif" font-size="14.00"> 0.12s</text>
+</a>
+</g>
+</g>
+<!-- N21&#45;&gt;N10 -->
+<g id="edge20" class="edge">
+<title>N21&#45;&gt;N10</title>
+<g id="a_edge20"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).separation &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits (0.32s)">
+<path fill="none" stroke="#b2ada1" d="M807.56,-380.35C808.73,-361.67 810.2,-338.01 811.49,-317.31"/>
+<polygon fill="#b2ada1" stroke="#b2ada1" points="815,-317.3 812.13,-307.1 808.01,-316.87 815,-317.3"/>
+</a>
+</g>
+<g id="a_edge20&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.(*decParts).separation &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.numDecimalDigits (0.32s)">
+<text text-anchor="middle" x="827.5" y="-336.3" font-family="Times,serif" font-size="14.00"> 0.32s</text>
+</a>
+</g>
+</g>
+<!-- N24 -->
+<g id="node24" class="node">
+<title>N24</title>
+<g id="a_node24"><a xlink:title="runtime.gorecover (0.25s)">
+<polygon fill="#edeceb" stroke="#b2aea5" points="981,-763.5 898,-763.5 898,-716.5 981,-716.5 981,-763.5"/>
+<text text-anchor="middle" x="939.5" y="-749.9" font-family="Times,serif" font-size="12.00">runtime</text>
+<text text-anchor="middle" x="939.5" y="-736.9" font-family="Times,serif" font-size="12.00">gorecover</text>
+<text text-anchor="middle" x="939.5" y="-723.9" font-family="Times,serif" font-size="12.00">0.25s (1.48%)</text>
+</a>
+</g>
+</g>
+<!-- N26 -->
+<g id="node26" class="node">
+<title>N26</title>
+<g id="a_node26"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.lt (0.16s)">
+<polygon fill="#edecec" stroke="#b2b0aa" points="1345.5,-296 1267.5,-296 1267.5,-240 1345.5,-240 1345.5,-296"/>
+<text text-anchor="middle" x="1306.5" y="-283.2" font-family="Times,serif" font-size="11.00">decimal</text>
+<text text-anchor="middle" x="1306.5" y="-271.2" font-family="Times,serif" font-size="11.00">uint128T</text>
+<text text-anchor="middle" x="1306.5" y="-259.2" font-family="Times,serif" font-size="11.00">lt</text>
+<text text-anchor="middle" x="1306.5" y="-247.2" font-family="Times,serif" font-size="11.00">0.16s (0.95%)</text>
+</a>
+</g>
+</g>
+<!-- N29 -->
+<g id="node29" class="node">
+<title>N29</title>
+<g id="a_node29"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.neg (0.15s)">
+<polygon fill="#edecec" stroke="#b2b0aa" points="1153.5,-296 1075.5,-296 1075.5,-240 1153.5,-240 1153.5,-296"/>
+<text text-anchor="middle" x="1114.5" y="-283.2" font-family="Times,serif" font-size="11.00">decimal</text>
+<text text-anchor="middle" x="1114.5" y="-271.2" font-family="Times,serif" font-size="11.00">uint128T</text>
+<text text-anchor="middle" x="1114.5" y="-259.2" font-family="Times,serif" font-size="11.00">neg</text>
+<text text-anchor="middle" x="1114.5" y="-247.2" font-family="Times,serif" font-size="11.00">0.15s (0.89%)</text>
+</a>
+</g>
+</g>
+<!-- N31 -->
+<g id="node31" class="node">
+<title>N31</title>
+<g id="a_node31"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.add (0.09s)">
+<polygon fill="#ededec" stroke="#b2b1ad" points="1249.5,-296 1171.5,-296 1171.5,-240 1249.5,-240 1249.5,-296"/>
+<text text-anchor="middle" x="1210.5" y="-283.2" font-family="Times,serif" font-size="11.00">decimal</text>
+<text text-anchor="middle" x="1210.5" y="-271.2" font-family="Times,serif" font-size="11.00">uint128T</text>
+<text text-anchor="middle" x="1210.5" y="-259.2" font-family="Times,serif" font-size="11.00">add</text>
+<text text-anchor="middle" x="1210.5" y="-247.2" font-family="Times,serif" font-size="11.00">0.09s (0.53%)</text>
+</a>
+</g>
+</g>
+<!-- N32 -->
+<g id="node32" class="node">
+<title>N32</title>
+<g id="a_node32"><a xlink:title="runtime.madvise (0.13s)">
+<polygon fill="#edecec" stroke="#b2b0ab" points="120.5,-44 42.5,-44 42.5,0 120.5,0 120.5,-44"/>
+<text text-anchor="middle" x="81.5" y="-31.2" font-family="Times,serif" font-size="11.00">runtime</text>
+<text text-anchor="middle" x="81.5" y="-19.2" font-family="Times,serif" font-size="11.00">madvise</text>
+<text text-anchor="middle" x="81.5" y="-7.2" font-family="Times,serif" font-size="11.00">0.13s (0.77%)</text>
+</a>
+</g>
+</g>
+<!-- N34 -->
+<g id="node34" class="node">
+<title>N34</title>
+<g id="a_node34"><a xlink:title="runtime.mstart (0.19s)">
+<polygon fill="#edeceb" stroke="#b2afa8" points="77,-758 0,-758 0,-722 77,-722 77,-758"/>
+<text text-anchor="middle" x="38.5" y="-747.1" font-family="Times,serif" font-size="8.00">runtime</text>
+<text text-anchor="middle" x="38.5" y="-738.1" font-family="Times,serif" font-size="8.00">mstart</text>
+<text text-anchor="middle" x="38.5" y="-729.1" font-family="Times,serif" font-size="8.00">0 of 0.19s (1.13%)</text>
+</a>
+</g>
+</g>
+<!-- N34&#45;&gt;N18 -->
+<g id="edge29" class="edge">
+<title>N34&#45;&gt;N18</title>
+<g id="a_edge29"><a xlink:title="runtime.mstart &#45;&gt; runtime.systemstack (0.19s)">
+<path fill="none" stroke="#b2afa8" d="M43.86,-721.74C50.37,-700.75 61.71,-664.27 71.5,-633 75.26,-621.01 79.43,-607.75 82.99,-596.46"/>
+<polygon fill="#b2afa8" stroke="#b2afa8" points="86.38,-597.33 86.05,-586.74 79.71,-595.23 86.38,-597.33"/>
+</a>
+</g>
+<g id="a_edge29&#45;label"><a xlink:title="runtime.mstart &#45;&gt; runtime.systemstack (0.19s)">
+<text text-anchor="middle" x="88.5" y="-644.3" font-family="Times,serif" font-size="14.00"> 0.19s</text>
+</a>
+</g>
+</g>
+<!-- N35&#45;&gt;N29 -->
+<g id="edge34" class="edge">
+<title>N35&#45;&gt;N29</title>
+<g id="a_edge34"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.sub &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.neg (0.15s)">
+<path fill="none" stroke="#b2b0aa" d="M1171.93,-392.5C1164.29,-381.64 1155.29,-367.98 1148.5,-355 1140.38,-339.48 1133,-321.57 1127.21,-306.12"/>
+<polygon fill="#b2b0aa" stroke="#b2b0aa" points="1130.37,-304.57 1123.65,-296.38 1123.8,-306.97 1130.37,-304.57"/>
+</a>
+</g>
+<g id="a_edge34&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.sub &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.neg (0.15s)">
+<text text-anchor="middle" x="1170.5" y="-343.8" font-family="Times,serif" font-size="14.00"> 0.15s</text>
+<text text-anchor="middle" x="1170.5" y="-328.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
+</a>
+</g>
+</g>
+<!-- N35&#45;&gt;N31 -->
+<g id="edge53" class="edge">
+<title>N35&#45;&gt;N31</title>
+<g id="a_edge53"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.sub &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.add (0.06s)">
+<path fill="none" stroke="#b2b1af" d="M1190.84,-392.49C1194.43,-369.93 1200.21,-333.64 1204.57,-306.23"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="1208.05,-306.63 1206.17,-296.21 1201.14,-305.53 1208.05,-306.63"/>
+</a>
+</g>
+<g id="a_edge53&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.sub &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.add (0.06s)">
+<text text-anchor="middle" x="1222.5" y="-343.8" font-family="Times,serif" font-size="14.00"> 0.06s</text>
+<text text-anchor="middle" x="1222.5" y="-328.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
+</a>
+</g>
+</g>
+<!-- N36&#45;&gt;N24 -->
+<g id="edge22" class="edge">
+<title>N36&#45;&gt;N24</title>
+<g id="a_edge22"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.runtests.func1 &#45;&gt; runtime.gorecover (0.25s)">
+<path fill="none" stroke="#b2aea5" d="M862.96,-876.17C879.7,-846.6 904.86,-802.17 921.71,-772.41"/>
+<polygon fill="#b2aea5" stroke="#b2aea5" points="924.78,-774.1 926.66,-763.68 918.69,-770.65 924.78,-774.1"/>
+</a>
+</g>
+<g id="a_edge22&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/decimal.runtests.func1 &#45;&gt; runtime.gorecover (0.25s)">
+<text text-anchor="middle" x="911.5" y="-828.3" font-family="Times,serif" font-size="14.00"> 0.25s</text>
+</a>
+</g>
+</g>
+<!-- N37&#45;&gt;N18 -->
+<g id="edge54" class="edge">
+<title>N37&#45;&gt;N18</title>
+<g id="a_edge54"><a xlink:title="runtime.gopanic ... runtime.systemstack (0.05s)">
+<path fill="none" stroke="#b2b2af" stroke-dasharray="1,5" d="M129.86,-713.99C121.52,-682.58 107.27,-628.89 98.68,-596.55"/>
+<polygon fill="#b2b2af" stroke="#b2b2af" points="102.06,-595.62 96.11,-586.86 95.29,-597.42 102.06,-595.62"/>
+</a>
+</g>
+<g id="a_edge54&#45;label"><a xlink:title="runtime.gopanic ... runtime.systemstack (0.05s)">
+<text text-anchor="middle" x="132.5" y="-644.3" font-family="Times,serif" font-size="14.00"> 0.05s</text>
+</a>
+</g>
+</g>
+<!-- N38 -->
+<g id="node38" class="node">
+<title>N38</title>
+<g id="a_node38"><a xlink:title="runtime.findrunnable (0.14s)">
+<polygon fill="#edecec" stroke="#b2b0ab" points="763,-1071 686,-1071 686,-1023 763,-1023 763,-1071"/>
+<text text-anchor="middle" x="724.5" y="-1059.8" font-family="Times,serif" font-size="9.00">runtime</text>
+<text text-anchor="middle" x="724.5" y="-1049.8" font-family="Times,serif" font-size="9.00">findrunnable</text>
+<text text-anchor="middle" x="724.5" y="-1039.8" font-family="Times,serif" font-size="9.00">0.01s (0.059%)</text>
+<text text-anchor="middle" x="724.5" y="-1029.8" font-family="Times,serif" font-size="9.00">of 0.14s (0.83%)</text>
+</a>
+</g>
+</g>
+<!-- N39 -->
+<g id="node39" class="node">
+<title>N39</title>
+<g id="a_node39"><a xlink:title="runtime.mcall (0.15s)">
+<polygon fill="#edecec" stroke="#b2b0aa" points="763,-1427.5 686,-1427.5 686,-1391.5 763,-1391.5 763,-1427.5"/>
+<text text-anchor="middle" x="724.5" y="-1416.6" font-family="Times,serif" font-size="8.00">runtime</text>
+<text text-anchor="middle" x="724.5" y="-1407.6" font-family="Times,serif" font-size="8.00">mcall</text>
+<text text-anchor="middle" x="724.5" y="-1398.6" font-family="Times,serif" font-size="8.00">0 of 0.15s (0.89%)</text>
+</a>
+</g>
+</g>
+<!-- N50 -->
+<g id="node50" class="node">
+<title>N50</title>
+<g id="a_node50"><a xlink:title="runtime.park_m (0.15s)">
+<polygon fill="#edecec" stroke="#b2b0aa" points="763,-1287 686,-1287 686,-1251 763,-1251 763,-1287"/>
+<text text-anchor="middle" x="724.5" y="-1276.1" font-family="Times,serif" font-size="8.00">runtime</text>
+<text text-anchor="middle" x="724.5" y="-1267.1" font-family="Times,serif" font-size="8.00">park_m</text>
+<text text-anchor="middle" x="724.5" y="-1258.1" font-family="Times,serif" font-size="8.00">0 of 0.15s (0.89%)</text>
+</a>
+</g>
+</g>
+<!-- N39&#45;&gt;N50 -->
+<g id="edge35" class="edge">
+<title>N39&#45;&gt;N50</title>
+<g id="a_edge35"><a xlink:title="runtime.mcall &#45;&gt; runtime.park_m (0.15s)">
+<path fill="none" stroke="#b2b0aa" d="M724.5,-1391.24C724.5,-1367.68 724.5,-1325.21 724.5,-1297.31"/>
+<polygon fill="#b2b0aa" stroke="#b2b0aa" points="728,-1297.04 724.5,-1287.04 721,-1297.04 728,-1297.04"/>
+</a>
+</g>
+<g id="a_edge35&#45;label"><a xlink:title="runtime.mcall &#45;&gt; runtime.park_m (0.15s)">
+<text text-anchor="middle" x="741.5" y="-1312.8" font-family="Times,serif" font-size="14.00"> 0.15s</text>
+</a>
+</g>
+</g>
+<!-- N40 -->
+<g id="node40" class="node">
+<title>N40</title>
+<g id="a_node40"><a xlink:title="runtime.gcDrain (0.12s)">
+<polygon fill="#edecec" stroke="#b2b1ac" points="221,-294 138,-294 138,-242 221,-242 221,-294"/>
+<text text-anchor="middle" x="179.5" y="-282" font-family="Times,serif" font-size="10.00">runtime</text>
+<text text-anchor="middle" x="179.5" y="-271" font-family="Times,serif" font-size="10.00">gcDrain</text>
+<text text-anchor="middle" x="179.5" y="-260" font-family="Times,serif" font-size="10.00">0.02s (0.12%)</text>
+<text text-anchor="middle" x="179.5" y="-249" font-family="Times,serif" font-size="10.00">of 0.12s (0.71%)</text>
+</a>
+</g>
+</g>
+<!-- N41&#45;&gt;N3 -->
+<g id="edge8" class="edge">
+<title>N41&#45;&gt;N3</title>
+<g id="a_edge8"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Add &#45;&gt; github.com/anz&#45;bank/decimal.Context64.Add (3.46s)">
+<path fill="none" stroke="#b24300" stroke-width="2" d="M648.5,-710.63C648.5,-685.34 648.5,-647.79 648.5,-617.78"/>
+<polygon fill="#b24300" stroke="#b24300" stroke-width="2" points="652,-617.51 648.5,-607.51 645,-617.51 652,-617.51"/>
+</a>
+</g>
+<g id="a_edge8&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Add &#45;&gt; github.com/anz&#45;bank/decimal.Context64.Add (3.46s)">
+<text text-anchor="middle" x="665.5" y="-644.3" font-family="Times,serif" font-size="14.00"> 3.46s</text>
+</a>
+</g>
+</g>
+<!-- N43 -->
+<g id="node43" class="node">
+<title>N43</title>
+<g id="a_node43"><a xlink:title="runtime.gcBgMarkWorker (0.10s)">
+<polygon fill="#edecec" stroke="#b2b1ad" points="273,-758 196,-758 196,-722 273,-722 273,-758"/>
+<text text-anchor="middle" x="234.5" y="-747.1" font-family="Times,serif" font-size="8.00">runtime</text>
+<text text-anchor="middle" x="234.5" y="-738.1" font-family="Times,serif" font-size="8.00">gcBgMarkWorker</text>
+<text text-anchor="middle" x="234.5" y="-729.1" font-family="Times,serif" font-size="8.00">0 of 0.10s (0.59%)</text>
+</a>
+</g>
+</g>
+<!-- N43&#45;&gt;N18 -->
+<g id="edge51" class="edge">
+<title>N43&#45;&gt;N18</title>
+<g id="a_edge51"><a xlink:title="runtime.gcBgMarkWorker &#45;&gt; runtime.systemstack (0.09s)">
+<path fill="none" stroke="#b2b1ad" d="M222.48,-721.98C207.16,-700.62 179.56,-663.13 153.5,-633 141.93,-619.62 128.26,-605.46 116.71,-593.92"/>
+<polygon fill="#b2b1ad" stroke="#b2b1ad" points="119.03,-591.3 109.46,-586.75 114.11,-596.27 119.03,-591.3"/>
+</a>
+</g>
+<g id="a_edge51&#45;label"><a xlink:title="runtime.gcBgMarkWorker &#45;&gt; runtime.systemstack (0.09s)">
+<text text-anchor="middle" x="194.5" y="-644.3" font-family="Times,serif" font-size="14.00"> 0.09s</text>
+</a>
+</g>
+</g>
+<!-- N44&#45;&gt;N15 -->
+<g id="edge19" class="edge">
+<title>N44&#45;&gt;N15</title>
+<g id="a_edge19"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Mul &#45;&gt; github.com/anz&#45;bank/decimal.Context64.Mul (0.46s)">
+<path fill="none" stroke="#b2aa9a" d="M750.52,-710.63C754.21,-684.55 759.75,-645.44 764.06,-615"/>
+<polygon fill="#b2aa9a" stroke="#b2aa9a" points="767.53,-615.43 765.47,-605.04 760.6,-614.45 767.53,-615.43"/>
+</a>
+</g>
+<g id="a_edge19&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Mul &#45;&gt; github.com/anz&#45;bank/decimal.Context64.Mul (0.46s)">
+<text text-anchor="middle" x="777.5" y="-644.3" font-family="Times,serif" font-size="14.00"> 0.46s</text>
+</a>
+</g>
+</g>
+<!-- N45&#45;&gt;N9 -->
+<g id="edge10" class="edge">
+<title>N45&#45;&gt;N9</title>
+<g id="a_edge10"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.Context64.Quo (1.54s)">
+<path fill="none" stroke="#b28a61" d="M848.35,-717.88C855.87,-694.71 868.23,-656.61 878.55,-624.81"/>
+<polygon fill="#b28a61" stroke="#b28a61" points="881.92,-625.77 881.68,-615.17 875.26,-623.61 881.92,-625.77"/>
+</a>
+</g>
+<g id="a_edge10&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.Decimal64.Quo &#45;&gt; github.com/anz&#45;bank/decimal.Context64.Quo (1.54s)">
+<text text-anchor="middle" x="892.5" y="-644.3" font-family="Times,serif" font-size="14.00"> 1.54s</text>
+</a>
+</g>
+</g>
+<!-- N46&#45;&gt;N26 -->
+<g id="edge33" class="edge">
+<title>N46&#45;&gt;N26</title>
+<g id="a_edge33"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.gt &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.lt (0.15s)">
+<path fill="none" stroke="#b2b0aa" d="M1296.24,-392.49C1298.12,-369.93 1301.13,-333.64 1303.41,-306.23"/>
+<polygon fill="#b2b0aa" stroke="#b2b0aa" points="1306.9,-306.46 1304.24,-296.21 1299.93,-305.88 1306.9,-306.46"/>
+</a>
+</g>
+<g id="a_edge33&#45;label"><a xlink:title="github.com/anz&#45;bank/decimal.uint128T.gt &#45;&gt; github.com/anz&#45;bank/decimal.uint128T.lt (0.15s)">
+<text text-anchor="middle" x="1323.5" y="-343.8" font-family="Times,serif" font-size="14.00"> 0.15s</text>
+<text text-anchor="middle" x="1323.5" y="-328.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
+</a>
+</g>
+</g>
+<!-- N48 -->
+<g id="node48" class="node">
+<title>N48</title>
+<g id="a_node48"><a xlink:title="runtime.(*mheap).allocSpan (0.13s)">
+<polygon fill="#edecec" stroke="#b2b0ab" points="120,-290 43,-290 43,-246 120,-246 120,-290"/>
+<text text-anchor="middle" x="81.5" y="-279.6" font-family="Times,serif" font-size="8.00">runtime</text>
+<text text-anchor="middle" x="81.5" y="-270.6" font-family="Times,serif" font-size="8.00">(*mheap)</text>
+<text text-anchor="middle" x="81.5" y="-261.6" font-family="Times,serif" font-size="8.00">allocSpan</text>
+<text text-anchor="middle" x="81.5" y="-252.6" font-family="Times,serif" font-size="8.00">0 of 0.13s (0.77%)</text>
+</a>
+</g>
+</g>
+<!-- N47&#45;&gt;N48 -->
+<g id="edge38" class="edge">
+<title>N47&#45;&gt;N48</title>
+<g id="a_edge38"><a xlink:title="runtime.(*mheap).alloc.func1 &#45;&gt; runtime.(*mheap).allocSpan (0.13s)">
+<path fill="none" stroke="#b2b0ab" d="M81.5,-388C81.5,-363.5 81.5,-326.44 81.5,-300.2"/>
+<polygon fill="#b2b0ab" stroke="#b2b0ab" points="85,-300.03 81.5,-290.03 78,-300.03 85,-300.03"/>
+</a>
+</g>
+<g id="a_edge38&#45;label"><a xlink:title="runtime.(*mheap).alloc.func1 &#45;&gt; runtime.(*mheap).allocSpan (0.13s)">
+<text text-anchor="middle" x="98.5" y="-336.3" font-family="Times,serif" font-size="14.00"> 0.13s</text>
+</a>
+</g>
+</g>
+<!-- N52 -->
+<g id="node52" class="node">
+<title>N52</title>
+<g id="a_node52"><a xlink:title="runtime.sysUsed (0.13s)">
+<polygon fill="#edecec" stroke="#b2b0ab" points="120,-147 43,-147 43,-111 120,-111 120,-147"/>
+<text text-anchor="middle" x="81.5" y="-136.1" font-family="Times,serif" font-size="8.00">runtime</text>
+<text text-anchor="middle" x="81.5" y="-127.1" font-family="Times,serif" font-size="8.00">sysUsed</text>
+<text text-anchor="middle" x="81.5" y="-118.1" font-family="Times,serif" font-size="8.00">0 of 0.13s (0.77%)</text>
+</a>
+</g>
+</g>
+<!-- N48&#45;&gt;N52 -->
 <g id="edge39" class="edge">
-<title>N48&#45;&gt;N49</title>
-<g id="a_edge39"><a xlink:title="runtime.park_m &#45;&gt; runtime.schedule (0.11s)">
-<path fill="none" stroke="#b2b1ac" d="M1096,-1250.66C1096,-1234.22 1096,-1209.28 1096,-1190.19"/>
-<polygon fill="#b2b1ac" stroke="#b2b1ac" points="1099.5,-1190.02 1096,-1180.02 1092.5,-1190.02 1099.5,-1190.02"/>
+<title>N48&#45;&gt;N52</title>
+<g id="a_edge39"><a xlink:title="runtime.(*mheap).allocSpan &#45;&gt; runtime.sysUsed (0.13s)">
+<path fill="none" stroke="#b2b0ab" d="M81.5,-245.89C81.5,-222.12 81.5,-183.41 81.5,-157.34"/>
+<polygon fill="#b2b0ab" stroke="#b2b0ab" points="85,-157.02 81.5,-147.02 78,-157.02 85,-157.02"/>
 </a>
 </g>
-<g id="a_edge39&#45;label"><a xlink:title="runtime.park_m &#45;&gt; runtime.schedule (0.11s)">
-<text text-anchor="middle" x="1113" y="-1217.8" font-family="Times,serif" font-size="14.00"> 0.11s</text>
+<g id="a_edge39&#45;label"><a xlink:title="runtime.(*mheap).allocSpan &#45;&gt; runtime.sysUsed (0.13s)">
+<text text-anchor="middle" x="103.5" y="-199.8" font-family="Times,serif" font-size="14.00"> 0.13s</text>
+<text text-anchor="middle" x="103.5" y="-184.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
 </a>
 </g>
 </g>
-<!-- N49&#45;&gt;N42 -->
+<!-- N49&#45;&gt;N40 -->
+<g id="edge44" class="edge">
+<title>N49&#45;&gt;N40</title>
+<g id="a_edge44"><a xlink:title="runtime.gcBgMarkWorker.func2 &#45;&gt; runtime.gcDrain (0.12s)">
+<path fill="none" stroke="#b2b1ac" d="M177.79,-392.49C178.11,-369.38 178.63,-331.85 179.01,-304.22"/>
+<polygon fill="#b2b1ac" stroke="#b2b1ac" points="182.51,-304.22 179.15,-294.17 175.51,-304.12 182.51,-304.22"/>
+</a>
+</g>
+<g id="a_edge44&#45;label"><a xlink:title="runtime.gcBgMarkWorker.func2 &#45;&gt; runtime.gcDrain (0.12s)">
+<text text-anchor="middle" x="196.5" y="-336.3" font-family="Times,serif" font-size="14.00"> 0.12s</text>
+</a>
+</g>
+</g>
+<!-- N51 -->
+<g id="node51" class="node">
+<title>N51</title>
+<g id="a_node51"><a xlink:title="runtime.schedule (0.15s)">
+<polygon fill="#edecec" stroke="#b2b0aa" points="763,-1180 686,-1180 686,-1144 763,-1144 763,-1180"/>
+<text text-anchor="middle" x="724.5" y="-1169.1" font-family="Times,serif" font-size="8.00">runtime</text>
+<text text-anchor="middle" x="724.5" y="-1160.1" font-family="Times,serif" font-size="8.00">schedule</text>
+<text text-anchor="middle" x="724.5" y="-1151.1" font-family="Times,serif" font-size="8.00">0 of 0.15s (0.89%)</text>
+</a>
+</g>
+</g>
+<!-- N50&#45;&gt;N51 -->
+<g id="edge36" class="edge">
+<title>N50&#45;&gt;N51</title>
+<g id="a_edge36"><a xlink:title="runtime.park_m &#45;&gt; runtime.schedule (0.15s)">
+<path fill="none" stroke="#b2b0aa" d="M724.5,-1250.66C724.5,-1234.22 724.5,-1209.28 724.5,-1190.19"/>
+<polygon fill="#b2b0aa" stroke="#b2b0aa" points="728,-1190.02 724.5,-1180.02 721,-1190.02 728,-1190.02"/>
+</a>
+</g>
+<g id="a_edge36&#45;label"><a xlink:title="runtime.park_m &#45;&gt; runtime.schedule (0.15s)">
+<text text-anchor="middle" x="741.5" y="-1217.8" font-family="Times,serif" font-size="14.00"> 0.15s</text>
+</a>
+</g>
+</g>
+<!-- N51&#45;&gt;N38 -->
+<g id="edge37" class="edge">
+<title>N51&#45;&gt;N38</title>
+<g id="a_edge37"><a xlink:title="runtime.schedule &#45;&gt; runtime.findrunnable (0.14s)">
+<path fill="none" stroke="#b2b0ab" d="M724.5,-1143.84C724.5,-1127.33 724.5,-1101.92 724.5,-1081.42"/>
+<polygon fill="#b2b0ab" stroke="#b2b0ab" points="728,-1081.21 724.5,-1071.21 721,-1081.21 728,-1081.21"/>
+</a>
+</g>
+<g id="a_edge37&#45;label"><a xlink:title="runtime.schedule &#45;&gt; runtime.findrunnable (0.14s)">
+<text text-anchor="middle" x="741.5" y="-1098.8" font-family="Times,serif" font-size="14.00"> 0.14s</text>
+</a>
+</g>
+</g>
+<!-- N52&#45;&gt;N32 -->
 <g id="edge40" class="edge">
-<title>N49&#45;&gt;N42</title>
-<g id="a_edge40"><a xlink:title="runtime.schedule &#45;&gt; runtime.findrunnable (0.11s)">
-<path fill="none" stroke="#b2b1ac" d="M1096,-1143.84C1096,-1125.67 1096,-1096.72 1096,-1075.39"/>
-<polygon fill="#b2b1ac" stroke="#b2b1ac" points="1099.5,-1075.32 1096,-1065.32 1092.5,-1075.32 1099.5,-1075.32"/>
+<title>N52&#45;&gt;N32</title>
+<g id="a_edge40"><a xlink:title="runtime.sysUsed &#45;&gt; runtime.madvise (0.13s)">
+<path fill="none" stroke="#b2b0ab" d="M81.5,-110.66C81.5,-95.4 81.5,-72.8 81.5,-54.37"/>
+<polygon fill="#b2b0ab" stroke="#b2b0ab" points="85,-54.36 81.5,-44.36 78,-54.36 85,-54.36"/>
 </a>
 </g>
-<g id="a_edge40&#45;label"><a xlink:title="runtime.schedule &#45;&gt; runtime.findrunnable (0.11s)">
-<text text-anchor="middle" x="1113" y="-1098.8" font-family="Times,serif" font-size="14.00"> 0.11s</text>
-</a>
-</g>
-</g>
-<!-- N50&#45;&gt;N34 -->
-<g id="edge49" class="edge">
-<title>N50&#45;&gt;N34</title>
-<g id="a_edge49"><a xlink:title="runtime.sysUsed &#45;&gt; runtime.madvise (0.09s)">
-<path fill="none" stroke="#b2b1ad" d="M1001,-889.86C1001,-862.16 1001,-807.14 1001,-772.31"/>
-<polygon fill="#b2b1ad" stroke="#b2b1ad" points="1004.5,-772.2 1001,-762.2 997.5,-772.2 1004.5,-772.2"/>
-</a>
-</g>
-<g id="a_edge49&#45;label"><a xlink:title="runtime.sysUsed &#45;&gt; runtime.madvise (0.09s)">
-<text text-anchor="middle" x="1018" y="-828.3" font-family="Times,serif" font-size="14.00"> 0.09s</text>
+<g id="a_edge40&#45;label"><a xlink:title="runtime.sysUsed &#45;&gt; runtime.madvise (0.13s)">
+<text text-anchor="middle" x="98.5" y="-65.8" font-family="Times,serif" font-size="14.00"> 0.13s</text>
 </a>
 </g>
 </g>

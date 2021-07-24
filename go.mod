@@ -1,4 +1,4 @@
-module github.com/joshcarp/benchmarks
+module github.com/joshcarp/go-benchmarks
 
 go 1.16
 

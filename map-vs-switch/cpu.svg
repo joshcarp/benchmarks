@@ -293,376 +293,424 @@ function handleMouseUp(evt) {
 		state = '';
 	}
 }
-]]></script><g id="viewport" transform="scale(0.5,0.5) translate(0,0)"><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 795)">
+]]></script><g id="viewport" transform="scale(0.5,0.5) translate(0,0)"><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 778)">
 <title>unnamed</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-795 1037,-795 1037,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-778 1165,-778 1165,4 -4,4"/>
 <g id="clust1" class="cluster">
 <title>cluster_L</title>
-<polygon fill="none" stroke="black" points="8,-632 8,-783 420,-783 420,-632 8,-632"/>
+<polygon fill="none" stroke="black" points="8,-615 8,-766 420,-766 420,-615 8,-615"/>
 </g>
 <!-- Type: cpu -->
 <g id="node1" class="node">
 <title>Type: cpu</title>
-<polygon fill="#f8f8f8" stroke="black" points="412,-775 16,-775 16,-640 412,-640 412,-775"/>
-<text text-anchor="start" x="24" y="-758.2" font-family="Times,serif" font-size="16.00">Type: cpu</text>
-<text text-anchor="start" x="24" y="-740.2" font-family="Times,serif" font-size="16.00">Time: Jul 24, 2021 at 3:21pm (AEST)</text>
-<text text-anchor="start" x="24" y="-722.2" font-family="Times,serif" font-size="16.00">Duration: 4.38s, Total samples = 3.21s (73.23%)</text>
-<text text-anchor="start" x="24" y="-704.2" font-family="Times,serif" font-size="16.00">Showing nodes accounting for 3.16s, 98.44% of 3.21s total</text>
-<text text-anchor="start" x="24" y="-686.2" font-family="Times,serif" font-size="16.00">Dropped 14 nodes (cum &lt;= 0.02s)</text>
-<text text-anchor="start" x="24" y="-649.2" font-family="Times,serif" font-size="16.00">See https://git.io/JfYMW for how to read the graph</text>
+<polygon fill="#f8f8f8" stroke="black" points="412,-758 16,-758 16,-623 412,-623 412,-758"/>
+<text text-anchor="start" x="24" y="-741.2" font-family="Times,serif" font-size="16.00">Type: cpu</text>
+<text text-anchor="start" x="24" y="-723.2" font-family="Times,serif" font-size="16.00">Time: Jul 24, 2021 at 3:23pm (AEST)</text>
+<text text-anchor="start" x="24" y="-705.2" font-family="Times,serif" font-size="16.00">Duration: 3.65s, Total samples = 3.02s (82.76%)</text>
+<text text-anchor="start" x="24" y="-687.2" font-family="Times,serif" font-size="16.00">Showing nodes accounting for 2.98s, 98.68% of 3.02s total</text>
+<text text-anchor="start" x="24" y="-669.2" font-family="Times,serif" font-size="16.00">Dropped 9 nodes (cum &lt;= 0.02s)</text>
+<text text-anchor="start" x="24" y="-632.2" font-family="Times,serif" font-size="16.00">See https://git.io/JfYMW for how to read the graph</text>
 </g>
 <!-- N1 -->
 <g id="node1" class="node">
 <title>N1</title>
-<g id="a_node1"><a xlink:title="testing.(*B).launch (3.20s)">
-<polygon fill="#edd5d5" stroke="#b20000" points="510,-729.5 430,-729.5 430,-685.5 510,-685.5 510,-729.5"/>
-<text text-anchor="middle" x="470" y="-719.1" font-family="Times,serif" font-size="8.00">testing</text>
-<text text-anchor="middle" x="470" y="-710.1" font-family="Times,serif" font-size="8.00">(*B)</text>
-<text text-anchor="middle" x="470" y="-701.1" font-family="Times,serif" font-size="8.00">launch</text>
-<text text-anchor="middle" x="470" y="-692.1" font-family="Times,serif" font-size="8.00">0 of 3.20s (99.69%)</text>
+<g id="a_node1"><a xlink:title="testing.(*B).launch (3.01s)">
+<polygon fill="#edd5d5" stroke="#b20000" points="510,-712.5 430,-712.5 430,-668.5 510,-668.5 510,-712.5"/>
+<text text-anchor="middle" x="470" y="-702.1" font-family="Times,serif" font-size="8.00">testing</text>
+<text text-anchor="middle" x="470" y="-693.1" font-family="Times,serif" font-size="8.00">(*B)</text>
+<text text-anchor="middle" x="470" y="-684.1" font-family="Times,serif" font-size="8.00">launch</text>
+<text text-anchor="middle" x="470" y="-675.1" font-family="Times,serif" font-size="8.00">0 of 3.01s (99.67%)</text>
 </a>
 </g>
 </g>
 <!-- N2 -->
 <g id="node2" class="node">
 <title>N2</title>
-<g id="a_node2"><a xlink:title="testing.(*B).runN (3.20s)">
-<polygon fill="#edd5d5" stroke="#b20000" points="510,-589 430,-589 430,-545 510,-545 510,-589"/>
-<text text-anchor="middle" x="470" y="-578.6" font-family="Times,serif" font-size="8.00">testing</text>
-<text text-anchor="middle" x="470" y="-569.6" font-family="Times,serif" font-size="8.00">(*B)</text>
-<text text-anchor="middle" x="470" y="-560.6" font-family="Times,serif" font-size="8.00">runN</text>
-<text text-anchor="middle" x="470" y="-551.6" font-family="Times,serif" font-size="8.00">0 of 3.20s (99.69%)</text>
+<g id="a_node2"><a xlink:title="testing.(*B).runN (3.01s)">
+<polygon fill="#edd5d5" stroke="#b20000" points="510,-572 430,-572 430,-528 510,-528 510,-572"/>
+<text text-anchor="middle" x="470" y="-561.6" font-family="Times,serif" font-size="8.00">testing</text>
+<text text-anchor="middle" x="470" y="-552.6" font-family="Times,serif" font-size="8.00">(*B)</text>
+<text text-anchor="middle" x="470" y="-543.6" font-family="Times,serif" font-size="8.00">runN</text>
+<text text-anchor="middle" x="470" y="-534.6" font-family="Times,serif" font-size="8.00">0 of 3.01s (99.67%)</text>
 </a>
 </g>
 </g>
 <!-- N1&#45;&gt;N2 -->
 <g id="edge1" class="edge">
 <title>N1&#45;&gt;N2</title>
-<g id="a_edge1"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (3.20s)">
-<path fill="none" stroke="#b20000" stroke-width="5" d="M470,-685.46C470,-662.59 470,-625.77 470,-599.45"/>
-<polygon fill="#b20000" stroke="#b20000" stroke-width="5" points="474.38,-599.23 470,-589.23 465.63,-599.23 474.38,-599.23"/>
+<g id="a_edge1"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (3.01s)">
+<path fill="none" stroke="#b20000" stroke-width="5" d="M470,-668.46C470,-645.59 470,-608.77 470,-582.45"/>
+<polygon fill="#b20000" stroke="#b20000" stroke-width="5" points="474.38,-582.23 470,-572.23 465.63,-582.23 474.38,-582.23"/>
 </a>
 </g>
-<g id="a_edge1&#45;label"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (3.20s)">
-<text text-anchor="middle" x="487" y="-610.8" font-family="Times,serif" font-size="14.00"> 3.20s</text>
-</a>
-</g>
-</g>
-<!-- N6 -->
-<g id="node6" class="node">
-<title>N6</title>
-<g id="a_node6"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.BenchmarkOptionSwitch (1.94s)">
-<polygon fill="#edd8d5" stroke="#b21900" points="555,-494 385,-494 385,-418 555,-418 555,-494"/>
-<text text-anchor="middle" x="470" y="-478" font-family="Times,serif" font-size="15.00">map&#45;vs&#45;switch</text>
-<text text-anchor="middle" x="470" y="-461" font-family="Times,serif" font-size="15.00">BenchmarkOptionSwitch</text>
-<text text-anchor="middle" x="470" y="-444" font-family="Times,serif" font-size="15.00">0.17s (5.30%)</text>
-<text text-anchor="middle" x="470" y="-427" font-family="Times,serif" font-size="15.00">of 1.94s (60.44%)</text>
-</a>
-</g>
-</g>
-<!-- N2&#45;&gt;N6 -->
-<g id="edge2" class="edge">
-<title>N2&#45;&gt;N6</title>
-<g id="a_edge2"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.BenchmarkOptionSwitch (1.94s)">
-<path fill="none" stroke="#b21900" stroke-width="4" d="M470,-544.98C470,-533.43 470,-518.61 470,-504.43"/>
-<polygon fill="#b21900" stroke="#b21900" stroke-width="4" points="473.5,-504.28 470,-494.28 466.5,-504.28 473.5,-504.28"/>
-</a>
-</g>
-<g id="a_edge2&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.BenchmarkOptionSwitch (1.94s)">
-<text text-anchor="middle" x="487" y="-515.8" font-family="Times,serif" font-size="14.00"> 1.94s</text>
-</a>
-</g>
-</g>
-<!-- N8 -->
-<g id="node8" class="node">
-<title>N8</title>
-<g id="a_node8"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap (1.26s)">
-<polygon fill="#eddbd5" stroke="#b22b00" points="684.5,-482 573.5,-482 573.5,-430 684.5,-430 684.5,-482"/>
-<text text-anchor="middle" x="629" y="-470" font-family="Times,serif" font-size="10.00">map&#45;vs&#45;switch</text>
-<text text-anchor="middle" x="629" y="-459" font-family="Times,serif" font-size="10.00">BenchmarkOptionMap</text>
-<text text-anchor="middle" x="629" y="-448" font-family="Times,serif" font-size="10.00">0.01s (0.31%)</text>
-<text text-anchor="middle" x="629" y="-437" font-family="Times,serif" font-size="10.00">of 1.26s (39.25%)</text>
-</a>
-</g>
-</g>
-<!-- N2&#45;&gt;N8 -->
-<g id="edge4" class="edge">
-<title>N2&#45;&gt;N8</title>
-<g id="a_edge4"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap (1.26s)">
-<path fill="none" stroke="#b22b00" stroke-width="2" d="M500.66,-544.98C524.27,-528.8 557.27,-506.17 583.9,-487.92"/>
-<polygon fill="#b22b00" stroke="#b22b00" stroke-width="2" points="586.03,-490.7 592.3,-482.16 582.07,-484.93 586.03,-490.7"/>
-</a>
-</g>
-<g id="a_edge4&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap (1.26s)">
-<text text-anchor="middle" x="562" y="-515.8" font-family="Times,serif" font-size="14.00"> 1.26s</text>
-</a>
-</g>
-</g>
-<!-- N3 -->
-<g id="node3" class="node">
-<title>N3</title>
-<g id="a_node3"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.OptionSwitch (1.77s)">
-<polygon fill="#edd9d5" stroke="#b21d00" points="543,-352 397,-352 397,-264 543,-264 543,-352"/>
-<text text-anchor="middle" x="470" y="-333.6" font-family="Times,serif" font-size="18.00">map&#45;vs&#45;switch</text>
-<text text-anchor="middle" x="470" y="-313.6" font-family="Times,serif" font-size="18.00">OptionSwitch</text>
-<text text-anchor="middle" x="470" y="-293.6" font-family="Times,serif" font-size="18.00">0.38s (11.84%)</text>
-<text text-anchor="middle" x="470" y="-273.6" font-family="Times,serif" font-size="18.00">of 1.77s (55.14%)</text>
-</a>
-</g>
-</g>
-<!-- N4 -->
-<g id="node4" class="node">
-<title>N4</title>
-<g id="a_node4"><a xlink:title="cmpbody (1.14s)">
-<polygon fill="#eddbd5" stroke="#b22f00" points="401,-193 237,-193 237,-133 401,-133 401,-193"/>
-<text text-anchor="middle" x="319" y="-169.8" font-family="Times,serif" font-size="24.00">cmpbody</text>
-<text text-anchor="middle" x="319" y="-143.8" font-family="Times,serif" font-size="24.00">1.14s (35.51%)</text>
-</a>
-</g>
-</g>
-<!-- N3&#45;&gt;N4 -->
-<g id="edge6" class="edge">
-<title>N3&#45;&gt;N4</title>
-<g id="a_edge6"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.OptionSwitch &#45;&gt; cmpbody (1.14s)">
-<path fill="none" stroke="#b22f00" stroke-width="2" d="M424.29,-263.71C402.79,-243.35 377.47,-219.37 357.04,-200.02"/>
-<polygon fill="#b22f00" stroke="#b22f00" stroke-width="2" points="359.42,-197.46 349.75,-193.12 354.61,-202.54 359.42,-197.46"/>
-</a>
-</g>
-<g id="a_edge6&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.OptionSwitch &#45;&gt; cmpbody (1.14s)">
-<text text-anchor="middle" x="421" y="-234.8" font-family="Times,serif" font-size="14.00"> 1.14s</text>
-</a>
-</g>
-</g>
-<!-- N10 -->
-<g id="node10" class="node">
-<title>N10</title>
-<g id="a_node10"><a xlink:title="runtime.cmpstring (0.20s)">
-<polygon fill="#ede9e5" stroke="#b29a7a" points="521,-192.5 419,-192.5 419,-133.5 521,-133.5 521,-192.5"/>
-<text text-anchor="middle" x="470" y="-176.5" font-family="Times,serif" font-size="15.00">runtime</text>
-<text text-anchor="middle" x="470" y="-159.5" font-family="Times,serif" font-size="15.00">cmpstring</text>
-<text text-anchor="middle" x="470" y="-142.5" font-family="Times,serif" font-size="15.00">0.20s (6.23%)</text>
-</a>
-</g>
-</g>
-<!-- N3&#45;&gt;N10 -->
-<g id="edge8" class="edge">
-<title>N3&#45;&gt;N10</title>
-<g id="a_edge8"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.OptionSwitch &#45;&gt; runtime.cmpstring (0.20s)">
-<path fill="none" stroke="#b29a7a" d="M470,-263.71C470,-244.29 470,-221.56 470,-202.71"/>
-<polygon fill="#b29a7a" stroke="#b29a7a" points="473.5,-202.69 470,-192.69 466.5,-202.69 473.5,-202.69"/>
-</a>
-</g>
-<g id="a_edge8&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.OptionSwitch &#45;&gt; runtime.cmpstring (0.20s)">
-<text text-anchor="middle" x="487" y="-234.8" font-family="Times,serif" font-size="14.00"> 0.20s</text>
-</a>
-</g>
-</g>
-<!-- N12 -->
-<g id="node12" class="node">
-<title>N12</title>
-<g id="a_node12"><a xlink:title="runtime.asyncPreempt (0.05s)">
-<polygon fill="#edeceb" stroke="#b2aea4" points="622.5,-186.5 539.5,-186.5 539.5,-139.5 622.5,-139.5 622.5,-186.5"/>
-<text text-anchor="middle" x="581" y="-172.9" font-family="Times,serif" font-size="12.00">runtime</text>
-<text text-anchor="middle" x="581" y="-159.9" font-family="Times,serif" font-size="12.00">asyncPreempt</text>
-<text text-anchor="middle" x="581" y="-146.9" font-family="Times,serif" font-size="12.00">0.05s (1.56%)</text>
-</a>
-</g>
-</g>
-<!-- N3&#45;&gt;N12 -->
-<g id="edge11" class="edge">
-<title>N3&#45;&gt;N12</title>
-<g id="a_edge11"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.OptionSwitch &#45;&gt; runtime.asyncPreempt (0.05s)">
-<path fill="none" stroke="#b2aea4" d="M503.6,-263.71C520.88,-241.45 541.52,-214.86 557.14,-194.74"/>
-<polygon fill="#b2aea4" stroke="#b2aea4" points="559.92,-196.86 563.29,-186.81 554.39,-192.57 559.92,-196.86"/>
-</a>
-</g>
-<g id="a_edge11&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.OptionSwitch &#45;&gt; runtime.asyncPreempt (0.05s)">
-<text text-anchor="middle" x="546" y="-234.8" font-family="Times,serif" font-size="14.00"> 0.05s</text>
-</a>
-</g>
-</g>
-<!-- N5 -->
-<g id="node5" class="node">
-<title>N5</title>
-<g id="a_node5"><a xlink:title="runtime.mapassign_faststr (1.01s)">
-<polygon fill="#eddcd5" stroke="#b23400" points="807.5,-213 640.5,-213 640.5,-113 807.5,-113 807.5,-213"/>
-<text text-anchor="middle" x="724" y="-192.2" font-family="Times,serif" font-size="21.00">runtime</text>
-<text text-anchor="middle" x="724" y="-169.2" font-family="Times,serif" font-size="21.00">mapassign_faststr</text>
-<text text-anchor="middle" x="724" y="-146.2" font-family="Times,serif" font-size="21.00">0.67s (20.87%)</text>
-<text text-anchor="middle" x="724" y="-123.2" font-family="Times,serif" font-size="21.00">of 1.01s (31.46%)</text>
-</a>
-</g>
-</g>
-<!-- N9 -->
-<g id="node9" class="node">
-<title>N9</title>
-<g id="a_node9"><a xlink:title="aeshashbody (0.20s)">
-<polygon fill="#ede9e5" stroke="#b29a7a" points="775,-44.5 673,-44.5 673,-2.5 775,-2.5 775,-44.5"/>
-<text text-anchor="middle" x="724" y="-28.5" font-family="Times,serif" font-size="15.00">aeshashbody</text>
-<text text-anchor="middle" x="724" y="-11.5" font-family="Times,serif" font-size="15.00">0.20s (6.23%)</text>
-</a>
-</g>
-</g>
-<!-- N5&#45;&gt;N9 -->
-<g id="edge9" class="edge">
-<title>N5&#45;&gt;N9</title>
-<g id="a_edge9"><a xlink:title="runtime.mapassign_faststr &#45;&gt; aeshashbody (0.20s)">
-<path fill="none" stroke="#b29a7a" d="M724,-112.75C724,-93.53 724,-72.1 724,-55.17"/>
-<polygon fill="#b29a7a" stroke="#b29a7a" points="727.5,-54.76 724,-44.76 720.5,-54.76 727.5,-54.76"/>
-</a>
-</g>
-<g id="a_edge9&#45;label"><a xlink:title="runtime.mapassign_faststr &#45;&gt; aeshashbody (0.20s)">
-<text text-anchor="middle" x="741" y="-76.3" font-family="Times,serif" font-size="14.00"> 0.20s</text>
-</a>
-</g>
-</g>
-<!-- N11 -->
-<g id="node11" class="node">
-<title>N11</title>
-<g id="a_node11"><a xlink:title="runtime.tooManyOverflowBuckets (0.07s)">
-<polygon fill="#edecea" stroke="#b2ac9f" points="936.5,-47 793.5,-47 793.5,0 936.5,0 936.5,-47"/>
-<text text-anchor="middle" x="865" y="-33.4" font-family="Times,serif" font-size="12.00">runtime</text>
-<text text-anchor="middle" x="865" y="-20.4" font-family="Times,serif" font-size="12.00">tooManyOverflowBuckets</text>
-<text text-anchor="middle" x="865" y="-7.4" font-family="Times,serif" font-size="12.00">0.07s (2.18%)</text>
-</a>
-</g>
-</g>
-<!-- N5&#45;&gt;N11 -->
-<g id="edge10" class="edge">
-<title>N5&#45;&gt;N11</title>
-<g id="a_edge10"><a xlink:title="runtime.mapassign_faststr &#45;&gt; runtime.tooManyOverflowBuckets (0.07s)">
-<path fill="none" stroke="#b2ac9f" d="M774.51,-112.75C794.56,-93.19 816.96,-71.35 834.46,-54.28"/>
-<polygon fill="#b2ac9f" stroke="#b2ac9f" points="836.92,-56.77 841.64,-47.28 832.04,-51.76 836.92,-56.77"/>
-</a>
-</g>
-<g id="a_edge10&#45;label"><a xlink:title="runtime.mapassign_faststr &#45;&gt; runtime.tooManyOverflowBuckets (0.07s)">
-<text text-anchor="middle" x="845" y="-83.8" font-family="Times,serif" font-size="14.00"> 0.07s</text>
-<text text-anchor="middle" x="845" y="-68.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
-</a>
-</g>
-</g>
-<!-- N15 -->
-<g id="node15" class="node">
-<title>N15</title>
-<g id="a_node15"><a xlink:title="runtime.strhash (0.04s)">
-<polygon fill="#edeceb" stroke="#b2afa7" points="1033,-45.5 955,-45.5 955,-1.5 1033,-1.5 1033,-45.5"/>
-<text text-anchor="middle" x="994" y="-32.7" font-family="Times,serif" font-size="11.00">runtime</text>
-<text text-anchor="middle" x="994" y="-20.7" font-family="Times,serif" font-size="11.00">strhash</text>
-<text text-anchor="middle" x="994" y="-8.7" font-family="Times,serif" font-size="11.00">0.04s (1.25%)</text>
-</a>
-</g>
-</g>
-<!-- N5&#45;&gt;N15 -->
-<g id="edge14" class="edge">
-<title>N5&#45;&gt;N15</title>
-<g id="a_edge14"><a xlink:title="runtime.mapassign_faststr &#45;&gt; runtime.strhash (0.04s)">
-<path fill="none" stroke="#b2afa7" d="M807.83,-125.42C828.65,-115.89 850.79,-105.37 871,-95 897.89,-81.2 927.29,-64.42 950.6,-50.69"/>
-<polygon fill="#b2afa7" stroke="#b2afa7" points="952.4,-53.69 959.22,-45.59 948.83,-47.67 952.4,-53.69"/>
-</a>
-</g>
-<g id="a_edge14&#45;label"><a xlink:title="runtime.mapassign_faststr &#45;&gt; runtime.strhash (0.04s)">
-<text text-anchor="middle" x="942" y="-76.3" font-family="Times,serif" font-size="14.00"> 0.04s</text>
-</a>
-</g>
-</g>
-<!-- N6&#45;&gt;N3 -->
-<g id="edge3" class="edge">
-<title>N6&#45;&gt;N3</title>
-<g id="a_edge3"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.BenchmarkOptionSwitch &#45;&gt; github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.OptionSwitch (1.77s)">
-<path fill="none" stroke="#b21d00" stroke-width="3" d="M470,-417.78C470,-400.89 470,-380.59 470,-362.14"/>
-<polygon fill="#b21d00" stroke="#b21d00" stroke-width="3" points="473.5,-362.11 470,-352.11 466.5,-362.11 473.5,-362.11"/>
-</a>
-</g>
-<g id="a_edge3&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.BenchmarkOptionSwitch &#45;&gt; github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.OptionSwitch (1.77s)">
-<text text-anchor="middle" x="492" y="-388.8" font-family="Times,serif" font-size="14.00"> 1.77s</text>
-<text text-anchor="middle" x="492" y="-373.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
+<g id="a_edge1&#45;label"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (3.01s)">
+<text text-anchor="middle" x="487" y="-593.8" font-family="Times,serif" font-size="14.00"> 3.01s</text>
 </a>
 </g>
 </g>
 <!-- N7 -->
 <g id="node7" class="node">
 <title>N7</title>
-<g id="a_node7"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.OptionMap (1.17s)">
-<polygon fill="#eddbd5" stroke="#b22e00" points="687,-342 571,-342 571,-274 687,-274 687,-342"/>
-<text text-anchor="middle" x="629" y="-326.8" font-family="Times,serif" font-size="14.00">map&#45;vs&#45;switch</text>
-<text text-anchor="middle" x="629" y="-311.8" font-family="Times,serif" font-size="14.00">OptionMap</text>
-<text text-anchor="middle" x="629" y="-296.8" font-family="Times,serif" font-size="14.00">0.15s (4.67%)</text>
-<text text-anchor="middle" x="629" y="-281.8" font-family="Times,serif" font-size="14.00">of 1.17s (36.45%)</text>
+<g id="a_node7"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.BenchmarkOptionSwitch (1.70s)">
+<polygon fill="#edd9d5" stroke="#b21c00" points="546.5,-477 393.5,-477 393.5,-413 546.5,-413 546.5,-477"/>
+<text text-anchor="middle" x="470" y="-462.6" font-family="Times,serif" font-size="13.00">map&#45;vs&#45;switch</text>
+<text text-anchor="middle" x="470" y="-448.6" font-family="Times,serif" font-size="13.00">BenchmarkOptionSwitch</text>
+<text text-anchor="middle" x="470" y="-434.6" font-family="Times,serif" font-size="13.00">0.07s (2.32%)</text>
+<text text-anchor="middle" x="470" y="-420.6" font-family="Times,serif" font-size="13.00">of 1.70s (56.29%)</text>
 </a>
 </g>
 </g>
-<!-- N7&#45;&gt;N5 -->
+<!-- N2&#45;&gt;N7 -->
+<g id="edge2" class="edge">
+<title>N2&#45;&gt;N7</title>
+<g id="a_edge2"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.BenchmarkOptionSwitch (1.70s)">
+<path fill="none" stroke="#b21c00" stroke-width="3" d="M470,-527.66C470,-516.01 470,-501.19 470,-487.38"/>
+<polygon fill="#b21c00" stroke="#b21c00" stroke-width="3" points="473.5,-487.09 470,-477.09 466.5,-487.09 473.5,-487.09"/>
+</a>
+</g>
+<g id="a_edge2&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.BenchmarkOptionSwitch (1.70s)">
+<text text-anchor="middle" x="487" y="-498.8" font-family="Times,serif" font-size="14.00"> 1.70s</text>
+</a>
+</g>
+</g>
+<!-- N8 -->
+<g id="node8" class="node">
+<title>N8</title>
+<g id="a_node8"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap (1.31s)">
+<polygon fill="#eddad5" stroke="#b22700" points="691,-475 565,-475 565,-415 691,-415 691,-475"/>
+<text text-anchor="middle" x="628" y="-461.4" font-family="Times,serif" font-size="12.00">map&#45;vs&#45;switch</text>
+<text text-anchor="middle" x="628" y="-448.4" font-family="Times,serif" font-size="12.00">BenchmarkOptionMap</text>
+<text text-anchor="middle" x="628" y="-435.4" font-family="Times,serif" font-size="12.00">0.04s (1.32%)</text>
+<text text-anchor="middle" x="628" y="-422.4" font-family="Times,serif" font-size="12.00">of 1.31s (43.38%)</text>
+</a>
+</g>
+</g>
+<!-- N2&#45;&gt;N8 -->
+<g id="edge4" class="edge">
+<title>N2&#45;&gt;N8</title>
+<g id="a_edge4"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap (1.31s)">
+<path fill="none" stroke="#b22700" stroke-width="3" d="M502.35,-527.91C523.18,-514.33 550.74,-496.36 574.75,-480.72"/>
+<polygon fill="#b22700" stroke="#b22700" stroke-width="3" points="576.94,-483.46 583.41,-475.07 573.12,-477.6 576.94,-483.46"/>
+</a>
+</g>
+<g id="a_edge4&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap (1.31s)">
+<text text-anchor="middle" x="566" y="-498.8" font-family="Times,serif" font-size="14.00"> 1.31s</text>
+</a>
+</g>
+</g>
+<!-- N3 -->
+<g id="node3" class="node">
+<title>N3</title>
+<g id="a_node3"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.OptionSwitch (1.59s)">
+<polygon fill="#edd9d5" stroke="#b21f00" points="543,-347 397,-347 397,-259 543,-259 543,-347"/>
+<text text-anchor="middle" x="470" y="-328.6" font-family="Times,serif" font-size="18.00">map&#45;vs&#45;switch</text>
+<text text-anchor="middle" x="470" y="-308.6" font-family="Times,serif" font-size="18.00">OptionSwitch</text>
+<text text-anchor="middle" x="470" y="-288.6" font-family="Times,serif" font-size="18.00">0.33s (10.93%)</text>
+<text text-anchor="middle" x="470" y="-268.6" font-family="Times,serif" font-size="18.00">of 1.59s (52.65%)</text>
+</a>
+</g>
+</g>
+<!-- N5 -->
+<g id="node5" class="node">
+<title>N5</title>
+<g id="a_node5"><a xlink:title="cmpbody (1.03s)">
+<polygon fill="#eddbd5" stroke="#b23100" points="506.5,-192 343.5,-192 343.5,-132 506.5,-132 506.5,-192"/>
+<text text-anchor="middle" x="425" y="-168.8" font-family="Times,serif" font-size="24.00">cmpbody</text>
+<text text-anchor="middle" x="425" y="-142.8" font-family="Times,serif" font-size="24.00">1.03s (34.11%)</text>
+</a>
+</g>
+</g>
+<!-- N3&#45;&gt;N5 -->
+<g id="edge6" class="edge">
+<title>N3&#45;&gt;N5</title>
+<g id="a_edge6"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.OptionSwitch &#45;&gt; cmpbody (1.03s)">
+<path fill="none" stroke="#b23100" stroke-width="2" d="M456.01,-258.78C450.14,-240.66 443.37,-219.74 437.66,-202.09"/>
+<polygon fill="#b23100" stroke="#b23100" stroke-width="2" points="440.84,-200.55 434.43,-192.12 434.18,-202.71 440.84,-200.55"/>
+</a>
+</g>
+<g id="a_edge6&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.OptionSwitch &#45;&gt; cmpbody (1.03s)">
+<text text-anchor="middle" x="468" y="-229.8" font-family="Times,serif" font-size="14.00"> 1.03s</text>
+</a>
+</g>
+</g>
+<!-- N10 -->
+<g id="node10" class="node">
+<title>N10</title>
+<g id="a_node10"><a xlink:title="runtime.cmpstring (0.23s)">
+<polygon fill="#ede8e4" stroke="#b2936e" points="631.5,-193 524.5,-193 524.5,-131 631.5,-131 631.5,-193"/>
+<text text-anchor="middle" x="578" y="-176.2" font-family="Times,serif" font-size="16.00">runtime</text>
+<text text-anchor="middle" x="578" y="-158.2" font-family="Times,serif" font-size="16.00">cmpstring</text>
+<text text-anchor="middle" x="578" y="-140.2" font-family="Times,serif" font-size="16.00">0.23s (7.62%)</text>
+</a>
+</g>
+</g>
+<!-- N3&#45;&gt;N10 -->
+<g id="edge9" class="edge">
+<title>N3&#45;&gt;N10</title>
+<g id="a_edge9"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.OptionSwitch &#45;&gt; runtime.cmpstring (0.23s)">
+<path fill="none" stroke="#b2936e" d="M503.58,-258.78C517.86,-240.4 534.38,-219.14 548.22,-201.32"/>
+<polygon fill="#b2936e" stroke="#b2936e" points="551,-203.45 554.38,-193.4 545.48,-199.15 551,-203.45"/>
+</a>
+</g>
+<g id="a_edge9&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.OptionSwitch &#45;&gt; runtime.cmpstring (0.23s)">
+<text text-anchor="middle" x="545" y="-229.8" font-family="Times,serif" font-size="14.00"> 0.23s</text>
+</a>
+</g>
+</g>
+<!-- N4 -->
+<g id="node4" class="node">
+<title>N4</title>
+<g id="a_node4"><a xlink:title="runtime.mapassign_faststr (1s)">
+<polygon fill="#eddcd5" stroke="#b23200" points="802.5,-208 649.5,-208 649.5,-116 802.5,-116 802.5,-208"/>
+<text text-anchor="middle" x="726" y="-188.8" font-family="Times,serif" font-size="19.00">runtime</text>
+<text text-anchor="middle" x="726" y="-167.8" font-family="Times,serif" font-size="19.00">mapassign_faststr</text>
+<text text-anchor="middle" x="726" y="-146.8" font-family="Times,serif" font-size="19.00">0.48s (15.89%)</text>
+<text text-anchor="middle" x="726" y="-125.8" font-family="Times,serif" font-size="19.00">of 1s (33.11%)</text>
+</a>
+</g>
+</g>
+<!-- N9 -->
+<g id="node9" class="node">
+<title>N9</title>
+<g id="a_node9"><a xlink:title="aeshashbody (0.32s)">
+<polygon fill="#ede6e0" stroke="#b28253" points="786.5,-48 665.5,-48 665.5,-2 786.5,-2 786.5,-48"/>
+<text text-anchor="middle" x="726" y="-30.4" font-family="Times,serif" font-size="17.00">aeshashbody</text>
+<text text-anchor="middle" x="726" y="-11.4" font-family="Times,serif" font-size="17.00">0.32s (10.60%)</text>
+</a>
+</g>
+</g>
+<!-- N4&#45;&gt;N9 -->
+<g id="edge8" class="edge">
+<title>N4&#45;&gt;N9</title>
+<g id="a_edge8"><a xlink:title="runtime.mapassign_faststr &#45;&gt; aeshashbody (0.32s)">
+<path fill="none" stroke="#b28253" d="M726,-115.67C726,-96.89 726,-75.54 726,-58.39"/>
+<polygon fill="#b28253" stroke="#b28253" points="729.5,-58.31 726,-48.31 722.5,-58.31 729.5,-58.31"/>
+</a>
+</g>
+<g id="a_edge8&#45;label"><a xlink:title="runtime.mapassign_faststr &#45;&gt; aeshashbody (0.32s)">
+<text text-anchor="middle" x="743" y="-79.3" font-family="Times,serif" font-size="14.00"> 0.32s</text>
+</a>
+</g>
+</g>
+<!-- N11 -->
+<g id="node11" class="node">
+<title>N11</title>
+<g id="a_node11"><a xlink:title="runtime.tooManyOverflowBuckets (0.09s)">
+<polygon fill="#edebe9" stroke="#b2a997" points="963.5,-50 804.5,-50 804.5,0 963.5,0 963.5,-50"/>
+<text text-anchor="middle" x="884" y="-35.6" font-family="Times,serif" font-size="13.00">runtime</text>
+<text text-anchor="middle" x="884" y="-21.6" font-family="Times,serif" font-size="13.00">tooManyOverflowBuckets</text>
+<text text-anchor="middle" x="884" y="-7.6" font-family="Times,serif" font-size="13.00">0.09s (2.98%)</text>
+</a>
+</g>
+</g>
+<!-- N4&#45;&gt;N11 -->
+<g id="edge10" class="edge">
+<title>N4&#45;&gt;N11</title>
+<g id="a_edge10"><a xlink:title="runtime.mapassign_faststr &#45;&gt; runtime.tooManyOverflowBuckets (0.09s)">
+<path fill="none" stroke="#b2a997" d="M779.05,-115.67C801.69,-96.33 827.52,-74.26 847.89,-56.85"/>
+<polygon fill="#b2a997" stroke="#b2a997" points="850.37,-59.34 855.69,-50.19 845.82,-54.02 850.37,-59.34"/>
+</a>
+</g>
+<g id="a_edge10&#45;label"><a xlink:title="runtime.mapassign_faststr &#45;&gt; runtime.tooManyOverflowBuckets (0.09s)">
+<text text-anchor="middle" x="854" y="-86.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
+<text text-anchor="middle" x="854" y="-71.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
+</a>
+</g>
+</g>
+<!-- N12 -->
+<g id="node12" class="node">
+<title>N12</title>
+<g id="a_node12"><a xlink:title="runtime.strhash (0.06s)">
+<polygon fill="#edecea" stroke="#b2ada0" points="1064.5,-48.5 981.5,-48.5 981.5,-1.5 1064.5,-1.5 1064.5,-48.5"/>
+<text text-anchor="middle" x="1023" y="-34.9" font-family="Times,serif" font-size="12.00">runtime</text>
+<text text-anchor="middle" x="1023" y="-21.9" font-family="Times,serif" font-size="12.00">strhash</text>
+<text text-anchor="middle" x="1023" y="-8.9" font-family="Times,serif" font-size="12.00">0.06s (1.99%)</text>
+</a>
+</g>
+</g>
+<!-- N4&#45;&gt;N12 -->
+<g id="edge11" class="edge">
+<title>N4&#45;&gt;N12</title>
+<g id="a_edge11"><a xlink:title="runtime.mapassign_faststr &#45;&gt; runtime.strhash (0.06s)">
+<path fill="none" stroke="#b2ada0" d="M802.98,-119.69C806,-118.39 809.02,-117.16 812,-116 841.14,-104.68 850.77,-109.09 880,-98 912.57,-85.64 947.53,-68.13 974.72,-53.47"/>
+<polygon fill="#b2ada0" stroke="#b2ada0" points="976.52,-56.47 983.63,-48.62 973.18,-50.32 976.52,-56.47"/>
+</a>
+</g>
+<g id="a_edge11&#45;label"><a xlink:title="runtime.mapassign_faststr &#45;&gt; runtime.strhash (0.06s)">
+<text text-anchor="middle" x="961" y="-79.3" font-family="Times,serif" font-size="14.00"> 0.06s</text>
+</a>
+</g>
+</g>
+<!-- N17 -->
+<g id="node17" class="node">
+<title>N17</title>
+<g id="a_node17"><a xlink:title="runtime.tophash (0.02s)">
+<polygon fill="#edecec" stroke="#b2b1ac" points="1161,-47 1083,-47 1083,-3 1161,-3 1161,-47"/>
+<text text-anchor="middle" x="1122" y="-34.2" font-family="Times,serif" font-size="11.00">runtime</text>
+<text text-anchor="middle" x="1122" y="-22.2" font-family="Times,serif" font-size="11.00">tophash</text>
+<text text-anchor="middle" x="1122" y="-10.2" font-family="Times,serif" font-size="11.00">0.02s (0.66%)</text>
+</a>
+</g>
+</g>
+<!-- N4&#45;&gt;N17 -->
+<g id="edge16" class="edge">
+<title>N4&#45;&gt;N17</title>
+<g id="a_edge16"><a xlink:title="runtime.mapassign_faststr &#45;&gt; runtime.tophash (0.02s)">
+<path fill="none" stroke="#b2b1ac" d="M802.77,-119.09C805.85,-117.96 808.94,-116.93 812,-116 884.72,-94 909.2,-119.74 982,-98 1017.06,-87.53 1053.73,-68.32 1080.75,-52.38"/>
+<polygon fill="#b2b1ac" stroke="#b2b1ac" points="1082.75,-55.26 1089.52,-47.11 1079.15,-49.26 1082.75,-55.26"/>
+</a>
+</g>
+<g id="a_edge16&#45;label"><a xlink:title="runtime.mapassign_faststr &#45;&gt; runtime.tophash (0.02s)">
+<text text-anchor="middle" x="1071" y="-86.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
+<text text-anchor="middle" x="1071" y="-71.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
+</a>
+</g>
+</g>
+<!-- N6 -->
+<g id="node6" class="node">
+<title>N6</title>
+<g id="a_node6"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.OptionMap (1.22s)">
+<polygon fill="#eddbd5" stroke="#b22a00" points="789,-341 663,-341 663,-265 789,-265 789,-341"/>
+<text text-anchor="middle" x="726" y="-325" font-family="Times,serif" font-size="15.00">map&#45;vs&#45;switch</text>
+<text text-anchor="middle" x="726" y="-308" font-family="Times,serif" font-size="15.00">OptionMap</text>
+<text text-anchor="middle" x="726" y="-291" font-family="Times,serif" font-size="15.00">0.18s (5.96%)</text>
+<text text-anchor="middle" x="726" y="-274" font-family="Times,serif" font-size="15.00">of 1.22s (40.40%)</text>
+</a>
+</g>
+</g>
+<!-- N6&#45;&gt;N4 -->
 <g id="edge7" class="edge">
-<title>N7&#45;&gt;N5</title>
-<g id="a_edge7"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.OptionMap &#45;&gt; runtime.mapassign_faststr (1.01s)">
-<path fill="none" stroke="#b23400" stroke-width="2" d="M651.03,-273.83C661.3,-258.38 673.83,-239.53 685.58,-221.83"/>
-<polygon fill="#b23400" stroke="#b23400" stroke-width="2" points="688.65,-223.53 691.27,-213.26 682.82,-219.66 688.65,-223.53"/>
+<title>N6&#45;&gt;N4</title>
+<g id="a_edge7"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.OptionMap &#45;&gt; runtime.mapassign_faststr (1s)">
+<path fill="none" stroke="#b23200" stroke-width="2" d="M726,-264.75C726,-250.44 726,-233.78 726,-218.13"/>
+<polygon fill="#b23200" stroke="#b23200" stroke-width="2" points="729.5,-218.03 726,-208.03 722.5,-218.03 729.5,-218.03"/>
 </a>
 </g>
-<g id="a_edge7&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.OptionMap &#45;&gt; runtime.mapassign_faststr (1.01s)">
-<text text-anchor="middle" x="696" y="-234.8" font-family="Times,serif" font-size="14.00"> 1.01s</text>
-</a>
-</g>
-</g>
-<!-- N8&#45;&gt;N7 -->
-<g id="edge5" class="edge">
-<title>N8&#45;&gt;N7</title>
-<g id="a_edge5"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.OptionMap (1.17s)">
-<path fill="none" stroke="#b22e00" stroke-width="2" d="M629,-429.9C629,-408.62 629,-377.61 629,-352.33"/>
-<polygon fill="#b22e00" stroke="#b22e00" stroke-width="2" points="632.5,-352.24 629,-342.24 625.5,-352.24 632.5,-352.24"/>
-</a>
-</g>
-<g id="a_edge5&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.OptionMap (1.17s)">
-<text text-anchor="middle" x="651" y="-388.8" font-family="Times,serif" font-size="14.00"> 1.17s</text>
-<text text-anchor="middle" x="651" y="-373.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
-</a>
-</g>
-</g>
-<!-- N13 -->
-<g id="node13" class="node">
-<title>N13</title>
-<g id="a_node13"><a xlink:title="runtime.duffzero (0.04s)">
-<polygon fill="#edeceb" stroke="#b2afa7" points="783,-330 705,-330 705,-286 783,-286 783,-330"/>
-<text text-anchor="middle" x="744" y="-317.2" font-family="Times,serif" font-size="11.00">runtime</text>
-<text text-anchor="middle" x="744" y="-305.2" font-family="Times,serif" font-size="11.00">duffzero</text>
-<text text-anchor="middle" x="744" y="-293.2" font-family="Times,serif" font-size="11.00">0.04s (1.25%)</text>
-</a>
-</g>
-</g>
-<!-- N8&#45;&gt;N13 -->
-<g id="edge12" class="edge">
-<title>N8&#45;&gt;N13</title>
-<g id="a_edge12"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; runtime.duffzero (0.04s)">
-<path fill="none" stroke="#b2afa7" d="M651.67,-429.91C659.83,-420.65 668.99,-409.98 677,-400 693.04,-380.01 710.15,-356.73 723.07,-338.72"/>
-<polygon fill="#b2afa7" stroke="#b2afa7" points="726.09,-340.51 729.05,-330.34 720.39,-336.44 726.09,-340.51"/>
-</a>
-</g>
-<g id="a_edge12&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; runtime.duffzero (0.04s)">
-<text text-anchor="middle" x="716" y="-381.3" font-family="Times,serif" font-size="14.00"> 0.04s</text>
+<g id="a_edge7&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.OptionMap &#45;&gt; runtime.mapassign_faststr (1s)">
+<text text-anchor="middle" x="734" y="-229.8" font-family="Times,serif" font-size="14.00"> 1s</text>
 </a>
 </g>
 </g>
 <!-- N14 -->
 <g id="node14" class="node">
 <title>N14</title>
-<g id="a_node14"><a xlink:title="runtime.fastrand (0.04s)">
-<polygon fill="#edeceb" stroke="#b2afa7" points="879,-330 801,-330 801,-286 879,-286 879,-330"/>
-<text text-anchor="middle" x="840" y="-317.2" font-family="Times,serif" font-size="11.00">runtime</text>
-<text text-anchor="middle" x="840" y="-305.2" font-family="Times,serif" font-size="11.00">fastrand</text>
-<text text-anchor="middle" x="840" y="-293.2" font-family="Times,serif" font-size="11.00">0.04s (1.25%)</text>
+<g id="a_node14"><a xlink:title="runtime.mapaccess1_faststr (0.04s)">
+<polygon fill="#edeceb" stroke="#b2afa6" points="927.5,-185.5 820.5,-185.5 820.5,-138.5 927.5,-138.5 927.5,-185.5"/>
+<text text-anchor="middle" x="874" y="-171.9" font-family="Times,serif" font-size="12.00">runtime</text>
+<text text-anchor="middle" x="874" y="-158.9" font-family="Times,serif" font-size="12.00">mapaccess1_faststr</text>
+<text text-anchor="middle" x="874" y="-145.9" font-family="Times,serif" font-size="12.00">0.04s (1.32%)</text>
 </a>
 </g>
 </g>
-<!-- N8&#45;&gt;N14 -->
+<!-- N6&#45;&gt;N14 -->
 <g id="edge13" class="edge">
-<title>N8&#45;&gt;N14</title>
-<g id="a_edge13"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; runtime.fastrand (0.04s)">
-<path fill="none" stroke="#b2afa7" d="M684.6,-429.97C701.9,-421.32 720.7,-411.02 737,-400 763.88,-381.83 767.69,-373.49 792,-352 797.53,-347.11 803.4,-341.88 809.07,-336.82"/>
-<polygon fill="#b2afa7" stroke="#b2afa7" points="811.5,-339.34 816.62,-330.06 806.83,-334.12 811.5,-339.34"/>
+<title>N6&#45;&gt;N14</title>
+<g id="a_edge13"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.OptionMap &#45;&gt; runtime.mapaccess1_faststr (0.04s)">
+<path fill="none" stroke="#b2afa6" d="M765.66,-264.75C789.71,-242.16 819.98,-213.74 842.41,-192.67"/>
+<polygon fill="#b2afa6" stroke="#b2afa6" points="845.09,-194.95 849.99,-185.55 840.3,-189.85 845.09,-194.95"/>
 </a>
 </g>
-<g id="a_edge13&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; runtime.fastrand (0.04s)">
-<text text-anchor="middle" x="789" y="-381.3" font-family="Times,serif" font-size="14.00"> 0.04s</text>
+<g id="a_edge13&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.OptionMap &#45;&gt; runtime.mapaccess1_faststr (0.04s)">
+<text text-anchor="middle" x="821" y="-229.8" font-family="Times,serif" font-size="14.00"> 0.04s</text>
+</a>
+</g>
+</g>
+<!-- N7&#45;&gt;N3 -->
+<g id="edge3" class="edge">
+<title>N7&#45;&gt;N3</title>
+<g id="a_edge3"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.BenchmarkOptionSwitch &#45;&gt; github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.OptionSwitch (1.59s)">
+<path fill="none" stroke="#b21f00" stroke-width="3" d="M470,-412.93C470,-396.62 470,-376.17 470,-357.41"/>
+<polygon fill="#b21f00" stroke="#b21f00" stroke-width="3" points="473.5,-357.19 470,-347.19 466.5,-357.19 473.5,-357.19"/>
+</a>
+</g>
+<g id="a_edge3&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.BenchmarkOptionSwitch &#45;&gt; github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.OptionSwitch (1.59s)">
+<text text-anchor="middle" x="492" y="-383.8" font-family="Times,serif" font-size="14.00"> 1.59s</text>
+<text text-anchor="middle" x="492" y="-368.8" font-family="Times,serif" font-size="14.00"> (inline)</text>
+</a>
+</g>
+</g>
+<!-- N13 -->
+<g id="node13" class="node">
+<title>N13</title>
+<g id="a_node13"><a xlink:title="runtime.asyncPreempt (0.04s)">
+<polygon fill="#edeceb" stroke="#b2afa6" points="644.5,-326.5 561.5,-326.5 561.5,-279.5 644.5,-279.5 644.5,-326.5"/>
+<text text-anchor="middle" x="603" y="-312.9" font-family="Times,serif" font-size="12.00">runtime</text>
+<text text-anchor="middle" x="603" y="-299.9" font-family="Times,serif" font-size="12.00">asyncPreempt</text>
+<text text-anchor="middle" x="603" y="-286.9" font-family="Times,serif" font-size="12.00">0.04s (1.32%)</text>
+</a>
+</g>
+</g>
+<!-- N7&#45;&gt;N13 -->
+<g id="edge12" class="edge">
+<title>N7&#45;&gt;N13</title>
+<g id="a_edge12"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.BenchmarkOptionSwitch &#45;&gt; runtime.asyncPreempt (0.04s)">
+<path fill="none" stroke="#b2afa6" d="M500.84,-412.74C506.57,-406.87 512.48,-400.77 518,-395 537.18,-374.95 558.49,-352.13 574.98,-334.36"/>
+<polygon fill="#b2afa6" stroke="#b2afa6" points="577.96,-336.29 582.19,-326.58 572.82,-331.53 577.96,-336.29"/>
+</a>
+</g>
+<g id="a_edge12&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.BenchmarkOptionSwitch &#45;&gt; runtime.asyncPreempt (0.04s)">
+<text text-anchor="middle" x="564" y="-376.3" font-family="Times,serif" font-size="14.00"> 0.04s</text>
+</a>
+</g>
+</g>
+<!-- N8&#45;&gt;N6 -->
+<g id="edge5" class="edge">
+<title>N8&#45;&gt;N6</title>
+<g id="a_edge5"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.OptionMap (1.22s)">
+<path fill="none" stroke="#b22a00" stroke-width="3" d="M648.31,-414.99C661.52,-396.11 679.03,-371.09 694.09,-349.59"/>
+<polygon fill="#b22a00" stroke="#b22a00" stroke-width="3" points="697.07,-351.43 699.94,-341.23 691.34,-347.42 697.07,-351.43"/>
+</a>
+</g>
+<g id="a_edge5&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.OptionMap (1.22s)">
+<text text-anchor="middle" x="700" y="-376.3" font-family="Times,serif" font-size="14.00"> 1.22s</text>
+</a>
+</g>
+</g>
+<!-- N15 -->
+<g id="node15" class="node">
+<title>N15</title>
+<g id="a_node15"><a xlink:title="runtime.fastrand (0.03s)">
+<polygon fill="#edeceb" stroke="#b2b0a9" points="885,-325 807,-325 807,-281 885,-281 885,-325"/>
+<text text-anchor="middle" x="846" y="-312.2" font-family="Times,serif" font-size="11.00">runtime</text>
+<text text-anchor="middle" x="846" y="-300.2" font-family="Times,serif" font-size="11.00">fastrand</text>
+<text text-anchor="middle" x="846" y="-288.2" font-family="Times,serif" font-size="11.00">0.03s (0.99%)</text>
+</a>
+</g>
+</g>
+<!-- N8&#45;&gt;N15 -->
+<g id="edge14" class="edge">
+<title>N8&#45;&gt;N15</title>
+<g id="a_edge14"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; runtime.fastrand (0.03s)">
+<path fill="none" stroke="#b2b0a9" d="M687.31,-414.88C721.05,-397.17 763.35,-373.01 798,-347 804.03,-342.47 810.21,-337.35 816.04,-332.26"/>
+<polygon fill="#b2b0a9" stroke="#b2b0a9" points="818.6,-334.67 823.74,-325.4 813.94,-329.44 818.6,-334.67"/>
+</a>
+</g>
+<g id="a_edge14&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; runtime.fastrand (0.03s)">
+<text text-anchor="middle" x="788" y="-376.3" font-family="Times,serif" font-size="14.00"> 0.03s</text>
+</a>
+</g>
+</g>
+<!-- N16 -->
+<g id="node16" class="node">
+<title>N16</title>
+<g id="a_node16"><a xlink:title="runtime.duffzero (0.02s)">
+<polygon fill="#edecec" stroke="#b2b1ac" points="981,-325 903,-325 903,-281 981,-281 981,-325"/>
+<text text-anchor="middle" x="942" y="-312.2" font-family="Times,serif" font-size="11.00">runtime</text>
+<text text-anchor="middle" x="942" y="-300.2" font-family="Times,serif" font-size="11.00">duffzero</text>
+<text text-anchor="middle" x="942" y="-288.2" font-family="Times,serif" font-size="11.00">0.02s (0.66%)</text>
+</a>
+</g>
+</g>
+<!-- N8&#45;&gt;N16 -->
+<g id="edge15" class="edge">
+<title>N8&#45;&gt;N16</title>
+<g id="a_edge15"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; runtime.duffzero (0.02s)">
+<path fill="none" stroke="#b2b1ac" d="M691.26,-430.97C726.61,-422.68 771.05,-410.57 809,-395 849.14,-378.54 858.75,-372.29 894,-347 900.25,-342.52 906.6,-337.34 912.56,-332.17"/>
+<polygon fill="#b2b1ac" stroke="#b2b1ac" points="915.25,-334.45 920.38,-325.18 910.59,-329.23 915.25,-334.45"/>
+</a>
+</g>
+<g id="a_edge15&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; runtime.duffzero (0.02s)">
+<text text-anchor="middle" x="884" y="-376.3" font-family="Times,serif" font-size="14.00"> 0.02s</text>
 </a>
 </g>
 </g>

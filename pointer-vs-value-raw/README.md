@@ -2,7 +2,7 @@
 ```bash
 goos: darwin
 goarch: amd64
-pkg: github.com/joshcarp/benchmarks/pointer-vs-value-raw
+pkg: github.com/joshcarp/go-benchmarks/pointer-vs-value-raw
 cpu: Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz
 BenchmarkNewValue
 BenchmarkNewValue-16                        	1000000000	         0.8634 ns/op	       0 B/op	       0 allocs/op
@@ -45,7 +45,7 @@ BenchmarkUnexportedMethodValueNoRef-16      	1000000000	         0.7132 ns/op	  
 BenchmarkUnexportedMethodPointerNoRef
 BenchmarkUnexportedMethodPointerNoRef-16    	995335682	         1.187 ns/op	       0 B/op	       0 allocs/op
 PASS
-ok  	github.com/joshcarp/benchmarks/pointer-vs-value-raw	24.232s
+ok  	github.com/joshcarp/go-benchmarks/pointer-vs-value-raw	24.232s
 ```
 ## Memory profile
 ![](mem.svg)

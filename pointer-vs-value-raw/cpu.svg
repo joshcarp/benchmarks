@@ -326,7 +326,7 @@ function handleMouseUp(evt) {
 <!-- N4 -->
 <g id="node4" class="node">
 <title>N4</title>
-<g id="a_node4"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer (1.20s)">
+<g id="a_node4"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer (1.20s)">
 <polygon fill="#ede9e5" stroke="#b29877" points="271,-218 0,-218 0,-132 271,-132 271,-218"/>
 <text text-anchor="middle" x="135.5" y="-194.8" font-family="Times,serif" font-size="24.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="135.5" y="-168.8" font-family="Times,serif" font-size="24.00">BenchmarkMethodPointer</text>
@@ -337,12 +337,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N4 -->
 <g id="edge4" class="edge">
 <title>N1&#45;&gt;N4</title>
-<g id="a_edge4"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer (1.20s)">
+<g id="a_edge4"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer (1.20s)">
 <path fill="none" stroke="#b29877" d="M3054.26,-302.7C2773.29,-300.63 1170.75,-287.96 682.5,-264 503.45,-255.21 455.36,-270.51 280.5,-231 268.91,-228.38 257,-225.03 245.24,-221.28"/>
 <polygon fill="#b29877" stroke="#b29877" points="245.99,-217.84 235.4,-218.04 243.8,-224.49 245.99,-217.84"/>
 </a>
 </g>
-<g id="a_edge4&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer (1.20s)">
+<g id="a_edge4&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer (1.20s)">
 <text text-anchor="middle" x="699.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.20s</text>
 </a>
 </g>
@@ -350,7 +350,7 @@ function handleMouseUp(evt) {
 <!-- N5 -->
 <g id="node5" class="node">
 <title>N5</title>
-<g id="a_node5"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef (1.28s)">
+<g id="a_node5"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef (1.28s)">
 <polygon fill="#ede9e4" stroke="#b29673" points="597.5,-231 289.5,-231 289.5,-119 597.5,-119 597.5,-231"/>
 <text text-anchor="middle" x="443.5" y="-207.8" font-family="Times,serif" font-size="24.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="443.5" y="-181.8" font-family="Times,serif" font-size="24.00">BenchmarkFuncPointerNoRef</text>
@@ -362,12 +362,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N5 -->
 <g id="edge2" class="edge">
 <title>N1&#45;&gt;N5</title>
-<g id="a_edge2"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef (1.28s)">
+<g id="a_edge2"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef (1.28s)">
 <path fill="none" stroke="#b29673" d="M3054.4,-302.91C2844.13,-302.28 1886.63,-297.64 1103.5,-264 885.57,-254.64 825.4,-273.52 607.48,-231.08"/>
 <polygon fill="#b29673" stroke="#b29673" points="608.15,-227.64 597.66,-229.14 606.79,-234.51 608.15,-227.64"/>
 </a>
 </g>
-<g id="a_edge2&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef (1.28s)">
+<g id="a_edge2&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef (1.28s)">
 <text text-anchor="middle" x="1120.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.28s</text>
 </a>
 </g>
@@ -375,7 +375,7 @@ function handleMouseUp(evt) {
 <!-- N6 -->
 <g id="node6" class="node">
 <title>N6</title>
-<g id="a_node6"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer (1.13s)">
+<g id="a_node6"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer (1.13s)">
 <polygon fill="#ede9e5" stroke="#b29a7b" points="959,-229 616,-229 616,-121 959,-121 959,-229"/>
 <text text-anchor="middle" x="787.5" y="-206.6" font-family="Times,serif" font-size="23.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="787.5" y="-181.6" font-family="Times,serif" font-size="23.00">BenchmarkUnexportedFuncPointer</text>
@@ -387,12 +387,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N6 -->
 <g id="edge6" class="edge">
 <title>N1&#45;&gt;N6</title>
-<g id="a_edge6"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer (1.13s)">
+<g id="a_edge6"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer (1.13s)">
 <path fill="none" stroke="#b29a7b" d="M3054.19,-303.16C2792.38,-303.93 1390.48,-304.51 968.5,-231 968.28,-230.96 968.06,-230.92 967.83,-230.88"/>
 <polygon fill="#b29a7b" stroke="#b29a7b" points="968.22,-227.4 957.75,-229 966.93,-234.28 968.22,-227.4"/>
 </a>
 </g>
-<g id="a_edge6&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer (1.13s)">
+<g id="a_edge6&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer (1.13s)">
 <text text-anchor="middle" x="1289.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.13s</text>
 </a>
 </g>
@@ -400,7 +400,7 @@ function handleMouseUp(evt) {
 <!-- N7 -->
 <g id="node7" class="node">
 <title>N7</title>
-<g id="a_node7"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue (1.21s)">
+<g id="a_node7"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue (1.21s)">
 <polygon fill="#ede9e5" stroke="#b29877" points="1319.5,-231 977.5,-231 977.5,-119 1319.5,-119 1319.5,-231"/>
 <text text-anchor="middle" x="1148.5" y="-207.8" font-family="Times,serif" font-size="24.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="1148.5" y="-181.8" font-family="Times,serif" font-size="24.00">BenchmarkUnexportedFuncValue</text>
@@ -412,12 +412,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N7 -->
 <g id="edge3" class="edge">
 <title>N1&#45;&gt;N7</title>
-<g id="a_edge3"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue (1.21s)">
+<g id="a_edge3"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue (1.21s)">
 <path fill="none" stroke="#b29877" d="M3054.27,-301.59C2800.89,-293.1 1488.08,-248.54 1330.01,-230.79"/>
 <polygon fill="#b29877" stroke="#b29877" points="1330.13,-227.27 1319.75,-229.41 1329.2,-234.21 1330.13,-227.27"/>
 </a>
 </g>
-<g id="a_edge3&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue (1.21s)">
+<g id="a_edge3&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue (1.21s)">
 <text text-anchor="middle" x="2010.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.21s</text>
 </a>
 </g>
@@ -425,7 +425,7 @@ function handleMouseUp(evt) {
 <!-- N8 -->
 <g id="node8" class="node">
 <title>N8</title>
-<g id="a_node8"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef (1.09s)">
+<g id="a_node8"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef (1.09s)">
 <polygon fill="#edeae6" stroke="#b29b7d" points="1741.5,-229 1337.5,-229 1337.5,-121 1741.5,-121 1741.5,-229"/>
 <text text-anchor="middle" x="1539.5" y="-206.6" font-family="Times,serif" font-size="23.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="1539.5" y="-181.6" font-family="Times,serif" font-size="23.00">BenchmarkUnexportedFuncPointerNoRef</text>
@@ -437,12 +437,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N8 -->
 <g id="edge8" class="edge">
 <title>N1&#45;&gt;N8</title>
-<g id="a_edge8"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef (1.09s)">
+<g id="a_edge8"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef (1.09s)">
 <path fill="none" stroke="#b29b7d" d="M3054.24,-300.75C2943.08,-294.82 2633.34,-278.24 2375.5,-264 2257.27,-257.47 2227.74,-255.3 2109.5,-249 1949.97,-240.5 1908.4,-255.28 1750.5,-231 1749.75,-230.88 1748.99,-230.77 1748.23,-230.65"/>
 <polygon fill="#b29b7d" stroke="#b29b7d" points="1748.78,-227.19 1738.34,-229.01 1747.64,-234.1 1748.78,-227.19"/>
 </a>
 </g>
-<g id="a_edge8&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef (1.09s)">
+<g id="a_edge8&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef (1.09s)">
 <text text-anchor="middle" x="2392.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.09s</text>
 </a>
 </g>
@@ -450,7 +450,7 @@ function handleMouseUp(evt) {
 <!-- N9 -->
 <g id="node9" class="node">
 <title>N9</title>
-<g id="a_node9"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer (1.18s)">
+<g id="a_node9"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer (1.18s)">
 <polygon fill="#ede9e5" stroke="#b29978" points="2143.5,-231 1759.5,-231 1759.5,-119 2143.5,-119 2143.5,-231"/>
 <text text-anchor="middle" x="1951.5" y="-207.8" font-family="Times,serif" font-size="24.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="1951.5" y="-181.8" font-family="Times,serif" font-size="24.00">BenchmarkUnexportedMethodPointer</text>
@@ -462,12 +462,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N9 -->
 <g id="edge5" class="edge">
 <title>N1&#45;&gt;N9</title>
-<g id="a_edge5"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer (1.18s)">
+<g id="a_edge5"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer (1.18s)">
 <path fill="none" stroke="#b29978" d="M3054.15,-299.5C2946.94,-290.68 2656.08,-266.95 2413.5,-249 2300.71,-240.65 2268.87,-249.91 2153.55,-231.09"/>
 <polygon fill="#b29978" stroke="#b29978" points="2154.06,-227.62 2143.62,-229.43 2152.91,-234.53 2154.06,-227.62"/>
 </a>
 </g>
-<g id="a_edge5&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer (1.18s)">
+<g id="a_edge5&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer (1.18s)">
 <text text-anchor="middle" x="2618.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.18s</text>
 </a>
 </g>
@@ -475,7 +475,7 @@ function handleMouseUp(evt) {
 <!-- N10 -->
 <g id="node10" class="node">
 <title>N10</title>
-<g id="a_node10"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef (1.11s)">
+<g id="a_node10"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef (1.11s)">
 <polygon fill="#edeae5" stroke="#b29a7c" points="2591,-229 2162,-229 2162,-121 2591,-121 2591,-229"/>
 <text text-anchor="middle" x="2376.5" y="-206.6" font-family="Times,serif" font-size="23.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="2376.5" y="-181.6" font-family="Times,serif" font-size="23.00">BenchmarkUnexportedMethodPointerNoRef</text>
@@ -487,12 +487,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N10 -->
 <g id="edge7" class="edge">
 <title>N1&#45;&gt;N10</title>
-<g id="a_edge7"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef (1.11s)">
+<g id="a_edge7"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef (1.11s)">
 <path fill="none" stroke="#b29a7c" d="M3054.46,-298.29C2970.28,-288.55 2774.9,-264.45 2600.57,-230.97"/>
 <polygon fill="#b29a7c" stroke="#b29a7c" points="2601.19,-227.52 2590.71,-229.06 2599.86,-234.39 2601.19,-227.52"/>
 </a>
 </g>
-<g id="a_edge7&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef (1.11s)">
+<g id="a_edge7&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef (1.11s)">
 <text text-anchor="middle" x="2808.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.11s</text>
 </a>
 </g>
@@ -500,7 +500,7 @@ function handleMouseUp(evt) {
 <!-- N11 -->
 <g id="node11" class="node">
 <title>N11</title>
-<g id="a_node11"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue (0.64s)">
+<g id="a_node11"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue (0.64s)">
 <polygon fill="#edebe8" stroke="#b2a793" points="2917.5,-212 2609.5,-212 2609.5,-138 2917.5,-138 2917.5,-212"/>
 <text text-anchor="middle" x="2763.5" y="-192" font-family="Times,serif" font-size="20.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="2763.5" y="-170" font-family="Times,serif" font-size="20.00">BenchmarkUnexportedMethodValue</text>
@@ -511,12 +511,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N11 -->
 <g id="edge18" class="edge">
 <title>N1&#45;&gt;N11</title>
-<g id="a_edge18"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue (0.64s)">
+<g id="a_edge18"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue (0.64s)">
 <path fill="none" stroke="#b2a793" d="M3054.33,-286.92C3007.63,-269.11 2930.63,-239.74 2867.59,-215.7"/>
 <polygon fill="#b2a793" stroke="#b2a793" points="2868.58,-212.33 2857.99,-212.04 2866.09,-218.87 2868.58,-212.33"/>
 </a>
 </g>
-<g id="a_edge18&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue (0.64s)">
+<g id="a_edge18&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue (0.64s)">
 <text text-anchor="middle" x="3006.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.64s</text>
 </a>
 </g>
@@ -524,7 +524,7 @@ function handleMouseUp(evt) {
 <!-- N12 -->
 <g id="node12" class="node">
 <title>N12</title>
-<g id="a_node12"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef (1.02s)">
+<g id="a_node12"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef (1.02s)">
 <polygon fill="#edeae6" stroke="#b29d80" points="3257,-229 2936,-229 2936,-121 3257,-121 3257,-229"/>
 <text text-anchor="middle" x="3096.5" y="-206.6" font-family="Times,serif" font-size="23.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="3096.5" y="-181.6" font-family="Times,serif" font-size="23.00">BenchmarkMethodPointerNoRef</text>
@@ -536,12 +536,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N12 -->
 <g id="edge10" class="edge">
 <title>N1&#45;&gt;N12</title>
-<g id="a_edge10"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef (1.02s)">
+<g id="a_edge10"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef (1.02s)">
 <path fill="none" stroke="#b29d80" d="M3096.5,-281.74C3096.5,-269.93 3096.5,-254.54 3096.5,-239.17"/>
 <polygon fill="#b29d80" stroke="#b29d80" points="3100,-239.12 3096.5,-229.12 3093,-239.12 3100,-239.12"/>
 </a>
 </g>
-<g id="a_edge10&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef (1.02s)">
+<g id="a_edge10&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef (1.02s)">
 <text text-anchor="middle" x="3113.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.02s</text>
 </a>
 </g>
@@ -549,7 +549,7 @@ function handleMouseUp(evt) {
 <!-- N13 -->
 <g id="node13" class="node">
 <title>N13</title>
-<g id="a_node13"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer (1.04s)">
+<g id="a_node13"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer (1.04s)">
 <polygon fill="#edeae6" stroke="#b29c7f" points="3510,-229 3275,-229 3275,-121 3510,-121 3510,-229"/>
 <text text-anchor="middle" x="3392.5" y="-206.6" font-family="Times,serif" font-size="23.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="3392.5" y="-181.6" font-family="Times,serif" font-size="23.00">BenchmarkFuncPointer</text>
@@ -561,12 +561,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N13 -->
 <g id="edge9" class="edge">
 <title>N1&#45;&gt;N13</title>
-<g id="a_edge9"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer (1.04s)">
+<g id="a_edge9"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer (1.04s)">
 <path fill="none" stroke="#b29c7f" d="M3138.55,-285.17C3172.76,-270.64 3222.28,-249.57 3265.5,-231 3265.6,-230.96 3265.69,-230.92 3265.79,-230.88"/>
 <polygon fill="#b29c7f" stroke="#b29c7f" points="3267.08,-234.13 3274.88,-226.97 3264.31,-227.7 3267.08,-234.13"/>
 </a>
 </g>
-<g id="a_edge9&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer (1.04s)">
+<g id="a_edge9&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer (1.04s)">
 <text text-anchor="middle" x="3236.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.04s</text>
 </a>
 </g>
@@ -574,7 +574,7 @@ function handleMouseUp(evt) {
 <!-- N14 -->
 <g id="node14" class="node">
 <title>N14</title>
-<g id="a_node14"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer (0.82s)">
+<g id="a_node14"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer (0.82s)">
 <polygon fill="#edebe7" stroke="#b2a28a" points="3839,-225 3528,-225 3528,-125 3839,-125 3839,-225"/>
 <text text-anchor="middle" x="3683.5" y="-204.2" font-family="Times,serif" font-size="21.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="3683.5" y="-181.2" font-family="Times,serif" font-size="21.00">BenchmarkUnexportedNewPointer</text>
@@ -586,12 +586,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N14 -->
 <g id="edge12" class="edge">
 <title>N1&#45;&gt;N14</title>
-<g id="a_edge12"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer (0.82s)">
+<g id="a_edge12"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer (0.82s)">
 <path fill="none" stroke="#b2a28a" d="M3138.57,-297.99C3214.98,-288.41 3381.34,-265.35 3518.5,-231 3522.62,-229.97 3526.78,-228.88 3530.98,-227.76"/>
 <polygon fill="#b2a28a" stroke="#b2a28a" points="3532.09,-231.08 3540.8,-225.05 3530.23,-224.33 3532.09,-231.08"/>
 </a>
 </g>
-<g id="a_edge12&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer (0.82s)">
+<g id="a_edge12&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer (0.82s)">
 <text text-anchor="middle" x="3456.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.82s</text>
 </a>
 </g>
@@ -599,7 +599,7 @@ function handleMouseUp(evt) {
 <!-- N15 -->
 <g id="node15" class="node">
 <title>N15</title>
-<g id="a_node15"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef (0.82s)">
+<g id="a_node15"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef (0.82s)">
 <polygon fill="#edebe7" stroke="#b2a28a" points="4115.5,-225 3857.5,-225 3857.5,-125 4115.5,-125 4115.5,-225"/>
 <text text-anchor="middle" x="3986.5" y="-204.2" font-family="Times,serif" font-size="21.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="3986.5" y="-181.2" font-family="Times,serif" font-size="21.00">BenchmarkFuncValueNoRef</text>
@@ -611,12 +611,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N15 -->
 <g id="edge11" class="edge">
 <title>N1&#45;&gt;N15</title>
-<g id="a_edge11"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef (0.82s)">
+<g id="a_edge11"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef (0.82s)">
 <path fill="none" stroke="#b2a28a" d="M3138.7,-303.07C3253.98,-302.4 3583.26,-294.59 3847.5,-231 3851.43,-230.05 3855.4,-229.02 3859.39,-227.91"/>
 <polygon fill="#b2a28a" stroke="#b2a28a" points="3860.7,-231.17 3869.32,-225.01 3858.74,-224.45 3860.7,-231.17"/>
 </a>
 </g>
-<g id="a_edge11&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef (0.82s)">
+<g id="a_edge11&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef (0.82s)">
 <text text-anchor="middle" x="3764.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.82s</text>
 </a>
 </g>
@@ -624,7 +624,7 @@ function handleMouseUp(evt) {
 <!-- N16 -->
 <g id="node16" class="node">
 <title>N16</title>
-<g id="a_node16"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue (0.80s)">
+<g id="a_node16"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue (0.80s)">
 <polygon fill="#edebe7" stroke="#b2a38b" points="4431.5,-225 4133.5,-225 4133.5,-125 4431.5,-125 4431.5,-225"/>
 <text text-anchor="middle" x="4282.5" y="-204.2" font-family="Times,serif" font-size="21.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="4282.5" y="-181.2" font-family="Times,serif" font-size="21.00">BenchmarkUnexportedNewValue</text>
@@ -636,12 +636,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N16 -->
 <g id="edge13" class="edge">
 <title>N1&#45;&gt;N16</title>
-<g id="a_edge13"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue (0.80s)">
+<g id="a_edge13"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue (0.80s)">
 <path fill="none" stroke="#b2a38b" d="M3138.63,-301.69C3306.99,-296.19 3931.62,-273.32 4124.5,-231 4129.22,-229.97 4133.99,-228.83 4138.78,-227.62"/>
 <polygon fill="#b2a38b" stroke="#b2a38b" points="4139.88,-230.95 4148.66,-225.02 4138.1,-224.18 4139.88,-230.95"/>
 </a>
 </g>
-<g id="a_edge13&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue (0.80s)">
+<g id="a_edge13&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue (0.80s)">
 <text text-anchor="middle" x="4017.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.80s</text>
 </a>
 </g>
@@ -649,7 +649,7 @@ function handleMouseUp(evt) {
 <!-- N17 -->
 <g id="node17" class="node">
 <title>N17</title>
-<g id="a_node17"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue (0.72s)">
+<g id="a_node17"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue (0.72s)">
 <polygon fill="#edebe8" stroke="#b2a58f" points="4641,-223 4450,-223 4450,-127 4641,-127 4641,-223"/>
 <text text-anchor="middle" x="4545.5" y="-203" font-family="Times,serif" font-size="20.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="4545.5" y="-181" font-family="Times,serif" font-size="20.00">BenchmarkNewValue</text>
@@ -661,12 +661,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N17 -->
 <g id="edge14" class="edge">
 <title>N1&#45;&gt;N17</title>
-<g id="a_edge14"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue (0.72s)">
+<g id="a_edge14"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue (0.72s)">
 <path fill="none" stroke="#b2a58f" d="M3138.78,-301.86C3271.45,-298.15 3691.34,-285.43 4038.5,-264 4217.43,-252.96 4268.32,-280.92 4440.5,-231 4444.78,-229.76 4449.1,-228.33 4453.4,-226.76"/>
 <polygon fill="#b2a58f" stroke="#b2a58f" points="4454.74,-229.99 4462.8,-223.11 4452.21,-223.47 4454.74,-229.99"/>
 </a>
 </g>
-<g id="a_edge14&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue (0.72s)">
+<g id="a_edge14&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue (0.72s)">
 <text text-anchor="middle" x="4382.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.72s</text>
 </a>
 </g>
@@ -674,7 +674,7 @@ function handleMouseUp(evt) {
 <!-- N18 -->
 <g id="node18" class="node">
 <title>N18</title>
-<g id="a_node18"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef (0.68s)">
+<g id="a_node18"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef (0.68s)">
 <polygon fill="#edebe8" stroke="#b2a691" points="4928,-223 4659,-223 4659,-127 4928,-127 4928,-223"/>
 <text text-anchor="middle" x="4793.5" y="-203" font-family="Times,serif" font-size="20.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="4793.5" y="-181" font-family="Times,serif" font-size="20.00">BenchmarkMethodValueNoRef</text>
@@ -686,12 +686,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N18 -->
 <g id="edge16" class="edge">
 <title>N1&#45;&gt;N18</title>
-<g id="a_edge16"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef (0.68s)">
+<g id="a_edge16"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef (0.68s)">
 <path fill="none" stroke="#b2a691" d="M3138.62,-303.32C3301.7,-304.21 3907.14,-304.45 4403.5,-264 4513.89,-255 4543.19,-258.4 4650.5,-231 4656.28,-229.52 4662.14,-227.89 4668.03,-226.12"/>
 <polygon fill="#b2a691" stroke="#b2a691" points="4669.44,-229.35 4677.96,-223.05 4667.37,-222.66 4669.44,-229.35"/>
 </a>
 </g>
-<g id="a_edge16&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef (0.68s)">
+<g id="a_edge16&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef (0.68s)">
 <text text-anchor="middle" x="4582.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.68s</text>
 </a>
 </g>
@@ -699,7 +699,7 @@ function handleMouseUp(evt) {
 <!-- N19 -->
 <g id="node19" class="node">
 <title>N19</title>
-<g id="a_node19"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef (0.71s)">
+<g id="a_node19"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef (0.71s)">
 <polygon fill="#edebe8" stroke="#b2a58f" points="5286.5,-223 4946.5,-223 4946.5,-127 5286.5,-127 5286.5,-223"/>
 <text text-anchor="middle" x="5116.5" y="-203" font-family="Times,serif" font-size="20.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="5116.5" y="-181" font-family="Times,serif" font-size="20.00">BenchmarkUnexportedFuncValueNoRef</text>
@@ -711,12 +711,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N19 -->
 <g id="edge15" class="edge">
 <title>N1&#45;&gt;N19</title>
-<g id="a_edge15"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef (0.71s)">
+<g id="a_edge15"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef (0.71s)">
 <path fill="none" stroke="#b2a58f" d="M3138.8,-303.03C3316.98,-302.92 4023.93,-300.08 4603.5,-264 4752.38,-254.73 4791.26,-260.39 4937.5,-231 4945.63,-229.37 4953.92,-227.51 4962.26,-225.5"/>
 <polygon fill="#b2a58f" stroke="#b2a58f" points="4963.19,-228.87 4972.06,-223.06 4961.51,-222.08 4963.19,-228.87"/>
 </a>
 </g>
-<g id="a_edge15&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef (0.71s)">
+<g id="a_edge15&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef (0.71s)">
 <text text-anchor="middle" x="4845.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.71s</text>
 </a>
 </g>
@@ -724,7 +724,7 @@ function handleMouseUp(evt) {
 <!-- N20 -->
 <g id="node20" class="node">
 <title>N20</title>
-<g id="a_node20"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue (0.62s)">
+<g id="a_node20"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue (0.62s)">
 <polygon fill="#edebe9" stroke="#b2a794" points="5490.5,-221 5304.5,-221 5304.5,-129 5490.5,-129 5490.5,-221"/>
 <text text-anchor="middle" x="5397.5" y="-201.8" font-family="Times,serif" font-size="19.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="5397.5" y="-180.8" font-family="Times,serif" font-size="19.00">BenchmarkFuncValue</text>
@@ -736,12 +736,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N20 -->
 <g id="edge20" class="edge">
 <title>N1&#45;&gt;N20</title>
-<g id="a_edge20"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue (0.62s)">
+<g id="a_edge20"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue (0.62s)">
 <path fill="none" stroke="#b2a794" d="M3138.67,-302.92C3334.74,-302.38 4176.92,-298.09 4866.5,-264 5057.5,-254.56 5112.02,-284.88 5295.5,-231 5301.19,-229.33 5306.92,-227.31 5312.61,-225.06"/>
 <polygon fill="#b2a794" stroke="#b2a794" points="5314.27,-228.16 5322.12,-221.05 5311.55,-221.71 5314.27,-228.16"/>
 </a>
 </g>
-<g id="a_edge20&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue (0.62s)">
+<g id="a_edge20&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue (0.62s)">
 <text text-anchor="middle" x="5241.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.62s</text>
 </a>
 </g>
@@ -749,7 +749,7 @@ function handleMouseUp(evt) {
 <!-- N21 -->
 <g id="node21" class="node">
 <title>N21</title>
-<g id="a_node21"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer (0.65s)">
+<g id="a_node21"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer (0.65s)">
 <polygon fill="#edebe8" stroke="#b2a692" points="5712,-223 5509,-223 5509,-127 5712,-127 5712,-223"/>
 <text text-anchor="middle" x="5610.5" y="-203" font-family="Times,serif" font-size="20.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="5610.5" y="-181" font-family="Times,serif" font-size="20.00">BenchmarkNewPointer</text>
@@ -761,12 +761,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N21 -->
 <g id="edge17" class="edge">
 <title>N1&#45;&gt;N21</title>
-<g id="a_edge17"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer (0.65s)">
+<g id="a_edge17"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer (0.65s)">
 <path fill="none" stroke="#b2a692" d="M3138.57,-302.93C3402.04,-302.42 4827.55,-298.07 5262.5,-264 5368.52,-255.69 5397.88,-262.35 5499.5,-231 5503.6,-229.73 5507.74,-228.33 5511.89,-226.82"/>
 <polygon fill="#b2a692" stroke="#b2a692" points="5513.47,-229.96 5521.55,-223.11 5510.96,-223.43 5513.47,-229.96"/>
 </a>
 </g>
-<g id="a_edge17&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer (0.65s)">
+<g id="a_edge17&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer (0.65s)">
 <text text-anchor="middle" x="5444.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.65s</text>
 </a>
 </g>
@@ -774,7 +774,7 @@ function handleMouseUp(evt) {
 <!-- N22 -->
 <g id="node22" class="node">
 <title>N22</title>
-<g id="a_node22"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue (0.60s)">
+<g id="a_node22"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue (0.60s)">
 <polygon fill="#edebe9" stroke="#b2a795" points="5938.5,-221 5730.5,-221 5730.5,-129 5938.5,-129 5938.5,-221"/>
 <text text-anchor="middle" x="5834.5" y="-201.8" font-family="Times,serif" font-size="19.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="5834.5" y="-180.8" font-family="Times,serif" font-size="19.00">BenchmarkMethodValue</text>
@@ -786,12 +786,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N22 -->
 <g id="edge21" class="edge">
 <title>N1&#45;&gt;N22</title>
-<g id="a_edge21"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue (0.60s)">
+<g id="a_edge21"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue (0.60s)">
 <path fill="none" stroke="#b2a795" d="M3138.86,-302.95C3417.17,-302.53 4987.54,-298.63 5465.5,-264 5579.92,-255.71 5611.59,-263.87 5721.5,-231 5727.54,-229.19 5733.65,-227.1 5739.74,-224.8"/>
 <polygon fill="#b2a795" stroke="#b2a795" points="5741.27,-227.95 5749.29,-221.03 5738.7,-221.44 5741.27,-227.95"/>
 </a>
 </g>
-<g id="a_edge21&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue (0.60s)">
+<g id="a_edge21&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue (0.60s)">
 <text text-anchor="middle" x="5665.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.60s</text>
 </a>
 </g>
@@ -799,7 +799,7 @@ function handleMouseUp(evt) {
 <!-- N23 -->
 <g id="node23" class="node">
 <title>N23</title>
-<g id="a_node23"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef (0.64s)">
+<g id="a_node23"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef (0.64s)">
 <polygon fill="#edebe8" stroke="#b2a793" points="6318.5,-223 5956.5,-223 5956.5,-127 6318.5,-127 6318.5,-223"/>
 <text text-anchor="middle" x="6137.5" y="-203" font-family="Times,serif" font-size="20.00">pointer&#45;vs&#45;value&#45;raw</text>
 <text text-anchor="middle" x="6137.5" y="-181" font-family="Times,serif" font-size="20.00">BenchmarkUnexportedMethodValueNoRef</text>
@@ -811,12 +811,12 @@ function handleMouseUp(evt) {
 <!-- N1&#45;&gt;N23 -->
 <g id="edge19" class="edge">
 <title>N1&#45;&gt;N23</title>
-<g id="a_edge19"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef (0.64s)">
+<g id="a_edge19"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef (0.64s)">
 <path fill="none" stroke="#b2a793" d="M3138.97,-303.01C3432.32,-302.95 5161.65,-301.02 5686.5,-264 5803.13,-255.77 5833,-254.66 5947.5,-231 5955.72,-229.3 5964.1,-227.43 5972.54,-225.42"/>
 <polygon fill="#b2a793" stroke="#b2a793" points="5973.57,-228.78 5982.46,-223.02 5971.92,-221.97 5973.57,-228.78"/>
 </a>
 </g>
-<g id="a_edge19&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef (0.64s)">
+<g id="a_edge19&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef (0.64s)">
 <text text-anchor="middle" x="5865.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.64s</text>
 </a>
 </g>
@@ -860,12 +860,12 @@ function handleMouseUp(evt) {
 <!-- N5&#45;&gt;N3 -->
 <g id="edge32" class="edge">
 <title>N5&#45;&gt;N3</title>
-<g id="a_edge32"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge32"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
 <path fill="none" stroke="#b2b2b1" d="M597.66,-120.89C600.63,-120.22 603.57,-119.59 606.5,-119 800,-79.8 852.29,-95.36 1049.5,-86 2006.97,-40.56 3173.61,-35.58 3467.68,-35.05"/>
 <polygon fill="#b2b2b1" stroke="#b2b2b1" points="3467.77,-38.55 3477.77,-35.04 3467.76,-31.55 3467.77,-38.55"/>
 </a>
 </g>
-<g id="a_edge32&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge32&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
 <text text-anchor="middle" x="1066.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
 </a>
 </g>
@@ -873,12 +873,12 @@ function handleMouseUp(evt) {
 <!-- N6&#45;&gt;N3 -->
 <g id="edge24" class="edge">
 <title>N6&#45;&gt;N3</title>
-<g id="a_edge24"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer &#45;&gt; runtime.asyncPreempt (0.06s)">
+<g id="a_edge24"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer &#45;&gt; runtime.asyncPreempt (0.06s)">
 <path fill="none" stroke="#b2b1af" d="M958.75,-120.92C962.02,-120.24 965.27,-119.6 968.5,-119 1161.7,-82.88 1213.19,-95.69 1409.5,-86 2217.65,-46.1 3200.04,-37.15 3467.47,-35.39"/>
 <polygon fill="#b2b1af" stroke="#b2b1af" points="3467.82,-38.89 3477.8,-35.32 3467.78,-31.89 3467.82,-38.89"/>
 </a>
 </g>
-<g id="a_edge24&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer &#45;&gt; runtime.asyncPreempt (0.06s)">
+<g id="a_edge24&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer &#45;&gt; runtime.asyncPreempt (0.06s)">
 <text text-anchor="middle" x="1426.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.06s</text>
 </a>
 </g>
@@ -886,12 +886,12 @@ function handleMouseUp(evt) {
 <!-- N7&#45;&gt;N3 -->
 <g id="edge29" class="edge">
 <title>N7&#45;&gt;N3</title>
-<g id="a_edge29"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue &#45;&gt; runtime.asyncPreempt (0.03s)">
+<g id="a_edge29"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue &#45;&gt; runtime.asyncPreempt (0.03s)">
 <path fill="none" stroke="#b2b2b1" d="M1319.76,-120.65C1322.69,-120.07 1325.61,-119.52 1328.5,-119 1576.09,-74.6 1642.21,-97.23 1893.5,-86 2503.16,-58.74 3240.66,-41.45 3467.66,-36.48"/>
 <polygon fill="#b2b2b1" stroke="#b2b2b1" points="3467.84,-39.98 3477.76,-36.26 3467.69,-32.98 3467.84,-39.98"/>
 </a>
 </g>
-<g id="a_edge29&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue &#45;&gt; runtime.asyncPreempt (0.03s)">
+<g id="a_edge29&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue &#45;&gt; runtime.asyncPreempt (0.03s)">
 <text text-anchor="middle" x="1910.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.03s</text>
 </a>
 </g>
@@ -899,12 +899,12 @@ function handleMouseUp(evt) {
 <!-- N8&#45;&gt;N3 -->
 <g id="edge25" class="edge">
 <title>N8&#45;&gt;N3</title>
-<g id="a_edge25"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef &#45;&gt; runtime.asyncPreempt (0.06s)">
+<g id="a_edge25"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef &#45;&gt; runtime.asyncPreempt (0.06s)">
 <path fill="none" stroke="#b2b1af" d="M1738.64,-121C1742.62,-120.3 1746.57,-119.63 1750.5,-119 2090.19,-64.73 3179.98,-41.49 3467.44,-36.21"/>
 <polygon fill="#b2b1af" stroke="#b2b1af" points="3467.79,-39.7 3477.72,-36.02 3467.66,-32.7 3467.79,-39.7"/>
 </a>
 </g>
-<g id="a_edge25&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef &#45;&gt; runtime.asyncPreempt (0.06s)">
+<g id="a_edge25&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef &#45;&gt; runtime.asyncPreempt (0.06s)">
 <text text-anchor="middle" x="2104.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.06s</text>
 </a>
 </g>
@@ -912,12 +912,12 @@ function handleMouseUp(evt) {
 <!-- N9&#45;&gt;N3 -->
 <g id="edge30" class="edge">
 <title>N9&#45;&gt;N3</title>
-<g id="a_edge30"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer &#45;&gt; runtime.asyncPreempt (0.03s)">
+<g id="a_edge30"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer &#45;&gt; runtime.asyncPreempt (0.03s)">
 <path fill="none" stroke="#b2b2b1" d="M2143.61,-120.54C2146.59,-120 2149.56,-119.49 2152.5,-119 2409.92,-76.34 3223.5,-45.73 3467.6,-37.32"/>
 <polygon fill="#b2b2b1" stroke="#b2b2b1" points="3467.89,-40.81 3477.76,-36.97 3467.65,-33.82 3467.89,-40.81"/>
 </a>
 </g>
-<g id="a_edge30&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer &#45;&gt; runtime.asyncPreempt (0.03s)">
+<g id="a_edge30&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer &#45;&gt; runtime.asyncPreempt (0.03s)">
 <text text-anchor="middle" x="2463.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.03s</text>
 </a>
 </g>
@@ -925,12 +925,12 @@ function handleMouseUp(evt) {
 <!-- N10&#45;&gt;N3 -->
 <g id="edge38" class="edge">
 <title>N10&#45;&gt;N3</title>
-<g id="a_edge38"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge38"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
 <path fill="none" stroke="#b2b2b1" d="M2589.16,-120.96C2592.97,-120.28 2596.75,-119.63 2600.5,-119 2921.77,-65.47 3311.09,-44.37 3467.5,-37.65"/>
 <polygon fill="#b2b2b1" stroke="#b2b2b1" points="3468.06,-41.13 3477.91,-37.21 3467.77,-34.14 3468.06,-41.13"/>
 </a>
 </g>
-<g id="a_edge38&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge38&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
 <text text-anchor="middle" x="2847.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
 </a>
 </g>
@@ -938,12 +938,12 @@ function handleMouseUp(evt) {
 <!-- N12&#45;&gt;N3 -->
 <g id="edge34" class="edge">
 <title>N12&#45;&gt;N3</title>
-<g id="a_edge34"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge34"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
 <path fill="none" stroke="#b2b2b1" d="M3257.05,-121.69C3259.89,-120.78 3262.71,-119.89 3265.5,-119 3334.39,-97.16 3413.32,-72.86 3468.35,-56.04"/>
 <polygon fill="#b2b2b1" stroke="#b2b2b1" points="3469.45,-59.36 3477.99,-53.09 3467.41,-52.67 3469.45,-59.36"/>
 </a>
 </g>
-<g id="a_edge34&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge34&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
 <text text-anchor="middle" x="3387.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
 </a>
 </g>
@@ -951,12 +951,12 @@ function handleMouseUp(evt) {
 <!-- N13&#45;&gt;N3 -->
 <g id="edge31" class="edge">
 <title>N13&#45;&gt;N3</title>
-<g id="a_edge31"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge31"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer &#45;&gt; runtime.asyncPreempt (0.02s)">
 <path fill="none" stroke="#b2b2b1" d="M3448.15,-120.66C3463.79,-105.66 3480.54,-89.6 3495.26,-75.49"/>
 <polygon fill="#b2b2b1" stroke="#b2b2b1" points="3497.96,-77.75 3502.76,-68.31 3493.12,-72.7 3497.96,-77.75"/>
 </a>
 </g>
-<g id="a_edge31&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge31&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer &#45;&gt; runtime.asyncPreempt (0.02s)">
 <text text-anchor="middle" x="3499.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
 </a>
 </g>
@@ -964,12 +964,12 @@ function handleMouseUp(evt) {
 <!-- N14&#45;&gt;N3 -->
 <g id="edge26" class="edge">
 <title>N14&#45;&gt;N3</title>
-<g id="a_edge26"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer &#45;&gt; runtime.asyncPreempt (0.05s)">
+<g id="a_edge26"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer &#45;&gt; runtime.asyncPreempt (0.05s)">
 <path fill="none" stroke="#b2b2b0" d="M3632.03,-124.99C3614.94,-108.73 3596.12,-90.81 3579.81,-75.28"/>
 <polygon fill="#b2b2b0" stroke="#b2b2b0" points="3582.16,-72.69 3572.51,-68.33 3577.33,-77.76 3582.16,-72.69"/>
 </a>
 </g>
-<g id="a_edge26&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer &#45;&gt; runtime.asyncPreempt (0.05s)">
+<g id="a_edge26&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer &#45;&gt; runtime.asyncPreempt (0.05s)">
 <text text-anchor="middle" x="3623.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.05s</text>
 </a>
 </g>
@@ -977,12 +977,12 @@ function handleMouseUp(evt) {
 <!-- N15&#45;&gt;N3 -->
 <g id="edge33" class="edge">
 <title>N15&#45;&gt;N3</title>
-<g id="a_edge33"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge33"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
 <path fill="none" stroke="#b2b2b1" d="M3864.74,-124.93C3858.93,-122.87 3853.16,-120.88 3847.5,-119 3766,-91.93 3670.37,-67.03 3607.1,-51.48"/>
 <polygon fill="#b2b2b1" stroke="#b2b2b1" points="3607.77,-48.05 3597.23,-49.07 3606.11,-54.85 3607.77,-48.05"/>
 </a>
 </g>
-<g id="a_edge33&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge33&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
 <text text-anchor="middle" x="3806.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
 </a>
 </g>
@@ -990,12 +990,12 @@ function handleMouseUp(evt) {
 <!-- N16&#45;&gt;N3 -->
 <g id="edge39" class="edge">
 <title>N16&#45;&gt;N3</title>
-<g id="a_edge39"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge39"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue &#45;&gt; runtime.asyncPreempt (0.02s)">
 <path fill="none" stroke="#b2b2b1" d="M4146.83,-124.91C4139.31,-122.77 4131.84,-120.78 4124.5,-119 3940.68,-74.3 3718.29,-50.49 3607.43,-40.61"/>
 <polygon fill="#b2b2b1" stroke="#b2b2b1" points="3607.65,-37.12 3597.38,-39.73 3607.03,-44.09 3607.65,-37.12"/>
 </a>
 </g>
-<g id="a_edge39&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge39&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue &#45;&gt; runtime.asyncPreempt (0.02s)">
 <text text-anchor="middle" x="4047.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
 </a>
 </g>
@@ -1003,12 +1003,12 @@ function handleMouseUp(evt) {
 <!-- N17&#45;&gt;N3 -->
 <g id="edge36" class="edge">
 <title>N17&#45;&gt;N3</title>
-<g id="a_edge36"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge36"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue &#45;&gt; runtime.asyncPreempt (0.02s)">
 <path fill="none" stroke="#b2b2b1" d="M4462.77,-126.98C4455.38,-123.92 4447.9,-121.19 4440.5,-119 4284.36,-72.81 3791.04,-46.42 3607.34,-37.99"/>
 <polygon fill="#b2b2b1" stroke="#b2b2b1" points="3607.4,-34.49 3597.25,-37.53 3607.08,-41.49 3607.4,-34.49"/>
 </a>
 </g>
-<g id="a_edge36&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge36&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue &#45;&gt; runtime.asyncPreempt (0.02s)">
 <text text-anchor="middle" x="4367.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
 </a>
 </g>
@@ -1016,12 +1016,12 @@ function handleMouseUp(evt) {
 <!-- N18&#45;&gt;N3 -->
 <g id="edge28" class="edge">
 <title>N18&#45;&gt;N3</title>
-<g id="a_edge28"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef &#45;&gt; runtime.asyncPreempt (0.03s)">
+<g id="a_edge28"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef &#45;&gt; runtime.asyncPreempt (0.03s)">
 <path fill="none" stroke="#b2b2b1" d="M4677.97,-126.88C4668.76,-123.95 4659.53,-121.27 4650.5,-119 4451.26,-68.93 3818.57,-44.18 3607.1,-37.15"/>
 <polygon fill="#b2b2b1" stroke="#b2b2b1" points="3607.16,-33.65 3597.05,-36.82 3606.93,-40.65 3607.16,-33.65"/>
 </a>
 </g>
-<g id="a_edge28&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef &#45;&gt; runtime.asyncPreempt (0.03s)">
+<g id="a_edge28&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef &#45;&gt; runtime.asyncPreempt (0.03s)">
 <text text-anchor="middle" x="4555.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.03s</text>
 </a>
 </g>
@@ -1029,12 +1029,12 @@ function handleMouseUp(evt) {
 <!-- N19&#45;&gt;N3 -->
 <g id="edge37" class="edge">
 <title>N19&#45;&gt;N3</title>
-<g id="a_edge37"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge37"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
 <path fill="none" stroke="#b2b2b1" d="M4972.56,-126.97C4960.78,-123.98 4948.98,-121.26 4937.5,-119 4678.44,-67.93 3853.47,-43.1 3607.42,-36.71"/>
 <polygon fill="#b2b2b1" stroke="#b2b2b1" points="3607.27,-33.2 3597.18,-36.44 3607.09,-40.2 3607.27,-33.2"/>
 </a>
 </g>
-<g id="a_edge37&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge37&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
 <text text-anchor="middle" x="4813.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
 </a>
 </g>
@@ -1042,12 +1042,12 @@ function handleMouseUp(evt) {
 <!-- N20&#45;&gt;N3 -->
 <g id="edge27" class="edge">
 <title>N20&#45;&gt;N3</title>
-<g id="a_edge27"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue &#45;&gt; runtime.asyncPreempt (0.03s)">
+<g id="a_edge27"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue &#45;&gt; runtime.asyncPreempt (0.03s)">
 <path fill="none" stroke="#b2b2b1" d="M5322.14,-128.91C5313.37,-125.02 5304.39,-121.58 5295.5,-119 5098.26,-61.64 5039.6,-97.37 4834.5,-86 4366.16,-60.04 3801.96,-42.58 3607.41,-36.96"/>
 <polygon fill="#b2b2b1" stroke="#b2b2b1" points="3607.42,-33.46 3597.33,-36.67 3607.22,-40.45 3607.42,-33.46"/>
 </a>
 </g>
-<g id="a_edge27&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue &#45;&gt; runtime.asyncPreempt (0.03s)">
+<g id="a_edge27&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue &#45;&gt; runtime.asyncPreempt (0.03s)">
 <text text-anchor="middle" x="5236.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.03s</text>
 </a>
 </g>
@@ -1055,12 +1055,12 @@ function handleMouseUp(evt) {
 <!-- N22&#45;&gt;N3 -->
 <g id="edge35" class="edge">
 <title>N22&#45;&gt;N3</title>
-<g id="a_edge35"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge35"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue &#45;&gt; runtime.asyncPreempt (0.02s)">
 <path fill="none" stroke="#b2b2b1" d="M5750.7,-128.94C5741.05,-125.04 5731.19,-121.6 5721.5,-119 5521.81,-65.45 5463.98,-96.4 5257.5,-86 4616.96,-53.74 3841.13,-39.72 3607.39,-36.04"/>
 <polygon fill="#b2b2b1" stroke="#b2b2b1" points="3607.38,-32.54 3597.33,-35.88 3607.27,-39.53 3607.38,-32.54"/>
 </a>
 </g>
-<g id="a_edge35&#45;label"><a xlink:title="github.com/joshcarp/benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue &#45;&gt; runtime.asyncPreempt (0.02s)">
+<g id="a_edge35&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue &#45;&gt; runtime.asyncPreempt (0.02s)">
 <text text-anchor="middle" x="5651.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
 </a>
 </g>

@@ -293,428 +293,203 @@ function handleMouseUp(evt) {
 		state = '';
 	}
 }
-]]></script><g id="viewport" transform="scale(0.5,0.5) translate(0,0)"><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 932)">
+]]></script><g id="viewport" transform="scale(0.5,0.5) translate(0,0)"><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 715)">
 <title>unnamed</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-932 779,-932 779,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-715 589,-715 589,4 -4,4"/>
 <g id="clust1" class="cluster">
 <title>cluster_L</title>
-<polygon fill="none" stroke="black" points="8,-805 8,-920 484,-920 484,-805 8,-805"/>
+<polygon fill="none" stroke="black" points="8,-588 8,-703 446,-703 446,-588 8,-588"/>
 </g>
 <!-- Type: alloc_space -->
 <g id="node1" class="node">
 <title>Type: alloc_space</title>
-<polygon fill="#f8f8f8" stroke="black" points="475.5,-912 16.5,-912 16.5,-813 475.5,-813 475.5,-912"/>
-<text text-anchor="start" x="24.5" y="-895.2" font-family="Times,serif" font-size="16.00">Type: alloc_space</text>
-<text text-anchor="start" x="24.5" y="-877.2" font-family="Times,serif" font-size="16.00">Time: Jul 24, 2021 at 1:11pm (AEST)</text>
-<text text-anchor="start" x="24.5" y="-859.2" font-family="Times,serif" font-size="16.00">Showing nodes accounting for 2734.03kB, 100% of 2734.03kB total</text>
-<text text-anchor="start" x="24.5" y="-822.2" font-family="Times,serif" font-size="16.00">See https://git.io/JfYMW for how to read the graph</text>
+<polygon fill="#f8f8f8" stroke="black" points="438,-695 16,-695 16,-596 438,-596 438,-695"/>
+<text text-anchor="start" x="24" y="-678.2" font-family="Times,serif" font-size="16.00">Type: alloc_space</text>
+<text text-anchor="start" x="24" y="-660.2" font-family="Times,serif" font-size="16.00">Time: Jul 24, 2021 at 2:40pm (AEST)</text>
+<text text-anchor="start" x="24" y="-642.2" font-family="Times,serif" font-size="16.00">Showing nodes accounting for 1.72MB, 100% of 1.72MB total</text>
+<text text-anchor="start" x="24" y="-605.2" font-family="Times,serif" font-size="16.00">See https://git.io/JfYMW for how to read the graph</text>
 </g>
 <!-- N1 -->
 <g id="node1" class="node">
 <title>N1</title>
-<g id="a_node1"><a xlink:title="runtime/pprof.profileWriter (2734.03kB)">
-<polygon fill="#edd5d5" stroke="#b20000" points="586,-880.5 494,-880.5 494,-844.5 586,-844.5 586,-880.5"/>
-<text text-anchor="middle" x="540" y="-869.6" font-family="Times,serif" font-size="8.00">pprof</text>
-<text text-anchor="middle" x="540" y="-860.6" font-family="Times,serif" font-size="8.00">profileWriter</text>
-<text text-anchor="middle" x="540" y="-851.6" font-family="Times,serif" font-size="8.00">0 of 2734.03kB (100%)</text>
+<g id="a_node1"><a xlink:title="runtime/pprof.StartCPUProfile (1.72MB)">
+<polygon fill="#edd5d5" stroke="#b20000" points="585,-173 411,-173 411,-87 585,-87 585,-173"/>
+<text text-anchor="middle" x="498" y="-149.8" font-family="Times,serif" font-size="24.00">pprof</text>
+<text text-anchor="middle" x="498" y="-123.8" font-family="Times,serif" font-size="24.00">StartCPUProfile</text>
+<text text-anchor="middle" x="498" y="-97.8" font-family="Times,serif" font-size="24.00">1.72MB (100%)</text>
 </a>
 </g>
 </g>
-<!-- N3 -->
-<g id="node3" class="node">
-<title>N3</title>
-<g id="a_node3"><a xlink:title="runtime/pprof.(*profileBuilder).build (2219.40kB)">
-<polygon fill="#edd6d5" stroke="#b20a00" points="589,-762 491,-762 491,-718 589,-718 589,-762"/>
-<text text-anchor="middle" x="540" y="-751.6" font-family="Times,serif" font-size="8.00">pprof</text>
-<text text-anchor="middle" x="540" y="-742.6" font-family="Times,serif" font-size="8.00">(*profileBuilder)</text>
-<text text-anchor="middle" x="540" y="-733.6" font-family="Times,serif" font-size="8.00">build</text>
-<text text-anchor="middle" x="540" y="-724.6" font-family="Times,serif" font-size="8.00">0 of 2219.40kB (81.18%)</text>
+<!-- NN1_0 -->
+<g id="NN1_0" class="node">
+<title>NN1_0</title>
+<g id="a_NN1_0"><a xlink:title="1.16MB">
+<polygon fill="#f8f8f8" stroke="black" points="489,-36 439,-36 435,-32 435,0 485,0 489,-4 489,-36"/>
+<polyline fill="none" stroke="black" points="485,-32 435,-32 "/>
+<polyline fill="none" stroke="black" points="485,-32 485,0 "/>
+<polyline fill="none" stroke="black" points="485,-32 489,-36 "/>
+<text text-anchor="middle" x="462" y="-16.1" font-family="Times,serif" font-size="8.00">1MB</text>
 </a>
 </g>
 </g>
-<!-- N1&#45;&gt;N3 -->
-<g id="edge6" class="edge">
-<title>N1&#45;&gt;N3</title>
-<g id="a_edge6"><a xlink:title="runtime/pprof.profileWriter &#45;&gt; runtime/pprof.(*profileBuilder).build (2219.40kB)">
-<path fill="none" stroke="#b20a00" stroke-width="5" d="M540,-844.49C540,-825.9 540,-795.69 540,-772.7"/>
-<polygon fill="#b20a00" stroke="#b20a00" stroke-width="5" points="544.38,-772.39 540,-762.39 535.63,-772.39 544.38,-772.39"/>
+<!-- N1&#45;&gt;NN1_0 -->
+<g id="edge1" class="edge">
+<title>N1&#45;&gt;NN1_0</title>
+<g id="a_edge1"><a xlink:title="1.16MB">
+<path fill="none" stroke="black" d="M469.98,-86.92C467.15,-81.1 464.7,-75.04 463,-69 460.99,-61.84 460.21,-53.88 460.07,-46.45"/>
+<polygon fill="black" stroke="black" points="463.57,-46.49 460.22,-36.44 456.57,-46.38 463.57,-46.49"/>
 </a>
 </g>
-<g id="a_edge6&#45;label"><a xlink:title="runtime/pprof.profileWriter &#45;&gt; runtime/pprof.(*profileBuilder).build (2219.40kB)">
-<text text-anchor="middle" x="572" y="-783.8" font-family="Times,serif" font-size="14.00"> 2219.40kB</text>
-</a>
-</g>
-</g>
-<!-- N10 -->
-<g id="node10" class="node">
-<title>N10</title>
-<g id="a_node10"><a xlink:title="runtime/pprof.(*profileBuilder).addCPUData (514.63kB)">
-<polygon fill="#eddfd6" stroke="#b24c0a" points="710,-762 616,-762 616,-718 710,-718 710,-762"/>
-<text text-anchor="middle" x="663" y="-751.6" font-family="Times,serif" font-size="8.00">pprof</text>
-<text text-anchor="middle" x="663" y="-742.6" font-family="Times,serif" font-size="8.00">(*profileBuilder)</text>
-<text text-anchor="middle" x="663" y="-733.6" font-family="Times,serif" font-size="8.00">addCPUData</text>
-<text text-anchor="middle" x="663" y="-724.6" font-family="Times,serif" font-size="8.00">0 of 514.63kB (18.82%)</text>
+<g id="a_edge1&#45;label"><a xlink:title="1.16MB">
+<text text-anchor="middle" x="488" y="-57.8" font-family="Times,serif" font-size="14.00"> 1.16MB</text>
 </a>
 </g>
 </g>
-<!-- N1&#45;&gt;N10 -->
-<g id="edge14" class="edge">
-<title>N1&#45;&gt;N10</title>
-<g id="a_edge14"><a xlink:title="runtime/pprof.profileWriter &#45;&gt; runtime/pprof.(*profileBuilder).addCPUData (514.63kB)">
-<path fill="none" stroke="#b24c0a" d="M557.62,-844.29C571.35,-830.87 590.9,-811.76 608,-795 616.58,-786.6 625.9,-777.45 634.38,-769.12"/>
-<polygon fill="#b24c0a" stroke="#b24c0a" points="636.91,-771.54 641.59,-762.04 632,-766.55 636.91,-771.54"/>
+<!-- NN1_1 -->
+<g id="NN1_1" class="node">
+<title>NN1_1</title>
+<g id="a_NN1_1"><a xlink:title="0.57MB">
+<polygon fill="#f8f8f8" stroke="black" points="562,-36 512,-36 508,-32 508,0 558,0 562,-4 562,-36"/>
+<polyline fill="none" stroke="black" points="558,-32 508,-32 "/>
+<polyline fill="none" stroke="black" points="558,-32 558,0 "/>
+<polyline fill="none" stroke="black" points="558,-32 562,-36 "/>
+<text text-anchor="middle" x="535" y="-16.1" font-family="Times,serif" font-size="8.00">128kB</text>
 </a>
 </g>
-<g id="a_edge14&#45;label"><a xlink:title="runtime/pprof.profileWriter &#45;&gt; runtime/pprof.(*profileBuilder).addCPUData (514.63kB)">
-<text text-anchor="middle" x="653" y="-783.8" font-family="Times,serif" font-size="14.00"> 514.63kB</text>
+</g>
+<!-- N1&#45;&gt;NN1_1 -->
+<g id="edge2" class="edge">
+<title>N1&#45;&gt;NN1_1</title>
+<g id="a_edge2"><a xlink:title="0.57MB">
+<path fill="none" stroke="black" d="M512.2,-86.79C516.82,-73.06 521.81,-58.21 525.95,-45.91"/>
+<polygon fill="black" stroke="black" points="529.32,-46.86 529.19,-36.27 522.69,-44.63 529.32,-46.86"/>
+</a>
+</g>
+<g id="a_edge2&#45;label"><a xlink:title="0.57MB">
+<text text-anchor="middle" x="548" y="-57.8" font-family="Times,serif" font-size="14.00"> 0.57MB</text>
 </a>
 </g>
 </g>
 <!-- N2 -->
 <g id="node2" class="node">
 <title>N2</title>
-<g id="a_node2"><a xlink:title="compress/flate.(*compressor).init (1195.29kB)">
-<polygon fill="#eddad5" stroke="#b22700" points="649,-199 431,-199 431,-87 649,-87 649,-199"/>
-<text text-anchor="middle" x="540" y="-175.8" font-family="Times,serif" font-size="24.00">flate</text>
-<text text-anchor="middle" x="540" y="-149.8" font-family="Times,serif" font-size="24.00">(*compressor)</text>
-<text text-anchor="middle" x="540" y="-123.8" font-family="Times,serif" font-size="24.00">init</text>
-<text text-anchor="middle" x="540" y="-97.8" font-family="Times,serif" font-size="24.00">1195.29kB (43.72%)</text>
+<g id="a_node2"><a xlink:title="runtime.main (1.72MB)">
+<polygon fill="#edd5d5" stroke="#b20000" points="539.5,-663.5 456.5,-663.5 456.5,-627.5 539.5,-627.5 539.5,-663.5"/>
+<text text-anchor="middle" x="498" y="-652.6" font-family="Times,serif" font-size="8.00">runtime</text>
+<text text-anchor="middle" x="498" y="-643.6" font-family="Times,serif" font-size="8.00">main</text>
+<text text-anchor="middle" x="498" y="-634.6" font-family="Times,serif" font-size="8.00">0 of 1.72MB (100%)</text>
 </a>
 </g>
 </g>
-<!-- NN2_0 -->
-<g id="NN2_0" class="node">
-<title>NN2_0</title>
-<g id="a_NN2_0"><a xlink:title="650.62kB">
-<polygon fill="#f8f8f8" stroke="black" points="527,-36 477,-36 473,-32 473,0 523,0 527,-4 527,-36"/>
-<polyline fill="none" stroke="black" points="523,-32 473,-32 "/>
-<polyline fill="none" stroke="black" points="523,-32 523,0 "/>
-<polyline fill="none" stroke="black" points="523,-32 527,-36 "/>
-<text text-anchor="middle" x="500" y="-16.1" font-family="Times,serif" font-size="8.00">256kB</text>
+<!-- N3 -->
+<g id="node3" class="node">
+<title>N3</title>
+<g id="a_node3"><a xlink:title="main.main (1.72MB)">
+<polygon fill="#edd5d5" stroke="#b20000" points="539.5,-545 456.5,-545 456.5,-509 539.5,-509 539.5,-545"/>
+<text text-anchor="middle" x="498" y="-534.1" font-family="Times,serif" font-size="8.00">main</text>
+<text text-anchor="middle" x="498" y="-525.1" font-family="Times,serif" font-size="8.00">main</text>
+<text text-anchor="middle" x="498" y="-516.1" font-family="Times,serif" font-size="8.00">0 of 1.72MB (100%)</text>
 </a>
 </g>
 </g>
-<!-- N2&#45;&gt;NN2_0 -->
-<g id="edge1" class="edge">
-<title>N2&#45;&gt;NN2_0</title>
-<g id="a_edge1"><a xlink:title="650.62kB">
-<path fill="none" stroke="black" d="M507.17,-86.9C504.7,-81.01 502.56,-74.98 501,-69 499.12,-61.81 498.39,-53.83 498.24,-46.4"/>
-<polygon fill="black" stroke="black" points="501.74,-46.44 498.37,-36.4 494.74,-46.35 501.74,-46.44"/>
+<!-- N2&#45;&gt;N3 -->
+<g id="edge4" class="edge">
+<title>N2&#45;&gt;N3</title>
+<g id="a_edge4"><a xlink:title="runtime.main &#45;&gt; main.main (1.72MB)">
+<path fill="none" stroke="#b20000" stroke-width="6" d="M498,-627.31C498,-608.38 498,-577.68 498,-555.42"/>
+<polygon fill="#b20000" stroke="#b20000" stroke-width="6" points="503.25,-555.26 498,-545.26 492.75,-555.26 503.25,-555.26"/>
 </a>
 </g>
-<g id="a_edge1&#45;label"><a xlink:title="650.62kB">
-<text text-anchor="middle" x="530" y="-57.8" font-family="Times,serif" font-size="14.00"> 650.62kB</text>
-</a>
-</g>
-</g>
-<!-- NN2_1 -->
-<g id="NN2_1" class="node">
-<title>NN2_1</title>
-<g id="a_NN2_1"><a xlink:title="544.67kB">
-<polygon fill="#f8f8f8" stroke="black" points="608,-36 558,-36 554,-32 554,0 604,0 608,-4 608,-36"/>
-<polyline fill="none" stroke="black" points="604,-32 554,-32 "/>
-<polyline fill="none" stroke="black" points="604,-32 604,0 "/>
-<polyline fill="none" stroke="black" points="604,-32 608,-36 "/>
-<text text-anchor="middle" x="581" y="-16.1" font-family="Times,serif" font-size="8.00">64kB</text>
-</a>
-</g>
-</g>
-<!-- N2&#45;&gt;NN2_1 -->
-<g id="edge2" class="edge">
-<title>N2&#45;&gt;NN2_1</title>
-<g id="a_edge2"><a xlink:title="544.67kB">
-<path fill="none" stroke="black" d="M558.34,-86.98C563.14,-72.58 568.1,-57.71 572.15,-45.56"/>
-<polygon fill="black" stroke="black" points="575.47,-46.66 575.31,-36.07 568.83,-44.45 575.47,-46.66"/>
-</a>
-</g>
-<g id="a_edge2&#45;label"><a xlink:title="544.67kB">
-<text text-anchor="middle" x="598" y="-57.8" font-family="Times,serif" font-size="14.00"> 544.67kB</text>
-</a>
-</g>
-</g>
-<!-- N6 -->
-<g id="node6" class="node">
-<title>N6</title>
-<g id="a_node6"><a xlink:title="runtime/pprof.(*profileBuilder).appendLocsForStack (1024.11kB)">
-<polygon fill="#eddbd5" stroke="#b22d00" points="456,-643 358,-643 358,-599 456,-599 456,-643"/>
-<text text-anchor="middle" x="407" y="-632.6" font-family="Times,serif" font-size="8.00">pprof</text>
-<text text-anchor="middle" x="407" y="-623.6" font-family="Times,serif" font-size="8.00">(*profileBuilder)</text>
-<text text-anchor="middle" x="407" y="-614.6" font-family="Times,serif" font-size="8.00">appendLocsForStack</text>
-<text text-anchor="middle" x="407" y="-605.6" font-family="Times,serif" font-size="8.00">0 of 1024.11kB (37.46%)</text>
-</a>
-</g>
-</g>
-<!-- N3&#45;&gt;N6 -->
-<g id="edge12" class="edge">
-<title>N3&#45;&gt;N6</title>
-<g id="a_edge12"><a xlink:title="runtime/pprof.(*profileBuilder).build &#45;&gt; runtime/pprof.(*profileBuilder).appendLocsForStack (1024.11kB)">
-<path fill="none" stroke="#b22d00" stroke-width="2" d="M497.81,-717.92C488.89,-712.63 479.82,-706.56 472,-700 455.26,-685.94 439.48,-667.2 427.66,-651.61"/>
-<polygon fill="#b22d00" stroke="#b22d00" stroke-width="2" points="430.29,-649.27 421.52,-643.32 424.66,-653.44 430.29,-649.27"/>
-</a>
-</g>
-<g id="a_edge12&#45;label"><a xlink:title="runtime/pprof.(*profileBuilder).build &#45;&gt; runtime/pprof.(*profileBuilder).appendLocsForStack (1024.11kB)">
-<text text-anchor="middle" x="504" y="-688.8" font-family="Times,serif" font-size="14.00"> 1024.11kB</text>
-</a>
-</g>
-</g>
-<!-- N12 -->
-<g id="node12" class="node">
-<title>N12</title>
-<g id="a_node12"><a xlink:title="runtime/pprof.(*profileBuilder).pbSample (1195.29kB)">
-<polygon fill="#eddad5" stroke="#b22700" points="589,-643 491,-643 491,-599 589,-599 589,-643"/>
-<text text-anchor="middle" x="540" y="-632.6" font-family="Times,serif" font-size="8.00">pprof</text>
-<text text-anchor="middle" x="540" y="-623.6" font-family="Times,serif" font-size="8.00">(*profileBuilder)</text>
-<text text-anchor="middle" x="540" y="-614.6" font-family="Times,serif" font-size="8.00">pbSample</text>
-<text text-anchor="middle" x="540" y="-605.6" font-family="Times,serif" font-size="8.00">0 of 1195.29kB (43.72%)</text>
-</a>
-</g>
-</g>
-<!-- N3&#45;&gt;N12 -->
-<g id="edge9" class="edge">
-<title>N3&#45;&gt;N12</title>
-<g id="a_edge9"><a xlink:title="runtime/pprof.(*profileBuilder).build &#45;&gt; runtime/pprof.(*profileBuilder).pbSample (1195.29kB)">
-<path fill="none" stroke="#b22700" stroke-width="3" d="M540,-717.81C540,-699.76 540,-673.56 540,-653.12"/>
-<polygon fill="#b22700" stroke="#b22700" stroke-width="3" points="543.5,-653.03 540,-643.03 536.5,-653.03 543.5,-653.03"/>
-</a>
-</g>
-<g id="a_edge9&#45;label"><a xlink:title="runtime/pprof.(*profileBuilder).build &#45;&gt; runtime/pprof.(*profileBuilder).pbSample (1195.29kB)">
-<text text-anchor="middle" x="572" y="-688.8" font-family="Times,serif" font-size="14.00"> 1195.29kB</text>
+<g id="a_edge4&#45;label"><a xlink:title="runtime.main &#45;&gt; main.main (1.72MB)">
+<text text-anchor="middle" x="523" y="-566.8" font-family="Times,serif" font-size="14.00"> 1.72MB</text>
 </a>
 </g>
 </g>
 <!-- N4 -->
 <g id="node4" class="node">
 <title>N4</title>
-<g id="a_node4"><a xlink:title="runtime/pprof.(*profMap).lookup (514.63kB)">
-<polygon fill="#eddfd6" stroke="#b24c0a" points="775,-667 607,-667 607,-575 775,-575 775,-667"/>
-<text text-anchor="middle" x="691" y="-647.8" font-family="Times,serif" font-size="19.00">pprof</text>
-<text text-anchor="middle" x="691" y="-626.8" font-family="Times,serif" font-size="19.00">(*profMap)</text>
-<text text-anchor="middle" x="691" y="-605.8" font-family="Times,serif" font-size="19.00">lookup</text>
-<text text-anchor="middle" x="691" y="-584.8" font-family="Times,serif" font-size="19.00">514.63kB (18.82%)</text>
+<g id="a_node4"><a xlink:title="testing.(*M).Run (1.72MB)">
+<polygon fill="#edd5d5" stroke="#b20000" points="539.5,-458 456.5,-458 456.5,-414 539.5,-414 539.5,-458"/>
+<text text-anchor="middle" x="498" y="-447.6" font-family="Times,serif" font-size="8.00">testing</text>
+<text text-anchor="middle" x="498" y="-438.6" font-family="Times,serif" font-size="8.00">(*M)</text>
+<text text-anchor="middle" x="498" y="-429.6" font-family="Times,serif" font-size="8.00">Run</text>
+<text text-anchor="middle" x="498" y="-420.6" font-family="Times,serif" font-size="8.00">0 of 1.72MB (100%)</text>
 </a>
 </g>
 </g>
-<!-- NN4_0 -->
-<g id="NN4_0" class="node">
-<title>NN4_0</title>
-<g id="a_NN4_0"><a xlink:title="514.63kB">
-<polygon fill="#f8f8f8" stroke="black" points="718,-496 668,-496 664,-492 664,-460 714,-460 718,-464 718,-496"/>
-<polyline fill="none" stroke="black" points="714,-492 664,-492 "/>
-<polyline fill="none" stroke="black" points="714,-492 714,-460 "/>
-<polyline fill="none" stroke="black" points="714,-492 718,-496 "/>
-<text text-anchor="middle" x="691" y="-476.1" font-family="Times,serif" font-size="8.00">5.25kB</text>
-</a>
-</g>
-</g>
-<!-- N4&#45;&gt;NN4_0 -->
+<!-- N3&#45;&gt;N4 -->
 <g id="edge3" class="edge">
-<title>N4&#45;&gt;NN4_0</title>
-<g id="a_edge3"><a xlink:title="514.63kB">
-<path fill="none" stroke="black" d="M691,-575C691,-552.42 691,-525.81 691,-506.34"/>
-<polygon fill="black" stroke="black" points="694.5,-506.33 691,-496.33 687.5,-506.33 694.5,-506.33"/>
+<title>N3&#45;&gt;N4</title>
+<g id="a_edge3"><a xlink:title="main.main &#45;&gt; testing.(*M).Run (1.72MB)">
+<path fill="none" stroke="#b20000" stroke-width="6" d="M498,-508.84C498,-497.44 498,-482.13 498,-468.58"/>
+<polygon fill="#b20000" stroke="#b20000" stroke-width="6" points="503.25,-468.19 498,-458.19 492.75,-468.19 503.25,-468.19"/>
 </a>
 </g>
-<g id="a_edge3&#45;label"><a xlink:title="514.63kB">
-<text text-anchor="middle" x="720" y="-545.8" font-family="Times,serif" font-size="14.00"> 514.63kB</text>
+<g id="a_edge3&#45;label"><a xlink:title="main.main &#45;&gt; testing.(*M).Run (1.72MB)">
+<text text-anchor="middle" x="523" y="-479.8" font-family="Times,serif" font-size="14.00"> 1.72MB</text>
 </a>
 </g>
 </g>
 <!-- N5 -->
 <g id="node5" class="node">
 <title>N5</title>
-<g id="a_node5"><a xlink:title="runtime/pprof.allFrames (512.10kB)">
-<polygon fill="#eddfd6" stroke="#b24d0b" points="287,-513.5 119,-513.5 119,-442.5 287,-442.5 287,-513.5"/>
-<text text-anchor="middle" x="203" y="-494.3" font-family="Times,serif" font-size="19.00">pprof</text>
-<text text-anchor="middle" x="203" y="-473.3" font-family="Times,serif" font-size="19.00">allFrames</text>
-<text text-anchor="middle" x="203" y="-452.3" font-family="Times,serif" font-size="19.00">512.10kB (18.73%)</text>
+<g id="a_node5"><a xlink:title="testing.(*M).before (1.72MB)">
+<polygon fill="#edd5d5" stroke="#b20000" points="539.5,-363 456.5,-363 456.5,-319 539.5,-319 539.5,-363"/>
+<text text-anchor="middle" x="498" y="-352.6" font-family="Times,serif" font-size="8.00">testing</text>
+<text text-anchor="middle" x="498" y="-343.6" font-family="Times,serif" font-size="8.00">(*M)</text>
+<text text-anchor="middle" x="498" y="-334.6" font-family="Times,serif" font-size="8.00">before</text>
+<text text-anchor="middle" x="498" y="-325.6" font-family="Times,serif" font-size="8.00">0 of 1.72MB (100%)</text>
 </a>
 </g>
 </g>
-<!-- NN5_0 -->
-<g id="NN5_0" class="node">
-<title>NN5_0</title>
-<g id="a_NN5_0"><a xlink:title="512.10kB">
-<polygon fill="#f8f8f8" stroke="black" points="230,-377 180,-377 176,-373 176,-341 226,-341 230,-345 230,-377"/>
-<polyline fill="none" stroke="black" points="226,-373 176,-373 "/>
-<polyline fill="none" stroke="black" points="226,-373 226,-341 "/>
-<polyline fill="none" stroke="black" points="226,-373 230,-377 "/>
-<text text-anchor="middle" x="203" y="-357.1" font-family="Times,serif" font-size="8.00">208B</text>
-</a>
-</g>
-</g>
-<!-- N5&#45;&gt;NN5_0 -->
-<g id="edge4" class="edge">
-<title>N5&#45;&gt;NN5_0</title>
-<g id="a_edge4"><a xlink:title="512.10kB">
-<path fill="none" stroke="black" d="M203,-442.21C203,-424.64 203,-403.63 203,-387.25"/>
-<polygon fill="black" stroke="black" points="206.5,-387.24 203,-377.24 199.5,-387.24 206.5,-387.24"/>
-</a>
-</g>
-<g id="a_edge4&#45;label"><a xlink:title="512.10kB">
-<text text-anchor="middle" x="232" y="-402.8" font-family="Times,serif" font-size="14.00"> 512.10kB</text>
-</a>
-</g>
-</g>
-<!-- N6&#45;&gt;N5 -->
-<g id="edge15" class="edge">
-<title>N6&#45;&gt;N5</title>
-<g id="a_edge15"><a xlink:title="runtime/pprof.(*profileBuilder).appendLocsForStack &#45;&gt; runtime/pprof.allFrames (512.10kB)">
-<path fill="none" stroke="#b24d0b" d="M376.46,-598.89C346.18,-577.96 299.02,-545.37 261.52,-519.44"/>
-<polygon fill="#b24d0b" stroke="#b24d0b" points="263.4,-516.49 253.18,-513.69 259.42,-522.25 263.4,-516.49"/>
-</a>
-</g>
-<g id="a_edge15&#45;label"><a xlink:title="runtime/pprof.(*profileBuilder).appendLocsForStack &#45;&gt; runtime/pprof.allFrames (512.10kB)">
-<text text-anchor="middle" x="341" y="-545.8" font-family="Times,serif" font-size="14.00"> 512.10kB</text>
-</a>
-</g>
-</g>
-<!-- N7 -->
-<g id="node7" class="node">
-<title>N7</title>
-<g id="a_node7"><a xlink:title="runtime/pprof.(*profileBuilder).emitLocation (512.01kB)">
-<polygon fill="#eddfd6" stroke="#b24d0b" points="473,-524 305,-524 305,-432 473,-432 473,-524"/>
-<text text-anchor="middle" x="389" y="-504.8" font-family="Times,serif" font-size="19.00">pprof</text>
-<text text-anchor="middle" x="389" y="-483.8" font-family="Times,serif" font-size="19.00">(*profileBuilder)</text>
-<text text-anchor="middle" x="389" y="-462.8" font-family="Times,serif" font-size="19.00">emitLocation</text>
-<text text-anchor="middle" x="389" y="-441.8" font-family="Times,serif" font-size="19.00">512.01kB (18.73%)</text>
-</a>
-</g>
-</g>
-<!-- N6&#45;&gt;N7 -->
-<g id="edge16" class="edge">
-<title>N6&#45;&gt;N7</title>
-<g id="a_edge16"><a xlink:title="runtime/pprof.(*profileBuilder).appendLocsForStack &#45;&gt; runtime/pprof.(*profileBuilder).emitLocation (512.01kB)">
-<path fill="none" stroke="#b24d0b" d="M404.31,-598.89C402.13,-581.84 398.96,-557.03 396.07,-534.4"/>
-<polygon fill="#b24d0b" stroke="#b24d0b" points="399.51,-533.67 394.77,-524.2 392.56,-534.56 399.51,-533.67"/>
-</a>
-</g>
-<g id="a_edge16&#45;label"><a xlink:title="runtime/pprof.(*profileBuilder).appendLocsForStack &#45;&gt; runtime/pprof.(*profileBuilder).emitLocation (512.01kB)">
-<text text-anchor="middle" x="428" y="-545.8" font-family="Times,serif" font-size="14.00"> 512.01kB</text>
-</a>
-</g>
-</g>
-<!-- NN7_0 -->
-<g id="NN7_0" class="node">
-<title>NN7_0</title>
-<g id="a_NN7_0"><a xlink:title="512.01kB">
-<polygon fill="#f8f8f8" stroke="black" points="416,-377 366,-377 362,-373 362,-341 412,-341 416,-345 416,-377"/>
-<polyline fill="none" stroke="black" points="412,-373 362,-373 "/>
-<polyline fill="none" stroke="black" points="412,-373 412,-341 "/>
-<polyline fill="none" stroke="black" points="412,-373 416,-377 "/>
-<text text-anchor="middle" x="389" y="-357.1" font-family="Times,serif" font-size="8.00">16B</text>
-</a>
-</g>
-</g>
-<!-- N7&#45;&gt;NN7_0 -->
+<!-- N4&#45;&gt;N5 -->
 <g id="edge5" class="edge">
-<title>N7&#45;&gt;NN7_0</title>
-<g id="a_edge5"><a xlink:title="512.01kB">
-<path fill="none" stroke="black" d="M389,-431.76C389,-416.79 389,-400.6 389,-387.39"/>
-<polygon fill="black" stroke="black" points="392.5,-387.09 389,-377.09 385.5,-387.09 392.5,-387.09"/>
+<title>N4&#45;&gt;N5</title>
+<g id="a_edge5"><a xlink:title="testing.(*M).Run &#45;&gt; testing.(*M).before (1.72MB)">
+<path fill="none" stroke="#b20000" stroke-width="6" d="M498,-413.9C498,-401.89 498,-386.62 498,-373.24"/>
+<polygon fill="#b20000" stroke="#b20000" stroke-width="6" points="503.25,-373.02 498,-363.02 492.75,-373.02 503.25,-373.02"/>
 </a>
 </g>
-<g id="a_edge5&#45;label"><a xlink:title="512.01kB">
-<text text-anchor="middle" x="418" y="-402.8" font-family="Times,serif" font-size="14.00"> 512.01kB</text>
-</a>
-</g>
-</g>
-<!-- N8 -->
-<g id="node8" class="node">
-<title>N8</title>
-<g id="a_node8"><a xlink:title="compress/flate.NewWriter (1195.29kB)">
-<polygon fill="#eddad5" stroke="#b22700" points="589,-286 491,-286 491,-250 589,-250 589,-286"/>
-<text text-anchor="middle" x="540" y="-275.1" font-family="Times,serif" font-size="8.00">flate</text>
-<text text-anchor="middle" x="540" y="-266.1" font-family="Times,serif" font-size="8.00">NewWriter</text>
-<text text-anchor="middle" x="540" y="-257.1" font-family="Times,serif" font-size="8.00">0 of 1195.29kB (43.72%)</text>
+<g id="a_edge5&#45;label"><a xlink:title="testing.(*M).Run &#45;&gt; testing.(*M).before (1.72MB)">
+<text text-anchor="middle" x="523" y="-384.8" font-family="Times,serif" font-size="14.00"> 1.72MB</text>
 </a>
 </g>
 </g>
-<!-- N8&#45;&gt;N2 -->
+<!-- N6 -->
+<g id="node6" class="node">
+<title>N6</title>
+<g id="a_node6"><a xlink:title="testing/internal/testdeps.TestDeps.StartCPUProfile (1.72MB)">
+<polygon fill="#edd5d5" stroke="#b20000" points="539.5,-268 456.5,-268 456.5,-224 539.5,-224 539.5,-268"/>
+<text text-anchor="middle" x="498" y="-257.6" font-family="Times,serif" font-size="8.00">testdeps</text>
+<text text-anchor="middle" x="498" y="-248.6" font-family="Times,serif" font-size="8.00">TestDeps</text>
+<text text-anchor="middle" x="498" y="-239.6" font-family="Times,serif" font-size="8.00">StartCPUProfile</text>
+<text text-anchor="middle" x="498" y="-230.6" font-family="Times,serif" font-size="8.00">0 of 1.72MB (100%)</text>
+</a>
+</g>
+</g>
+<!-- N5&#45;&gt;N6 -->
+<g id="edge6" class="edge">
+<title>N5&#45;&gt;N6</title>
+<g id="a_edge6"><a xlink:title="testing.(*M).before &#45;&gt; testing/internal/testdeps.TestDeps.StartCPUProfile (1.72MB)">
+<path fill="none" stroke="#b20000" stroke-width="6" d="M498,-318.9C498,-306.89 498,-291.62 498,-278.24"/>
+<polygon fill="#b20000" stroke="#b20000" stroke-width="6" points="503.25,-278.02 498,-268.02 492.75,-278.02 503.25,-278.02"/>
+</a>
+</g>
+<g id="a_edge6&#45;label"><a xlink:title="testing.(*M).before &#45;&gt; testing/internal/testdeps.TestDeps.StartCPUProfile (1.72MB)">
+<text text-anchor="middle" x="523" y="-289.8" font-family="Times,serif" font-size="14.00"> 1.72MB</text>
+</a>
+</g>
+</g>
+<!-- N6&#45;&gt;N1 -->
 <g id="edge7" class="edge">
-<title>N8&#45;&gt;N2</title>
-<g id="a_edge7"><a xlink:title="compress/flate.NewWriter &#45;&gt; compress/flate.(*compressor).init (1195.29kB)">
-<path fill="none" stroke="#b22700" stroke-width="3" d="M540,-249.9C540,-239.12 540,-224.44 540,-209.45"/>
-<polygon fill="#b22700" stroke="#b22700" stroke-width="3" points="543.5,-209.06 540,-199.06 536.5,-209.06 543.5,-209.06"/>
+<title>N6&#45;&gt;N1</title>
+<g id="a_edge7"><a xlink:title="testing/internal/testdeps.TestDeps.StartCPUProfile &#45;&gt; runtime/pprof.StartCPUProfile (1.72MB)">
+<path fill="none" stroke="#b20000" stroke-width="6" d="M498,-223.82C498,-212.43 498,-197.81 498,-183.57"/>
+<polygon fill="#b20000" stroke="#b20000" stroke-width="6" points="503.25,-183.32 498,-173.32 492.75,-183.32 503.25,-183.32"/>
 </a>
 </g>
-<g id="a_edge7&#45;label"><a xlink:title="compress/flate.NewWriter &#45;&gt; compress/flate.(*compressor).init (1195.29kB)">
-<text text-anchor="middle" x="572" y="-220.8" font-family="Times,serif" font-size="14.00"> 1195.29kB</text>
-</a>
-</g>
-</g>
-<!-- N9 -->
-<g id="node9" class="node">
-<title>N9</title>
-<g id="a_node9"><a xlink:title="compress/gzip.(*Writer).Write (1195.29kB)">
-<polygon fill="#eddad5" stroke="#b22700" points="589,-381 491,-381 491,-337 589,-337 589,-381"/>
-<text text-anchor="middle" x="540" y="-370.6" font-family="Times,serif" font-size="8.00">gzip</text>
-<text text-anchor="middle" x="540" y="-361.6" font-family="Times,serif" font-size="8.00">(*Writer)</text>
-<text text-anchor="middle" x="540" y="-352.6" font-family="Times,serif" font-size="8.00">Write</text>
-<text text-anchor="middle" x="540" y="-343.6" font-family="Times,serif" font-size="8.00">0 of 1195.29kB (43.72%)</text>
-</a>
-</g>
-</g>
-<!-- N9&#45;&gt;N8 -->
-<g id="edge8" class="edge">
-<title>N9&#45;&gt;N8</title>
-<g id="a_edge8"><a xlink:title="compress/gzip.(*Writer).Write &#45;&gt; compress/flate.NewWriter (1195.29kB)">
-<path fill="none" stroke="#b22700" stroke-width="3" d="M540,-336.91C540,-324.78 540,-309.41 540,-296.36"/>
-<polygon fill="#b22700" stroke="#b22700" stroke-width="3" points="543.5,-296.07 540,-286.07 536.5,-296.07 543.5,-296.07"/>
-</a>
-</g>
-<g id="a_edge8&#45;label"><a xlink:title="compress/gzip.(*Writer).Write &#45;&gt; compress/flate.NewWriter (1195.29kB)">
-<text text-anchor="middle" x="572" y="-307.8" font-family="Times,serif" font-size="14.00"> 1195.29kB</text>
-</a>
-</g>
-</g>
-<!-- N10&#45;&gt;N4 -->
-<g id="edge13" class="edge">
-<title>N10&#45;&gt;N4</title>
-<g id="a_edge13"><a xlink:title="runtime/pprof.(*profileBuilder).addCPUData &#45;&gt; runtime/pprof.(*profMap).lookup (514.63kB)">
-<path fill="none" stroke="#b24c0a" d="M668.07,-717.81C670.81,-706.36 674.33,-691.64 677.79,-677.19"/>
-<polygon fill="#b24c0a" stroke="#b24c0a" points="681.24,-677.81 680.17,-667.27 674.44,-676.18 681.24,-677.81"/>
-</a>
-</g>
-<g id="a_edge13&#45;label"><a xlink:title="runtime/pprof.(*profileBuilder).addCPUData &#45;&gt; runtime/pprof.(*profMap).lookup (514.63kB)">
-<text text-anchor="middle" x="705" y="-688.8" font-family="Times,serif" font-size="14.00"> 514.63kB</text>
-</a>
-</g>
-</g>
-<!-- N11 -->
-<g id="node11" class="node">
-<title>N11</title>
-<g id="a_node11"><a xlink:title="runtime/pprof.(*profileBuilder).flush (1195.29kB)">
-<polygon fill="#eddad5" stroke="#b22700" points="589,-500 491,-500 491,-456 589,-456 589,-500"/>
-<text text-anchor="middle" x="540" y="-489.6" font-family="Times,serif" font-size="8.00">pprof</text>
-<text text-anchor="middle" x="540" y="-480.6" font-family="Times,serif" font-size="8.00">(*profileBuilder)</text>
-<text text-anchor="middle" x="540" y="-471.6" font-family="Times,serif" font-size="8.00">flush</text>
-<text text-anchor="middle" x="540" y="-462.6" font-family="Times,serif" font-size="8.00">0 of 1195.29kB (43.72%)</text>
-</a>
-</g>
-</g>
-<!-- N11&#45;&gt;N9 -->
-<g id="edge10" class="edge">
-<title>N11&#45;&gt;N9</title>
-<g id="a_edge10"><a xlink:title="runtime/pprof.(*profileBuilder).flush &#45;&gt; compress/gzip.(*Writer).Write (1195.29kB)">
-<path fill="none" stroke="#b22700" stroke-width="3" d="M540,-455.81C540,-437.76 540,-411.56 540,-391.12"/>
-<polygon fill="#b22700" stroke="#b22700" stroke-width="3" points="543.5,-391.03 540,-381.03 536.5,-391.03 543.5,-391.03"/>
-</a>
-</g>
-<g id="a_edge10&#45;label"><a xlink:title="runtime/pprof.(*profileBuilder).flush &#45;&gt; compress/gzip.(*Writer).Write (1195.29kB)">
-<text text-anchor="middle" x="572" y="-402.8" font-family="Times,serif" font-size="14.00"> 1195.29kB</text>
-</a>
-</g>
-</g>
-<!-- N12&#45;&gt;N11 -->
-<g id="edge11" class="edge">
-<title>N12&#45;&gt;N11</title>
-<g id="a_edge11"><a xlink:title="runtime/pprof.(*profileBuilder).pbSample &#45;&gt; runtime/pprof.(*profileBuilder).flush (1195.29kB)">
-<path fill="none" stroke="#b22700" stroke-width="3" d="M540,-598.89C540,-575.42 540,-537.29 540,-510.33"/>
-<polygon fill="#b22700" stroke="#b22700" stroke-width="3" points="543.5,-510.25 540,-500.25 536.5,-510.25 543.5,-510.25"/>
-</a>
-</g>
-<g id="a_edge11&#45;label"><a xlink:title="runtime/pprof.(*profileBuilder).pbSample &#45;&gt; runtime/pprof.(*profileBuilder).flush (1195.29kB)">
-<text text-anchor="middle" x="572" y="-545.8" font-family="Times,serif" font-size="14.00"> 1195.29kB</text>
+<g id="a_edge7&#45;label"><a xlink:title="testing/internal/testdeps.TestDeps.StartCPUProfile &#45;&gt; runtime/pprof.StartCPUProfile (1.72MB)">
+<text text-anchor="middle" x="523" y="-194.8" font-family="Times,serif" font-size="14.00"> 1.72MB</text>
 </a>
 </g>
 </g>

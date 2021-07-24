@@ -1,10 +1,10 @@
-package pointer_vs_value
+package pointer_vs_value_grpc
 
 import (
 	"context"
 	"crypto/x509"
 	"fmt"
-	"github.com/joshcarp/benchmarks/pointer-vs-value/example"
+	"github.com/joshcarp/benchmarks/pointer-vs-value-grpc/example"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"

@@ -18,7 +18,7 @@ func BenchmarkValue(b *testing.B) {
 	conn, err := setup(true, fmt.Sprintf("localhost:%d", port))
 	require.NoError(b, err)
 	client := example.NewExampleServiceClient(conn)
-	for i := 0; i < 100000; i ++ {
+	for i := 0; i < b.N; i ++ {
 		_, _ = client.GetExample(context.Background(), &example.Example{Whatever: "", Name: ""})
 	}
 }
@@ -31,7 +31,7 @@ func BenchmarkPointer(b *testing.B) {
 	conn, err := setup(true, fmt.Sprintf("localhost:%d", port))
 	require.NoError(b, err)
 	client := example.NewExampleServiceClient(conn)
-	for i := 0; i < 100000; i ++ {
+	for i := 0; i < b.N; i ++ {
 		_, _ = client.GetExample(context.Background(), &example.Example{Whatever: "", Name: ""})
 	}
 }

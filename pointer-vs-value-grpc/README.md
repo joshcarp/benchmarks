@@ -5,11 +5,11 @@ goarch: amd64
 pkg: github.com/joshcarp/go-benchmarks/pointer-vs-value-grpc
 cpu: Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz
 BenchmarkValue
-BenchmarkValue-16      	       1	22143511877 ns/op	874585968 B/op	17123989 allocs/op
+BenchmarkValue-16      	    5400	    250723 ns/op	    8779 B/op	     171 allocs/op
 BenchmarkPointer
-BenchmarkPointer-16    	       1	22428452027 ns/op	873895824 B/op	17117716 allocs/op
+BenchmarkPointer-16    	    5527	    228442 ns/op	    8770 B/op	     171 allocs/op
 PASS
-ok  	github.com/joshcarp/go-benchmarks/pointer-vs-value-grpc	44.820s
+ok  	github.com/joshcarp/go-benchmarks/pointer-vs-value-grpc	4.270s
 ```
 ## Memory profile
 ![](mem.svg)

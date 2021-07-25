@@ -293,845 +293,1427 @@ function handleMouseUp(evt) {
 		state = '';
 	}
 }
-]]></script><g id="viewport" transform="scale(0.5,0.5) translate(0,0)"><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 532)">
+]]></script><g id="viewport" transform="scale(0.5,0.5) translate(0,0)"><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 464)">
 <title>unnamed</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-532 6418,-532 6418,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-464 3593,-464 3593,4 -4,4"/>
 <g id="clust1" class="cluster">
 <title>cluster_L</title>
-<polygon fill="none" stroke="black" points="2614.5,-369 2614.5,-520 3044.5,-520 3044.5,-369 2614.5,-369"/>
+<polygon fill="none" stroke="black" points="1391,-301 1391,-452 1821,-452 1821,-301 1391,-301"/>
 </g>
 <!-- Type: cpu -->
 <g id="node1" class="node">
 <title>Type: cpu</title>
-<polygon fill="#f8f8f8" stroke="black" points="3036,-512 2623,-512 2623,-377 3036,-377 3036,-512"/>
-<text text-anchor="start" x="2631" y="-495.2" font-family="Times,serif" font-size="16.00">Type: cpu</text>
-<text text-anchor="start" x="2631" y="-477.2" font-family="Times,serif" font-size="16.00">Time: Jul 24, 2021 at 3:24pm (AEST)</text>
-<text text-anchor="start" x="2631" y="-459.2" font-family="Times,serif" font-size="16.00">Duration: 24.10s, Total samples = 18.21s (75.57%)</text>
-<text text-anchor="start" x="2631" y="-441.2" font-family="Times,serif" font-size="16.00">Showing nodes accounting for 17.94s, 98.52% of 18.21s total</text>
-<text text-anchor="start" x="2631" y="-423.2" font-family="Times,serif" font-size="16.00">Dropped 71 nodes (cum &lt;= 0.09s)</text>
-<text text-anchor="start" x="2631" y="-386.2" font-family="Times,serif" font-size="16.00">See https://git.io/JfYMW for how to read the graph</text>
+<polygon fill="#f8f8f8" stroke="black" points="1812.5,-444 1399.5,-444 1399.5,-309 1812.5,-309 1812.5,-444"/>
+<text text-anchor="start" x="1407.5" y="-427.2" font-family="Times,serif" font-size="16.00">Type: cpu</text>
+<text text-anchor="start" x="1407.5" y="-409.2" font-family="Times,serif" font-size="16.00">Time: Jul 25, 2021 at 10:35am (AEST)</text>
+<text text-anchor="start" x="1407.5" y="-391.2" font-family="Times,serif" font-size="16.00">Duration: 30.50s, Total samples = 23.77s (77.93%)</text>
+<text text-anchor="start" x="1407.5" y="-373.2" font-family="Times,serif" font-size="16.00">Showing nodes accounting for 23.56s, 99.12% of 23.77s total</text>
+<text text-anchor="start" x="1407.5" y="-355.2" font-family="Times,serif" font-size="16.00">Dropped 52 nodes (cum &lt;= 0.12s)</text>
+<text text-anchor="start" x="1407.5" y="-318.2" font-family="Times,serif" font-size="16.00">See https://git.io/JfYMW for how to read the graph</text>
 </g>
 <!-- N1 -->
 <g id="node1" class="node">
 <title>N1</title>
-<g id="a_node1"><a xlink:title="testing.(*B).runN (18.02s)">
-<polygon fill="#edd5d5" stroke="#b20000" points="3138.5,-326 3054.5,-326 3054.5,-282 3138.5,-282 3138.5,-326"/>
-<text text-anchor="middle" x="3096.5" y="-315.6" font-family="Times,serif" font-size="8.00">testing</text>
-<text text-anchor="middle" x="3096.5" y="-306.6" font-family="Times,serif" font-size="8.00">(*B)</text>
-<text text-anchor="middle" x="3096.5" y="-297.6" font-family="Times,serif" font-size="8.00">runN</text>
-<text text-anchor="middle" x="3096.5" y="-288.6" font-family="Times,serif" font-size="8.00">0 of 18.02s (98.96%)</text>
-</a>
-</g>
-</g>
-<!-- N4 -->
-<g id="node4" class="node">
-<title>N4</title>
-<g id="a_node4"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer (1.20s)">
-<polygon fill="#ede9e5" stroke="#b29877" points="271,-218 0,-218 0,-132 271,-132 271,-218"/>
-<text text-anchor="middle" x="135.5" y="-194.8" font-family="Times,serif" font-size="24.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="135.5" y="-168.8" font-family="Times,serif" font-size="24.00">BenchmarkMethodPointer</text>
-<text text-anchor="middle" x="135.5" y="-142.8" font-family="Times,serif" font-size="24.00">1.20s (6.59%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N4 -->
-<g id="edge4" class="edge">
-<title>N1&#45;&gt;N4</title>
-<g id="a_edge4"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer (1.20s)">
-<path fill="none" stroke="#b29877" d="M3054.26,-302.7C2773.29,-300.63 1170.75,-287.96 682.5,-264 503.45,-255.21 455.36,-270.51 280.5,-231 268.91,-228.38 257,-225.03 245.24,-221.28"/>
-<polygon fill="#b29877" stroke="#b29877" points="245.99,-217.84 235.4,-218.04 243.8,-224.49 245.99,-217.84"/>
-</a>
-</g>
-<g id="a_edge4&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer (1.20s)">
-<text text-anchor="middle" x="699.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.20s</text>
-</a>
-</g>
-</g>
-<!-- N5 -->
-<g id="node5" class="node">
-<title>N5</title>
-<g id="a_node5"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef (1.28s)">
-<polygon fill="#ede9e4" stroke="#b29673" points="597.5,-231 289.5,-231 289.5,-119 597.5,-119 597.5,-231"/>
-<text text-anchor="middle" x="443.5" y="-207.8" font-family="Times,serif" font-size="24.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="443.5" y="-181.8" font-family="Times,serif" font-size="24.00">BenchmarkFuncPointerNoRef</text>
-<text text-anchor="middle" x="443.5" y="-155.8" font-family="Times,serif" font-size="24.00">1.26s (6.92%)</text>
-<text text-anchor="middle" x="443.5" y="-129.8" font-family="Times,serif" font-size="24.00">of 1.28s (7.03%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N5 -->
-<g id="edge2" class="edge">
-<title>N1&#45;&gt;N5</title>
-<g id="a_edge2"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef (1.28s)">
-<path fill="none" stroke="#b29673" d="M3054.4,-302.91C2844.13,-302.28 1886.63,-297.64 1103.5,-264 885.57,-254.64 825.4,-273.52 607.48,-231.08"/>
-<polygon fill="#b29673" stroke="#b29673" points="608.15,-227.64 597.66,-229.14 606.79,-234.51 608.15,-227.64"/>
-</a>
-</g>
-<g id="a_edge2&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef (1.28s)">
-<text text-anchor="middle" x="1120.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.28s</text>
-</a>
-</g>
-</g>
-<!-- N6 -->
-<g id="node6" class="node">
-<title>N6</title>
-<g id="a_node6"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer (1.13s)">
-<polygon fill="#ede9e5" stroke="#b29a7b" points="959,-229 616,-229 616,-121 959,-121 959,-229"/>
-<text text-anchor="middle" x="787.5" y="-206.6" font-family="Times,serif" font-size="23.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="787.5" y="-181.6" font-family="Times,serif" font-size="23.00">BenchmarkUnexportedFuncPointer</text>
-<text text-anchor="middle" x="787.5" y="-156.6" font-family="Times,serif" font-size="23.00">1.07s (5.88%)</text>
-<text text-anchor="middle" x="787.5" y="-131.6" font-family="Times,serif" font-size="23.00">of 1.13s (6.21%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N6 -->
-<g id="edge6" class="edge">
-<title>N1&#45;&gt;N6</title>
-<g id="a_edge6"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer (1.13s)">
-<path fill="none" stroke="#b29a7b" d="M3054.19,-303.16C2792.38,-303.93 1390.48,-304.51 968.5,-231 968.28,-230.96 968.06,-230.92 967.83,-230.88"/>
-<polygon fill="#b29a7b" stroke="#b29a7b" points="968.22,-227.4 957.75,-229 966.93,-234.28 968.22,-227.4"/>
-</a>
-</g>
-<g id="a_edge6&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer (1.13s)">
-<text text-anchor="middle" x="1289.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.13s</text>
-</a>
-</g>
-</g>
-<!-- N7 -->
-<g id="node7" class="node">
-<title>N7</title>
-<g id="a_node7"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue (1.21s)">
-<polygon fill="#ede9e5" stroke="#b29877" points="1319.5,-231 977.5,-231 977.5,-119 1319.5,-119 1319.5,-231"/>
-<text text-anchor="middle" x="1148.5" y="-207.8" font-family="Times,serif" font-size="24.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="1148.5" y="-181.8" font-family="Times,serif" font-size="24.00">BenchmarkUnexportedFuncValue</text>
-<text text-anchor="middle" x="1148.5" y="-155.8" font-family="Times,serif" font-size="24.00">1.18s (6.48%)</text>
-<text text-anchor="middle" x="1148.5" y="-129.8" font-family="Times,serif" font-size="24.00">of 1.21s (6.64%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N7 -->
-<g id="edge3" class="edge">
-<title>N1&#45;&gt;N7</title>
-<g id="a_edge3"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue (1.21s)">
-<path fill="none" stroke="#b29877" d="M3054.27,-301.59C2800.89,-293.1 1488.08,-248.54 1330.01,-230.79"/>
-<polygon fill="#b29877" stroke="#b29877" points="1330.13,-227.27 1319.75,-229.41 1329.2,-234.21 1330.13,-227.27"/>
-</a>
-</g>
-<g id="a_edge3&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue (1.21s)">
-<text text-anchor="middle" x="2010.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.21s</text>
-</a>
-</g>
-</g>
-<!-- N8 -->
-<g id="node8" class="node">
-<title>N8</title>
-<g id="a_node8"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef (1.09s)">
-<polygon fill="#edeae6" stroke="#b29b7d" points="1741.5,-229 1337.5,-229 1337.5,-121 1741.5,-121 1741.5,-229"/>
-<text text-anchor="middle" x="1539.5" y="-206.6" font-family="Times,serif" font-size="23.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="1539.5" y="-181.6" font-family="Times,serif" font-size="23.00">BenchmarkUnexportedFuncPointerNoRef</text>
-<text text-anchor="middle" x="1539.5" y="-156.6" font-family="Times,serif" font-size="23.00">1.03s (5.66%)</text>
-<text text-anchor="middle" x="1539.5" y="-131.6" font-family="Times,serif" font-size="23.00">of 1.09s (5.99%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N8 -->
-<g id="edge8" class="edge">
-<title>N1&#45;&gt;N8</title>
-<g id="a_edge8"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef (1.09s)">
-<path fill="none" stroke="#b29b7d" d="M3054.24,-300.75C2943.08,-294.82 2633.34,-278.24 2375.5,-264 2257.27,-257.47 2227.74,-255.3 2109.5,-249 1949.97,-240.5 1908.4,-255.28 1750.5,-231 1749.75,-230.88 1748.99,-230.77 1748.23,-230.65"/>
-<polygon fill="#b29b7d" stroke="#b29b7d" points="1748.78,-227.19 1738.34,-229.01 1747.64,-234.1 1748.78,-227.19"/>
-</a>
-</g>
-<g id="a_edge8&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef (1.09s)">
-<text text-anchor="middle" x="2392.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.09s</text>
-</a>
-</g>
-</g>
-<!-- N9 -->
-<g id="node9" class="node">
-<title>N9</title>
-<g id="a_node9"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer (1.18s)">
-<polygon fill="#ede9e5" stroke="#b29978" points="2143.5,-231 1759.5,-231 1759.5,-119 2143.5,-119 2143.5,-231"/>
-<text text-anchor="middle" x="1951.5" y="-207.8" font-family="Times,serif" font-size="24.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="1951.5" y="-181.8" font-family="Times,serif" font-size="24.00">BenchmarkUnexportedMethodPointer</text>
-<text text-anchor="middle" x="1951.5" y="-155.8" font-family="Times,serif" font-size="24.00">1.15s (6.32%)</text>
-<text text-anchor="middle" x="1951.5" y="-129.8" font-family="Times,serif" font-size="24.00">of 1.18s (6.48%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N9 -->
-<g id="edge5" class="edge">
-<title>N1&#45;&gt;N9</title>
-<g id="a_edge5"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer (1.18s)">
-<path fill="none" stroke="#b29978" d="M3054.15,-299.5C2946.94,-290.68 2656.08,-266.95 2413.5,-249 2300.71,-240.65 2268.87,-249.91 2153.55,-231.09"/>
-<polygon fill="#b29978" stroke="#b29978" points="2154.06,-227.62 2143.62,-229.43 2152.91,-234.53 2154.06,-227.62"/>
-</a>
-</g>
-<g id="a_edge5&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer (1.18s)">
-<text text-anchor="middle" x="2618.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.18s</text>
-</a>
-</g>
-</g>
-<!-- N10 -->
-<g id="node10" class="node">
-<title>N10</title>
-<g id="a_node10"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef (1.11s)">
-<polygon fill="#edeae5" stroke="#b29a7c" points="2591,-229 2162,-229 2162,-121 2591,-121 2591,-229"/>
-<text text-anchor="middle" x="2376.5" y="-206.6" font-family="Times,serif" font-size="23.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="2376.5" y="-181.6" font-family="Times,serif" font-size="23.00">BenchmarkUnexportedMethodPointerNoRef</text>
-<text text-anchor="middle" x="2376.5" y="-156.6" font-family="Times,serif" font-size="23.00">1.08s (5.93%)</text>
-<text text-anchor="middle" x="2376.5" y="-131.6" font-family="Times,serif" font-size="23.00">of 1.11s (6.10%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N10 -->
-<g id="edge7" class="edge">
-<title>N1&#45;&gt;N10</title>
-<g id="a_edge7"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef (1.11s)">
-<path fill="none" stroke="#b29a7c" d="M3054.46,-298.29C2970.28,-288.55 2774.9,-264.45 2600.57,-230.97"/>
-<polygon fill="#b29a7c" stroke="#b29a7c" points="2601.19,-227.52 2590.71,-229.06 2599.86,-234.39 2601.19,-227.52"/>
-</a>
-</g>
-<g id="a_edge7&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef (1.11s)">
-<text text-anchor="middle" x="2808.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.11s</text>
-</a>
-</g>
-</g>
-<!-- N11 -->
-<g id="node11" class="node">
-<title>N11</title>
-<g id="a_node11"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue (0.64s)">
-<polygon fill="#edebe8" stroke="#b2a793" points="2917.5,-212 2609.5,-212 2609.5,-138 2917.5,-138 2917.5,-212"/>
-<text text-anchor="middle" x="2763.5" y="-192" font-family="Times,serif" font-size="20.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="2763.5" y="-170" font-family="Times,serif" font-size="20.00">BenchmarkUnexportedMethodValue</text>
-<text text-anchor="middle" x="2763.5" y="-148" font-family="Times,serif" font-size="20.00">0.64s (3.51%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N11 -->
-<g id="edge18" class="edge">
-<title>N1&#45;&gt;N11</title>
-<g id="a_edge18"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue (0.64s)">
-<path fill="none" stroke="#b2a793" d="M3054.33,-286.92C3007.63,-269.11 2930.63,-239.74 2867.59,-215.7"/>
-<polygon fill="#b2a793" stroke="#b2a793" points="2868.58,-212.33 2857.99,-212.04 2866.09,-218.87 2868.58,-212.33"/>
-</a>
-</g>
-<g id="a_edge18&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue (0.64s)">
-<text text-anchor="middle" x="3006.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.64s</text>
-</a>
-</g>
-</g>
-<!-- N12 -->
-<g id="node12" class="node">
-<title>N12</title>
-<g id="a_node12"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef (1.02s)">
-<polygon fill="#edeae6" stroke="#b29d80" points="3257,-229 2936,-229 2936,-121 3257,-121 3257,-229"/>
-<text text-anchor="middle" x="3096.5" y="-206.6" font-family="Times,serif" font-size="23.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="3096.5" y="-181.6" font-family="Times,serif" font-size="23.00">BenchmarkMethodPointerNoRef</text>
-<text text-anchor="middle" x="3096.5" y="-156.6" font-family="Times,serif" font-size="23.00">0.99s (5.44%)</text>
-<text text-anchor="middle" x="3096.5" y="-131.6" font-family="Times,serif" font-size="23.00">of 1.02s (5.60%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N12 -->
-<g id="edge10" class="edge">
-<title>N1&#45;&gt;N12</title>
-<g id="a_edge10"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef (1.02s)">
-<path fill="none" stroke="#b29d80" d="M3096.5,-281.74C3096.5,-269.93 3096.5,-254.54 3096.5,-239.17"/>
-<polygon fill="#b29d80" stroke="#b29d80" points="3100,-239.12 3096.5,-229.12 3093,-239.12 3100,-239.12"/>
-</a>
-</g>
-<g id="a_edge10&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef (1.02s)">
-<text text-anchor="middle" x="3113.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.02s</text>
-</a>
-</g>
-</g>
-<!-- N13 -->
-<g id="node13" class="node">
-<title>N13</title>
-<g id="a_node13"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer (1.04s)">
-<polygon fill="#edeae6" stroke="#b29c7f" points="3510,-229 3275,-229 3275,-121 3510,-121 3510,-229"/>
-<text text-anchor="middle" x="3392.5" y="-206.6" font-family="Times,serif" font-size="23.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="3392.5" y="-181.6" font-family="Times,serif" font-size="23.00">BenchmarkFuncPointer</text>
-<text text-anchor="middle" x="3392.5" y="-156.6" font-family="Times,serif" font-size="23.00">1.02s (5.60%)</text>
-<text text-anchor="middle" x="3392.5" y="-131.6" font-family="Times,serif" font-size="23.00">of 1.04s (5.71%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N13 -->
-<g id="edge9" class="edge">
-<title>N1&#45;&gt;N13</title>
-<g id="a_edge9"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer (1.04s)">
-<path fill="none" stroke="#b29c7f" d="M3138.55,-285.17C3172.76,-270.64 3222.28,-249.57 3265.5,-231 3265.6,-230.96 3265.69,-230.92 3265.79,-230.88"/>
-<polygon fill="#b29c7f" stroke="#b29c7f" points="3267.08,-234.13 3274.88,-226.97 3264.31,-227.7 3267.08,-234.13"/>
-</a>
-</g>
-<g id="a_edge9&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer (1.04s)">
-<text text-anchor="middle" x="3236.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 1.04s</text>
-</a>
-</g>
-</g>
-<!-- N14 -->
-<g id="node14" class="node">
-<title>N14</title>
-<g id="a_node14"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer (0.82s)">
-<polygon fill="#edebe7" stroke="#b2a28a" points="3839,-225 3528,-225 3528,-125 3839,-125 3839,-225"/>
-<text text-anchor="middle" x="3683.5" y="-204.2" font-family="Times,serif" font-size="21.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="3683.5" y="-181.2" font-family="Times,serif" font-size="21.00">BenchmarkUnexportedNewPointer</text>
-<text text-anchor="middle" x="3683.5" y="-158.2" font-family="Times,serif" font-size="21.00">0.77s (4.23%)</text>
-<text text-anchor="middle" x="3683.5" y="-135.2" font-family="Times,serif" font-size="21.00">of 0.82s (4.50%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N14 -->
-<g id="edge12" class="edge">
-<title>N1&#45;&gt;N14</title>
-<g id="a_edge12"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer (0.82s)">
-<path fill="none" stroke="#b2a28a" d="M3138.57,-297.99C3214.98,-288.41 3381.34,-265.35 3518.5,-231 3522.62,-229.97 3526.78,-228.88 3530.98,-227.76"/>
-<polygon fill="#b2a28a" stroke="#b2a28a" points="3532.09,-231.08 3540.8,-225.05 3530.23,-224.33 3532.09,-231.08"/>
-</a>
-</g>
-<g id="a_edge12&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer (0.82s)">
-<text text-anchor="middle" x="3456.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.82s</text>
-</a>
-</g>
-</g>
-<!-- N15 -->
-<g id="node15" class="node">
-<title>N15</title>
-<g id="a_node15"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef (0.82s)">
-<polygon fill="#edebe7" stroke="#b2a28a" points="4115.5,-225 3857.5,-225 3857.5,-125 4115.5,-125 4115.5,-225"/>
-<text text-anchor="middle" x="3986.5" y="-204.2" font-family="Times,serif" font-size="21.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="3986.5" y="-181.2" font-family="Times,serif" font-size="21.00">BenchmarkFuncValueNoRef</text>
-<text text-anchor="middle" x="3986.5" y="-158.2" font-family="Times,serif" font-size="21.00">0.80s (4.39%)</text>
-<text text-anchor="middle" x="3986.5" y="-135.2" font-family="Times,serif" font-size="21.00">of 0.82s (4.50%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N15 -->
-<g id="edge11" class="edge">
-<title>N1&#45;&gt;N15</title>
-<g id="a_edge11"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef (0.82s)">
-<path fill="none" stroke="#b2a28a" d="M3138.7,-303.07C3253.98,-302.4 3583.26,-294.59 3847.5,-231 3851.43,-230.05 3855.4,-229.02 3859.39,-227.91"/>
-<polygon fill="#b2a28a" stroke="#b2a28a" points="3860.7,-231.17 3869.32,-225.01 3858.74,-224.45 3860.7,-231.17"/>
-</a>
-</g>
-<g id="a_edge11&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef (0.82s)">
-<text text-anchor="middle" x="3764.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.82s</text>
-</a>
-</g>
-</g>
-<!-- N16 -->
-<g id="node16" class="node">
-<title>N16</title>
-<g id="a_node16"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue (0.80s)">
-<polygon fill="#edebe7" stroke="#b2a38b" points="4431.5,-225 4133.5,-225 4133.5,-125 4431.5,-125 4431.5,-225"/>
-<text text-anchor="middle" x="4282.5" y="-204.2" font-family="Times,serif" font-size="21.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="4282.5" y="-181.2" font-family="Times,serif" font-size="21.00">BenchmarkUnexportedNewValue</text>
-<text text-anchor="middle" x="4282.5" y="-158.2" font-family="Times,serif" font-size="21.00">0.78s (4.28%)</text>
-<text text-anchor="middle" x="4282.5" y="-135.2" font-family="Times,serif" font-size="21.00">of 0.80s (4.39%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N16 -->
-<g id="edge13" class="edge">
-<title>N1&#45;&gt;N16</title>
-<g id="a_edge13"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue (0.80s)">
-<path fill="none" stroke="#b2a38b" d="M3138.63,-301.69C3306.99,-296.19 3931.62,-273.32 4124.5,-231 4129.22,-229.97 4133.99,-228.83 4138.78,-227.62"/>
-<polygon fill="#b2a38b" stroke="#b2a38b" points="4139.88,-230.95 4148.66,-225.02 4138.1,-224.18 4139.88,-230.95"/>
-</a>
-</g>
-<g id="a_edge13&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue (0.80s)">
-<text text-anchor="middle" x="4017.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.80s</text>
-</a>
-</g>
-</g>
-<!-- N17 -->
-<g id="node17" class="node">
-<title>N17</title>
-<g id="a_node17"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue (0.72s)">
-<polygon fill="#edebe8" stroke="#b2a58f" points="4641,-223 4450,-223 4450,-127 4641,-127 4641,-223"/>
-<text text-anchor="middle" x="4545.5" y="-203" font-family="Times,serif" font-size="20.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="4545.5" y="-181" font-family="Times,serif" font-size="20.00">BenchmarkNewValue</text>
-<text text-anchor="middle" x="4545.5" y="-159" font-family="Times,serif" font-size="20.00">0.70s (3.84%)</text>
-<text text-anchor="middle" x="4545.5" y="-137" font-family="Times,serif" font-size="20.00">of 0.72s (3.95%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N17 -->
-<g id="edge14" class="edge">
-<title>N1&#45;&gt;N17</title>
-<g id="a_edge14"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue (0.72s)">
-<path fill="none" stroke="#b2a58f" d="M3138.78,-301.86C3271.45,-298.15 3691.34,-285.43 4038.5,-264 4217.43,-252.96 4268.32,-280.92 4440.5,-231 4444.78,-229.76 4449.1,-228.33 4453.4,-226.76"/>
-<polygon fill="#b2a58f" stroke="#b2a58f" points="4454.74,-229.99 4462.8,-223.11 4452.21,-223.47 4454.74,-229.99"/>
-</a>
-</g>
-<g id="a_edge14&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue (0.72s)">
-<text text-anchor="middle" x="4382.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.72s</text>
-</a>
-</g>
-</g>
-<!-- N18 -->
-<g id="node18" class="node">
-<title>N18</title>
-<g id="a_node18"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef (0.68s)">
-<polygon fill="#edebe8" stroke="#b2a691" points="4928,-223 4659,-223 4659,-127 4928,-127 4928,-223"/>
-<text text-anchor="middle" x="4793.5" y="-203" font-family="Times,serif" font-size="20.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="4793.5" y="-181" font-family="Times,serif" font-size="20.00">BenchmarkMethodValueNoRef</text>
-<text text-anchor="middle" x="4793.5" y="-159" font-family="Times,serif" font-size="20.00">0.65s (3.57%)</text>
-<text text-anchor="middle" x="4793.5" y="-137" font-family="Times,serif" font-size="20.00">of 0.68s (3.73%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N18 -->
-<g id="edge16" class="edge">
-<title>N1&#45;&gt;N18</title>
-<g id="a_edge16"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef (0.68s)">
-<path fill="none" stroke="#b2a691" d="M3138.62,-303.32C3301.7,-304.21 3907.14,-304.45 4403.5,-264 4513.89,-255 4543.19,-258.4 4650.5,-231 4656.28,-229.52 4662.14,-227.89 4668.03,-226.12"/>
-<polygon fill="#b2a691" stroke="#b2a691" points="4669.44,-229.35 4677.96,-223.05 4667.37,-222.66 4669.44,-229.35"/>
-</a>
-</g>
-<g id="a_edge16&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef (0.68s)">
-<text text-anchor="middle" x="4582.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.68s</text>
-</a>
-</g>
-</g>
-<!-- N19 -->
-<g id="node19" class="node">
-<title>N19</title>
-<g id="a_node19"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef (0.71s)">
-<polygon fill="#edebe8" stroke="#b2a58f" points="5286.5,-223 4946.5,-223 4946.5,-127 5286.5,-127 5286.5,-223"/>
-<text text-anchor="middle" x="5116.5" y="-203" font-family="Times,serif" font-size="20.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="5116.5" y="-181" font-family="Times,serif" font-size="20.00">BenchmarkUnexportedFuncValueNoRef</text>
-<text text-anchor="middle" x="5116.5" y="-159" font-family="Times,serif" font-size="20.00">0.69s (3.79%)</text>
-<text text-anchor="middle" x="5116.5" y="-137" font-family="Times,serif" font-size="20.00">of 0.71s (3.90%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N19 -->
-<g id="edge15" class="edge">
-<title>N1&#45;&gt;N19</title>
-<g id="a_edge15"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef (0.71s)">
-<path fill="none" stroke="#b2a58f" d="M3138.8,-303.03C3316.98,-302.92 4023.93,-300.08 4603.5,-264 4752.38,-254.73 4791.26,-260.39 4937.5,-231 4945.63,-229.37 4953.92,-227.51 4962.26,-225.5"/>
-<polygon fill="#b2a58f" stroke="#b2a58f" points="4963.19,-228.87 4972.06,-223.06 4961.51,-222.08 4963.19,-228.87"/>
-</a>
-</g>
-<g id="a_edge15&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef (0.71s)">
-<text text-anchor="middle" x="4845.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.71s</text>
-</a>
-</g>
-</g>
-<!-- N20 -->
-<g id="node20" class="node">
-<title>N20</title>
-<g id="a_node20"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue (0.62s)">
-<polygon fill="#edebe9" stroke="#b2a794" points="5490.5,-221 5304.5,-221 5304.5,-129 5490.5,-129 5490.5,-221"/>
-<text text-anchor="middle" x="5397.5" y="-201.8" font-family="Times,serif" font-size="19.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="5397.5" y="-180.8" font-family="Times,serif" font-size="19.00">BenchmarkFuncValue</text>
-<text text-anchor="middle" x="5397.5" y="-159.8" font-family="Times,serif" font-size="19.00">0.59s (3.24%)</text>
-<text text-anchor="middle" x="5397.5" y="-138.8" font-family="Times,serif" font-size="19.00">of 0.62s (3.40%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N20 -->
-<g id="edge20" class="edge">
-<title>N1&#45;&gt;N20</title>
-<g id="a_edge20"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue (0.62s)">
-<path fill="none" stroke="#b2a794" d="M3138.67,-302.92C3334.74,-302.38 4176.92,-298.09 4866.5,-264 5057.5,-254.56 5112.02,-284.88 5295.5,-231 5301.19,-229.33 5306.92,-227.31 5312.61,-225.06"/>
-<polygon fill="#b2a794" stroke="#b2a794" points="5314.27,-228.16 5322.12,-221.05 5311.55,-221.71 5314.27,-228.16"/>
-</a>
-</g>
-<g id="a_edge20&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue (0.62s)">
-<text text-anchor="middle" x="5241.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.62s</text>
-</a>
-</g>
-</g>
-<!-- N21 -->
-<g id="node21" class="node">
-<title>N21</title>
-<g id="a_node21"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer (0.65s)">
-<polygon fill="#edebe8" stroke="#b2a692" points="5712,-223 5509,-223 5509,-127 5712,-127 5712,-223"/>
-<text text-anchor="middle" x="5610.5" y="-203" font-family="Times,serif" font-size="20.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="5610.5" y="-181" font-family="Times,serif" font-size="20.00">BenchmarkNewPointer</text>
-<text text-anchor="middle" x="5610.5" y="-159" font-family="Times,serif" font-size="20.00">0.64s (3.51%)</text>
-<text text-anchor="middle" x="5610.5" y="-137" font-family="Times,serif" font-size="20.00">of 0.65s (3.57%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N21 -->
-<g id="edge17" class="edge">
-<title>N1&#45;&gt;N21</title>
-<g id="a_edge17"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer (0.65s)">
-<path fill="none" stroke="#b2a692" d="M3138.57,-302.93C3402.04,-302.42 4827.55,-298.07 5262.5,-264 5368.52,-255.69 5397.88,-262.35 5499.5,-231 5503.6,-229.73 5507.74,-228.33 5511.89,-226.82"/>
-<polygon fill="#b2a692" stroke="#b2a692" points="5513.47,-229.96 5521.55,-223.11 5510.96,-223.43 5513.47,-229.96"/>
-</a>
-</g>
-<g id="a_edge17&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer (0.65s)">
-<text text-anchor="middle" x="5444.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.65s</text>
-</a>
-</g>
-</g>
-<!-- N22 -->
-<g id="node22" class="node">
-<title>N22</title>
-<g id="a_node22"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue (0.60s)">
-<polygon fill="#edebe9" stroke="#b2a795" points="5938.5,-221 5730.5,-221 5730.5,-129 5938.5,-129 5938.5,-221"/>
-<text text-anchor="middle" x="5834.5" y="-201.8" font-family="Times,serif" font-size="19.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="5834.5" y="-180.8" font-family="Times,serif" font-size="19.00">BenchmarkMethodValue</text>
-<text text-anchor="middle" x="5834.5" y="-159.8" font-family="Times,serif" font-size="19.00">0.58s (3.19%)</text>
-<text text-anchor="middle" x="5834.5" y="-138.8" font-family="Times,serif" font-size="19.00">of 0.60s (3.29%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N22 -->
-<g id="edge21" class="edge">
-<title>N1&#45;&gt;N22</title>
-<g id="a_edge21"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue (0.60s)">
-<path fill="none" stroke="#b2a795" d="M3138.86,-302.95C3417.17,-302.53 4987.54,-298.63 5465.5,-264 5579.92,-255.71 5611.59,-263.87 5721.5,-231 5727.54,-229.19 5733.65,-227.1 5739.74,-224.8"/>
-<polygon fill="#b2a795" stroke="#b2a795" points="5741.27,-227.95 5749.29,-221.03 5738.7,-221.44 5741.27,-227.95"/>
-</a>
-</g>
-<g id="a_edge21&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue (0.60s)">
-<text text-anchor="middle" x="5665.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.60s</text>
-</a>
-</g>
-</g>
-<!-- N23 -->
-<g id="node23" class="node">
-<title>N23</title>
-<g id="a_node23"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef (0.64s)">
-<polygon fill="#edebe8" stroke="#b2a793" points="6318.5,-223 5956.5,-223 5956.5,-127 6318.5,-127 6318.5,-223"/>
-<text text-anchor="middle" x="6137.5" y="-203" font-family="Times,serif" font-size="20.00">pointer&#45;vs&#45;value&#45;raw</text>
-<text text-anchor="middle" x="6137.5" y="-181" font-family="Times,serif" font-size="20.00">BenchmarkUnexportedMethodValueNoRef</text>
-<text text-anchor="middle" x="6137.5" y="-159" font-family="Times,serif" font-size="20.00">0.63s (3.46%)</text>
-<text text-anchor="middle" x="6137.5" y="-137" font-family="Times,serif" font-size="20.00">of 0.64s (3.51%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N23 -->
-<g id="edge19" class="edge">
-<title>N1&#45;&gt;N23</title>
-<g id="a_edge19"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef (0.64s)">
-<path fill="none" stroke="#b2a793" d="M3138.97,-303.01C3432.32,-302.95 5161.65,-301.02 5686.5,-264 5803.13,-255.77 5833,-254.66 5947.5,-231 5955.72,-229.3 5964.1,-227.43 5972.54,-225.42"/>
-<polygon fill="#b2a793" stroke="#b2a793" points="5973.57,-228.78 5982.46,-223.02 5971.92,-221.97 5973.57,-228.78"/>
-</a>
-</g>
-<g id="a_edge19&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef (0.64s)">
-<text text-anchor="middle" x="5865.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.64s</text>
+<g id="a_node1"><a xlink:title="__tsan_read (15.41s)">
+<polygon fill="#edd8d5" stroke="#b21500" points="176,-60 0,-60 0,0 176,0 176,-60"/>
+<text text-anchor="middle" x="88" y="-36.8" font-family="Times,serif" font-size="24.00">__tsan_read</text>
+<text text-anchor="middle" x="88" y="-10.8" font-family="Times,serif" font-size="24.00">15.41s (64.83%)</text>
 </a>
 </g>
 </g>
 <!-- N2 -->
 <g id="node2" class="node">
 <title>N2</title>
-<g id="a_node2"><a xlink:title="testing.(*B).launch (17.99s)">
-<polygon fill="#edd5d5" stroke="#b20000" points="3138.5,-466.5 3054.5,-466.5 3054.5,-422.5 3138.5,-422.5 3138.5,-466.5"/>
-<text text-anchor="middle" x="3096.5" y="-456.1" font-family="Times,serif" font-size="8.00">testing</text>
-<text text-anchor="middle" x="3096.5" y="-447.1" font-family="Times,serif" font-size="8.00">(*B)</text>
-<text text-anchor="middle" x="3096.5" y="-438.1" font-family="Times,serif" font-size="8.00">launch</text>
-<text text-anchor="middle" x="3096.5" y="-429.1" font-family="Times,serif" font-size="8.00">0 of 17.99s (98.79%)</text>
+<g id="a_node2"><a xlink:title="testing.(*B).runN (7.05s)">
+<polygon fill="#eddcd5" stroke="#b23600" points="1911,-258 1831,-258 1831,-214 1911,-214 1911,-258"/>
+<text text-anchor="middle" x="1871" y="-247.6" font-family="Times,serif" font-size="8.00">testing</text>
+<text text-anchor="middle" x="1871" y="-238.6" font-family="Times,serif" font-size="8.00">(*B)</text>
+<text text-anchor="middle" x="1871" y="-229.6" font-family="Times,serif" font-size="8.00">runN</text>
+<text text-anchor="middle" x="1871" y="-220.6" font-family="Times,serif" font-size="8.00">0 of 7.05s (29.66%)</text>
 </a>
 </g>
 </g>
-<!-- N2&#45;&gt;N1 -->
-<g id="edge1" class="edge">
-<title>N2&#45;&gt;N1</title>
-<g id="a_edge1"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (17.99s)">
-<path fill="none" stroke="#b20000" stroke-width="5" d="M3096.5,-422.46C3096.5,-399.59 3096.5,-362.77 3096.5,-336.45"/>
-<polygon fill="#b20000" stroke="#b20000" stroke-width="5" points="3100.88,-336.23 3096.5,-326.23 3092.13,-336.23 3100.88,-336.23"/>
-</a>
-</g>
-<g id="a_edge1&#45;label"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (17.99s)">
-<text text-anchor="middle" x="3116.5" y="-347.8" font-family="Times,serif" font-size="14.00"> 17.99s</text>
-</a>
-</g>
-</g>
-<!-- N3 -->
-<g id="node3" class="node">
-<title>N3</title>
-<g id="a_node3"><a xlink:title="runtime.asyncPreempt (0.49s)">
-<polygon fill="#edece9" stroke="#b2aa9a" points="3597,-68 3478,-68 3478,0 3597,0 3597,-68"/>
-<text text-anchor="middle" x="3537.5" y="-49.6" font-family="Times,serif" font-size="18.00">runtime</text>
-<text text-anchor="middle" x="3537.5" y="-29.6" font-family="Times,serif" font-size="18.00">asyncPreempt</text>
-<text text-anchor="middle" x="3537.5" y="-9.6" font-family="Times,serif" font-size="18.00">0.49s (2.69%)</text>
+<!-- N8 -->
+<g id="node8" class="node">
+<title>N8</title>
+<g id="a_node8"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef (0.61s)">
+<polygon fill="#edecea" stroke="#b2aa9b" points="1772,-163 1632,-163 1632,-111 1772,-111 1772,-163"/>
+<text text-anchor="middle" x="1702" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="1702" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkFuncPointerNoRef</text>
+<text text-anchor="middle" x="1702" y="-129" font-family="Times,serif" font-size="10.00">0.13s (0.55%)</text>
+<text text-anchor="middle" x="1702" y="-118" font-family="Times,serif" font-size="10.00">of 0.61s (2.57%)</text>
 </a>
 </g>
 </g>
-<!-- N5&#45;&gt;N3 -->
-<g id="edge32" class="edge">
-<title>N5&#45;&gt;N3</title>
-<g id="a_edge32"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
-<path fill="none" stroke="#b2b2b1" d="M597.66,-120.89C600.63,-120.22 603.57,-119.59 606.5,-119 800,-79.8 852.29,-95.36 1049.5,-86 2006.97,-40.56 3173.61,-35.58 3467.68,-35.05"/>
-<polygon fill="#b2b2b1" stroke="#b2b2b1" points="3467.77,-38.55 3477.77,-35.04 3467.76,-31.55 3467.77,-38.55"/>
+<!-- N2&#45;&gt;N8 -->
+<g id="edge4" class="edge">
+<title>N2&#45;&gt;N8</title>
+<g id="a_edge4"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef (0.61s)">
+<path fill="none" stroke="#b2aa9b" d="M1834.33,-213.95C1811.06,-200.59 1780.57,-183.09 1754.72,-168.26"/>
+<polygon fill="#b2aa9b" stroke="#b2aa9b" points="1756.2,-165.08 1745.79,-163.13 1752.72,-171.15 1756.2,-165.08"/>
 </a>
 </g>
-<g id="a_edge32&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
-<text text-anchor="middle" x="1066.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
-</a>
-</g>
-</g>
-<!-- N6&#45;&gt;N3 -->
-<g id="edge24" class="edge">
-<title>N6&#45;&gt;N3</title>
-<g id="a_edge24"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer &#45;&gt; runtime.asyncPreempt (0.06s)">
-<path fill="none" stroke="#b2b1af" d="M958.75,-120.92C962.02,-120.24 965.27,-119.6 968.5,-119 1161.7,-82.88 1213.19,-95.69 1409.5,-86 2217.65,-46.1 3200.04,-37.15 3467.47,-35.39"/>
-<polygon fill="#b2b1af" stroke="#b2b1af" points="3467.82,-38.89 3477.8,-35.32 3467.78,-31.89 3467.82,-38.89"/>
-</a>
-</g>
-<g id="a_edge24&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer &#45;&gt; runtime.asyncPreempt (0.06s)">
-<text text-anchor="middle" x="1426.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.06s</text>
+<g id="a_edge4&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef (0.61s)">
+<text text-anchor="middle" x="1819" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.61s</text>
 </a>
 </g>
 </g>
-<!-- N7&#45;&gt;N3 -->
-<g id="edge29" class="edge">
-<title>N7&#45;&gt;N3</title>
-<g id="a_edge29"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue &#45;&gt; runtime.asyncPreempt (0.03s)">
-<path fill="none" stroke="#b2b2b1" d="M1319.76,-120.65C1322.69,-120.07 1325.61,-119.52 1328.5,-119 1576.09,-74.6 1642.21,-97.23 1893.5,-86 2503.16,-58.74 3240.66,-41.45 3467.66,-36.48"/>
-<polygon fill="#b2b2b1" stroke="#b2b2b1" points="3467.84,-39.98 3477.76,-36.26 3467.69,-32.98 3467.84,-39.98"/>
-</a>
-</g>
-<g id="a_edge29&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue &#45;&gt; runtime.asyncPreempt (0.03s)">
-<text text-anchor="middle" x="1910.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.03s</text>
-</a>
-</g>
-</g>
-<!-- N8&#45;&gt;N3 -->
-<g id="edge25" class="edge">
-<title>N8&#45;&gt;N3</title>
-<g id="a_edge25"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef &#45;&gt; runtime.asyncPreempt (0.06s)">
-<path fill="none" stroke="#b2b1af" d="M1738.64,-121C1742.62,-120.3 1746.57,-119.63 1750.5,-119 2090.19,-64.73 3179.98,-41.49 3467.44,-36.21"/>
-<polygon fill="#b2b1af" stroke="#b2b1af" points="3467.79,-39.7 3477.72,-36.02 3467.66,-32.7 3467.79,-39.7"/>
-</a>
-</g>
-<g id="a_edge25&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef &#45;&gt; runtime.asyncPreempt (0.06s)">
-<text text-anchor="middle" x="2104.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.06s</text>
+<!-- N10 -->
+<g id="node10" class="node">
+<title>N10</title>
+<g id="a_node10"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer (0.46s)">
+<polygon fill="#edecea" stroke="#b2ada1" points="504,-163 392,-163 392,-111 504,-111 504,-163"/>
+<text text-anchor="middle" x="448" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="448" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkNewPointer</text>
+<text text-anchor="middle" x="448" y="-129" font-family="Times,serif" font-size="10.00">0.13s (0.55%)</text>
+<text text-anchor="middle" x="448" y="-118" font-family="Times,serif" font-size="10.00">of 0.46s (1.94%)</text>
 </a>
 </g>
 </g>
-<!-- N9&#45;&gt;N3 -->
-<g id="edge30" class="edge">
-<title>N9&#45;&gt;N3</title>
-<g id="a_edge30"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer &#45;&gt; runtime.asyncPreempt (0.03s)">
-<path fill="none" stroke="#b2b2b1" d="M2143.61,-120.54C2146.59,-120 2149.56,-119.49 2152.5,-119 2409.92,-76.34 3223.5,-45.73 3467.6,-37.32"/>
-<polygon fill="#b2b2b1" stroke="#b2b2b1" points="3467.89,-40.81 3477.76,-36.97 3467.65,-33.82 3467.89,-40.81"/>
+<!-- N2&#45;&gt;N10 -->
+<g id="edge5" class="edge">
+<title>N2&#45;&gt;N10</title>
+<g id="a_edge5"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer (0.46s)">
+<path fill="none" stroke="#b2ada1" d="M1830.87,-235.12C1685.17,-235.25 1170.45,-232.89 748,-196 646.11,-187.1 616.86,-189.29 513.97,-163.02"/>
+<polygon fill="#b2ada1" stroke="#b2ada1" points="514.67,-159.59 504.11,-160.48 512.92,-166.37 514.67,-159.59"/>
 </a>
 </g>
-<g id="a_edge30&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer &#45;&gt; runtime.asyncPreempt (0.03s)">
-<text text-anchor="middle" x="2463.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.03s</text>
-</a>
-</g>
-</g>
-<!-- N10&#45;&gt;N3 -->
-<g id="edge38" class="edge">
-<title>N10&#45;&gt;N3</title>
-<g id="a_edge38"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
-<path fill="none" stroke="#b2b2b1" d="M2589.16,-120.96C2592.97,-120.28 2596.75,-119.63 2600.5,-119 2921.77,-65.47 3311.09,-44.37 3467.5,-37.65"/>
-<polygon fill="#b2b2b1" stroke="#b2b2b1" points="3468.06,-41.13 3477.91,-37.21 3467.77,-34.14 3468.06,-41.13"/>
-</a>
-</g>
-<g id="a_edge38&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
-<text text-anchor="middle" x="2847.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
+<g id="a_edge5&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer (0.46s)">
+<text text-anchor="middle" x="765" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.46s</text>
 </a>
 </g>
 </g>
-<!-- N12&#45;&gt;N3 -->
-<g id="edge34" class="edge">
-<title>N12&#45;&gt;N3</title>
-<g id="a_edge34"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
-<path fill="none" stroke="#b2b2b1" d="M3257.05,-121.69C3259.89,-120.78 3262.71,-119.89 3265.5,-119 3334.39,-97.16 3413.32,-72.86 3468.35,-56.04"/>
-<polygon fill="#b2b2b1" stroke="#b2b2b1" points="3469.45,-59.36 3477.99,-53.09 3467.41,-52.67 3469.45,-59.36"/>
-</a>
-</g>
-<g id="a_edge34&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
-<text text-anchor="middle" x="3387.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
-</a>
-</g>
-</g>
-<!-- N13&#45;&gt;N3 -->
-<g id="edge31" class="edge">
-<title>N13&#45;&gt;N3</title>
-<g id="a_edge31"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer &#45;&gt; runtime.asyncPreempt (0.02s)">
-<path fill="none" stroke="#b2b2b1" d="M3448.15,-120.66C3463.79,-105.66 3480.54,-89.6 3495.26,-75.49"/>
-<polygon fill="#b2b2b1" stroke="#b2b2b1" points="3497.96,-77.75 3502.76,-68.31 3493.12,-72.7 3497.96,-77.75"/>
-</a>
-</g>
-<g id="a_edge31&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer &#45;&gt; runtime.asyncPreempt (0.02s)">
-<text text-anchor="middle" x="3499.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
+<!-- N11 -->
+<g id="node11" class="node">
+<title>N11</title>
+<g id="a_node11"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue (0.44s)">
+<polygon fill="#edecea" stroke="#b2ada1" points="677.5,-163 522.5,-163 522.5,-111 677.5,-111 677.5,-163"/>
+<text text-anchor="middle" x="600" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="600" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkUnexportedNewValue</text>
+<text text-anchor="middle" x="600" y="-129" font-family="Times,serif" font-size="10.00">0.17s (0.72%)</text>
+<text text-anchor="middle" x="600" y="-118" font-family="Times,serif" font-size="10.00">of 0.44s (1.85%)</text>
 </a>
 </g>
 </g>
-<!-- N14&#45;&gt;N3 -->
-<g id="edge26" class="edge">
-<title>N14&#45;&gt;N3</title>
-<g id="a_edge26"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer &#45;&gt; runtime.asyncPreempt (0.05s)">
-<path fill="none" stroke="#b2b2b0" d="M3632.03,-124.99C3614.94,-108.73 3596.12,-90.81 3579.81,-75.28"/>
-<polygon fill="#b2b2b0" stroke="#b2b2b0" points="3582.16,-72.69 3572.51,-68.33 3577.33,-77.76 3582.16,-72.69"/>
+<!-- N2&#45;&gt;N11 -->
+<g id="edge6" class="edge">
+<title>N2&#45;&gt;N11</title>
+<g id="a_edge6"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue (0.44s)">
+<path fill="none" stroke="#b2ada1" d="M1830.84,-234.72C1700.21,-233.51 1275.59,-227.28 926,-196 822.33,-186.72 793.57,-185.28 687.47,-162.98"/>
+<polygon fill="#b2ada1" stroke="#b2ada1" points="688.16,-159.55 677.65,-160.91 686.71,-166.4 688.16,-159.55"/>
 </a>
 </g>
-<g id="a_edge26&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer &#45;&gt; runtime.asyncPreempt (0.05s)">
-<text text-anchor="middle" x="3623.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.05s</text>
-</a>
-</g>
-</g>
-<!-- N15&#45;&gt;N3 -->
-<g id="edge33" class="edge">
-<title>N15&#45;&gt;N3</title>
-<g id="a_edge33"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
-<path fill="none" stroke="#b2b2b1" d="M3864.74,-124.93C3858.93,-122.87 3853.16,-120.88 3847.5,-119 3766,-91.93 3670.37,-67.03 3607.1,-51.48"/>
-<polygon fill="#b2b2b1" stroke="#b2b2b1" points="3607.77,-48.05 3597.23,-49.07 3606.11,-54.85 3607.77,-48.05"/>
-</a>
-</g>
-<g id="a_edge33&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
-<text text-anchor="middle" x="3806.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
+<g id="a_edge6&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue (0.44s)">
+<text text-anchor="middle" x="943" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.44s</text>
 </a>
 </g>
 </g>
-<!-- N16&#45;&gt;N3 -->
-<g id="edge39" class="edge">
-<title>N16&#45;&gt;N3</title>
-<g id="a_edge39"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue &#45;&gt; runtime.asyncPreempt (0.02s)">
-<path fill="none" stroke="#b2b2b1" d="M4146.83,-124.91C4139.31,-122.77 4131.84,-120.78 4124.5,-119 3940.68,-74.3 3718.29,-50.49 3607.43,-40.61"/>
-<polygon fill="#b2b2b1" stroke="#b2b2b1" points="3607.65,-37.12 3597.38,-39.73 3607.03,-44.09 3607.65,-37.12"/>
-</a>
-</g>
-<g id="a_edge39&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue &#45;&gt; runtime.asyncPreempt (0.02s)">
-<text text-anchor="middle" x="4047.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
-</a>
-</g>
-</g>
-<!-- N17&#45;&gt;N3 -->
-<g id="edge36" class="edge">
-<title>N17&#45;&gt;N3</title>
-<g id="a_edge36"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue &#45;&gt; runtime.asyncPreempt (0.02s)">
-<path fill="none" stroke="#b2b2b1" d="M4462.77,-126.98C4455.38,-123.92 4447.9,-121.19 4440.5,-119 4284.36,-72.81 3791.04,-46.42 3607.34,-37.99"/>
-<polygon fill="#b2b2b1" stroke="#b2b2b1" points="3607.4,-34.49 3597.25,-37.53 3607.08,-41.49 3607.4,-34.49"/>
-</a>
-</g>
-<g id="a_edge36&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue &#45;&gt; runtime.asyncPreempt (0.02s)">
-<text text-anchor="middle" x="4367.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
+<!-- N12 -->
+<g id="node12" class="node">
+<title>N12</title>
+<g id="a_node12"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef (0.37s)">
+<polygon fill="#edeceb" stroke="#b2aea4" points="3045,-163 2857,-163 2857,-111 3045,-111 3045,-163"/>
+<text text-anchor="middle" x="2951" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="2951" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkUnexportedFuncPointerNoRef</text>
+<text text-anchor="middle" x="2951" y="-129" font-family="Times,serif" font-size="10.00">0.11s (0.46%)</text>
+<text text-anchor="middle" x="2951" y="-118" font-family="Times,serif" font-size="10.00">of 0.37s (1.56%)</text>
 </a>
 </g>
 </g>
-<!-- N18&#45;&gt;N3 -->
-<g id="edge28" class="edge">
-<title>N18&#45;&gt;N3</title>
-<g id="a_edge28"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef &#45;&gt; runtime.asyncPreempt (0.03s)">
-<path fill="none" stroke="#b2b2b1" d="M4677.97,-126.88C4668.76,-123.95 4659.53,-121.27 4650.5,-119 4451.26,-68.93 3818.57,-44.18 3607.1,-37.15"/>
-<polygon fill="#b2b2b1" stroke="#b2b2b1" points="3607.16,-33.65 3597.05,-36.82 3606.93,-40.65 3607.16,-33.65"/>
+<!-- N2&#45;&gt;N12 -->
+<g id="edge8" class="edge">
+<title>N2&#45;&gt;N12</title>
+<g id="a_edge8"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef (0.37s)">
+<path fill="none" stroke="#b2aea4" d="M1911.17,-234.71C2027.05,-233.51 2371.86,-227.36 2656,-196 2738.95,-186.84 2761.6,-180.99 2846.9,-163.2"/>
+<polygon fill="#b2aea4" stroke="#b2aea4" points="2847.68,-166.61 2856.76,-161.15 2846.26,-159.76 2847.68,-166.61"/>
 </a>
 </g>
-<g id="a_edge28&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef &#45;&gt; runtime.asyncPreempt (0.03s)">
-<text text-anchor="middle" x="4555.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.03s</text>
-</a>
-</g>
-</g>
-<!-- N19&#45;&gt;N3 -->
-<g id="edge37" class="edge">
-<title>N19&#45;&gt;N3</title>
-<g id="a_edge37"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
-<path fill="none" stroke="#b2b2b1" d="M4972.56,-126.97C4960.78,-123.98 4948.98,-121.26 4937.5,-119 4678.44,-67.93 3853.47,-43.1 3607.42,-36.71"/>
-<polygon fill="#b2b2b1" stroke="#b2b2b1" points="3607.27,-33.2 3597.18,-36.44 3607.09,-40.2 3607.27,-33.2"/>
-</a>
-</g>
-<g id="a_edge37&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef &#45;&gt; runtime.asyncPreempt (0.02s)">
-<text text-anchor="middle" x="4813.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
+<g id="a_edge8&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef (0.37s)">
+<text text-anchor="middle" x="2775" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.37s</text>
 </a>
 </g>
 </g>
-<!-- N20&#45;&gt;N3 -->
-<g id="edge27" class="edge">
-<title>N20&#45;&gt;N3</title>
-<g id="a_edge27"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue &#45;&gt; runtime.asyncPreempt (0.03s)">
-<path fill="none" stroke="#b2b2b1" d="M5322.14,-128.91C5313.37,-125.02 5304.39,-121.58 5295.5,-119 5098.26,-61.64 5039.6,-97.37 4834.5,-86 4366.16,-60.04 3801.96,-42.58 3607.41,-36.96"/>
-<polygon fill="#b2b2b1" stroke="#b2b2b1" points="3607.42,-33.46 3597.33,-36.67 3607.22,-40.45 3607.42,-33.46"/>
+<!-- N13 -->
+<g id="node13" class="node">
+<title>N13</title>
+<g id="a_node13"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef (0.36s)">
+<polygon fill="#edeceb" stroke="#b2aea4" points="2561,-163 2409,-163 2409,-111 2561,-111 2561,-163"/>
+<text text-anchor="middle" x="2485" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="2485" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkMethodPointerNoRef</text>
+<text text-anchor="middle" x="2485" y="-129" font-family="Times,serif" font-size="10.00">0.10s (0.42%)</text>
+<text text-anchor="middle" x="2485" y="-118" font-family="Times,serif" font-size="10.00">of 0.36s (1.51%)</text>
 </a>
 </g>
-<g id="a_edge27&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue &#45;&gt; runtime.asyncPreempt (0.03s)">
-<text text-anchor="middle" x="5236.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.03s</text>
+</g>
+<!-- N2&#45;&gt;N13 -->
+<g id="edge9" class="edge">
+<title>N2&#45;&gt;N13</title>
+<g id="a_edge9"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef (0.36s)">
+<path fill="none" stroke="#b2aea4" d="M1911.01,-232.41C1998.43,-226.15 2212.88,-207.47 2398.69,-163.22"/>
+<polygon fill="#b2aea4" stroke="#b2aea4" points="2399.74,-166.57 2408.64,-160.83 2398.09,-159.77 2399.74,-166.57"/>
+</a>
+</g>
+<g id="a_edge9&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef (0.36s)">
+<text text-anchor="middle" x="2331" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.36s</text>
 </a>
 </g>
 </g>
-<!-- N22&#45;&gt;N3 -->
-<g id="edge35" class="edge">
-<title>N22&#45;&gt;N3</title>
-<g id="a_edge35"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue &#45;&gt; runtime.asyncPreempt (0.02s)">
-<path fill="none" stroke="#b2b2b1" d="M5750.7,-128.94C5741.05,-125.04 5731.19,-121.6 5721.5,-119 5521.81,-65.45 5463.98,-96.4 5257.5,-86 4616.96,-53.74 3841.13,-39.72 3607.39,-36.04"/>
-<polygon fill="#b2b2b1" stroke="#b2b2b1" points="3607.38,-32.54 3597.33,-35.88 3607.27,-39.53 3607.38,-32.54"/>
+<!-- N14 -->
+<g id="node14" class="node">
+<title>N14</title>
+<g id="a_node14"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer (0.37s)">
+<polygon fill="#edeceb" stroke="#b2aea4" points="2094.5,-163 1969.5,-163 1969.5,-111 2094.5,-111 2094.5,-163"/>
+<text text-anchor="middle" x="2032" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="2032" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkMethodPointer</text>
+<text text-anchor="middle" x="2032" y="-129" font-family="Times,serif" font-size="10.00">0.09s (0.38%)</text>
+<text text-anchor="middle" x="2032" y="-118" font-family="Times,serif" font-size="10.00">of 0.37s (1.56%)</text>
 </a>
 </g>
-<g id="a_edge35&#45;label"><a xlink:title="github.com/joshcarp/go-benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue &#45;&gt; runtime.asyncPreempt (0.02s)">
-<text text-anchor="middle" x="5651.5" y="-89.8" font-family="Times,serif" font-size="14.00"> 0.02s</text>
+</g>
+<!-- N2&#45;&gt;N14 -->
+<g id="edge7" class="edge">
+<title>N2&#45;&gt;N14</title>
+<g id="a_edge7"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer (0.37s)">
+<path fill="none" stroke="#b2aea4" d="M1905.93,-213.95C1928.01,-200.65 1956.9,-183.25 1981.45,-168.45"/>
+<polygon fill="#b2aea4" stroke="#b2aea4" points="1983.52,-171.29 1990.28,-163.13 1979.91,-165.3 1983.52,-171.29"/>
+</a>
+</g>
+<g id="a_edge7&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer (0.37s)">
+<text text-anchor="middle" x="1973" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.37s</text>
+</a>
+</g>
+</g>
+<!-- N15 -->
+<g id="node15" class="node">
+<title>N15</title>
+<g id="a_node15"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue (0.35s)">
+<polygon fill="#edeceb" stroke="#b2aea5" points="3492.5,-163 3373.5,-163 3373.5,-111 3492.5,-111 3492.5,-163"/>
+<text text-anchor="middle" x="3433" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="3433" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkMethodValue</text>
+<text text-anchor="middle" x="3433" y="-129" font-family="Times,serif" font-size="10.00">0.14s (0.59%)</text>
+<text text-anchor="middle" x="3433" y="-118" font-family="Times,serif" font-size="10.00">of 0.35s (1.47%)</text>
+</a>
+</g>
+</g>
+<!-- N2&#45;&gt;N15 -->
+<g id="edge11" class="edge">
+<title>N2&#45;&gt;N15</title>
+<g id="a_edge11"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue (0.35s)">
+<path fill="none" stroke="#b2aea5" d="M1911.29,-234.7C2104.45,-233.13 2937.03,-224.79 3195,-196 3267.94,-187.86 3288.58,-183.77 3363.43,-163.01"/>
+<polygon fill="#b2aea5" stroke="#b2aea5" points="3364.65,-166.31 3373.34,-160.25 3362.77,-159.56 3364.65,-166.31"/>
+</a>
+</g>
+<g id="a_edge11&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue (0.35s)">
+<text text-anchor="middle" x="3308" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.35s</text>
+</a>
+</g>
+</g>
+<!-- N16 -->
+<g id="node16" class="node">
+<title>N16</title>
+<g id="a_node16"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer (0.34s)">
+<polygon fill="#edeceb" stroke="#b2aea5" points="1613.5,-163 1452.5,-163 1452.5,-111 1613.5,-111 1613.5,-163"/>
+<text text-anchor="middle" x="1533" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="1533" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkUnexportedNewPointer</text>
+<text text-anchor="middle" x="1533" y="-129" font-family="Times,serif" font-size="10.00">0.12s (0.5%)</text>
+<text text-anchor="middle" x="1533" y="-118" font-family="Times,serif" font-size="10.00">of 0.34s (1.43%)</text>
+</a>
+</g>
+</g>
+<!-- N2&#45;&gt;N16 -->
+<g id="edge15" class="edge">
+<title>N2&#45;&gt;N16</title>
+<g id="a_edge15"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer (0.34s)">
+<path fill="none" stroke="#b2aea5" d="M1830.9,-223.49C1780.06,-208.9 1690.92,-183.32 1623.36,-163.93"/>
+<polygon fill="#b2aea5" stroke="#b2aea5" points="1624.13,-160.51 1613.55,-161.12 1622.2,-167.24 1624.13,-160.51"/>
+</a>
+</g>
+<g id="a_edge15&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer (0.34s)">
+<text text-anchor="middle" x="1750" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.34s</text>
+</a>
+</g>
+</g>
+<!-- N17 -->
+<g id="node17" class="node">
+<title>N17</title>
+<g id="a_node17"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer (0.35s)">
+<polygon fill="#edeceb" stroke="#b2aea5" points="1951.5,-163 1790.5,-163 1790.5,-111 1951.5,-111 1951.5,-163"/>
+<text text-anchor="middle" x="1871" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="1871" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkUnexportedFuncPointer</text>
+<text text-anchor="middle" x="1871" y="-129" font-family="Times,serif" font-size="10.00">0.08s (0.34%)</text>
+<text text-anchor="middle" x="1871" y="-118" font-family="Times,serif" font-size="10.00">of 0.35s (1.47%)</text>
+</a>
+</g>
+</g>
+<!-- N2&#45;&gt;N17 -->
+<g id="edge13" class="edge">
+<title>N2&#45;&gt;N17</title>
+<g id="a_edge13"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer (0.35s)">
+<path fill="none" stroke="#b2aea5" d="M1871,-213.95C1871,-202.05 1871,-186.87 1871,-173.2"/>
+<polygon fill="#b2aea5" stroke="#b2aea5" points="1874.5,-173.13 1871,-163.13 1867.5,-173.13 1874.5,-173.13"/>
+</a>
+</g>
+<g id="a_edge13&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer (0.35s)">
+<text text-anchor="middle" x="1888" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.35s</text>
+</a>
+</g>
+</g>
+<!-- N18 -->
+<g id="node18" class="node">
+<title>N18</title>
+<g id="a_node18"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef (0.35s)">
+<polygon fill="#edeceb" stroke="#b2aea5" points="2259,-163 2113,-163 2113,-111 2259,-111 2259,-163"/>
+<text text-anchor="middle" x="2186" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="2186" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkMethodValueNoRef</text>
+<text text-anchor="middle" x="2186" y="-129" font-family="Times,serif" font-size="10.00">0.08s (0.34%)</text>
+<text text-anchor="middle" x="2186" y="-118" font-family="Times,serif" font-size="10.00">of 0.35s (1.47%)</text>
+</a>
+</g>
+</g>
+<!-- N2&#45;&gt;N18 -->
+<g id="edge12" class="edge">
+<title>N2&#45;&gt;N18</title>
+<g id="a_edge12"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef (0.35s)">
+<path fill="none" stroke="#b2aea5" d="M1911.21,-222.62C1959.39,-207.78 2041.34,-182.55 2103.24,-163.48"/>
+<polygon fill="#b2aea5" stroke="#b2aea5" points="2104.47,-166.77 2113,-160.48 2102.41,-160.08 2104.47,-166.77"/>
+</a>
+</g>
+<g id="a_edge12&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef (0.35s)">
+<text text-anchor="middle" x="2054" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.35s</text>
+</a>
+</g>
+</g>
+<!-- N19 -->
+<g id="node19" class="node">
+<title>N19</title>
+<g id="a_node19"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef (0.34s)">
+<polygon fill="#edeceb" stroke="#b2aea5" points="1434,-163 1234,-163 1234,-111 1434,-111 1434,-163"/>
+<text text-anchor="middle" x="1334" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="1334" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkUnexportedMethodPointerNoRef</text>
+<text text-anchor="middle" x="1334" y="-129" font-family="Times,serif" font-size="10.00">0.12s (0.5%)</text>
+<text text-anchor="middle" x="1334" y="-118" font-family="Times,serif" font-size="10.00">of 0.34s (1.43%)</text>
+</a>
+</g>
+</g>
+<!-- N2&#45;&gt;N19 -->
+<g id="edge14" class="edge">
+<title>N2&#45;&gt;N19</title>
+<g id="a_edge14"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef (0.34s)">
+<path fill="none" stroke="#b2aea5" d="M1830.73,-229.03C1756.41,-217.85 1592.48,-192.36 1444.23,-163.2"/>
+<polygon fill="#b2aea5" stroke="#b2aea5" points="1444.52,-159.69 1434.03,-161.18 1443.17,-166.56 1444.52,-159.69"/>
+</a>
+</g>
+<g id="a_edge14&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef (0.34s)">
+<text text-anchor="middle" x="1636" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.34s</text>
+</a>
+</g>
+</g>
+<!-- N20 -->
+<g id="node20" class="node">
+<title>N20</title>
+<g id="a_node20"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef (0.32s)">
+<polygon fill="#edeceb" stroke="#b2afa6" points="2839,-163 2705,-163 2705,-111 2839,-111 2839,-163"/>
+<text text-anchor="middle" x="2772" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="2772" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkFuncValueNoRef</text>
+<text text-anchor="middle" x="2772" y="-129" font-family="Times,serif" font-size="10.00">0.08s (0.34%)</text>
+<text text-anchor="middle" x="2772" y="-118" font-family="Times,serif" font-size="10.00">of 0.32s (1.35%)</text>
+</a>
+</g>
+</g>
+<!-- N2&#45;&gt;N20 -->
+<g id="edge16" class="edge">
+<title>N2&#45;&gt;N20</title>
+<g id="a_edge16"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef (0.32s)">
+<path fill="none" stroke="#b2afa6" d="M1911.09,-234.24C2012.55,-231.96 2287.6,-223.52 2515,-196 2593.01,-186.56 2615.05,-183.4 2694.6,-163.25"/>
+<polygon fill="#b2afa6" stroke="#b2afa6" points="2695.77,-166.56 2704.6,-160.71 2694.04,-159.78 2695.77,-166.56"/>
+</a>
+</g>
+<g id="a_edge16&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef (0.32s)">
+<text text-anchor="middle" x="2635" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.32s</text>
+</a>
+</g>
+</g>
+<!-- N21 -->
+<g id="node21" class="node">
+<title>N21</title>
+<g id="a_node21"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer (0.35s)">
+<polygon fill="#edeceb" stroke="#b2aea5" points="2390.5,-163 2277.5,-163 2277.5,-111 2390.5,-111 2390.5,-163"/>
+<text text-anchor="middle" x="2334" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="2334" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkFuncPointer</text>
+<text text-anchor="middle" x="2334" y="-129" font-family="Times,serif" font-size="10.00">0.08s (0.34%)</text>
+<text text-anchor="middle" x="2334" y="-118" font-family="Times,serif" font-size="10.00">of 0.35s (1.47%)</text>
+</a>
+</g>
+</g>
+<!-- N2&#45;&gt;N21 -->
+<g id="edge10" class="edge">
+<title>N2&#45;&gt;N21</title>
+<g id="a_edge10"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer (0.35s)">
+<path fill="none" stroke="#b2aea5" d="M1911.27,-230.17C1981.91,-221.17 2132.64,-199.59 2267.65,-162.88"/>
+<polygon fill="#b2aea5" stroke="#b2aea5" points="2268.63,-166.25 2277.34,-160.22 2266.77,-159.5 2268.63,-166.25"/>
+</a>
+</g>
+<g id="a_edge10&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer (0.35s)">
+<text text-anchor="middle" x="2210" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.35s</text>
+</a>
+</g>
+</g>
+<!-- N22 -->
+<g id="node22" class="node">
+<title>N22</title>
+<g id="a_node22"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef (0.31s)">
+<polygon fill="#edeceb" stroke="#b2afa6" points="1060,-163 866,-163 866,-111 1060,-111 1060,-163"/>
+<text text-anchor="middle" x="963" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="963" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkUnexportedMethodValueNoRef</text>
+<text text-anchor="middle" x="963" y="-129" font-family="Times,serif" font-size="10.00">0.11s (0.46%)</text>
+<text text-anchor="middle" x="963" y="-118" font-family="Times,serif" font-size="10.00">of 0.31s (1.30%)</text>
+</a>
+</g>
+</g>
+<!-- N2&#45;&gt;N22 -->
+<g id="edge20" class="edge">
+<title>N2&#45;&gt;N22</title>
+<g id="a_edge20"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef (0.31s)">
+<path fill="none" stroke="#b2afa6" d="M1830.97,-234.22C1714.46,-231.36 1365.63,-218.59 1070.3,-163.18"/>
+<polygon fill="#b2afa6" stroke="#b2afa6" points="1070.74,-159.7 1060.26,-161.28 1069.43,-166.58 1070.74,-159.7"/>
+</a>
+</g>
+<g id="a_edge20&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef (0.31s)">
+<text text-anchor="middle" x="1283" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.31s</text>
+</a>
+</g>
+</g>
+<!-- N23 -->
+<g id="node23" class="node">
+<title>N23</title>
+<g id="a_node23"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue (0.31s)">
+<polygon fill="#edeceb" stroke="#b2afa6" points="1215.5,-161 1078.5,-161 1078.5,-113 1215.5,-113 1215.5,-161"/>
+<text text-anchor="middle" x="1147" y="-149.8" font-family="Times,serif" font-size="9.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="1147" y="-139.8" font-family="Times,serif" font-size="9.00">BenchmarkUnexportedFuncValue</text>
+<text text-anchor="middle" x="1147" y="-129.8" font-family="Times,serif" font-size="9.00">0.05s (0.21%)</text>
+<text text-anchor="middle" x="1147" y="-119.8" font-family="Times,serif" font-size="9.00">of 0.31s (1.30%)</text>
+</a>
+</g>
+</g>
+<!-- N2&#45;&gt;N23 -->
+<g id="edge19" class="edge">
+<title>N2&#45;&gt;N23</title>
+<g id="a_edge19"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue (0.31s)">
+<path fill="none" stroke="#b2afa6" d="M1830.85,-233.36C1730.12,-228.64 1458.69,-212.21 1225.72,-162.97"/>
+<polygon fill="#b2afa6" stroke="#b2afa6" points="1226.22,-159.49 1215.71,-160.82 1224.75,-166.34 1226.22,-159.49"/>
+</a>
+</g>
+<g id="a_edge19&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue (0.31s)">
+<text text-anchor="middle" x="1418" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.31s</text>
 </a>
 </g>
 </g>
 <!-- N24 -->
 <g id="node24" class="node">
 <title>N24</title>
-<g id="a_node24"><a xlink:title="runtime.systemstack (0.11s)">
-<polygon fill="#edecec" stroke="#b2b1ad" points="4775,-462.5 4702,-462.5 4702,-426.5 4775,-426.5 4775,-462.5"/>
-<text text-anchor="middle" x="4738.5" y="-451.6" font-family="Times,serif" font-size="8.00">runtime</text>
-<text text-anchor="middle" x="4738.5" y="-442.6" font-family="Times,serif" font-size="8.00">systemstack</text>
-<text text-anchor="middle" x="4738.5" y="-433.6" font-family="Times,serif" font-size="8.00">0 of 0.11s (0.6%)</text>
+<g id="a_node24"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef (0.32s)">
+<polygon fill="#edeceb" stroke="#b2afa6" points="374,-163 192,-163 192,-111 374,-111 374,-163"/>
+<text text-anchor="middle" x="283" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="283" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkUnexportedFuncValueNoRef</text>
+<text text-anchor="middle" x="283" y="-129" font-family="Times,serif" font-size="10.00">0.09s (0.38%)</text>
+<text text-anchor="middle" x="283" y="-118" font-family="Times,serif" font-size="10.00">of 0.32s (1.35%)</text>
+</a>
+</g>
+</g>
+<!-- N2&#45;&gt;N24 -->
+<g id="edge17" class="edge">
+<title>N2&#45;&gt;N24</title>
+<g id="a_edge17"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef (0.32s)">
+<path fill="none" stroke="#b2afa6" d="M1830.8,-234.64C1638.96,-232.81 815.41,-223.44 560,-196 501.14,-189.68 436.33,-176.46 384.2,-164.23"/>
+<polygon fill="#b2afa6" stroke="#b2afa6" points="384.83,-160.79 374.29,-161.89 383.21,-167.6 384.83,-160.79"/>
+</a>
+</g>
+<g id="a_edge17&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef (0.32s)">
+<text text-anchor="middle" x="577" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.32s</text>
 </a>
 </g>
 </g>
 <!-- N25 -->
 <g id="node25" class="node">
 <title>N25</title>
-<g id="a_node25"><a xlink:title="runtime.mcall (0.10s)">
-<polygon fill="#ededec" stroke="#b2b1ad" points="6414,-462.5 6337,-462.5 6337,-426.5 6414,-426.5 6414,-462.5"/>
-<text text-anchor="middle" x="6375.5" y="-451.6" font-family="Times,serif" font-size="8.00">runtime</text>
-<text text-anchor="middle" x="6375.5" y="-442.6" font-family="Times,serif" font-size="8.00">mcall</text>
-<text text-anchor="middle" x="6375.5" y="-433.6" font-family="Times,serif" font-size="8.00">0 of 0.10s (0.55%)</text>
+<g id="a_node25"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue (0.28s)">
+<polygon fill="#edeceb" stroke="#b2afa7" points="2686.5,-163 2579.5,-163 2579.5,-111 2686.5,-111 2686.5,-163"/>
+<text text-anchor="middle" x="2633" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="2633" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkFuncValue</text>
+<text text-anchor="middle" x="2633" y="-129" font-family="Times,serif" font-size="10.00">0.10s (0.42%)</text>
+<text text-anchor="middle" x="2633" y="-118" font-family="Times,serif" font-size="10.00">of 0.28s (1.18%)</text>
 </a>
 </g>
 </g>
-<!-- N27 -->
-<g id="node27" class="node">
-<title>N27</title>
-<g id="a_node27"><a xlink:title="runtime.park_m (0.10s)">
-<polygon fill="#ededec" stroke="#b2b1ad" points="6414,-322 6337,-322 6337,-286 6414,-286 6414,-322"/>
-<text text-anchor="middle" x="6375.5" y="-311.1" font-family="Times,serif" font-size="8.00">runtime</text>
-<text text-anchor="middle" x="6375.5" y="-302.1" font-family="Times,serif" font-size="8.00">park_m</text>
-<text text-anchor="middle" x="6375.5" y="-293.1" font-family="Times,serif" font-size="8.00">0 of 0.10s (0.55%)</text>
+<!-- N2&#45;&gt;N25 -->
+<g id="edge21" class="edge">
+<title>N2&#45;&gt;N25</title>
+<g id="a_edge21"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue (0.28s)">
+<path fill="none" stroke="#b2afa7" d="M1911.23,-235.34C2018.28,-235.3 2318.47,-229.06 2569.65,-162.82"/>
+<polygon fill="#b2afa7" stroke="#b2afa7" points="2570.56,-166.2 2579.32,-160.23 2568.75,-159.44 2570.56,-166.2"/>
 </a>
 </g>
-</g>
-<!-- N25&#45;&gt;N27 -->
-<g id="edge22" class="edge">
-<title>N25&#45;&gt;N27</title>
-<g id="a_edge22"><a xlink:title="runtime.mcall &#45;&gt; runtime.park_m (0.10s)">
-<path fill="none" stroke="#b2b1ad" d="M6375.5,-426.24C6375.5,-402.68 6375.5,-360.21 6375.5,-332.31"/>
-<polygon fill="#b2b1ad" stroke="#b2b1ad" points="6379,-332.04 6375.5,-322.04 6372,-332.04 6379,-332.04"/>
-</a>
-</g>
-<g id="a_edge22&#45;label"><a xlink:title="runtime.mcall &#45;&gt; runtime.park_m (0.10s)">
-<text text-anchor="middle" x="6392.5" y="-347.8" font-family="Times,serif" font-size="14.00"> 0.10s</text>
+<g id="a_edge21&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue (0.28s)">
+<text text-anchor="middle" x="2494" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.28s</text>
 </a>
 </g>
 </g>
 <!-- N26 -->
 <g id="node26" class="node">
 <title>N26</title>
-<g id="a_node26"><a xlink:title="runtime.schedule (0.10s)">
-<polygon fill="#ededec" stroke="#b2b1ad" points="6414,-193 6337,-193 6337,-157 6414,-157 6414,-193"/>
-<text text-anchor="middle" x="6375.5" y="-182.1" font-family="Times,serif" font-size="8.00">runtime</text>
-<text text-anchor="middle" x="6375.5" y="-173.1" font-family="Times,serif" font-size="8.00">schedule</text>
-<text text-anchor="middle" x="6375.5" y="-164.1" font-family="Times,serif" font-size="8.00">0 of 0.10s (0.55%)</text>
+<g id="a_node26"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue (0.27s)">
+<polygon fill="#edeceb" stroke="#b2afa8" points="3230.5,-163 3063.5,-163 3063.5,-111 3230.5,-111 3230.5,-163"/>
+<text text-anchor="middle" x="3147" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="3147" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkUnexportedMethodValue</text>
+<text text-anchor="middle" x="3147" y="-129" font-family="Times,serif" font-size="10.00">0.07s (0.29%)</text>
+<text text-anchor="middle" x="3147" y="-118" font-family="Times,serif" font-size="10.00">of 0.27s (1.14%)</text>
 </a>
 </g>
 </g>
-<!-- N27&#45;&gt;N26 -->
+<!-- N2&#45;&gt;N26 -->
+<g id="edge22" class="edge">
+<title>N2&#45;&gt;N26</title>
+<g id="a_edge22"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue (0.27s)">
+<path fill="none" stroke="#b2afa8" d="M1911.2,-234.53C2040.07,-232.74 2454.47,-224.99 2796,-196 2908.04,-186.49 2938.92,-185.44 3053.6,-162.97"/>
+<polygon fill="#b2afa8" stroke="#b2afa8" points="3054.34,-166.39 3063.47,-161.03 3052.99,-159.53 3054.34,-166.39"/>
+</a>
+</g>
+<g id="a_edge22&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue (0.27s)">
+<text text-anchor="middle" x="2964" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.27s</text>
+</a>
+</g>
+</g>
+<!-- N27 -->
+<g id="node27" class="node">
+<title>N27</title>
+<g id="a_node27"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer (0.32s)">
+<polygon fill="#edeceb" stroke="#b2afa6" points="848,-161 696,-161 696,-113 848,-113 848,-161"/>
+<text text-anchor="middle" x="772" y="-149.8" font-family="Times,serif" font-size="9.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="772" y="-139.8" font-family="Times,serif" font-size="9.00">BenchmarkUnexportedMethodPointer</text>
+<text text-anchor="middle" x="772" y="-129.8" font-family="Times,serif" font-size="9.00">0.03s (0.13%)</text>
+<text text-anchor="middle" x="772" y="-119.8" font-family="Times,serif" font-size="9.00">of 0.32s (1.35%)</text>
+</a>
+</g>
+</g>
+<!-- N2&#45;&gt;N27 -->
+<g id="edge18" class="edge">
+<title>N2&#45;&gt;N27</title>
+<g id="a_edge18"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer (0.32s)">
+<path fill="none" stroke="#b2afa6" d="M1830.87,-233.75C1720.38,-230.13 1402.44,-218.41 1139,-196 1016.46,-185.58 982.36,-188.09 858.19,-163.11"/>
+<polygon fill="#b2afa6" stroke="#b2afa6" points="858.8,-159.67 848.3,-161.11 857.41,-166.53 858.8,-159.67"/>
+</a>
+</g>
+<g id="a_edge18&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer (0.32s)">
+<text text-anchor="middle" x="1156" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.32s</text>
+</a>
+</g>
+</g>
+<!-- N28 -->
+<g id="node28" class="node">
+<title>N28</title>
+<g id="a_node28"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue (0.23s)">
+<polygon fill="#edecec" stroke="#b2b0a9" points="3355,-163 3249,-163 3249,-111 3355,-111 3355,-163"/>
+<text text-anchor="middle" x="3302" y="-151" font-family="Times,serif" font-size="10.00">pointer&#45;vs&#45;value&#45;raw</text>
+<text text-anchor="middle" x="3302" y="-140" font-family="Times,serif" font-size="10.00">BenchmarkNewValue</text>
+<text text-anchor="middle" x="3302" y="-129" font-family="Times,serif" font-size="10.00">0.07s (0.29%)</text>
+<text text-anchor="middle" x="3302" y="-118" font-family="Times,serif" font-size="10.00">of 0.23s (0.97%)</text>
+</a>
+</g>
+</g>
+<!-- N2&#45;&gt;N28 -->
 <g id="edge23" class="edge">
-<title>N27&#45;&gt;N26</title>
-<g id="a_edge23"><a xlink:title="runtime.park_m &#45;&gt; runtime.schedule (0.10s)">
-<path fill="none" stroke="#b2b1ad" d="M6375.5,-285.87C6375.5,-264.76 6375.5,-228.6 6375.5,-203.56"/>
-<polygon fill="#b2b1ad" stroke="#b2b1ad" points="6379,-203.26 6375.5,-193.26 6372,-203.26 6379,-203.26"/>
+<title>N2&#45;&gt;N28</title>
+<g id="a_edge23"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue (0.23s)">
+<path fill="none" stroke="#b2b0a9" d="M1911.04,-234.95C2055.87,-234.49 2565.98,-230.37 2985,-196 3095.67,-186.92 3127.65,-191.65 3238.92,-163.02"/>
+<polygon fill="#b2b0a9" stroke="#b2b0a9" points="3240.06,-166.34 3248.86,-160.43 3238.3,-159.56 3240.06,-166.34"/>
 </a>
 </g>
-<g id="a_edge23&#45;label"><a xlink:title="runtime.park_m &#45;&gt; runtime.schedule (0.10s)">
-<text text-anchor="middle" x="6392.5" y="-252.8" font-family="Times,serif" font-size="14.00"> 0.10s</text>
+<g id="a_edge23&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue (0.23s)">
+<text text-anchor="middle" x="3174" y="-184.8" font-family="Times,serif" font-size="14.00"> 0.23s</text>
+</a>
+</g>
+</g>
+<!-- N3 -->
+<g id="node3" class="node">
+<title>N3</title>
+<g id="a_node3"><a xlink:title="runtime._System (16.52s)">
+<polygon fill="#edd7d5" stroke="#b21200" points="130,-155 46,-155 46,-119 130,-119 130,-155"/>
+<text text-anchor="middle" x="88" y="-144.1" font-family="Times,serif" font-size="8.00">runtime</text>
+<text text-anchor="middle" x="88" y="-135.1" font-family="Times,serif" font-size="8.00">_System</text>
+<text text-anchor="middle" x="88" y="-126.1" font-family="Times,serif" font-size="8.00">0 of 16.52s (69.50%)</text>
+</a>
+</g>
+</g>
+<!-- N3&#45;&gt;N1 -->
+<g id="edge1" class="edge">
+<title>N3&#45;&gt;N1</title>
+<g id="a_edge1"><a xlink:title="runtime._System &#45;&gt; __tsan_read (15.41s)">
+<path fill="none" stroke="#b21500" stroke-width="4" d="M88,-118.66C88,-105.54 88,-87 88,-70.34"/>
+<polygon fill="#b21500" stroke="#b21500" stroke-width="4" points="91.5,-70.28 88,-60.28 84.5,-70.28 91.5,-70.28"/>
+</a>
+</g>
+<g id="a_edge1&#45;label"><a xlink:title="runtime._System &#45;&gt; __tsan_read (15.41s)">
+<text text-anchor="middle" x="108" y="-81.8" font-family="Times,serif" font-size="14.00"> 15.41s</text>
+</a>
+</g>
+</g>
+<!-- N4 -->
+<g id="node4" class="node">
+<title>N4</title>
+<g id="a_node4"><a xlink:title="racecall (2.77s)">
+<polygon fill="#ede5df" stroke="#b27b4a" points="662,-51 552,-51 552,-9 662,-9 662,-51"/>
+<text text-anchor="middle" x="607" y="-35" font-family="Times,serif" font-size="15.00">racecall</text>
+<text text-anchor="middle" x="607" y="-18" font-family="Times,serif" font-size="15.00">2.77s (11.65%)</text>
+</a>
+</g>
+</g>
+<!-- N3&#45;&gt;N4 -->
+<g id="edge3" class="edge">
+<title>N3&#45;&gt;N4</title>
+<g id="a_edge3"><a xlink:title="runtime._System &#45;&gt; racecall (1.10s)">
+<path fill="none" stroke="#b2a289" d="M113.4,-118.77C134.54,-105.32 165.94,-87.41 196,-78 313.98,-41.07 459.13,-32.55 541.56,-30.94"/>
+<polygon fill="#b2a289" stroke="#b2a289" points="541.85,-34.43 551.79,-30.77 541.73,-27.43 541.85,-34.43"/>
+</a>
+</g>
+<g id="a_edge3&#45;label"><a xlink:title="runtime._System &#45;&gt; racecall (1.10s)">
+<text text-anchor="middle" x="213" y="-81.8" font-family="Times,serif" font-size="14.00"> 1.10s</text>
+</a>
+</g>
+</g>
+<!-- N5 -->
+<g id="node5" class="node">
+<title>N5</title>
+<g id="a_node5"><a xlink:title="racecalladdr (1.79s)">
+<polygon fill="#ede9e4" stroke="#b2936f" points="1879.5,-49 1784.5,-49 1784.5,-11 1879.5,-11 1879.5,-49"/>
+<text text-anchor="middle" x="1832" y="-33.8" font-family="Times,serif" font-size="14.00">racecalladdr</text>
+<text text-anchor="middle" x="1832" y="-18.8" font-family="Times,serif" font-size="14.00">1.79s (7.53%)</text>
+</a>
+</g>
+</g>
+<!-- N6 -->
+<g id="node6" class="node">
+<title>N6</title>
+<g id="a_node6"><a xlink:title="runtime.raceread (1.43s)">
+<polygon fill="#edeae6" stroke="#b29b7c" points="3017.5,-55 2926.5,-55 2926.5,-5 3017.5,-5 3017.5,-55"/>
+<text text-anchor="middle" x="2972" y="-40.6" font-family="Times,serif" font-size="13.00">runtime</text>
+<text text-anchor="middle" x="2972" y="-26.6" font-family="Times,serif" font-size="13.00">raceread</text>
+<text text-anchor="middle" x="2972" y="-12.6" font-family="Times,serif" font-size="13.00">1.43s (6.02%)</text>
+</a>
+</g>
+</g>
+<!-- N7 -->
+<g id="node7" class="node">
+<title>N7</title>
+<g id="a_node7"><a xlink:title="testing.(*B).launch (7.05s)">
+<polygon fill="#eddcd5" stroke="#b23600" points="1911,-398.5 1831,-398.5 1831,-354.5 1911,-354.5 1911,-398.5"/>
+<text text-anchor="middle" x="1871" y="-388.1" font-family="Times,serif" font-size="8.00">testing</text>
+<text text-anchor="middle" x="1871" y="-379.1" font-family="Times,serif" font-size="8.00">(*B)</text>
+<text text-anchor="middle" x="1871" y="-370.1" font-family="Times,serif" font-size="8.00">launch</text>
+<text text-anchor="middle" x="1871" y="-361.1" font-family="Times,serif" font-size="8.00">0 of 7.05s (29.66%)</text>
+</a>
+</g>
+</g>
+<!-- N7&#45;&gt;N2 -->
+<g id="edge2" class="edge">
+<title>N7&#45;&gt;N2</title>
+<g id="a_edge2"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (7.05s)">
+<path fill="none" stroke="#b23600" stroke-width="2" d="M1871,-354.46C1871,-331.59 1871,-294.77 1871,-268.45"/>
+<polygon fill="#b23600" stroke="#b23600" stroke-width="2" points="1874.5,-268.23 1871,-258.23 1867.5,-268.23 1874.5,-268.23"/>
+</a>
+</g>
+<g id="a_edge2&#45;label"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (7.05s)">
+<text text-anchor="middle" x="1888" y="-279.8" font-family="Times,serif" font-size="14.00"> 7.05s</text>
+</a>
+</g>
+</g>
+<!-- N8&#45;&gt;N4 -->
+<g id="edge25" class="edge">
+<title>N8&#45;&gt;N4</title>
+<g id="a_edge25"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef &#45;&gt; racecall (0.17s)">
+<path fill="none" stroke="#b2b1ac" d="M1631.59,-112.81C1628.37,-112.12 1625.16,-111.51 1622,-111 1569.51,-102.48 713.58,-114.62 665,-93 649.09,-85.92 635.52,-72.17 625.51,-59.42"/>
+<polygon fill="#b2b1ac" stroke="#b2b1ac" points="628.23,-57.21 619.46,-51.26 622.6,-61.38 628.23,-57.21"/>
+</a>
+</g>
+<g id="a_edge25&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef &#45;&gt; racecall (0.17s)">
+<text text-anchor="middle" x="682" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.17s</text>
+</a>
+</g>
+</g>
+<!-- N8&#45;&gt;N5 -->
+<g id="edge24" class="edge">
+<title>N8&#45;&gt;N5</title>
+<g id="a_edge24"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef &#45;&gt; racecalladdr (0.19s)">
+<path fill="none" stroke="#b2b0ab" d="M1727.18,-110.85C1738.15,-100.31 1751.38,-88.18 1764,-78 1773.86,-70.05 1785.01,-61.99 1795.38,-54.85"/>
+<polygon fill="#b2b0ab" stroke="#b2b0ab" points="1797.56,-57.6 1803.87,-49.09 1793.63,-51.81 1797.56,-57.6"/>
+</a>
+</g>
+<g id="a_edge24&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef &#45;&gt; racecalladdr (0.19s)">
+<text text-anchor="middle" x="1781" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.19s</text>
+</a>
+</g>
+</g>
+<!-- N8&#45;&gt;N6 -->
+<g id="edge33" class="edge">
+<title>N8&#45;&gt;N6</title>
+<g id="a_edge33"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef &#45;&gt; runtime.raceread (0.10s)">
+<path fill="none" stroke="#b2b1ae" d="M1772.39,-112.61C1775.28,-112.01 1778.16,-111.46 1781,-111 1840.45,-101.31 2808.27,-113.22 2865,-93 2875.13,-89.39 2875,-83.89 2884,-78 2894.52,-71.12 2906.15,-64.36 2917.42,-58.2"/>
+<polygon fill="#b2b1ae" stroke="#b2b1ae" points="2919.19,-61.23 2926.34,-53.41 2915.88,-55.06 2919.19,-61.23"/>
+</a>
+</g>
+<g id="a_edge33&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointerNoRef &#45;&gt; runtime.raceread (0.10s)">
+<text text-anchor="middle" x="2901" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.10s</text>
+</a>
+</g>
+</g>
+<!-- N9 -->
+<g id="node9" class="node">
+<title>N9</title>
+<g id="a_node9"><a xlink:title="runtime.asyncPreempt (0.21s)">
+<polygon fill="#edecec" stroke="#b2b0aa" points="2002.5,-397 1929.5,-397 1929.5,-356 2002.5,-356 2002.5,-397"/>
+<text text-anchor="middle" x="1966" y="-385" font-family="Times,serif" font-size="10.00">runtime</text>
+<text text-anchor="middle" x="1966" y="-374" font-family="Times,serif" font-size="10.00">asyncPreempt</text>
+<text text-anchor="middle" x="1966" y="-363" font-family="Times,serif" font-size="10.00">0.21s (0.88%)</text>
+</a>
+</g>
+</g>
+<!-- N10&#45;&gt;N4 -->
+<g id="edge27" class="edge">
+<title>N10&#45;&gt;N4</title>
+<g id="a_edge27"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer &#45;&gt; racecall (0.13s)">
+<path fill="none" stroke="#b2b1ad" d="M391.85,-113.65C388.87,-112.7 385.91,-111.81 383,-111 337.51,-98.32 251.09,-113.7 282,-78 314.9,-40 456.67,-32.05 541.72,-30.78"/>
+<polygon fill="#b2b1ad" stroke="#b2b1ad" points="541.85,-34.28 551.8,-30.66 541.76,-27.28 541.85,-34.28"/>
+</a>
+</g>
+<g id="a_edge27&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer &#45;&gt; racecall (0.13s)">
+<text text-anchor="middle" x="299" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.13s</text>
+</a>
+</g>
+</g>
+<!-- N10&#45;&gt;N5 -->
+<g id="edge35" class="edge">
+<title>N10&#45;&gt;N5</title>
+<g id="a_edge35"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer &#45;&gt; racecalladdr (0.10s)">
+<path fill="none" stroke="#b2b1ae" d="M504.02,-113.1C507.03,-112.29 510.03,-111.58 513,-111 601.65,-93.52 1240.98,-123.58 1326,-93 1336.12,-89.36 1335.02,-82.01 1345,-78 1421.62,-47.2 1662.77,-36.07 1774.34,-32.5"/>
+<polygon fill="#b2b1ae" stroke="#b2b1ae" points="1774.51,-36 1784.4,-32.19 1774.29,-29 1774.51,-36"/>
+</a>
+</g>
+<g id="a_edge35&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer &#45;&gt; racecalladdr (0.10s)">
+<text text-anchor="middle" x="1362" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.10s</text>
+</a>
+</g>
+</g>
+<!-- N10&#45;&gt;N6 -->
+<g id="edge44" class="edge">
+<title>N10&#45;&gt;N6</title>
+<g id="a_edge44"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer &#45;&gt; runtime.raceread (0.09s)">
+<path fill="none" stroke="#b2b1af" d="M504.01,-113.05C507.02,-112.26 510.03,-111.57 513,-111 619.59,-90.7 2363.66,-129.06 2466,-93 2476.15,-89.42 2475.02,-82.01 2485,-78 2562.02,-47.04 2805.29,-35.96 2916.07,-32.45"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="2916.48,-35.94 2926.37,-32.13 2916.27,-28.94 2916.48,-35.94"/>
+</a>
+</g>
+<g id="a_edge44&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewPointer &#45;&gt; runtime.raceread (0.09s)">
+<text text-anchor="middle" x="2502" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
+</a>
+</g>
+</g>
+<!-- N11&#45;&gt;N4 -->
+<g id="edge66" class="edge">
+<title>N11&#45;&gt;N4</title>
+<g id="a_edge66"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue &#45;&gt; racecall (0.07s)">
+<path fill="none" stroke="#b2b2af" d="M522.38,-112.92C519.22,-112.23 516.09,-111.58 513,-111 471.33,-103.11 351.54,-124.37 323,-93 318.51,-88.07 318.69,-83.08 323,-78 350.48,-45.6 466.7,-35.51 541.69,-32.38"/>
+<polygon fill="#b2b2af" stroke="#b2b2af" points="542.13,-35.87 551.98,-31.98 541.86,-28.87 542.13,-35.87"/>
+</a>
+</g>
+<g id="a_edge66&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue &#45;&gt; racecall (0.07s)">
+<text text-anchor="middle" x="340" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.07s</text>
+</a>
+</g>
+</g>
+<!-- N11&#45;&gt;N5 -->
+<g id="edge37" class="edge">
+<title>N11&#45;&gt;N5</title>
+<g id="a_edge37"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue &#45;&gt; racecalladdr (0.10s)">
+<path fill="none" stroke="#b2b1ae" d="M677.57,-112.65C680.74,-112.03 683.89,-111.48 687,-111 763.46,-99.22 1310.25,-119.31 1383,-93 1393.12,-89.34 1392.04,-82.08 1402,-78 1468.02,-50.97 1672.85,-38.18 1774.12,-33.37"/>
+<polygon fill="#b2b1ae" stroke="#b2b1ae" points="1774.35,-36.87 1784.18,-32.91 1774.03,-29.87 1774.35,-36.87"/>
+</a>
+</g>
+<g id="a_edge37&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue &#45;&gt; racecalladdr (0.10s)">
+<text text-anchor="middle" x="1419" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.10s</text>
+</a>
+</g>
+</g>
+<!-- N11&#45;&gt;N6 -->
+<g id="edge38" class="edge">
+<title>N11&#45;&gt;N6</title>
+<g id="a_edge38"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue &#45;&gt; runtime.raceread (0.10s)">
+<path fill="none" stroke="#b2b1ae" d="M677.56,-112.59C680.73,-111.99 683.89,-111.45 687,-111 787.94,-96.28 2426.8,-126.93 2523,-93 2533.15,-89.42 2532.04,-82.08 2542,-78 2608.45,-50.79 2815.57,-38.01 2916.12,-33.28"/>
+<polygon fill="#b2b1ae" stroke="#b2b1ae" points="2916.55,-36.76 2926.38,-32.81 2916.23,-29.77 2916.55,-36.76"/>
+</a>
+</g>
+<g id="a_edge38&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewValue &#45;&gt; runtime.raceread (0.10s)">
+<text text-anchor="middle" x="2559" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.10s</text>
+</a>
+</g>
+</g>
+<!-- N12&#45;&gt;N4 -->
+<g id="edge79" class="edge">
+<title>N12&#45;&gt;N4</title>
+<g id="a_edge79"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef &#45;&gt; racecall (0.04s)">
+<path fill="none" stroke="#b2b2b0" d="M2856.86,-112.24C2853.88,-111.78 2850.92,-111.36 2848,-111 2752.79,-99.11 1212.83,-120.82 1121,-93 1109.32,-89.46 1109.52,-82.03 1098,-78 1021.11,-51.09 787.31,-38.22 672.3,-33.38"/>
+<polygon fill="#b2b2b0" stroke="#b2b2b0" points="672.35,-29.88 662.22,-32.97 672.07,-36.88 672.35,-29.88"/>
+</a>
+</g>
+<g id="a_edge79&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef &#45;&gt; racecall (0.04s)">
+<text text-anchor="middle" x="1138" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.04s</text>
+</a>
+</g>
+</g>
+<!-- N12&#45;&gt;N5 -->
+<g id="edge45" class="edge">
+<title>N12&#45;&gt;N5</title>
+<g id="a_edge45"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef &#45;&gt; racecalladdr (0.09s)">
+<path fill="none" stroke="#b2b1af" d="M2856.85,-112.31C2853.87,-111.83 2850.92,-111.39 2848,-111 2777.05,-101.51 2272.32,-114.35 2204,-93 2192.35,-89.36 2192.44,-82.25 2181,-78 2083.09,-41.61 1960.43,-32.86 1889.66,-31.06"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="1889.67,-27.56 1879.6,-30.84 1889.52,-34.56 1889.67,-27.56"/>
+</a>
+</g>
+<g id="a_edge45&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef &#45;&gt; racecalladdr (0.09s)">
+<text text-anchor="middle" x="2221" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
+</a>
+</g>
+</g>
+<!-- N12&#45;&gt;N6 -->
+<g id="edge30" class="edge">
+<title>N12&#45;&gt;N6</title>
+<g id="a_edge30"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef &#45;&gt; runtime.raceread (0.11s)">
+<path fill="none" stroke="#b2b1ae" d="M3045.24,-112.61C3048.53,-112.03 3051.79,-111.49 3055,-111 3084.28,-106.52 3300.77,-114.64 3321,-93 3362.11,-49.01 3136.45,-36.04 3027.83,-32.38"/>
+<polygon fill="#b2b1ae" stroke="#b2b1ae" points="3027.81,-28.87 3017.7,-32.05 3027.58,-35.87 3027.81,-28.87"/>
+</a>
+</g>
+<g id="a_edge30&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointerNoRef &#45;&gt; runtime.raceread (0.11s)">
+<text text-anchor="middle" x="3342" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.11s</text>
+</a>
+</g>
+</g>
+<!-- N13&#45;&gt;N4 -->
+<g id="edge61" class="edge">
+<title>N13&#45;&gt;N4</title>
+<g id="a_edge61"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef &#45;&gt; racecall (0.07s)">
+<path fill="none" stroke="#b2b2af" d="M2408.77,-112.51C2405.82,-111.94 2402.89,-111.43 2400,-111 2320.33,-99.02 1027.08,-116.43 950,-93 938.32,-89.45 938.41,-82.32 927,-78 842.76,-46.11 738.44,-35.73 672.28,-32.43"/>
+<polygon fill="#b2b2af" stroke="#b2b2af" points="672.15,-28.92 662,-31.96 671.83,-35.91 672.15,-28.92"/>
+</a>
+</g>
+<g id="a_edge61&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef &#45;&gt; racecall (0.07s)">
+<text text-anchor="middle" x="967" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.07s</text>
+</a>
+</g>
+</g>
+<!-- N13&#45;&gt;N5 -->
+<g id="edge54" class="edge">
+<title>N13&#45;&gt;N5</title>
+<g id="a_edge54"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef &#45;&gt; racecalladdr (0.08s)">
+<path fill="none" stroke="#b2b1af" d="M2408.74,-112.65C2405.8,-112.04 2402.88,-111.49 2400,-111 2319.49,-97.38 2110.67,-118.18 2033,-93 2021.39,-89.24 2021.15,-82.95 2010,-78 1971.58,-60.94 1925.66,-49 1890.08,-41.43"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="1890.37,-37.91 1879.87,-39.31 1888.95,-44.77 1890.37,-37.91"/>
+</a>
+</g>
+<g id="a_edge54&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef &#45;&gt; racecalladdr (0.08s)">
+<text text-anchor="middle" x="2050" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.08s</text>
+</a>
+</g>
+</g>
+<!-- N13&#45;&gt;N6 -->
+<g id="edge42" class="edge">
+<title>N13&#45;&gt;N6</title>
+<g id="a_edge42"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef &#45;&gt; runtime.raceread (0.09s)">
+<path fill="none" stroke="#b2b1af" d="M2561.21,-112.77C2564.5,-112.11 2567.77,-111.51 2571,-111 2602.79,-105.97 3127.6,-116.11 3150,-93 3189.51,-52.24 3093.74,-38.25 3027.89,-33.47"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="3027.82,-29.96 3017.6,-32.78 3027.35,-36.94 3027.82,-29.96"/>
+</a>
+</g>
+<g id="a_edge42&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointerNoRef &#45;&gt; runtime.raceread (0.09s)">
+<text text-anchor="middle" x="3175" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
+</a>
+</g>
+</g>
+<!-- N14&#45;&gt;N4 -->
+<g id="edge34" class="edge">
+<title>N14&#45;&gt;N4</title>
+<g id="a_edge34"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer &#45;&gt; racecall (0.10s)">
+<path fill="none" stroke="#b2b1ae" d="M1969.18,-112.7C1966.44,-112.05 1963.7,-111.48 1961,-111 1831.7,-87.89 904.61,-131.38 779,-93 767.33,-89.43 767.03,-83.22 756,-78 729.36,-65.4 698.49,-55.03 671.78,-47.26"/>
+<polygon fill="#b2b1ae" stroke="#b2b1ae" points="672.72,-43.89 662.15,-44.52 670.81,-50.63 672.72,-43.89"/>
+</a>
+</g>
+<g id="a_edge34&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer &#45;&gt; racecall (0.10s)">
+<text text-anchor="middle" x="796" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.10s</text>
+</a>
+</g>
+</g>
+<!-- N14&#45;&gt;N5 -->
+<g id="edge41" class="edge">
+<title>N14&#45;&gt;N5</title>
+<g id="a_edge41"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer &#45;&gt; racecalladdr (0.09s)">
+<path fill="none" stroke="#b2b1af" d="M1969.45,-113.37C1966.6,-112.53 1963.78,-111.74 1961,-111 1917.77,-99.54 1897.6,-120.06 1862,-93 1850.99,-84.63 1843.81,-71.18 1839.24,-58.93"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="1842.44,-57.48 1835.99,-49.07 1835.8,-59.67 1842.44,-57.48"/>
+</a>
+</g>
+<g id="a_edge41&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer &#45;&gt; racecalladdr (0.09s)">
+<text text-anchor="middle" x="1879" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
+</a>
+</g>
+</g>
+<!-- N14&#45;&gt;N6 -->
+<g id="edge53" class="edge">
+<title>N14&#45;&gt;N6</title>
+<g id="a_edge53"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer &#45;&gt; runtime.raceread (0.08s)">
+<path fill="none" stroke="#b2b1af" d="M2094.52,-113C2097.7,-112.24 2100.87,-111.56 2104,-111 2127.93,-106.71 2961.99,-110.37 2979,-93 2986.16,-85.69 2987.08,-75.33 2985.4,-65.16"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="2988.73,-64.07 2982.97,-55.18 2981.93,-65.73 2988.73,-64.07"/>
+</a>
+</g>
+<g id="a_edge53&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodPointer &#45;&gt; runtime.raceread (0.08s)">
+<text text-anchor="middle" x="3002" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.08s</text>
+</a>
+</g>
+</g>
+<!-- N15&#45;&gt;N4 -->
+<g id="edge62" class="edge">
+<title>N15&#45;&gt;N4</title>
+<g id="a_edge62"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue &#45;&gt; racecall (0.07s)">
+<path fill="none" stroke="#b2b2af" d="M3373.5,-113.08C3370.31,-112.28 3367.13,-111.58 3364,-111 3255.49,-90.93 2474.92,-130.13 2371,-93 2360.87,-89.38 2362.12,-81.67 2352,-78 2341.94,-74.35 988.97,-40.5 672.62,-32.63"/>
+<polygon fill="#b2b2af" stroke="#b2b2af" points="672.33,-29.12 662.24,-32.37 672.15,-36.12 672.33,-29.12"/>
+</a>
+</g>
+<g id="a_edge62&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue &#45;&gt; racecall (0.07s)">
+<text text-anchor="middle" x="2388" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.07s</text>
+</a>
+</g>
+</g>
+<!-- N15&#45;&gt;N5 -->
+<g id="edge55" class="edge">
+<title>N15&#45;&gt;N5</title>
+<g id="a_edge55"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue &#45;&gt; racecalladdr (0.08s)">
+<path fill="none" stroke="#b2b1af" d="M3449.7,-110.73C3454.95,-99.42 3457.44,-86.69 3449,-78 3445.53,-74.43 2178.8,-40.29 1890.09,-32.55"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="1889.93,-29.05 1879.84,-32.28 1889.75,-36.05 1889.93,-29.05"/>
+</a>
+</g>
+<g id="a_edge55&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue &#45;&gt; racecalladdr (0.08s)">
+<text text-anchor="middle" x="3471" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.08s</text>
+</a>
+</g>
+</g>
+<!-- N15&#45;&gt;N6 -->
+<g id="edge76" class="edge">
+<title>N15&#45;&gt;N6</title>
+<g id="a_edge76"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue &#45;&gt; runtime.raceread (0.05s)">
+<path fill="none" stroke="#b2b2b0" d="M3492.8,-126.1C3531.53,-117.21 3570.98,-101.84 3549,-78 3514.14,-40.19 3166.22,-32.8 3028.09,-31.35"/>
+<polygon fill="#b2b2b0" stroke="#b2b2b0" points="3027.76,-27.85 3017.73,-31.25 3027.7,-34.85 3027.76,-27.85"/>
+</a>
+</g>
+<g id="a_edge76&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValue &#45;&gt; runtime.raceread (0.05s)">
+<text text-anchor="middle" x="3572" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.05s</text>
+</a>
+</g>
+</g>
+<!-- N16&#45;&gt;N4 -->
+<g id="edge50" class="edge">
+<title>N16&#45;&gt;N4</title>
+<g id="a_edge50"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer &#45;&gt; racecall (0.09s)">
+<path fill="none" stroke="#b2b1af" d="M1452.25,-112.55C1449.14,-111.97 1446.05,-111.45 1443,-111 1420.05,-107.62 624.36,-109.45 608,-93 599.86,-84.82 598.36,-72.62 599.37,-61.2"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="602.87,-61.48 600.88,-51.07 595.95,-60.45 602.87,-61.48"/>
+</a>
+</g>
+<g id="a_edge50&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer &#45;&gt; racecall (0.09s)">
+<text text-anchor="middle" x="625" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
+</a>
+</g>
+</g>
+<!-- N16&#45;&gt;N5 -->
+<g id="edge71" class="edge">
+<title>N16&#45;&gt;N5</title>
+<g id="a_edge71"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer &#45;&gt; racecalladdr (0.06s)">
+<path fill="none" stroke="#b2b2b0" d="M1613.54,-111.12C1631.52,-105.35 1650.46,-99.1 1668,-93 1704.47,-80.31 1745.08,-64.97 1776.76,-52.72"/>
+<polygon fill="#b2b2b0" stroke="#b2b2b0" points="1778.23,-55.9 1786.29,-49.03 1775.7,-49.38 1778.23,-55.9"/>
+</a>
+</g>
+<g id="a_edge71&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer &#45;&gt; racecalladdr (0.06s)">
+<text text-anchor="middle" x="1726" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.06s</text>
+</a>
+</g>
+</g>
+<!-- N16&#45;&gt;N6 -->
+<g id="edge72" class="edge">
+<title>N16&#45;&gt;N6</title>
+<g id="a_edge72"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer &#45;&gt; runtime.raceread (0.06s)">
+<path fill="none" stroke="#b2b2b0" d="M1613.74,-112.52C1616.86,-111.95 1619.95,-111.44 1623,-111 1688.17,-101.61 2745.97,-115.07 2808,-93 2818.14,-89.39 2817.51,-83.07 2827,-78 2854.96,-63.06 2888.5,-51.81 2916.28,-44.07"/>
+<polygon fill="#b2b2b0" stroke="#b2b2b0" points="2917.49,-47.36 2926.23,-41.37 2915.66,-40.61 2917.49,-47.36"/>
+</a>
+</g>
+<g id="a_edge72&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedNewPointer &#45;&gt; runtime.raceread (0.06s)">
+<text text-anchor="middle" x="2844" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.06s</text>
+</a>
+</g>
+</g>
+<!-- N17&#45;&gt;N4 -->
+<g id="edge68" class="edge">
+<title>N17&#45;&gt;N4</title>
+<g id="a_edge68"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer &#45;&gt; racecall (0.06s)">
+<path fill="none" stroke="#b2b2b0" d="M1790.25,-112.53C1787.14,-111.96 1784.05,-111.44 1781,-111 1664.53,-94.12 834.52,-127.49 722,-93 710.33,-89.42 709.56,-84.12 699,-78 685.89,-70.4 671.41,-62.7 657.89,-55.79"/>
+<polygon fill="#b2b2b0" stroke="#b2b2b0" points="659.22,-52.54 648.72,-51.14 656.06,-58.78 659.22,-52.54"/>
+</a>
+</g>
+<g id="a_edge68&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer &#45;&gt; racecall (0.06s)">
+<text text-anchor="middle" x="739" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.06s</text>
+</a>
+</g>
+</g>
+<!-- N17&#45;&gt;N5 -->
+<g id="edge28" class="edge">
+<title>N17&#45;&gt;N5</title>
+<g id="a_edge28"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer &#45;&gt; racecalladdr (0.12s)">
+<path fill="none" stroke="#b2b1ad" d="M1820.09,-110.87C1814.05,-105.79 1808.71,-99.85 1805,-93 1798.86,-81.68 1802.94,-68.68 1809.61,-57.51"/>
+<polygon fill="#b2b1ad" stroke="#b2b1ad" points="1812.65,-59.26 1815.36,-49.02 1806.86,-55.34 1812.65,-59.26"/>
+</a>
+</g>
+<g id="a_edge28&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer &#45;&gt; racecalladdr (0.12s)">
+<text text-anchor="middle" x="1822" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.12s</text>
+</a>
+</g>
+</g>
+<!-- N17&#45;&gt;N6 -->
+<g id="edge56" class="edge">
+<title>N17&#45;&gt;N6</title>
+<g id="a_edge56"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer &#45;&gt; runtime.raceread (0.08s)">
+<path fill="none" stroke="#b2b1af" d="M1951.75,-112.54C1954.86,-111.96 1957.95,-111.44 1961,-111 2013.84,-103.29 2874.04,-116.49 2922,-93 2929.2,-89.47 2940.13,-76.43 2949.94,-63.2"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="2952.83,-65.18 2955.86,-55.03 2947.16,-61.08 2952.83,-65.18"/>
+</a>
+</g>
+<g id="a_edge56&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncPointer &#45;&gt; runtime.raceread (0.08s)">
+<text text-anchor="middle" x="2954" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.08s</text>
+</a>
+</g>
+</g>
+<!-- N18&#45;&gt;N4 -->
+<g id="edge43" class="edge">
+<title>N18&#45;&gt;N4</title>
+<g id="a_edge43"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef &#45;&gt; racecall (0.09s)">
+<path fill="none" stroke="#b2b1af" d="M2112.92,-112.61C2109.92,-112 2106.94,-111.46 2104,-111 2034.39,-100.12 903.39,-113.55 836,-93 824.33,-89.44 824.24,-82.76 813,-78 767.92,-58.88 713.84,-46.92 672.4,-39.85"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="672.86,-36.38 662.42,-38.2 671.72,-43.29 672.86,-36.38"/>
+</a>
+</g>
+<g id="a_edge43&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef &#45;&gt; racecall (0.09s)">
+<text text-anchor="middle" x="853" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
+</a>
+</g>
+</g>
+<!-- N18&#45;&gt;N5 -->
+<g id="edge26" class="edge">
+<title>N18&#45;&gt;N5</title>
+<g id="a_edge26"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef &#45;&gt; racecalladdr (0.13s)">
+<path fill="none" stroke="#b2b1ad" d="M2112.87,-112.92C2109.88,-112.22 2106.92,-111.58 2104,-111 2022.98,-94.87 1996.37,-121.95 1919,-93 1915.85,-91.82 1888.29,-72.04 1865.03,-55.14"/>
+<polygon fill="#b2b1ad" stroke="#b2b1ad" points="1866.85,-52.13 1856.7,-49.08 1862.73,-57.79 1866.85,-52.13"/>
+</a>
+</g>
+<g id="a_edge26&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef &#45;&gt; racecalladdr (0.13s)">
+<text text-anchor="middle" x="1936" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.13s</text>
+</a>
+</g>
+</g>
+<!-- N18&#45;&gt;N6 -->
+<g id="edge82" class="edge">
+<title>N18&#45;&gt;N6</title>
+<g id="a_edge82"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef &#45;&gt; runtime.raceread (0.03s)">
+<path fill="none" stroke="#b2b2b1" d="M2259.07,-112.83C2262.41,-112.14 2265.73,-111.52 2269,-111 2311.09,-104.29 3006.22,-123.49 3036,-93 3046.93,-81.81 3039.24,-69.78 3025.92,-59.32"/>
+<polygon fill="#b2b2b1" stroke="#b2b2b1" points="3027.71,-56.3 3017.53,-53.37 3023.66,-62.01 3027.71,-56.3"/>
+</a>
+</g>
+<g id="a_edge82&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkMethodValueNoRef &#45;&gt; runtime.raceread (0.03s)">
+<text text-anchor="middle" x="3058" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.03s</text>
+</a>
+</g>
+</g>
+<!-- N19&#45;&gt;N4 -->
+<g id="edge58" class="edge">
+<title>N19&#45;&gt;N4</title>
+<g id="a_edge58"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef &#45;&gt; racecall (0.08s)">
+<path fill="none" stroke="#b2b1af" d="M1233.73,-112.36C1230.46,-111.86 1227.21,-111.4 1224,-111 1186.89,-106.33 577.09,-119.8 551,-93 539.82,-81.51 548.73,-68.39 562.47,-57.18"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="564.59,-59.96 570.5,-51.17 560.4,-54.36 564.59,-59.96"/>
+</a>
+</g>
+<g id="a_edge58&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef &#45;&gt; racecall (0.08s)">
+<text text-anchor="middle" x="568" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.08s</text>
+</a>
+</g>
+</g>
+<!-- N19&#45;&gt;N5 -->
+<g id="edge70" class="edge">
+<title>N19&#45;&gt;N5</title>
+<g id="a_edge70"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef &#45;&gt; racecalladdr (0.06s)">
+<path fill="none" stroke="#b2b2b0" d="M1434.28,-112.53C1437.22,-111.99 1440.13,-111.48 1443,-111 1517.06,-98.58 1541.47,-121.38 1611,-93 1620.96,-88.93 1620.3,-82.66 1630,-78 1675.86,-55.93 1732.66,-43.91 1774.34,-37.56"/>
+<polygon fill="#b2b2b0" stroke="#b2b2b0" points="1774.93,-41.01 1784.32,-36.1 1773.92,-34.08 1774.93,-41.01"/>
+</a>
+</g>
+<g id="a_edge70&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef &#45;&gt; racecalladdr (0.06s)">
+<text text-anchor="middle" x="1647" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.06s</text>
+</a>
+</g>
+</g>
+<!-- N19&#45;&gt;N6 -->
+<g id="edge59" class="edge">
+<title>N19&#45;&gt;N6</title>
+<g id="a_edge59"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef &#45;&gt; runtime.raceread (0.08s)">
+<path fill="none" stroke="#b2b1af" d="M1434.23,-112.17C1437.18,-111.74 1440.11,-111.35 1443,-111 1515.15,-102.33 2682.51,-117.31 2751,-93 2761.14,-89.4 2760.3,-82.66 2770,-78 2816.61,-55.57 2874.52,-43.52 2916.37,-37.25"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="2916.97,-40.7 2926.38,-35.82 2915.98,-33.77 2916.97,-40.7"/>
+</a>
+</g>
+<g id="a_edge59&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointerNoRef &#45;&gt; runtime.raceread (0.08s)">
+<text text-anchor="middle" x="2787" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.08s</text>
+</a>
+</g>
+</g>
+<!-- N20&#45;&gt;N4 -->
+<g id="edge75" class="edge">
+<title>N20&#45;&gt;N4</title>
+<g id="a_edge75"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef &#45;&gt; racecall (0.05s)">
+<path fill="none" stroke="#b2b2b0" d="M2704.72,-112.68C2701.79,-112.04 2698.88,-111.48 2696,-111 2606.55,-96.16 1150.77,-119.32 1064,-93 1052.32,-89.46 1052.49,-82.1 1041,-78 974.77,-54.36 776.51,-40.29 672.43,-34.35"/>
+<polygon fill="#b2b2b0" stroke="#b2b2b0" points="672.54,-30.85 662.36,-33.78 672.15,-37.84 672.54,-30.85"/>
+</a>
+</g>
+<g id="a_edge75&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef &#45;&gt; racecall (0.05s)">
+<text text-anchor="middle" x="1081" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.05s</text>
+</a>
+</g>
+</g>
+<!-- N20&#45;&gt;N5 -->
+<g id="edge52" class="edge">
+<title>N20&#45;&gt;N5</title>
+<g id="a_edge52"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef &#45;&gt; racecalladdr (0.08s)">
+<path fill="none" stroke="#b2b1af" d="M2704.71,-112.76C2701.78,-112.1 2698.87,-111.51 2696,-111 2575.8,-89.71 2263.42,-129.69 2147,-93 2135.36,-89.33 2135.38,-82.4 2124,-78 2046.35,-47.99 1949.94,-37.14 1889.68,-33.22"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="1889.79,-29.72 1879.59,-32.61 1889.36,-36.71 1889.79,-29.72"/>
+</a>
+</g>
+<g id="a_edge52&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef &#45;&gt; racecalladdr (0.08s)">
+<text text-anchor="middle" x="2164" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.08s</text>
+</a>
+</g>
+</g>
+<!-- N20&#45;&gt;N6 -->
+<g id="edge40" class="edge">
+<title>N20&#45;&gt;N6</title>
+<g id="a_edge40"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef &#45;&gt; runtime.raceread (0.09s)">
+<path fill="none" stroke="#b2b1af" d="M2839.3,-112.8C2842.22,-112.13 2845.13,-111.52 2848,-111 2870.76,-106.85 3248,-109.71 3264,-93 3297.94,-57.55 3121.83,-40.62 3027.9,-34.21"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="3027.91,-30.7 3017.7,-33.53 3027.44,-37.69 3027.91,-30.7"/>
+</a>
+</g>
+<g id="a_edge40&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValueNoRef &#45;&gt; runtime.raceread (0.09s)">
+<text text-anchor="middle" x="3285" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
+</a>
+</g>
+</g>
+<!-- N21&#45;&gt;N4 -->
+<g id="edge32" class="edge">
+<title>N21&#45;&gt;N4</title>
+<g id="a_edge32"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer &#45;&gt; racecall (0.10s)">
+<path fill="none" stroke="#b2b1ae" d="M2277.48,-113.16C2274.3,-112.33 2271.13,-111.59 2268,-111 2192.94,-96.75 966.08,-115.25 893,-93 881.32,-89.45 881.35,-82.5 870,-78 805.59,-52.47 726.81,-40.73 672.35,-35.38"/>
+<polygon fill="#b2b1ae" stroke="#b2b1ae" points="672.42,-31.87 662.13,-34.43 671.76,-38.84 672.42,-31.87"/>
+</a>
+</g>
+<g id="a_edge32&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer &#45;&gt; racecall (0.10s)">
+<text text-anchor="middle" x="910" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.10s</text>
+</a>
+</g>
+</g>
+<!-- N21&#45;&gt;N5 -->
+<g id="edge51" class="edge">
+<title>N21&#45;&gt;N5</title>
+<g id="a_edge51"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer &#45;&gt; racecalladdr (0.08s)">
+<path fill="none" stroke="#b2b1af" d="M2277.45,-113.34C2274.28,-112.46 2271.11,-111.67 2268,-111 2140.88,-83.66 2099.43,-133.87 1976,-93 1964.41,-89.16 1963.86,-83.57 1953,-78 1932.75,-67.61 1909.64,-58.1 1889.09,-50.39"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="1890.13,-47.05 1879.53,-46.87 1887.71,-53.62 1890.13,-47.05"/>
+</a>
+</g>
+<g id="a_edge51&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer &#45;&gt; racecalladdr (0.08s)">
+<text text-anchor="middle" x="1993" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.08s</text>
+</a>
+</g>
+</g>
+<!-- N21&#45;&gt;N6 -->
+<g id="edge39" class="edge">
+<title>N21&#45;&gt;N6</title>
+<g id="a_edge39"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer &#45;&gt; runtime.raceread (0.09s)">
+<path fill="none" stroke="#b2b1af" d="M2390.53,-113.21C2393.7,-112.36 2396.87,-111.61 2400,-111 2437.79,-103.57 3066.12,-120.58 3093,-93 3118.14,-67.2 3070.3,-50.13 3027.57,-40.54"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="3028.22,-37.11 3017.71,-38.44 3026.76,-43.95 3028.22,-37.11"/>
+</a>
+</g>
+<g id="a_edge39&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncPointer &#45;&gt; runtime.raceread (0.09s)">
+<text text-anchor="middle" x="3116" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
+</a>
+</g>
+</g>
+<!-- N22&#45;&gt;N4 -->
+<g id="edge49" class="edge">
+<title>N22&#45;&gt;N4</title>
+<g id="a_edge49"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef &#45;&gt; racecall (0.09s)">
+<path fill="none" stroke="#b2b1af" d="M865.81,-112.33C862.84,-111.84 859.9,-111.4 857,-111 833.86,-107.81 453.16,-109.86 437,-93 401.64,-56.09 479.89,-41.06 541.62,-35"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="542.12,-38.47 551.75,-34.07 541.48,-31.5 542.12,-38.47"/>
+</a>
+</g>
+<g id="a_edge49&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef &#45;&gt; racecall (0.09s)">
+<text text-anchor="middle" x="454" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
+</a>
+</g>
+</g>
+<!-- N22&#45;&gt;N5 -->
+<g id="edge65" class="edge">
+<title>N22&#45;&gt;N5</title>
+<g id="a_edge65"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef &#45;&gt; racecalladdr (0.07s)">
+<path fill="none" stroke="#b2b2af" d="M1060.19,-112.32C1063.16,-111.84 1066.1,-111.4 1069,-111 1163.31,-98.02 1407.75,-126.1 1497,-93 1507.09,-89.26 1506.12,-82.27 1516,-78 1600.81,-41.34 1709.06,-32.49 1774.32,-30.78"/>
+<polygon fill="#b2b2af" stroke="#b2b2af" points="1774.49,-34.28 1784.42,-30.56 1774.34,-27.28 1774.49,-34.28"/>
+</a>
+</g>
+<g id="a_edge65&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef &#45;&gt; racecalladdr (0.07s)">
+<text text-anchor="middle" x="1533" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.07s</text>
+</a>
+</g>
+</g>
+<!-- N22&#45;&gt;N6 -->
+<g id="edge81" class="edge">
+<title>N22&#45;&gt;N6</title>
+<g id="a_edge81"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef &#45;&gt; runtime.raceread (0.04s)">
+<path fill="none" stroke="#b2b2b0" d="M1060.18,-112.2C1063.15,-111.76 1066.09,-111.36 1069,-111 1155.47,-100.44 2554.87,-122.04 2637,-93 2647.14,-89.41 2646.12,-82.27 2656,-78 2741.66,-40.98 2851.22,-32.32 2916.26,-30.73"/>
+<polygon fill="#b2b2b0" stroke="#b2b2b0" points="2916.38,-34.23 2926.31,-30.53 2916.24,-27.23 2916.38,-34.23"/>
+</a>
+</g>
+<g id="a_edge81&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValueNoRef &#45;&gt; runtime.raceread (0.04s)">
+<text text-anchor="middle" x="2673" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.04s</text>
+</a>
+</g>
+</g>
+<!-- N23&#45;&gt;N4 -->
+<g id="edge46" class="edge">
+<title>N23&#45;&gt;N4</title>
+<g id="a_edge46"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue &#45;&gt; racecall (0.09s)">
+<path fill="none" stroke="#b2b1af" d="M1078.79,-112.95C1075.5,-112.21 1072.22,-111.56 1069,-111 1037.5,-105.57 516.24,-115.95 494,-93 472.86,-71.19 505.91,-55.08 541.62,-44.75"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="543,-48 551.72,-41.99 541.15,-41.25 543,-48"/>
+</a>
+</g>
+<g id="a_edge46&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue &#45;&gt; racecall (0.09s)">
+<text text-anchor="middle" x="511" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
+</a>
+</g>
+</g>
+<!-- N23&#45;&gt;N5 -->
+<g id="edge36" class="edge">
+<title>N23&#45;&gt;N5</title>
+<g id="a_edge36"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue &#45;&gt; racecalladdr (0.10s)">
+<path fill="none" stroke="#b2b1ae" d="M1215.66,-112.94C1218.8,-112.22 1221.92,-111.57 1225,-111 1297.01,-97.72 1485.51,-118.89 1554,-93 1564.06,-89.2 1563.19,-82.43 1573,-78 1637.96,-48.69 1719.89,-37.65 1774.01,-33.49"/>
+<polygon fill="#b2b1ae" stroke="#b2b1ae" points="1774.39,-36.97 1784.11,-32.77 1773.89,-29.99 1774.39,-36.97"/>
+</a>
+</g>
+<g id="a_edge36&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue &#45;&gt; racecalladdr (0.10s)">
+<text text-anchor="middle" x="1590" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.10s</text>
+</a>
+</g>
+</g>
+<!-- N23&#45;&gt;N6 -->
+<g id="edge69" class="edge">
+<title>N23&#45;&gt;N6</title>
+<g id="a_edge69"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue &#45;&gt; runtime.raceread (0.06s)">
+<path fill="none" stroke="#b2b2b0" d="M1214.77,-112.97C1218.21,-112.21 1221.63,-111.55 1225,-111 1305.56,-97.9 2617.06,-120.24 2694,-93 2704.14,-89.41 2703.19,-82.43 2713,-78 2778.74,-48.33 2861.87,-37.38 2915.95,-33.35"/>
+<polygon fill="#b2b2b0" stroke="#b2b2b0" points="2916.3,-36.83 2926.03,-32.65 2915.82,-29.85 2916.3,-36.83"/>
+</a>
+</g>
+<g id="a_edge69&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValue &#45;&gt; runtime.raceread (0.06s)">
+<text text-anchor="middle" x="2730" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.06s</text>
+</a>
+</g>
+</g>
+<!-- N24&#45;&gt;N4 -->
+<g id="edge31" class="edge">
+<title>N24&#45;&gt;N4</title>
+<g id="a_edge31"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef &#45;&gt; racecall (0.11s)">
+<path fill="none" stroke="#b2b1ae" d="M246.44,-110.9C235.61,-100.49 228.82,-88.43 238,-78 257.7,-55.63 440.97,-41.08 541.59,-34.7"/>
+<polygon fill="#b2b1ae" stroke="#b2b1ae" points="541.89,-38.19 551.66,-34.08 541.46,-31.2 541.89,-38.19"/>
+</a>
+</g>
+<g id="a_edge31&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef &#45;&gt; racecall (0.11s)">
+<text text-anchor="middle" x="255" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.11s</text>
+</a>
+</g>
+</g>
+<!-- N24&#45;&gt;N5 -->
+<g id="edge47" class="edge">
+<title>N24&#45;&gt;N5</title>
+<g id="a_edge47"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef &#45;&gt; racecalladdr (0.09s)">
+<path fill="none" stroke="#b2b1af" d="M374.12,-112.32C377.11,-111.83 380.07,-111.39 383,-111 480.6,-97.98 1176.31,-126.24 1269,-93 1279.13,-89.37 1278,-81.96 1288,-78 1375.24,-43.43 1652.9,-34.22 1774.28,-31.82"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="1774.55,-35.32 1784.49,-31.63 1774.42,-28.32 1774.55,-35.32"/>
+</a>
+</g>
+<g id="a_edge47&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef &#45;&gt; racecalladdr (0.09s)">
+<text text-anchor="middle" x="1305" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
+</a>
+</g>
+</g>
+<!-- N24&#45;&gt;N6 -->
+<g id="edge83" class="edge">
+<title>N24&#45;&gt;N6</title>
+<g id="a_edge83"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef &#45;&gt; runtime.raceread (0.03s)">
+<path fill="none" stroke="#b2b2b1" d="M374.12,-112.28C377.1,-111.8 380.07,-111.37 383,-111 438.83,-103.88 2355.92,-111.69 2409,-93 2419.15,-89.43 2418,-81.96 2428,-78 2515.67,-43.26 2795.63,-34.13 2916.06,-31.79"/>
+<polygon fill="#b2b2b1" stroke="#b2b2b1" points="2916.24,-35.28 2926.17,-31.6 2916.11,-28.29 2916.24,-35.28"/>
+</a>
+</g>
+<g id="a_edge83&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedFuncValueNoRef &#45;&gt; runtime.raceread (0.03s)">
+<text text-anchor="middle" x="2445" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.03s</text>
+</a>
+</g>
+</g>
+<!-- N25&#45;&gt;N4 -->
+<g id="edge60" class="edge">
+<title>N25&#45;&gt;N4</title>
+<g id="a_edge60"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue &#45;&gt; racecall (0.07s)">
+<path fill="none" stroke="#b2b2af" d="M2579.44,-113.25C2576.28,-112.38 2573.12,-111.61 2570,-111 2484.8,-94.2 1090.1,-118.22 1007,-93 995.32,-89.46 995.46,-82.2 984,-78 879.53,-39.75 749.06,-31.5 672.2,-30.32"/>
+<polygon fill="#b2b2af" stroke="#b2b2af" points="672.22,-26.82 662.18,-30.21 672.14,-33.82 672.22,-26.82"/>
+</a>
+</g>
+<g id="a_edge60&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue &#45;&gt; racecall (0.07s)">
+<text text-anchor="middle" x="1024" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.07s</text>
+</a>
+</g>
+</g>
+<!-- N25&#45;&gt;N5 -->
+<g id="edge73" class="edge">
+<title>N25&#45;&gt;N5</title>
+<g id="a_edge73"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue &#45;&gt; racecalladdr (0.05s)">
+<path fill="none" stroke="#b2b2b0" d="M2579.42,-113.35C2576.26,-112.45 2573.11,-111.65 2570,-111 2465.55,-89 2191.73,-125.33 2090,-93 2078.37,-89.3 2078.3,-82.61 2067,-78 2009.28,-54.43 1938.62,-42.35 1889.94,-36.39"/>
+<polygon fill="#b2b2b0" stroke="#b2b2b0" points="1890.24,-32.9 1879.9,-35.2 1889.42,-39.85 1890.24,-32.9"/>
+</a>
+</g>
+<g id="a_edge73&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue &#45;&gt; racecalladdr (0.05s)">
+<text text-anchor="middle" x="2107" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.05s</text>
+</a>
+</g>
+</g>
+<!-- N25&#45;&gt;N6 -->
+<g id="edge74" class="edge">
+<title>N25&#45;&gt;N6</title>
+<g id="a_edge74"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue &#45;&gt; runtime.raceread (0.05s)">
+<path fill="none" stroke="#b2b2b0" d="M2686.58,-113.34C2689.74,-112.44 2692.89,-111.65 2696,-111 2723.8,-105.18 3187.27,-113.44 3207,-93 3211.63,-88.2 3211.23,-83.16 3207,-78 3184.76,-50.87 3089.87,-39.09 3027.68,-34.21"/>
+<polygon fill="#b2b2b0" stroke="#b2b2b0" points="3027.85,-30.71 3017.62,-33.46 3027.33,-37.69 3027.85,-30.71"/>
+</a>
+</g>
+<g id="a_edge74&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkFuncValue &#45;&gt; runtime.raceread (0.05s)">
+<text text-anchor="middle" x="3227" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.05s</text>
+</a>
+</g>
+</g>
+<!-- N26&#45;&gt;N4 -->
+<g id="edge63" class="edge">
+<title>N26&#45;&gt;N4</title>
+<g id="a_edge63"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue &#45;&gt; racecall (0.07s)">
+<path fill="none" stroke="#b2b2af" d="M3063.3,-112.46C3060.17,-111.91 3057.06,-111.42 3054,-111 2950.74,-96.86 1277.76,-123.18 1178,-93 1166.32,-89.47 1166.54,-81.97 1155,-78 1067.41,-47.83 797.75,-36.39 672.36,-32.62"/>
+<polygon fill="#b2b2af" stroke="#b2b2af" points="672.23,-29.12 662.14,-32.32 672.03,-36.12 672.23,-29.12"/>
+</a>
+</g>
+<g id="a_edge63&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue &#45;&gt; racecall (0.07s)">
+<text text-anchor="middle" x="1195" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.07s</text>
+</a>
+</g>
+</g>
+<!-- N26&#45;&gt;N5 -->
+<g id="edge80" class="edge">
+<title>N26&#45;&gt;N5</title>
+<g id="a_edge80"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue &#45;&gt; racecalladdr (0.04s)">
+<path fill="none" stroke="#b2b2b0" d="M3063.29,-112.51C3060.17,-111.95 3057.06,-111.44 3054,-111 2966.76,-98.47 2345.19,-119.07 2261,-93 2249.34,-89.39 2249.48,-82.15 2238,-78 2175.38,-55.38 1986.4,-40.67 1889.96,-34.42"/>
+<polygon fill="#b2b2b0" stroke="#b2b2b0" points="1890,-30.92 1879.8,-33.78 1889.56,-37.91 1890,-30.92"/>
+</a>
+</g>
+<g id="a_edge80&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue &#45;&gt; racecalladdr (0.04s)">
+<text text-anchor="middle" x="2278" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.04s</text>
+</a>
+</g>
+</g>
+<!-- N26&#45;&gt;N6 -->
+<g id="edge64" class="edge">
+<title>N26&#45;&gt;N6</title>
+<g id="a_edge64"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue &#45;&gt; runtime.raceread (0.07s)">
+<path fill="none" stroke="#b2b2af" d="M3230.54,-113.05C3233.73,-112.33 3236.89,-111.64 3240,-111 3295.43,-99.54 3400.56,-120.34 3363,-78 3341.15,-53.37 3130.79,-39.19 3027.99,-33.69"/>
+<polygon fill="#b2b2af" stroke="#b2b2af" points="3027.96,-30.18 3017.79,-33.15 3027.59,-37.17 3027.96,-30.18"/>
+</a>
+</g>
+<g id="a_edge64&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodValue &#45;&gt; runtime.raceread (0.07s)">
+<text text-anchor="middle" x="3387" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.07s</text>
+</a>
+</g>
+</g>
+<!-- N27&#45;&gt;N4 -->
+<g id="edge57" class="edge">
+<title>N27&#45;&gt;N4</title>
+<g id="a_edge57"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer &#45;&gt; racecall (0.08s)">
+<path fill="none" stroke="#b2b1af" d="M696.25,-112.98C692.8,-112.25 689.37,-111.58 686,-111 652.44,-105.21 403.37,-117.78 380,-93 375.43,-88.15 375.79,-83.17 380,-78 400.09,-53.33 481.95,-41.2 541.61,-35.54"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="542.09,-39.01 551.73,-34.62 541.46,-32.04 542.09,-39.01"/>
+</a>
+</g>
+<g id="a_edge57&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer &#45;&gt; racecall (0.08s)">
+<text text-anchor="middle" x="397" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.08s</text>
+</a>
+</g>
+</g>
+<!-- N27&#45;&gt;N5 -->
+<g id="edge29" class="edge">
+<title>N27&#45;&gt;N5</title>
+<g id="a_edge29"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer &#45;&gt; racecalladdr (0.12s)">
+<path fill="none" stroke="#b2b1ad" d="M846.38,-112.96C849.95,-112.22 853.51,-111.56 857,-111 921,-100.77 1379.11,-115.2 1440,-93 1450.11,-89.32 1449.08,-82.16 1459,-78 1514.57,-54.71 1684.01,-40.57 1774.16,-34.49"/>
+<polygon fill="#b2b1ad" stroke="#b2b1ad" points="1774.47,-37.98 1784.21,-33.83 1774,-30.99 1774.47,-37.98"/>
+</a>
+</g>
+<g id="a_edge29&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer &#45;&gt; racecalladdr (0.12s)">
+<text text-anchor="middle" x="1476" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.12s</text>
+</a>
+</g>
+</g>
+<!-- N27&#45;&gt;N6 -->
+<g id="edge48" class="edge">
+<title>N27&#45;&gt;N6</title>
+<g id="a_edge48"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer &#45;&gt; runtime.raceread (0.09s)">
+<path fill="none" stroke="#b2b1af" d="M845.9,-112.96C849.64,-112.21 853.35,-111.55 857,-111 951.68,-96.86 2489.73,-124.87 2580,-93 2590.15,-89.42 2589.08,-82.16 2599,-78 2655.01,-54.53 2826.67,-40.35 2916.26,-34.35"/>
+<polygon fill="#b2b1af" stroke="#b2b1af" points="2916.49,-37.84 2926.24,-33.69 2916.03,-30.86 2916.49,-37.84"/>
+</a>
+</g>
+<g id="a_edge48&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkUnexportedMethodPointer &#45;&gt; runtime.raceread (0.09s)">
+<text text-anchor="middle" x="2616" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.09s</text>
+</a>
+</g>
+</g>
+<!-- N28&#45;&gt;N4 -->
+<g id="edge77" class="edge">
+<title>N28&#45;&gt;N4</title>
+<g id="a_edge77"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue &#45;&gt; racecall (0.04s)">
+<path fill="none" stroke="#b2b2b0" d="M3248.96,-113.15C3245.96,-112.31 3242.96,-111.59 3240,-111 3130.52,-89.25 1336.28,-130.08 1231,-93 1220.85,-89.43 1222.02,-81.92 1212,-78 1115.19,-40.12 808.07,-32.71 672.45,-31.31"/>
+<polygon fill="#b2b2b0" stroke="#b2b2b0" points="672.24,-27.8 662.21,-31.21 672.18,-34.8 672.24,-27.8"/>
+</a>
+</g>
+<g id="a_edge77&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue &#45;&gt; racecall (0.04s)">
+<text text-anchor="middle" x="1248" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.04s</text>
+</a>
+</g>
+</g>
+<!-- N28&#45;&gt;N5 -->
+<g id="edge67" class="edge">
+<title>N28&#45;&gt;N5</title>
+<g id="a_edge67"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue &#45;&gt; racecalladdr (0.06s)">
+<path fill="none" stroke="#b2b2b0" d="M3248.95,-113.18C3245.95,-112.34 3242.96,-111.6 3240,-111 3139.61,-90.5 2415.93,-123.15 2318,-93 2306.34,-89.41 2306.51,-82.06 2295,-78 2221.73,-52.12 1997.19,-38.6 1890.05,-33.47"/>
+<polygon fill="#b2b2b0" stroke="#b2b2b0" points="1889.9,-29.96 1879.75,-32.99 1889.58,-36.95 1889.9,-29.96"/>
+</a>
+</g>
+<g id="a_edge67&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue &#45;&gt; racecalladdr (0.06s)">
+<text text-anchor="middle" x="2335" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.06s</text>
+</a>
+</g>
+</g>
+<!-- N28&#45;&gt;N6 -->
+<g id="edge78" class="edge">
+<title>N28&#45;&gt;N6</title>
+<g id="a_edge78"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue &#45;&gt; runtime.raceread (0.04s)">
+<path fill="none" stroke="#b2b2b0" d="M3355.29,-114.75C3381.47,-104.24 3407.56,-93.65 3408,-93 3411.72,-87.47 3412.45,-82.96 3408,-78 3383.03,-50.19 3139.83,-37.39 3027.88,-32.94"/>
+<polygon fill="#b2b2b0" stroke="#b2b2b0" points="3027.92,-29.43 3017.79,-32.54 3027.65,-36.43 3027.92,-29.43"/>
+</a>
+</g>
+<g id="a_edge78&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/pointer&#45;vs&#45;value&#45;raw.BenchmarkNewValue &#45;&gt; runtime.raceread (0.04s)">
+<text text-anchor="middle" x="3428" y="-81.8" font-family="Times,serif" font-size="14.00"> 0.04s</text>
 </a>
 </g>
 </g>

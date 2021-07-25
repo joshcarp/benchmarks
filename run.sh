@@ -15,7 +15,7 @@ do
     dir=${dir%?};
     echo "# $dir" > $dir/README.md
     echo "\`\`\`bash" >> $dir/README.md
-    go test ./$dir -v -bench=. -benchmem -cpuprofile $dir/cpu.prof -memprofile $dir/mem.prof >> $dir/README.md
+    go test ./$dir -v -race -bench=. -benchmem -cpuprofile $dir/cpu.prof -memprofile $dir/mem.prof >> $dir/README.md
     echo "\`\`\`" >> $dir/README.md
     go tool pprof -svg -output=$dir/cpu.svg $dir/cpu.prof && rm $dir/cpu.prof
     go tool pprof -svg -output=$dir/mem.svg $dir/mem.prof && rm $dir/mem.prof

@@ -1,27 +1,24 @@
 package map_vs_switch
 
 import (
-	"fmt"
-	"math/rand"
 	"testing"
 )
 
 func BenchmarkOptionSwitch(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		OptionSwitch(fmt.Sprintf("%d", rand.Intn(29)))
+		OptionSwitch("12")
 	}
 }
 
 func BenchmarkOptionMap(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		OptionMap(fmt.Sprintf("%d", rand.Intn(29)))
+		OptionMap("12")
 	}
 }
 
-
 func BenchmarkOptionGlobalMap(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		OptionMapGlobal(fmt.Sprintf("%d", rand.Intn(29)))
+		OptionMapGlobal("12")
 	}
 }
 

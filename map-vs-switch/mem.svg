@@ -295,276 +295,153 @@ function handleMouseUp(evt) {
 }
 ]]></script><g id="viewport" transform="scale(0.5,0.5) translate(0,0)"><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 543)">
 <title>unnamed</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-543 868,-543 868,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-543 605,-543 605,4 -4,4"/>
 <g id="clust1" class="cluster">
 <title>cluster_L</title>
-<polygon fill="none" stroke="black" points="8,-398 8,-531 508,-531 508,-398 8,-398"/>
+<polygon fill="none" stroke="black" points="8,-398 8,-531 452,-531 452,-398 8,-398"/>
 </g>
 <!-- Type: alloc_space -->
 <g id="node1" class="node">
 <title>Type: alloc_space</title>
-<polygon fill="#f8f8f8" stroke="black" points="499.5,-523 16.5,-523 16.5,-406 499.5,-406 499.5,-523"/>
-<text text-anchor="start" x="24.5" y="-506.2" font-family="Times,serif" font-size="16.00">Type: alloc_space</text>
-<text text-anchor="start" x="24.5" y="-488.2" font-family="Times,serif" font-size="16.00">Time: Jul 25, 2021 at 10:12am (AEST)</text>
-<text text-anchor="start" x="24.5" y="-470.2" font-family="Times,serif" font-size="16.00">Showing nodes accounting for 1068.79MB, 99.69% of 1072.10MB total</text>
-<text text-anchor="start" x="24.5" y="-452.2" font-family="Times,serif" font-size="16.00">Dropped 27 nodes (cum &lt;= 5.36MB)</text>
-<text text-anchor="start" x="24.5" y="-415.2" font-family="Times,serif" font-size="16.00">See https://git.io/JfYMW for how to read the graph</text>
+<polygon fill="#f8f8f8" stroke="black" points="444,-523 16,-523 16,-406 444,-406 444,-523"/>
+<text text-anchor="start" x="24" y="-506.2" font-family="Times,serif" font-size="16.00">Type: alloc_space</text>
+<text text-anchor="start" x="24" y="-488.2" font-family="Times,serif" font-size="16.00">Time: Jul 25, 2021 at 10:23am (AEST)</text>
+<text text-anchor="start" x="24" y="-470.2" font-family="Times,serif" font-size="16.00">Showing nodes accounting for 2.28GB, 99.87% of 2.28GB total</text>
+<text text-anchor="start" x="24" y="-452.2" font-family="Times,serif" font-size="16.00">Dropped 22 nodes (cum &lt;= 0.01GB)</text>
+<text text-anchor="start" x="24" y="-415.2" font-family="Times,serif" font-size="16.00">See https://git.io/JfYMW for how to read the graph</text>
 </g>
 <!-- N1 -->
 <g id="node1" class="node">
 <title>N1</title>
-<g id="a_node1"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.OptionMap (1049.29MB)">
-<polygon fill="#edd5d5" stroke="#b20100" points="682,-173 454,-173 454,-87 682,-87 682,-173"/>
-<text text-anchor="middle" x="568" y="-149.8" font-family="Times,serif" font-size="24.00">map&#45;vs&#45;switch</text>
-<text text-anchor="middle" x="568" y="-123.8" font-family="Times,serif" font-size="24.00">OptionMap</text>
-<text text-anchor="middle" x="568" y="-97.8" font-family="Times,serif" font-size="24.00">1049.29MB (97.87%)</text>
+<g id="a_node1"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.OptionMap (2.28GB)">
+<polygon fill="#edd5d5" stroke="#b20000" points="601,-173 413,-173 413,-87 601,-87 601,-173"/>
+<text text-anchor="middle" x="507" y="-149.8" font-family="Times,serif" font-size="24.00">map&#45;vs&#45;switch</text>
+<text text-anchor="middle" x="507" y="-123.8" font-family="Times,serif" font-size="24.00">OptionMap</text>
+<text text-anchor="middle" x="507" y="-97.8" font-family="Times,serif" font-size="24.00">2.28GB (99.87%)</text>
 </a>
 </g>
 </g>
 <!-- NN1_0 -->
 <g id="NN1_0" class="node">
 <title>NN1_0</title>
-<g id="a_NN1_0"><a xlink:title="1042.29MB">
-<polygon fill="#f8f8f8" stroke="black" points="549,-36 499,-36 495,-32 495,0 545,0 549,-4 549,-36"/>
-<polyline fill="none" stroke="black" points="545,-32 495,-32 "/>
-<polyline fill="none" stroke="black" points="545,-32 545,0 "/>
-<polyline fill="none" stroke="black" points="545,-32 549,-36 "/>
-<text text-anchor="middle" x="522" y="-16.1" font-family="Times,serif" font-size="8.00">2.25kB</text>
+<g id="a_NN1_0"><a xlink:title="2.26GB">
+<polygon fill="#f8f8f8" stroke="black" points="498,-36 448,-36 444,-32 444,0 494,0 498,-4 498,-36"/>
+<polyline fill="none" stroke="black" points="494,-32 444,-32 "/>
+<polyline fill="none" stroke="black" points="494,-32 494,0 "/>
+<polyline fill="none" stroke="black" points="494,-32 498,-36 "/>
+<text text-anchor="middle" x="471" y="-16.1" font-family="Times,serif" font-size="8.00">2.25kB</text>
 </a>
 </g>
 </g>
 <!-- N1&#45;&gt;NN1_0 -->
 <g id="edge1" class="edge">
 <title>N1&#45;&gt;NN1_0</title>
-<g id="a_edge1"><a xlink:title="1042.29MB">
-<path fill="none" stroke="black" d="M531.6,-86.93C528.13,-81.2 525.12,-75.16 523,-69 520.54,-61.86 519.64,-53.8 519.52,-46.26"/>
-<polygon fill="black" stroke="black" points="523.02,-46.21 519.79,-36.12 516.02,-46.02 523.02,-46.21"/>
+<g id="a_edge1"><a xlink:title="2.26GB">
+<path fill="none" stroke="black" d="M480.8,-86.73C478.1,-80.94 475.72,-74.94 474,-69 471.93,-61.85 470.91,-53.88 470.47,-46.45"/>
+<polygon fill="black" stroke="black" points="473.97,-46.34 470.18,-36.44 466.97,-46.54 473.97,-46.34"/>
 </a>
 </g>
-<g id="a_edge1&#45;label"><a xlink:title="1042.29MB">
-<text text-anchor="middle" x="558" y="-57.8" font-family="Times,serif" font-size="14.00"> 1042.29MB</text>
+<g id="a_edge1&#45;label"><a xlink:title="2.26GB">
+<text text-anchor="middle" x="497.5" y="-57.8" font-family="Times,serif" font-size="14.00"> 2.26GB</text>
 </a>
 </g>
 </g>
 <!-- NN1_1 -->
 <g id="NN1_1" class="node">
 <title>NN1_1</title>
-<g id="a_NN1_1"><a xlink:title="7MB">
-<polygon fill="#f8f8f8" stroke="black" points="642,-36 592,-36 588,-32 588,0 638,0 642,-4 642,-36"/>
-<polyline fill="none" stroke="black" points="638,-32 588,-32 "/>
-<polyline fill="none" stroke="black" points="638,-32 638,0 "/>
-<polyline fill="none" stroke="black" points="638,-32 642,-36 "/>
-<text text-anchor="middle" x="615" y="-16.1" font-family="Times,serif" font-size="8.00">288B</text>
+<g id="a_NN1_1"><a xlink:title="0.02GB">
+<polygon fill="#f8f8f8" stroke="black" points="570,-36 520,-36 516,-32 516,0 566,0 570,-4 570,-36"/>
+<polyline fill="none" stroke="black" points="566,-32 516,-32 "/>
+<polyline fill="none" stroke="black" points="566,-32 566,0 "/>
+<polyline fill="none" stroke="black" points="566,-32 570,-36 "/>
+<text text-anchor="middle" x="543" y="-16.1" font-family="Times,serif" font-size="8.00">288B</text>
 </a>
 </g>
 </g>
 <!-- N1&#45;&gt;NN1_1 -->
 <g id="edge2" class="edge">
 <title>N1&#45;&gt;NN1_1</title>
-<g id="a_edge2"><a xlink:title="7MB">
-<path fill="none" stroke="black" d="M586.04,-86.79C591.96,-72.92 598.37,-57.91 603.66,-45.55"/>
-<polygon fill="black" stroke="black" points="606.91,-46.84 607.62,-36.27 600.47,-44.09 606.91,-46.84"/>
+<g id="a_edge2"><a xlink:title="0.02GB">
+<path fill="none" stroke="black" d="M520.82,-86.79C525.31,-73.06 530.17,-58.21 534.19,-45.91"/>
+<polygon fill="black" stroke="black" points="537.56,-46.86 537.35,-36.27 530.91,-44.69 537.56,-46.86"/>
 </a>
 </g>
-<g id="a_edge2&#45;label"><a xlink:title="7MB">
-<text text-anchor="middle" x="615.5" y="-57.8" font-family="Times,serif" font-size="14.00"> 7MB</text>
+<g id="a_edge2&#45;label"><a xlink:title="0.02GB">
+<text text-anchor="middle" x="554.5" y="-57.8" font-family="Times,serif" font-size="14.00"> 0.02GB</text>
 </a>
 </g>
 </g>
 <!-- N2 -->
 <g id="node2" class="node">
 <title>N2</title>
-<g id="a_node2"><a xlink:title="testing.(*B).launch (1068.79MB)">
-<polygon fill="#edd5d5" stroke="#b20000" points="618.5,-486.5 517.5,-486.5 517.5,-442.5 618.5,-442.5 618.5,-486.5"/>
-<text text-anchor="middle" x="568" y="-476.1" font-family="Times,serif" font-size="8.00">testing</text>
-<text text-anchor="middle" x="568" y="-467.1" font-family="Times,serif" font-size="8.00">(*B)</text>
-<text text-anchor="middle" x="568" y="-458.1" font-family="Times,serif" font-size="8.00">launch</text>
-<text text-anchor="middle" x="568" y="-449.1" font-family="Times,serif" font-size="8.00">0 of 1068.79MB (99.69%)</text>
-</a>
-</g>
-</g>
-<!-- N3 -->
-<g id="node3" class="node">
-<title>N3</title>
-<g id="a_node3"><a xlink:title="testing.(*B).runN (1069.30MB)">
-<polygon fill="#edd5d5" stroke="#b20000" points="618.5,-355 517.5,-355 517.5,-311 618.5,-311 618.5,-355"/>
-<text text-anchor="middle" x="568" y="-344.6" font-family="Times,serif" font-size="8.00">testing</text>
-<text text-anchor="middle" x="568" y="-335.6" font-family="Times,serif" font-size="8.00">(*B)</text>
-<text text-anchor="middle" x="568" y="-326.6" font-family="Times,serif" font-size="8.00">runN</text>
-<text text-anchor="middle" x="568" y="-317.6" font-family="Times,serif" font-size="8.00">0 of 1069.30MB (99.74%)</text>
-</a>
-</g>
-</g>
-<!-- N2&#45;&gt;N3 -->
-<g id="edge4" class="edge">
-<title>N2&#45;&gt;N3</title>
-<g id="a_edge4"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (1068.79MB)">
-<path fill="none" stroke="#b20000" stroke-width="5" d="M568,-442.41C568,-421.52 568,-389.3 568,-365.41"/>
-<polygon fill="#b20000" stroke="#b20000" stroke-width="5" points="572.38,-365.09 568,-355.09 563.63,-365.09 572.38,-365.09"/>
-</a>
-</g>
-<g id="a_edge4&#45;label"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (1068.79MB)">
-<text text-anchor="middle" x="603" y="-376.8" font-family="Times,serif" font-size="14.00"> 1068.79MB</text>
-</a>
-</g>
-</g>
-<!-- N5 -->
-<g id="node5" class="node">
-<title>N5</title>
-<g id="a_node5"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap (1051.29MB)">
-<polygon fill="#edd5d5" stroke="#b20100" points="618.5,-260 517.5,-260 517.5,-224 618.5,-224 618.5,-260"/>
-<text text-anchor="middle" x="568" y="-249.1" font-family="Times,serif" font-size="8.00">map&#45;vs&#45;switch</text>
-<text text-anchor="middle" x="568" y="-240.1" font-family="Times,serif" font-size="8.00">BenchmarkOptionMap</text>
-<text text-anchor="middle" x="568" y="-231.1" font-family="Times,serif" font-size="8.00">0 of 1051.29MB (98.06%)</text>
-</a>
-</g>
-</g>
-<!-- N3&#45;&gt;N5 -->
-<g id="edge5" class="edge">
-<title>N3&#45;&gt;N5</title>
-<g id="a_edge5"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap (1051.29MB)">
-<path fill="none" stroke="#b20100" stroke-width="5" d="M568,-310.91C568,-298.78 568,-283.41 568,-270.36"/>
-<polygon fill="#b20100" stroke="#b20100" stroke-width="5" points="572.38,-270.07 568,-260.07 563.63,-270.07 572.38,-270.07"/>
-</a>
-</g>
-<g id="a_edge5&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap (1051.29MB)">
-<text text-anchor="middle" x="603" y="-281.8" font-family="Times,serif" font-size="14.00"> 1051.29MB</text>
-</a>
-</g>
-</g>
-<!-- N6 -->
-<g id="node6" class="node">
-<title>N6</title>
-<g id="a_node6"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionGlobalMap (11.50MB)">
-<polygon fill="#edeceb" stroke="#b2b0a8" points="747.5,-260 636.5,-260 636.5,-224 747.5,-224 747.5,-260"/>
-<text text-anchor="middle" x="692" y="-249.1" font-family="Times,serif" font-size="8.00">map&#45;vs&#45;switch</text>
-<text text-anchor="middle" x="692" y="-240.1" font-family="Times,serif" font-size="8.00">BenchmarkOptionGlobalMap</text>
-<text text-anchor="middle" x="692" y="-231.1" font-family="Times,serif" font-size="8.00">0 of 11.50MB (1.07%)</text>
-</a>
-</g>
-</g>
-<!-- N3&#45;&gt;N6 -->
-<g id="edge8" class="edge">
-<title>N3&#45;&gt;N6</title>
-<g id="a_edge8"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionGlobalMap (11.50MB)">
-<path fill="none" stroke="#b2b0a8" d="M613.13,-310.98C622.98,-305.65 633.12,-299.55 642,-293 652.09,-285.56 662.08,-276.11 670.45,-267.42"/>
-<polygon fill="#b2b0a8" stroke="#b2b0a8" points="673.07,-269.75 677.35,-260.06 667.96,-264.96 673.07,-269.75"/>
-</a>
-</g>
-<g id="a_edge8&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionGlobalMap (11.50MB)">
-<text text-anchor="middle" x="686.5" y="-281.8" font-family="Times,serif" font-size="14.00"> 11.50MB</text>
-</a>
-</g>
-</g>
-<!-- N7 -->
-<g id="node7" class="node">
-<title>N7</title>
-<g id="a_node7"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionSwitch (6MB)">
-<polygon fill="#ededec" stroke="#b2b1ad" points="864,-260 766,-260 766,-224 864,-224 864,-260"/>
-<text text-anchor="middle" x="815" y="-249.1" font-family="Times,serif" font-size="8.00">map&#45;vs&#45;switch</text>
-<text text-anchor="middle" x="815" y="-240.1" font-family="Times,serif" font-size="8.00">BenchmarkOptionSwitch</text>
-<text text-anchor="middle" x="815" y="-231.1" font-family="Times,serif" font-size="8.00">0 of 6MB (0.56%)</text>
-</a>
-</g>
-</g>
-<!-- N3&#45;&gt;N7 -->
-<g id="edge10" class="edge">
-<title>N3&#45;&gt;N7</title>
-<g id="a_edge10"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionSwitch (6MB)">
-<path fill="none" stroke="#b2b1ad" d="M618.54,-321.97C648.3,-315.32 686.39,-305.52 719,-293 738.84,-285.39 759.88,-274.75 777.19,-265.24"/>
-<polygon fill="#b2b1ad" stroke="#b2b1ad" points="779.37,-268.03 786.39,-260.1 775.95,-261.92 779.37,-268.03"/>
-</a>
-</g>
-<g id="a_edge10&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionSwitch (6MB)">
-<text text-anchor="middle" x="767.5" y="-281.8" font-family="Times,serif" font-size="14.00"> 6MB</text>
+<g id="a_node2"><a xlink:title="testing.(*B).launch (2.28GB)">
+<polygon fill="#edd5d5" stroke="#b20000" points="551.5,-486.5 462.5,-486.5 462.5,-442.5 551.5,-442.5 551.5,-486.5"/>
+<text text-anchor="middle" x="507" y="-476.1" font-family="Times,serif" font-size="8.00">testing</text>
+<text text-anchor="middle" x="507" y="-467.1" font-family="Times,serif" font-size="8.00">(*B)</text>
+<text text-anchor="middle" x="507" y="-458.1" font-family="Times,serif" font-size="8.00">launch</text>
+<text text-anchor="middle" x="507" y="-449.1" font-family="Times,serif" font-size="8.00">0 of 2.28GB (99.87%)</text>
 </a>
 </g>
 </g>
 <!-- N4 -->
 <g id="node4" class="node">
 <title>N4</title>
-<g id="a_node4"><a xlink:title="fmt.Sprintf (19.50MB)">
-<polygon fill="#edecea" stroke="#b2ada2" points="796,-152 700,-152 700,-108 796,-108 796,-152"/>
-<text text-anchor="middle" x="748" y="-139.2" font-family="Times,serif" font-size="11.00">fmt</text>
-<text text-anchor="middle" x="748" y="-127.2" font-family="Times,serif" font-size="11.00">Sprintf</text>
-<text text-anchor="middle" x="748" y="-115.2" font-family="Times,serif" font-size="11.00">19.50MB (1.82%)</text>
+<g id="a_node4"><a xlink:title="testing.(*B).runN (2.28GB)">
+<polygon fill="#edd5d5" stroke="#b20000" points="551.5,-355 462.5,-355 462.5,-311 551.5,-311 551.5,-355"/>
+<text text-anchor="middle" x="507" y="-344.6" font-family="Times,serif" font-size="8.00">testing</text>
+<text text-anchor="middle" x="507" y="-335.6" font-family="Times,serif" font-size="8.00">(*B)</text>
+<text text-anchor="middle" x="507" y="-326.6" font-family="Times,serif" font-size="8.00">runN</text>
+<text text-anchor="middle" x="507" y="-317.6" font-family="Times,serif" font-size="8.00">0 of 2.28GB (99.87%)</text>
 </a>
 </g>
 </g>
-<!-- NN4_0 -->
-<g id="NN4_0" class="node">
-<title>NN4_0</title>
-<g id="a_NN4_0"><a xlink:title="19.50MB">
-<polygon fill="#f8f8f8" stroke="black" points="775,-36 725,-36 721,-32 721,0 771,0 775,-4 775,-36"/>
-<polyline fill="none" stroke="black" points="771,-32 721,-32 "/>
-<polyline fill="none" stroke="black" points="771,-32 771,0 "/>
-<polyline fill="none" stroke="black" points="771,-32 775,-36 "/>
-<text text-anchor="middle" x="748" y="-16.1" font-family="Times,serif" font-size="8.00">16B</text>
+<!-- N2&#45;&gt;N4 -->
+<g id="edge4" class="edge">
+<title>N2&#45;&gt;N4</title>
+<g id="a_edge4"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (2.28GB)">
+<path fill="none" stroke="#b20000" stroke-width="5" d="M507,-442.41C507,-421.52 507,-389.3 507,-365.41"/>
+<polygon fill="#b20000" stroke="#b20000" stroke-width="5" points="511.38,-365.09 507,-355.09 502.63,-365.09 511.38,-365.09"/>
+</a>
+</g>
+<g id="a_edge4&#45;label"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (2.28GB)">
+<text text-anchor="middle" x="530.5" y="-376.8" font-family="Times,serif" font-size="14.00"> 2.28GB</text>
 </a>
 </g>
 </g>
-<!-- N4&#45;&gt;NN4_0 -->
+<!-- N3 -->
+<g id="node3" class="node">
+<title>N3</title>
+<g id="a_node3"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap (2.28GB)">
+<polygon fill="#edd5d5" stroke="#b20000" points="551.5,-260 462.5,-260 462.5,-224 551.5,-224 551.5,-260"/>
+<text text-anchor="middle" x="507" y="-249.1" font-family="Times,serif" font-size="8.00">map&#45;vs&#45;switch</text>
+<text text-anchor="middle" x="507" y="-240.1" font-family="Times,serif" font-size="8.00">BenchmarkOptionMap</text>
+<text text-anchor="middle" x="507" y="-231.1" font-family="Times,serif" font-size="8.00">0 of 2.28GB (99.87%)</text>
+</a>
+</g>
+</g>
+<!-- N3&#45;&gt;N1 -->
 <g id="edge3" class="edge">
-<title>N4&#45;&gt;NN4_0</title>
-<g id="a_edge3"><a xlink:title="19.50MB">
-<path fill="none" stroke="black" d="M748,-107.79C748,-90.28 748,-65.3 748,-46.3"/>
-<polygon fill="black" stroke="black" points="751.5,-46.17 748,-36.17 744.5,-46.17 751.5,-46.17"/>
+<title>N3&#45;&gt;N1</title>
+<g id="a_edge3"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.OptionMap (2.28GB)">
+<path fill="none" stroke="#b20000" stroke-width="5" d="M507,-223.81C507,-212.82 507,-197.91 507,-183.26"/>
+<polygon fill="#b20000" stroke="#b20000" stroke-width="5" points="511.38,-183.21 507,-173.21 502.63,-183.21 511.38,-183.21"/>
 </a>
 </g>
-<g id="a_edge3&#45;label"><a xlink:title="19.50MB">
-<text text-anchor="middle" x="776.5" y="-57.8" font-family="Times,serif" font-size="14.00"> 19.50MB</text>
-</a>
-</g>
-</g>
-<!-- N5&#45;&gt;N1 -->
-<g id="edge6" class="edge">
-<title>N5&#45;&gt;N1</title>
-<g id="a_edge6"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.OptionMap (1049.29MB)">
-<path fill="none" stroke="#b20100" stroke-width="5" d="M568,-223.81C568,-212.82 568,-197.91 568,-183.26"/>
-<polygon fill="#b20100" stroke="#b20100" stroke-width="5" points="572.38,-183.21 568,-173.21 563.63,-183.21 572.38,-183.21"/>
-</a>
-</g>
-<g id="a_edge6&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.OptionMap (1049.29MB)">
-<text text-anchor="middle" x="603" y="-194.8" font-family="Times,serif" font-size="14.00"> 1049.29MB</text>
+<g id="a_edge3&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.OptionMap (2.28GB)">
+<text text-anchor="middle" x="530.5" y="-194.8" font-family="Times,serif" font-size="14.00"> 2.28GB</text>
 </a>
 </g>
 </g>
-<!-- N5&#45;&gt;N4 -->
-<g id="edge11" class="edge">
-<title>N5&#45;&gt;N4</title>
-<g id="a_edge11"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; fmt.Sprintf (2MB)">
-<path fill="none" stroke="#b2b2b0" d="M606.97,-223.91C618.44,-218.53 630.88,-212.32 642,-206 664.82,-193.02 669.54,-188.12 691,-173 697.64,-168.32 704.65,-163.26 711.4,-158.32"/>
-<polygon fill="#b2b2b0" stroke="#b2b2b0" points="713.78,-160.92 719.76,-152.17 709.63,-155.28 713.78,-160.92"/>
+<!-- N4&#45;&gt;N3 -->
+<g id="edge5" class="edge">
+<title>N4&#45;&gt;N3</title>
+<g id="a_edge5"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap (2.28GB)">
+<path fill="none" stroke="#b20000" stroke-width="5" d="M507,-310.91C507,-298.78 507,-283.41 507,-270.36"/>
+<polygon fill="#b20000" stroke="#b20000" stroke-width="5" points="511.38,-270.07 507,-260.07 502.63,-270.07 511.38,-270.07"/>
 </a>
 </g>
-<g id="a_edge11&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap &#45;&gt; fmt.Sprintf (2MB)">
-<text text-anchor="middle" x="681.5" y="-194.8" font-family="Times,serif" font-size="14.00"> 2MB</text>
-</a>
-</g>
-</g>
-<!-- N6&#45;&gt;N4 -->
-<g id="edge7" class="edge">
-<title>N6&#45;&gt;N4</title>
-<g id="a_edge7"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionGlobalMap &#45;&gt; fmt.Sprintf (11.50MB)">
-<path fill="none" stroke="#b2b0a8" d="M700.75,-223.81C709.25,-207.12 722.33,-181.42 732.58,-161.29"/>
-<polygon fill="#b2b0a8" stroke="#b2b0a8" points="735.78,-162.71 737.2,-152.21 729.55,-159.53 735.78,-162.71"/>
-</a>
-</g>
-<g id="a_edge7&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionGlobalMap &#45;&gt; fmt.Sprintf (11.50MB)">
-<text text-anchor="middle" x="744.5" y="-194.8" font-family="Times,serif" font-size="14.00"> 11.50MB</text>
-</a>
-</g>
-</g>
-<!-- N7&#45;&gt;N4 -->
-<g id="edge9" class="edge">
-<title>N7&#45;&gt;N4</title>
-<g id="a_edge9"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionSwitch &#45;&gt; fmt.Sprintf (6MB)">
-<path fill="none" stroke="#b2b1ad" d="M804.53,-223.81C794.32,-207.04 778.57,-181.19 766.29,-161.02"/>
-<polygon fill="#b2b1ad" stroke="#b2b1ad" points="769.11,-158.93 760.92,-152.21 763.13,-162.57 769.11,-158.93"/>
-</a>
-</g>
-<g id="a_edge9&#45;label"><a xlink:title="github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionSwitch &#45;&gt; fmt.Sprintf (6MB)">
-<text text-anchor="middle" x="809.5" y="-194.8" font-family="Times,serif" font-size="14.00"> 6MB</text>
+<g id="a_edge5&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; github.com/joshcarp/go&#45;benchmarks/map&#45;vs&#45;switch.BenchmarkOptionMap (2.28GB)">
+<text text-anchor="middle" x="530.5" y="-281.8" font-family="Times,serif" font-size="14.00"> 2.28GB</text>
 </a>
 </g>
 </g>

@@ -6,84 +6,84 @@ import (
 
 func BenchmarkOptionSwitch(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		OptionSwitch("12")
+		OptionSwitch("12pufn98asdf9sfd8n")
 	}
 }
 
 func BenchmarkOptionMap(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		OptionMap("12")
+		OptionMap("12pufn98asdf9sfd8n")
 	}
 }
 
 func BenchmarkOptionGlobalMap(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		OptionMapGlobal("12")
+		OptionMapGlobal("12pufn98asdf9sfd8n")
 	}
 }
 
 func OptionSwitch(s string) string {
 	switch s {
-	case "0":
-		return "0"
-	case "1":
-		return "1"
-	case "2":
-		return "2"
-	case "3":
-		return "3"
-	case "4":
-		return "4"
-	case "5":
-		return "5"
-	case "6":
-		return "6"
-	case "7":
-		return "7"
-	case "8":
-		return "8"
-	case "9":
-		return "9"
-	case "10":
-		return "10"
-	case "11":
-		return "11"
-	case "12":
-		return "12"
-	case "13":
-		return "13"
-	case "14":
-		return "14"
-	case "15":
-		return "15"
-	case "16":
-		return "16"
-	case "17":
-		return "17"
-	case "18":
-		return "18"
-	case "19":
-		return "19"
-	case "20":
-		return "20"
-	case "21":
-		return "21"
-	case "22":
-		return "22"
-	case "23":
-		return "23"
-	case "24":
-		return "24"
-	case "25":
-		return "25"
-	case "26":
-		return "26"
-	case "27":
-		return "27"
-	case "28":
-		return "28"
-	case "29":
-		return "29"
+	case "0pufn98asdf9sfd8n":
+		return "0pufn98asdf9sfd8n"
+	case "1pufn98asdf9sfd8n":
+		return "1pufn98asdf9sfd8n"
+	case "2pufn98asdf9sfd8n":
+		return "2pufn98asdf9sfd8n"
+	case "3pufn98asdf9sfd8n":
+		return "3pufn98asdf9sfd8n"
+	case "4pufn98asdf9sfd8n":
+		return "4pufn98asdf9sfd8n"
+	case "5pufn98asdf9sfd8n":
+		return "5pufn98asdf9sfd8n"
+	case "6pufn98asdf9sfd8n":
+		return "6pufn98asdf9sfd8n"
+	case "7pufn98asdf9sfd8n":
+		return "7pufn98asdf9sfd8n"
+	case "8pufn98asdf9sfd8n":
+		return "8pufn98asdf9sfd8n"
+	case "9pufn98asdf9sfd8n":
+		return "9pufn98asdf9sfd8n"
+	case "1pufn98asdf9sfd8n0":
+		return "1pufn98asdf9sfd8n0"
+	case "1pufn98asdf9sfd8n1":
+		return "1pufn98asdf9sfd8n1"
+	case "1pufn98asdf9sfd8n2":
+		return "1pufn98asdf9sfd8n2"
+	case "1pufn98asdf9sfd8n3":
+		return "1pufn98asdf9sfd8n3"
+	case "1pufn98asdf9sfd8n4":
+		return "1pufn98asdf9sfd8n4"
+	case "1pufn98asdf9sfd8n5":
+		return "1pufn98asdf9sfd8n5"
+	case "1pufn98asdf9sfd8n6":
+		return "1pufn98asdf9sfd8n6"
+	case "1pufn98asdf9sfd8n7":
+		return "1pufn98asdf9sfd8n7"
+	case "1pufn98asdf9sfd8n8":
+		return "1pufn98asdf9sfd8n8"
+	case "1pufn98asdf9sfd8n9":
+		return "1pufn98asdf9sfd8n9"
+	case "2pufn98asdf9sfd8n0":
+		return "2pufn98asdf9sfd8n0"
+	case "2pufn98asdf9sfd8n1":
+		return "2pufn98asdf9sfd8n1"
+	case "2pufn98asdf9sfd8n2":
+		return "2pufn98asdf9sfd8n2"
+	case "2pufn98asdf9sfd8n3":
+		return "2pufn98asdf9sfd8n3"
+	case "2pufn98asdf9sfd8n4":
+		return "2pufn98asdf9sfd8n4"
+	case "2pufn98asdf9sfd8n5":
+		return "2pufn98asdf9sfd8n5"
+	case "2pufn98asdf9sfd8n6":
+		return "2pufn98asdf9sfd8n6"
+	case "2pufn98asdf9sfd8n7":
+		return "2pufn98asdf9sfd8n7"
+	case "2pufn98asdf9sfd8n8":
+		return "2pufn98asdf9sfd8n8"
+	case "2pufn98asdf9sfd8n9":
+		return "2pufn98asdf9sfd8n9"
 	default:
 		return ""
 	}
@@ -91,70 +91,70 @@ func OptionSwitch(s string) string {
 
 func OptionMap(s string) string {
 	return map[string]string{
-		"0":  "0",
-		"1":  "1",
-		"2":  "2",
-		"3":  "3",
-		"4":  "4",
-		"5":  "5",
-		"6":  "6",
-		"7":  "7",
-		"8":  "8",
-		"9":  "9",
-		"10": "10",
-		"11": "11",
-		"12": "12",
-		"13": "13",
-		"14": "14",
-		"15": "15",
-		"16": "16",
-		"17": "17",
-		"18": "18",
-		"19": "19",
-		"20": "20",
-		"21": "21",
-		"22": "22",
-		"23": "23",
-		"24": "24",
-		"25": "25",
-		"26": "26",
-		"27": "27",
-		"28": "28",
-		"29": "29",
+		"0pufn98asdf9sfd8n":  "0pufn98asdf9sfd8n",
+		"1pufn98asdf9sfd8n":  "1pufn98asdf9sfd8n",
+		"2pufn98asdf9sfd8n":  "2pufn98asdf9sfd8n",
+		"3pufn98asdf9sfd8n":  "3pufn98asdf9sfd8n",
+		"4pufn98asdf9sfd8n":  "4pufn98asdf9sfd8n",
+		"5pufn98asdf9sfd8n":  "5pufn98asdf9sfd8n",
+		"6pufn98asdf9sfd8n":  "6pufn98asdf9sfd8n",
+		"7pufn98asdf9sfd8n":  "7pufn98asdf9sfd8n",
+		"8pufn98asdf9sfd8n":  "8pufn98asdf9sfd8n",
+		"9pufn98asdf9sfd8n":  "9pufn98asdf9sfd8n",
+		"1pufn98asdf9sfd8n0": "10pufn98asdf9sfd8n",
+		"1pufn98asdf9sfd8n1": "11pufn98asdf9sfd8n",
+		"1pufn98asdf9sfd8n2": "12pufn98asdf9sfd8n",
+		"1pufn98asdf9sfd8n3": "13pufn98asdf9sfd8n",
+		"1pufn98asdf9sfd8n4": "14pufn98asdf9sfd8n",
+		"1pufn98asdf9sfd8n5": "15pufn98asdf9sfd8n",
+		"1pufn98asdf9sfd8n6": "16pufn98asdf9sfd8n",
+		"1pufn98asdf9sfd8n7": "17pufn98asdf9sfd8n",
+		"1pufn98asdf9sfd8n8": "18pufn98asdf9sfd8n",
+		"1pufn98asdf9sfd8n9": "19pufn98asdf9sfd8n",
+		"2pufn98asdf9sfd8n0": "20pufn98asdf9sfd8n",
+		"2pufn98asdf9sfd8n1": "21pufn98asdf9sfd8n",
+		"2pufn98asdf9sfd8n2": "22pufn98asdf9sfd8n",
+		"2pufn98asdf9sfd8n3": "23pufn98asdf9sfd8n",
+		"2pufn98asdf9sfd8n4": "24pufn98asdf9sfd8n",
+		"2pufn98asdf9sfd8n5": "25pufn98asdf9sfd8n",
+		"2pufn98asdf9sfd8n6": "26pufn98asdf9sfd8n",
+		"2pufn98asdf9sfd8n7": "27pufn98asdf9sfd8n",
+		"2pufn98asdf9sfd8n8": "28pufn98asdf9sfd8n",
+		"2pufn98asdf9sfd8n9": "29pufn98asdf9sfd8n",
 	}[s]
 }
 
 var globalmap = map[string]string{
-	"0":  "0",
-	"1":  "1",
-	"2":  "2",
-	"3":  "3",
-	"4":  "4",
-	"5":  "5",
-	"6":  "6",
-	"7":  "7",
-	"8":  "8",
-	"9":  "9",
-	"10": "10",
-	"11": "11",
-	"12": "12",
-	"13": "13",
-	"14": "14",
-	"15": "15",
-	"16": "16",
-	"17": "17",
-	"18": "18",
-	"19": "19",
-	"20": "20",
-	"21": "21",
-	"22": "22",
-	"23": "23",
-	"24": "24",
-	"25": "25",
-	"26": "26",
-	"27": "27",
-	"28": "28",
-	"29": "29",
+	"0pufn98asdf9sfd8n":  "0pufn98asdf9sfd8n",
+	"1pufn98asdf9sfd8n":  "1pufn98asdf9sfd8n",
+	"2pufn98asdf9sfd8n":  "2pufn98asdf9sfd8n",
+	"3pufn98asdf9sfd8n":  "3pufn98asdf9sfd8n",
+	"4pufn98asdf9sfd8n":  "4pufn98asdf9sfd8n",
+	"5pufn98asdf9sfd8n":  "5pufn98asdf9sfd8n",
+	"6pufn98asdf9sfd8n":  "6pufn98asdf9sfd8n",
+	"7pufn98asdf9sfd8n":  "7pufn98asdf9sfd8n",
+	"8pufn98asdf9sfd8n":  "8pufn98asdf9sfd8n",
+	"9pufn98asdf9sfd8n":  "9pufn98asdf9sfd8n",
+	"10pufn98asdf9sfd8n": "10pufn98asdf9sfd8n",
+	"11pufn98asdf9sfd8n": "11pufn98asdf9sfd8n",
+	"12pufn98asdf9sfd8n": "12pufn98asdf9sfd8n",
+	"13pufn98asdf9sfd8n": "13pufn98asdf9sfd8n",
+	"14pufn98asdf9sfd8n": "14pufn98asdf9sfd8n",
+	"15pufn98asdf9sfd8n": "15pufn98asdf9sfd8n",
+	"16pufn98asdf9sfd8n": "16pufn98asdf9sfd8n",
+	"17pufn98asdf9sfd8n": "17pufn98asdf9sfd8n",
+	"18pufn98asdf9sfd8n": "18pufn98asdf9sfd8n",
+	"19pufn98asdf9sfd8n": "19pufn98asdf9sfd8n",
+	"20pufn98asdf9sfd8n": "20pufn98asdf9sfd8n",
+	"21pufn98asdf9sfd8n": "21pufn98asdf9sfd8n",
+	"22pufn98asdf9sfd8n": "22pufn98asdf9sfd8n",
+	"23pufn98asdf9sfd8n": "23pufn98asdf9sfd8n",
+	"24pufn98asdf9sfd8n": "24pufn98asdf9sfd8n",
+	"25pufn98asdf9sfd8n": "25pufn98asdf9sfd8n",
+	"26pufn98asdf9sfd8n": "26pufn98asdf9sfd8n",
+	"27pufn98asdf9sfd8n": "27pufn98asdf9sfd8n",
+	"28pufn98asdf9sfd8n": "28pufn98asdf9sfd8n",
+	"29pufn98asdf9sfd8n": "29pufn98asdf9sfd8n",
 }
 
 func OptionMapGlobal(s string) string {

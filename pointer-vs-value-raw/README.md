@@ -5,47 +5,47 @@ goarch: amd64
 pkg: github.com/joshcarp/go-benchmarks/pointer-vs-value-raw
 cpu: Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz
 BenchmarkNewValue
-BenchmarkNewValue-16                        	75891573	        19.27 ns/op	       0 B/op	       0 allocs/op
+BenchmarkNewValue-16                        	100000000	        11.62 ns/op	       0 B/op	       0 allocs/op
 BenchmarkNewPointer
-BenchmarkNewPointer-16                      	84328722	        16.72 ns/op	       0 B/op	       0 allocs/op
+BenchmarkNewPointer-16                      	100000000	        11.61 ns/op	       0 B/op	       0 allocs/op
 BenchmarkFuncValue
-BenchmarkFuncValue-16                       	79138206	        17.62 ns/op	       0 B/op	       0 allocs/op
+BenchmarkFuncValue-16                       	99289747	        12.08 ns/op	       0 B/op	       0 allocs/op
 BenchmarkFuncPointer
-BenchmarkFuncPointer-16                     	78653467	        16.94 ns/op	       0 B/op	       0 allocs/op
+BenchmarkFuncPointer-16                     	99713017	        12.06 ns/op	       0 B/op	       0 allocs/op
 BenchmarkMethodValue
-BenchmarkMethodValue-16                     	74656876	        21.23 ns/op	       0 B/op	       0 allocs/op
+BenchmarkMethodValue-16                     	99990400	        12.07 ns/op	       0 B/op	       0 allocs/op
 BenchmarkMethodPointer
-BenchmarkMethodPointer-16                   	74676859	        19.93 ns/op	       0 B/op	       0 allocs/op
+BenchmarkMethodPointer-16                   	99777056	        12.05 ns/op	       0 B/op	       0 allocs/op
 BenchmarkFuncValueNoRef
-BenchmarkFuncValueNoRef-16                  	77773449	        20.49 ns/op	       0 B/op	       0 allocs/op
+BenchmarkFuncValueNoRef-16                  	99603031	        12.06 ns/op	       0 B/op	       0 allocs/op
 BenchmarkFuncPointerNoRef
-BenchmarkFuncPointerNoRef-16                	64547005	        18.04 ns/op	       0 B/op	       0 allocs/op
+BenchmarkFuncPointerNoRef-16                	99103092	        12.07 ns/op	       0 B/op	       0 allocs/op
 BenchmarkMethodValueNoRef
-BenchmarkMethodValueNoRef-16                	82151716	        17.29 ns/op	       0 B/op	       0 allocs/op
+BenchmarkMethodValueNoRef-16                	99628418	        12.07 ns/op	       0 B/op	       0 allocs/op
 BenchmarkMethodPointerNoRef
-BenchmarkMethodPointerNoRef-16              	69237117	        18.04 ns/op	       0 B/op	       0 allocs/op
+BenchmarkMethodPointerNoRef-16              	98464777	        12.13 ns/op	       0 B/op	       0 allocs/op
 BenchmarkUnexportedNewValue
-BenchmarkUnexportedNewValue-16              	94773913	        19.14 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnexportedNewValue-16              	100000000	        11.60 ns/op	       0 B/op	       0 allocs/op
 BenchmarkUnexportedNewPointer
-BenchmarkUnexportedNewPointer-16            	79575310	        21.69 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnexportedNewPointer-16            	100000000	        11.82 ns/op	       0 B/op	       0 allocs/op
 BenchmarkUnexportedFuncValue
-BenchmarkUnexportedFuncValue-16             	67700712	        22.12 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnexportedFuncValue-16             	99017760	        12.15 ns/op	       0 B/op	       0 allocs/op
 BenchmarkUnexportedFuncPointer
-BenchmarkUnexportedFuncPointer-16           	77470975	        20.53 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnexportedFuncPointer-16           	99773804	        12.15 ns/op	       0 B/op	       0 allocs/op
 BenchmarkUnexportedMethodValue
-BenchmarkUnexportedMethodValue-16           	78326869	        19.54 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnexportedMethodValue-16           	98733511	        12.15 ns/op	       0 B/op	       0 allocs/op
 BenchmarkUnexportedMethodPointer
-BenchmarkUnexportedMethodPointer-16         	77463553	        19.69 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnexportedMethodPointer-16         	99382329	        12.08 ns/op	       0 B/op	       0 allocs/op
 BenchmarkUnexportedFuncValueNoRef
-BenchmarkUnexportedFuncValueNoRef-16        	72819846	        17.26 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnexportedFuncValueNoRef-16        	99248686	        12.05 ns/op	       0 B/op	       0 allocs/op
 BenchmarkUnexportedFuncPointerNoRef
-BenchmarkUnexportedFuncPointerNoRef-16      	77781202	        18.02 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnexportedFuncPointerNoRef-16      	99772816	        12.09 ns/op	       0 B/op	       0 allocs/op
 BenchmarkUnexportedMethodValueNoRef
-BenchmarkUnexportedMethodValueNoRef-16      	72206122	        17.24 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnexportedMethodValueNoRef-16      	100000000	        12.05 ns/op	       0 B/op	       0 allocs/op
 BenchmarkUnexportedMethodPointerNoRef
-BenchmarkUnexportedMethodPointerNoRef-16    	75587145	        19.35 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnexportedMethodPointerNoRef-16    	99583714	        12.07 ns/op	       0 B/op	       0 allocs/op
 PASS
-ok  	github.com/joshcarp/go-benchmarks/pointer-vs-value-raw	30.893s
+ok  	github.com/joshcarp/go-benchmarks/pointer-vs-value-raw	24.601s
 ```
 ## Memory profile
 ![](mem.svg)

@@ -1,17 +1,15 @@
-# map-vs-switch
+# pointer-vs-receiver
 ```bash
 goos: darwin
 goarch: amd64
-pkg: github.com/joshcarp/go-benchmarks/map-vs-switch
+pkg: github.com/joshcarp/go-benchmarks/pointer-vs-receiver
 cpu: Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz
-BenchmarkOptionSwitch
-BenchmarkOptionSwitch-16       	27809196	        43.89 ns/op	       0 B/op	       0 allocs/op
-BenchmarkOptionMap
-BenchmarkOptionMap-16          	  322310	      4117 ns/op	    2324 B/op	       1 allocs/op
-BenchmarkOptionGlobalMap
-BenchmarkOptionGlobalMap-16    	15459291	        76.21 ns/op	       0 B/op	       0 allocs/op
+BenchmarkMutateFoo
+BenchmarkMutateFoo-16        	 6348207	       185.2 ns/op	      80 B/op	       1 allocs/op
+BenchmarkDontMutateFoo
+BenchmarkDontMutateFoo-16    	 5360542	       201.9 ns/op	      80 B/op	       1 allocs/op
 PASS
-ok  	github.com/joshcarp/go-benchmarks/map-vs-switch	6.246s
+ok  	github.com/joshcarp/go-benchmarks/pointer-vs-receiver	3.099s
 ```
 ## Memory profile
 ![](mem.svg)

@@ -6,84 +6,84 @@ import (
 
 func BenchmarkOptionSwitch(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		OptionSwitch("12pufn98asdf9sfd8n")
+		OptionSwitch("key12pufn98asdf9sfd8n")
 	}
 }
 
 func BenchmarkOptionMap(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		OptionMap("12pufn98asdf9sfd8n")
+		OptionMap("key12pufn98asdf9sfd8n")
 	}
 }
 
 func BenchmarkOptionGlobalMap(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		OptionMapGlobal("12pufn98asdf9sfd8n")
+		OptionMapGlobal("key12pufn98asdf9sfd8n")
 	}
 }
 
 func OptionSwitch(s string) string {
 	switch s {
-	case "0pufn98asdf9sfd8n":
-		return "0pufn98asdf9sfd8n"
-	case "1pufn98asdf9sfd8n":
-		return "1pufn98asdf9sfd8n"
-	case "2pufn98asdf9sfd8n":
-		return "2pufn98asdf9sfd8n"
-	case "3pufn98asdf9sfd8n":
-		return "3pufn98asdf9sfd8n"
-	case "4pufn98asdf9sfd8n":
-		return "4pufn98asdf9sfd8n"
-	case "5pufn98asdf9sfd8n":
-		return "5pufn98asdf9sfd8n"
-	case "6pufn98asdf9sfd8n":
-		return "6pufn98asdf9sfd8n"
-	case "7pufn98asdf9sfd8n":
-		return "7pufn98asdf9sfd8n"
-	case "8pufn98asdf9sfd8n":
-		return "8pufn98asdf9sfd8n"
-	case "9pufn98asdf9sfd8n":
-		return "9pufn98asdf9sfd8n"
-	case "1pufn98asdf9sfd8n0":
-		return "1pufn98asdf9sfd8n0"
-	case "1pufn98asdf9sfd8n1":
-		return "1pufn98asdf9sfd8n1"
-	case "1pufn98asdf9sfd8n2":
-		return "1pufn98asdf9sfd8n2"
-	case "1pufn98asdf9sfd8n3":
-		return "1pufn98asdf9sfd8n3"
-	case "1pufn98asdf9sfd8n4":
-		return "1pufn98asdf9sfd8n4"
-	case "1pufn98asdf9sfd8n5":
-		return "1pufn98asdf9sfd8n5"
-	case "1pufn98asdf9sfd8n6":
-		return "1pufn98asdf9sfd8n6"
-	case "1pufn98asdf9sfd8n7":
-		return "1pufn98asdf9sfd8n7"
-	case "1pufn98asdf9sfd8n8":
-		return "1pufn98asdf9sfd8n8"
-	case "1pufn98asdf9sfd8n9":
-		return "1pufn98asdf9sfd8n9"
-	case "2pufn98asdf9sfd8n0":
-		return "2pufn98asdf9sfd8n0"
-	case "2pufn98asdf9sfd8n1":
-		return "2pufn98asdf9sfd8n1"
-	case "2pufn98asdf9sfd8n2":
-		return "2pufn98asdf9sfd8n2"
-	case "2pufn98asdf9sfd8n3":
-		return "2pufn98asdf9sfd8n3"
-	case "2pufn98asdf9sfd8n4":
-		return "2pufn98asdf9sfd8n4"
-	case "2pufn98asdf9sfd8n5":
-		return "2pufn98asdf9sfd8n5"
-	case "2pufn98asdf9sfd8n6":
-		return "2pufn98asdf9sfd8n6"
-	case "2pufn98asdf9sfd8n7":
-		return "2pufn98asdf9sfd8n7"
-	case "2pufn98asdf9sfd8n8":
-		return "2pufn98asdf9sfd8n8"
-	case "2pufn98asdf9sfd8n9":
-		return "2pufn98asdf9sfd8n9"
+	case "key0pufn98asdf9sfd8n":
+		return "val0pufn98asdf9sfd8n"
+	case "key1pufn98asdf9sfd8n":
+		return "val1pufn98asdf9sfd8n"
+	case "key2pufn98asdf9sfd8n":
+		return "val2pufn98asdf9sfd8n"
+	case "key3pufn98asdf9sfd8n":
+		return "val3pufn98asdf9sfd8n"
+	case "key4pufn98asdf9sfd8n":
+		return "val4pufn98asdf9sfd8n"
+	case "key5pufn98asdf9sfd8n":
+		return "val5pufn98asdf9sfd8n"
+	case "key6pufn98asdf9sfd8n":
+		return "val6pufn98asdf9sfd8n"
+	case "key7pufn98asdf9sfd8n":
+		return "val7pufn98asdf9sfd8n"
+	case "key8pufn98asdf9sfd8n":
+		return "val8pufn98asdf9sfd8n"
+	case "key9pufn98asdf9sfd8n":
+		return "val9pufn98asdf9sfd8n"
+	case "key1pufn98asdf9sfd8n0":
+		return "val1pufn98asdf9sfd8n0"
+	case "key1pufn98asdf9sfd8n1":
+		return "val1pufn98asdf9sfd8n1"
+	case "key1pufn98asdf9sfd8n2":
+		return "val1pufn98asdf9sfd8n2"
+	case "key1pufn98asdf9sfd8n3":
+		return "val1pufn98asdf9sfd8n3"
+	case "key1pufn98asdf9sfd8n4":
+		return "val1pufn98asdf9sfd8n4"
+	case "key1pufn98asdf9sfd8n5":
+		return "val1pufn98asdf9sfd8n5"
+	case "key1pufn98asdf9sfd8n6":
+		return "val1pufn98asdf9sfd8n6"
+	case "key1pufn98asdf9sfd8n7":
+		return "val1pufn98asdf9sfd8n7"
+	case "key1pufn98asdf9sfd8n8":
+		return "val1pufn98asdf9sfd8n8"
+	case "key1pufn98asdf9sfd8n9":
+		return "val1pufn98asdf9sfd8n9"
+	case "key2pufn98asdf9sfd8n0":
+		return "val2pufn98asdf9sfd8n0"
+	case "key2pufn98asdf9sfd8n1":
+		return "val2pufn98asdf9sfd8n1"
+	case "key2pufn98asdf9sfd8n2":
+		return "val2pufn98asdf9sfd8n2"
+	case "key2pufn98asdf9sfd8n3":
+		return "val2pufn98asdf9sfd8n3"
+	case "key2pufn98asdf9sfd8n4":
+		return "val2pufn98asdf9sfd8n4"
+	case "key2pufn98asdf9sfd8n5":
+		return "val2pufn98asdf9sfd8n5"
+	case "key2pufn98asdf9sfd8n6":
+		return "val2pufn98asdf9sfd8n6"
+	case "key2pufn98asdf9sfd8n7":
+		return "val2pufn98asdf9sfd8n7"
+	case "key2pufn98asdf9sfd8n8":
+		return "val2pufn98asdf9sfd8n8"
+	case "key2pufn98asdf9sfd8n9":
+		return "val2pufn98asdf9sfd8n9"
 	default:
 		return ""
 	}
@@ -91,70 +91,70 @@ func OptionSwitch(s string) string {
 
 func OptionMap(s string) string {
 	return map[string]string{
-		"0pufn98asdf9sfd8n":  "0pufn98asdf9sfd8n",
-		"1pufn98asdf9sfd8n":  "1pufn98asdf9sfd8n",
-		"2pufn98asdf9sfd8n":  "2pufn98asdf9sfd8n",
-		"3pufn98asdf9sfd8n":  "3pufn98asdf9sfd8n",
-		"4pufn98asdf9sfd8n":  "4pufn98asdf9sfd8n",
-		"5pufn98asdf9sfd8n":  "5pufn98asdf9sfd8n",
-		"6pufn98asdf9sfd8n":  "6pufn98asdf9sfd8n",
-		"7pufn98asdf9sfd8n":  "7pufn98asdf9sfd8n",
-		"8pufn98asdf9sfd8n":  "8pufn98asdf9sfd8n",
-		"9pufn98asdf9sfd8n":  "9pufn98asdf9sfd8n",
-		"1pufn98asdf9sfd8n0": "10pufn98asdf9sfd8n",
-		"1pufn98asdf9sfd8n1": "11pufn98asdf9sfd8n",
-		"1pufn98asdf9sfd8n2": "12pufn98asdf9sfd8n",
-		"1pufn98asdf9sfd8n3": "13pufn98asdf9sfd8n",
-		"1pufn98asdf9sfd8n4": "14pufn98asdf9sfd8n",
-		"1pufn98asdf9sfd8n5": "15pufn98asdf9sfd8n",
-		"1pufn98asdf9sfd8n6": "16pufn98asdf9sfd8n",
-		"1pufn98asdf9sfd8n7": "17pufn98asdf9sfd8n",
-		"1pufn98asdf9sfd8n8": "18pufn98asdf9sfd8n",
-		"1pufn98asdf9sfd8n9": "19pufn98asdf9sfd8n",
-		"2pufn98asdf9sfd8n0": "20pufn98asdf9sfd8n",
-		"2pufn98asdf9sfd8n1": "21pufn98asdf9sfd8n",
-		"2pufn98asdf9sfd8n2": "22pufn98asdf9sfd8n",
-		"2pufn98asdf9sfd8n3": "23pufn98asdf9sfd8n",
-		"2pufn98asdf9sfd8n4": "24pufn98asdf9sfd8n",
-		"2pufn98asdf9sfd8n5": "25pufn98asdf9sfd8n",
-		"2pufn98asdf9sfd8n6": "26pufn98asdf9sfd8n",
-		"2pufn98asdf9sfd8n7": "27pufn98asdf9sfd8n",
-		"2pufn98asdf9sfd8n8": "28pufn98asdf9sfd8n",
-		"2pufn98asdf9sfd8n9": "29pufn98asdf9sfd8n",
+		"key0pufn98asdf9sfd8n":  "val0pufn98asdf9sfd8n",
+		"key1pufn98asdf9sfd8n":  "val1pufn98asdf9sfd8n",
+		"key2pufn98asdf9sfd8n":  "val2pufn98asdf9sfd8n",
+		"key3pufn98asdf9sfd8n":  "val3pufn98asdf9sfd8n",
+		"key4pufn98asdf9sfd8n":  "val4pufn98asdf9sfd8n",
+		"key5pufn98asdf9sfd8n":  "val5pufn98asdf9sfd8n",
+		"key6pufn98asdf9sfd8n":  "val6pufn98asdf9sfd8n",
+		"key7pufn98asdf9sfd8n":  "val7pufn98asdf9sfd8n",
+		"key8pufn98asdf9sfd8n":  "val8pufn98asdf9sfd8n",
+		"key9pufn98asdf9sfd8n":  "val9pufn98asdf9sfd8n",
+		"key10pufn98asdf9sfd8n": "val10pufn98asdf9sfd8n",
+		"key11pufn98asdf9sfd8n": "val11pufn98asdf9sfd8n",
+		"key12pufn98asdf9sfd8n": "val12pufn98asdf9sfd8n",
+		"key13pufn98asdf9sfd8n": "val13pufn98asdf9sfd8n",
+		"key14pufn98asdf9sfd8n": "val14pufn98asdf9sfd8n",
+		"key15pufn98asdf9sfd8n": "val15pufn98asdf9sfd8n",
+		"key16pufn98asdf9sfd8n": "val16pufn98asdf9sfd8n",
+		"key17pufn98asdf9sfd8n": "val17pufn98asdf9sfd8n",
+		"key18pufn98asdf9sfd8n": "val18pufn98asdf9sfd8n",
+		"key19pufn98asdf9sfd8n": "val19pufn98asdf9sfd8n",
+		"key20pufn98asdf9sfd8n": "val20pufn98asdf9sfd8n",
+		"key21pufn98asdf9sfd8n": "val21pufn98asdf9sfd8n",
+		"key22pufn98asdf9sfd8n": "val22pufn98asdf9sfd8n",
+		"key23pufn98asdf9sfd8n": "val23pufn98asdf9sfd8n",
+		"key24pufn98asdf9sfd8n": "val24pufn98asdf9sfd8n",
+		"key25pufn98asdf9sfd8n": "val25pufn98asdf9sfd8n",
+		"key26pufn98asdf9sfd8n": "val26pufn98asdf9sfd8n",
+		"key27pufn98asdf9sfd8n": "val27pufn98asdf9sfd8n",
+		"key28pufn98asdf9sfd8n": "val28pufn98asdf9sfd8n",
+		"key29pufn98asdf9sfd8n": "val29pufn98asdf9sfd8n",
 	}[s]
 }
 
 var globalmap = map[string]string{
-	"0pufn98asdf9sfd8n":  "0pufn98asdf9sfd8n",
-	"1pufn98asdf9sfd8n":  "1pufn98asdf9sfd8n",
-	"2pufn98asdf9sfd8n":  "2pufn98asdf9sfd8n",
-	"3pufn98asdf9sfd8n":  "3pufn98asdf9sfd8n",
-	"4pufn98asdf9sfd8n":  "4pufn98asdf9sfd8n",
-	"5pufn98asdf9sfd8n":  "5pufn98asdf9sfd8n",
-	"6pufn98asdf9sfd8n":  "6pufn98asdf9sfd8n",
-	"7pufn98asdf9sfd8n":  "7pufn98asdf9sfd8n",
-	"8pufn98asdf9sfd8n":  "8pufn98asdf9sfd8n",
-	"9pufn98asdf9sfd8n":  "9pufn98asdf9sfd8n",
-	"10pufn98asdf9sfd8n": "10pufn98asdf9sfd8n",
-	"11pufn98asdf9sfd8n": "11pufn98asdf9sfd8n",
-	"12pufn98asdf9sfd8n": "12pufn98asdf9sfd8n",
-	"13pufn98asdf9sfd8n": "13pufn98asdf9sfd8n",
-	"14pufn98asdf9sfd8n": "14pufn98asdf9sfd8n",
-	"15pufn98asdf9sfd8n": "15pufn98asdf9sfd8n",
-	"16pufn98asdf9sfd8n": "16pufn98asdf9sfd8n",
-	"17pufn98asdf9sfd8n": "17pufn98asdf9sfd8n",
-	"18pufn98asdf9sfd8n": "18pufn98asdf9sfd8n",
-	"19pufn98asdf9sfd8n": "19pufn98asdf9sfd8n",
-	"20pufn98asdf9sfd8n": "20pufn98asdf9sfd8n",
-	"21pufn98asdf9sfd8n": "21pufn98asdf9sfd8n",
-	"22pufn98asdf9sfd8n": "22pufn98asdf9sfd8n",
-	"23pufn98asdf9sfd8n": "23pufn98asdf9sfd8n",
-	"24pufn98asdf9sfd8n": "24pufn98asdf9sfd8n",
-	"25pufn98asdf9sfd8n": "25pufn98asdf9sfd8n",
-	"26pufn98asdf9sfd8n": "26pufn98asdf9sfd8n",
-	"27pufn98asdf9sfd8n": "27pufn98asdf9sfd8n",
-	"28pufn98asdf9sfd8n": "28pufn98asdf9sfd8n",
-	"29pufn98asdf9sfd8n": "29pufn98asdf9sfd8n",
+	"key0pufn98asdf9sfd8n":  "val0pufn98asdf9sfd8n",
+	"key1pufn98asdf9sfd8n":  "val1pufn98asdf9sfd8n",
+	"key2pufn98asdf9sfd8n":  "val2pufn98asdf9sfd8n",
+	"key3pufn98asdf9sfd8n":  "val3pufn98asdf9sfd8n",
+	"key4pufn98asdf9sfd8n":  "val4pufn98asdf9sfd8n",
+	"key5pufn98asdf9sfd8n":  "val5pufn98asdf9sfd8n",
+	"key6pufn98asdf9sfd8n":  "val6pufn98asdf9sfd8n",
+	"key7pufn98asdf9sfd8n":  "val7pufn98asdf9sfd8n",
+	"key8pufn98asdf9sfd8n":  "val8pufn98asdf9sfd8n",
+	"key9pufn98asdf9sfd8n":  "val9pufn98asdf9sfd8n",
+	"key10pufn98asdf9sfd8n": "val10pufn98asdf9sfd8n",
+	"key11pufn98asdf9sfd8n": "val11pufn98asdf9sfd8n",
+	"key12pufn98asdf9sfd8n": "val12pufn98asdf9sfd8n",
+	"key13pufn98asdf9sfd8n": "val13pufn98asdf9sfd8n",
+	"key14pufn98asdf9sfd8n": "val14pufn98asdf9sfd8n",
+	"key15pufn98asdf9sfd8n": "val15pufn98asdf9sfd8n",
+	"key16pufn98asdf9sfd8n": "val16pufn98asdf9sfd8n",
+	"key17pufn98asdf9sfd8n": "val17pufn98asdf9sfd8n",
+	"key18pufn98asdf9sfd8n": "val18pufn98asdf9sfd8n",
+	"key19pufn98asdf9sfd8n": "val19pufn98asdf9sfd8n",
+	"key20pufn98asdf9sfd8n": "val20pufn98asdf9sfd8n",
+	"key21pufn98asdf9sfd8n": "val21pufn98asdf9sfd8n",
+	"key22pufn98asdf9sfd8n": "val22pufn98asdf9sfd8n",
+	"key23pufn98asdf9sfd8n": "val23pufn98asdf9sfd8n",
+	"key24pufn98asdf9sfd8n": "val24pufn98asdf9sfd8n",
+	"key25pufn98asdf9sfd8n": "val25pufn98asdf9sfd8n",
+	"key26pufn98asdf9sfd8n": "val26pufn98asdf9sfd8n",
+	"key27pufn98asdf9sfd8n": "val27pufn98asdf9sfd8n",
+	"key28pufn98asdf9sfd8n": "val28pufn98asdf9sfd8n",
+	"key29pufn98asdf9sfd8n": "val29pufn98asdf9sfd8n",
 }
 
 func OptionMapGlobal(s string) string {
